@@ -1,32 +1,33 @@
 import { env } from '../config/env'
 
-// Hugging Face Inference Providers (OpenAI-compatible)
-// https://huggingface.co/changelog/inference-providers-openai-compatible
-const HF_BASE_URL = 'https://router.huggingface.co/v1'
+// Text-generation (causal) models like FLAN-T5 use the Inference API with "inputs".
+// https://huggingface.co/docs/api-inference/detailed_parameters
+const HF_INFERENCE_URL = 'https://router.huggingface.co'
 
 /**
- * Call Hugging Face Inference API (text generation).
- * Uses AI_API_KEY as the Hugging Face token; optional HUGGINGFACE_MODEL_ID in env.
+ * Call Hugging Face Inference API for text-generation models (e.g. FLAN-T5).
+ * Uses { "inputs": "..." } format, not chat messages.
  */
 export async function generateText(prompt: string, model?: string): Promise<string> {
   const token = env.aiApiKey
   if (!token) throw new Error('AI_API_KEY (Hugging Face token) is required')
 
   const modelId = model ?? env.huggingfaceModelId
-  const res = await fetch(`${HF_BASE_URL}/chat/completions`, {
+  const url = `${HF_INFERENCE_URL}/models/${modelId}`
+
+  const res = await fetch(url, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: modelId,
-      temperature: 0.3,
-      max_tokens: 1200,
-      messages: [
-        { role: 'system', content: 'You are a helpful assistant that returns concise JSON only when asked.' },
-        { role: 'user', content: prompt },
-      ],
+      inputs: prompt,
+      parameters: {
+        max_new_tokens: 2048,
+        temperature: 0.3,
+        return_full_text: false,
+      },
     }),
   })
 
@@ -35,10 +36,12 @@ export async function generateText(prompt: string, model?: string): Promise<stri
     throw new Error(`Hugging Face API ${res.status}: ${text}`)
   }
 
-  const data = (await res.json()) as {
-    choices?: Array<{ message?: { content?: string } }>
-  }
+  const data = (await res.json()) as
+    | { generated_text?: string }
+    | Array<{ generated_text?: string }>
 
-  const content = data.choices?.[0]?.message?.content ?? ''
-  return String(content).trim()
+  const raw = Array.isArray(data)
+    ? data.map((x) => x.generated_text ?? '').join('')
+    : (data as { generated_text?: string }).generated_text ?? ''
+  return String(raw).trim()
 }
