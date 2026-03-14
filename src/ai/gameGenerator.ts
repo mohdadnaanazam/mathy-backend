@@ -65,7 +65,12 @@ function randomInt(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-const OPERATIONS: OperationMode[] = ['addition', 'subtraction', 'multiplication', 'division']
+const OPERATIONS: Array<'addition' | 'subtraction' | 'multiplication' | 'division'> = [
+  'addition',
+  'subtraction',
+  'multiplication',
+  'division',
+]
 
 function generateSingleQuestion(): GeneratedGame {
   const op = OPERATIONS[randomInt(0, OPERATIONS.length - 1)]
