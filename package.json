@@ -12,14 +12,15 @@
     "format": "prettier \"src/**/*.{ts,tsx,js,json}\" --write"
   },
   "dependencies": {
+    "@langchain/core": "0.3.59",
     "@supabase/supabase-js": "^2.49.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
     "helmet": "^7.1.0",
     "langchain": "0.3.37",
-    "@langchain/core": "0.3.59",
     "node-cron": "^3.0.3",
+    "tsc": "^2.0.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {
