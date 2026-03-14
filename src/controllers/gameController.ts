@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { ensureGamesExist, getActiveGames, generateRandomGames, generateCustomGameBatch } from '../services/gameService.js'
+import { ensureGamesExist, getActiveGames, generateRandomGames, generateAndStoreCustomGames } from '../services/gameService.js'
 import { OperationMode } from '../ai/types.js'
 
 const customGameSchema = z.object({
@@ -45,8 +45,8 @@ export async function generateGamesHandler(req: any, res: any, next: any) {
 export async function generateCustomGamesHandler(req: any, res: any, next: any) {
   try {
     const parsed = customGameSchema.parse((req as any).body)
-    const games = generateCustomGameBatch(parsed as any)
-    res.status(201).json(games)
+    const saved = await generateAndStoreCustomGames(parsed as any)
+    res.status(201).json(saved)
   } catch (err) {
     if (err instanceof z.ZodError) {
       res.status(400).json({ error: 'Invalid request', details: err.issues })

@@ -1,5 +1,5 @@
 import { getSupabaseClient } from '../database/supabaseClient'
-import { GeneratedGame, generateAndStoreGames, generateCustomGames } from '../ai/gameGenerator'
+import { GeneratedGame, generateAndStoreGames, generateCustomGames, storeGeneratedGames } from '../ai/gameGenerator'
 import { OperationMode } from '../ai/types'
 
 export async function getActiveGames(type?: OperationMode) {
@@ -29,15 +29,26 @@ export async function generateRandomGames(batchSize = 20) {
   await generateAndStoreGames(batchSize)
 }
 
-export async function deleteExpiredGames() {
+/** Delete games whose expires_at has passed. Returns how many were deleted. */
+export async function deleteExpiredGames(): Promise<number> {
   const supabase = getSupabaseClient()
   const nowIso = new Date().toISOString()
-  const { error } = await supabase.from('games').delete().lte('expires_at', nowIso)
+  const { data, error } = await supabase
+    .from('games')
+    .delete()
+    .lte('expires_at', nowIso)
+    .select('id')
   if (error) throw error
+  return data?.length ?? 0
 }
 
 export function generateCustomGameBatch(params: any): GeneratedGame[] {
-  // Delegate to generator; types are validated at the Zod layer in the controller.
   return generateCustomGames(params as any)
+}
+
+/** Generate custom games and persist them to the DB; returns the inserted rows. */
+export async function generateAndStoreCustomGames(params: any): Promise<Array<Record<string, unknown>>> {
+  const games = generateCustomGames(params as any)
+  return storeGeneratedGames(games)
 }
 

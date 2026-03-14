@@ -128,8 +128,21 @@ export async function generateAndStoreGames(batchSize = 20): Promise<void> {
   const now = new Date()
   const expires = new Date(now.getTime() + 60 * 60 * 1000) // +1 hour
 
-  const rawGames = await generateGamesWithAI(batchSize)
-  const games = GeneratedGameArraySchema.parse(rawGames)
+  let games: GeneratedGame[]
+  try {
+    const rawGames = await generateGamesWithAI(batchSize)
+    games = GeneratedGameArraySchema.parse(rawGames)
+  } catch (parseErr) {
+    // eslint-disable-next-line no-console
+    console.warn('[generateAndStoreGames] AI output invalid, using local fallback', parseErr)
+    games = generateGamesLocally(batchSize)
+  }
+
+  if (games.length === 0) {
+    // eslint-disable-next-line no-console
+    console.warn('[generateAndStoreGames] No games to insert')
+    return
+  }
 
   const payload = games.map(g => ({
     id: uuidv4(),
@@ -141,13 +154,40 @@ export async function generateAndStoreGames(batchSize = 20): Promise<void> {
     expires_at: expires.toISOString(),
   }))
 
-  // Supabase generic types are strict; cast payload to any for insert.
   const { error } = await supabase.from('games').insert(payload as any)
   if (error) {
     // eslint-disable-next-line no-console
     console.error('[generateAndStoreGames] insert error', error)
     throw error
   }
+  // eslint-disable-next-line no-console
+  console.log('[generateAndStoreGames] Inserted', payload.length, 'games')
+}
+
+/** Insert generated games into DB and return the inserted rows (with id, created_at, expires_at). */
+export async function storeGeneratedGames(games: GeneratedGame[]): Promise<Array<Record<string, unknown>>> {
+  if (games.length === 0) return []
+  const supabase = getSupabaseClient()
+  const now = new Date()
+  const expires = new Date(now.getTime() + 60 * 60 * 1000)
+
+  const payload = games.map(g => ({
+    id: uuidv4(),
+    game_type: g.game_type,
+    question: g.question,
+    correct_answer: String(g.correct_answer),
+    difficulty: g.difficulty,
+    created_at: now.toISOString(),
+    expires_at: expires.toISOString(),
+  }))
+
+  const { data, error } = await supabase.from('games').insert(payload as any).select()
+  if (error) {
+    // eslint-disable-next-line no-console
+    console.error('[storeGeneratedGames] insert error', error)
+    throw error
+  }
+  return (data ?? []) as Array<Record<string, unknown>>
 }
 
 export function generateCustomGames(params: {

@@ -47,6 +47,32 @@ An hourly job:
 - deletes expired rows from `games`  
 - inserts a fresh batch of generated games
 
+#### Troubleshooting: No data in Supabase
+
+1. **Check connection**  
+   Call `GET /health/db`. It returns `gamesCount` and any DB error. If you see "Supabase not configured", set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` in your backend `.env` (and on Render if deployed).
+
+2. **Create the table**  
+   In Supabase: **Table Editor** → Create table, or **SQL Editor** → run:
+
+```sql
+create table if not exists public.games (
+  id uuid primary key default gen_random_uuid(),
+  game_type text not null,
+  question text not null,
+  correct_answer text not null,
+  difficulty text not null,
+  created_at timestamptz not null default now(),
+  expires_at timestamptz not null
+);
+```
+
+3. **Insert data**  
+   Call `POST /games/generate` (or `POST /games/generate?count=10`). Then open **Table Editor** → **games** to see rows.
+
+4. **If backend is on Render**  
+   Free tier sleeps after inactivity. Wake it with a request (e.g. GET `/health` or UptimeRobot), then call `POST /games/generate`.
+
 #### Deployment
 
 - **Docker**: `docker build -t mathy-backend .` then `docker run -p 4000:4000 mathy-backend`  
