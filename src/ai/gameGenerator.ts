@@ -197,7 +197,7 @@ export function generateCustomGames(params: {
     }
 
     list.push({
-      game_type: operation,
+      game_type: operation as GeneratedGame['game_type'],
       question,
       correct_answer: answer,
       difficulty,

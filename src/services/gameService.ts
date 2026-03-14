@@ -29,13 +29,8 @@ export async function deleteExpiredGames() {
   if (error) throw error
 }
 
-export function generateCustomGameBatch(params: {
-  operation: OperationMode
-  min_number: number
-  max_number: number
-  questions: number
-  difficulty: 'easy' | 'medium' | 'hard'
-}): GeneratedGame[] {
-  return generateCustomGames(params)
+export function generateCustomGameBatch(params: any): GeneratedGame[] {
+  // Delegate to generator; types are validated at the Zod layer in the controller.
+  return generateCustomGames(params as any)
 }
 
