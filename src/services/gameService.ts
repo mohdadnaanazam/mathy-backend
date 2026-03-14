@@ -18,6 +18,13 @@ export async function getActiveGames(type?: OperationMode) {
   return data
 }
 
+export async function ensureGamesExist(minCount = 10): Promise<void> {
+  const existing = await getActiveGames('mixed')
+  if (existing.length >= minCount) return
+  await deleteExpiredGames()
+  await generateRandomGames(20)
+}
+
 export async function generateRandomGames(batchSize = 20) {
   await generateAndStoreGames(batchSize)
 }

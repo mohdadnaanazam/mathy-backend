@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { getActiveGames, generateRandomGames, generateCustomGameBatch } from '../services/gameService.js'
+import { ensureGamesExist, getActiveGames, generateRandomGames, generateCustomGameBatch } from '../services/gameService.js'
 import { OperationMode } from '../ai/types.js'
 
 const customGameSchema = z.object({
@@ -12,6 +12,7 @@ const customGameSchema = z.object({
 
 export async function getGames(req: any, res: any, next: any) {
   try {
+    await ensureGamesExist(10)
     const games = await getActiveGames()
     res.json(games)
   } catch (err) {
@@ -22,6 +23,7 @@ export async function getGames(req: any, res: any, next: any) {
 export async function getGamesByType(req: any, res: any, next: any) {
   try {
     const type = (req as any).params.type as OperationMode
+    await ensureGamesExist(10)
     const games = await getActiveGames(type)
     res.json(games)
   } catch (err) {
