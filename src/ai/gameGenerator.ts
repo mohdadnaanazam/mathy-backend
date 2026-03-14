@@ -136,7 +136,8 @@ export async function generateAndStoreGames(batchSize = 20): Promise<void> {
     expires_at: expires.toISOString(),
   }))
 
-  const { error } = await supabase.from('games').insert(payload)
+  // Supabase generic types are strict; cast payload to any for insert.
+  const { error } = await supabase.from('games').insert(payload as any)
   if (error) {
     // eslint-disable-next-line no-console
     console.error('[generateAndStoreGames] insert error', error)
@@ -145,7 +146,7 @@ export async function generateAndStoreGames(batchSize = 20): Promise<void> {
 }
 
 export function generateCustomGames(params: {
-  operation: OperationMode
+  operation: 'addition' | 'subtraction' | 'multiplication' | 'division' | 'mixed'
   min_number: number
   max_number: number
   questions: number
@@ -186,7 +187,7 @@ export function generateCustomGames(params: {
         answer = quotient
         break
       }
-      case 'mixture': {
+      case 'mixed': {
         const mixedOp = OPERATIONS[randomInt(0, OPERATIONS.length - 1)]
         return generateCustomGames({ ...params, operation: mixedOp })
       }

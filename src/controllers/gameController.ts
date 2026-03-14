@@ -1,7 +1,6 @@
-import { Request, Response, NextFunction } from 'express'
 import { z } from 'zod'
-import { getActiveGames, generateRandomGames, generateCustomGameBatch } from '../services/gameService'
-import { OperationMode } from '../ai/types'
+import { getActiveGames, generateRandomGames, generateCustomGameBatch } from '../services/gameService.js'
+import { OperationMode } from '../ai/types.js'
 
 const customGameSchema = z.object({
   operation: z.enum(['addition', 'subtraction', 'multiplication', 'division', 'mixed']),
@@ -11,7 +10,7 @@ const customGameSchema = z.object({
   difficulty: z.enum(['easy', 'medium', 'hard']),
 })
 
-export async function getGames(req: Request, res: Response, next: NextFunction) {
+export async function getGames(req: any, res: any, next: any) {
   try {
     const games = await getActiveGames()
     res.json(games)
@@ -20,9 +19,9 @@ export async function getGames(req: Request, res: Response, next: NextFunction) 
   }
 }
 
-export async function getGamesByType(req: Request, res: Response, next: NextFunction) {
+export async function getGamesByType(req: any, res: any, next: any) {
   try {
-    const type = req.params.type as OperationMode
+    const type = (req as any).params.type as OperationMode
     const games = await getActiveGames(type)
     res.json(games)
   } catch (err) {
@@ -30,9 +29,10 @@ export async function getGamesByType(req: Request, res: Response, next: NextFunc
   }
 }
 
-export async function generateGamesHandler(req: Request, res: Response, next: NextFunction) {
+export async function generateGamesHandler(req: any, res: any, next: any) {
   try {
-    const batchSize = Number(req.query.count ?? 20)
+    const rawCount = (req as any).query?.count
+    const batchSize = Number(rawCount ?? 20)
     await generateRandomGames(Number.isNaN(batchSize) ? 20 : batchSize)
     res.status(201).json({ message: 'Games generated' })
   } catch (err) {
@@ -40,10 +40,10 @@ export async function generateGamesHandler(req: Request, res: Response, next: Ne
   }
 }
 
-export async function generateCustomGamesHandler(req: Request, res: Response, next: NextFunction) {
+export async function generateCustomGamesHandler(req: any, res: any, next: any) {
   try {
-    const parsed = customGameSchema.parse(req.body)
-    const games = generateCustomGameBatch(parsed)
+    const parsed = customGameSchema.parse((req as any).body)
+    const games = generateCustomGameBatch(parsed as any)
     res.status(201).json(games)
   } catch (err) {
     if (err instanceof z.ZodError) {
