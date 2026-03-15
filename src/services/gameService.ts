@@ -30,7 +30,9 @@ export async function ensureGamesExist(minCount = 10): Promise<void> {
 
   const ops: OperationMode[] = ['addition', 'subtraction', 'multiplication', 'division']
   const diffs: GameDifficulty[] = ['easy', 'medium', 'hard']
-  const perComboTarget = Math.max(minCount, 20)
+  // Ensure a larger pool of questions per (operation, difficulty) combo.
+  // Frontend still limits sessions to 20, but we now keep at least 50 in the pool.
+  const perComboTarget = Math.max(minCount, 50)
 
   for (const op of ops) {
     for (const diff of diffs) {
