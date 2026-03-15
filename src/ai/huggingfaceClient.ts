@@ -1,8 +1,8 @@
 import { env } from '../config/env'
 
-// Text-generation (causal) models like FLAN-T5 use the Inference API with "inputs".
+// Text-generation (causal) models like FLAN-T5 use the serverless Inference API with "inputs".
 // https://huggingface.co/docs/api-inference/detailed_parameters
-const HF_INFERENCE_URL = 'https://router.huggingface.co'
+const HF_INFERENCE_BASE = 'https://api-inference.huggingface.co'
 
 /**
  * Call Hugging Face Inference API for text-generation models (e.g. FLAN-T5).
@@ -13,7 +13,7 @@ export async function generateText(prompt: string, model?: string): Promise<stri
   if (!token) throw new Error('AI_API_KEY (Hugging Face token) is required')
 
   const modelId = model ?? env.huggingfaceModelId
-  const url = `${HF_INFERENCE_URL}/models/${modelId}`
+  const url = `${HF_INFERENCE_BASE}/models/${modelId}`
 
   const res = await fetch(url, {
     method: 'POST',
