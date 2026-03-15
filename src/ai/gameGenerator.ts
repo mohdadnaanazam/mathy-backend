@@ -25,15 +25,25 @@ export const GeneratedGameArraySchema = z.array(GeneratedGameSchema)
  */
 export async function generateGamesWithAI(
   count: number,
+  operation?: OperationMode,
+  difficultyHint?: GameDifficulty,
 ): Promise<GeneratedGame[]> {
   if (!env.aiApiKey) {
-    return generateGamesLocally(count)
+    return generateGamesLocally(count, operation, difficultyHint)
   }
 
   try {
+    const opPart = operation && operation !== 'mixed'
+      ? `Only use the "${operation}" operation for all questions.`
+      : 'Use only these operations: addition, subtraction, multiplication, division.'
+    const diffPart = difficultyHint
+      ? `All questions should roughly match "${difficultyHint}" difficulty.`
+      : 'Mix easy, medium, and hard questions.'
+
     const prompt = [
       `Generate exactly ${count} random math questions in JSON format.`,
-      'Use only these operations: addition, subtraction, multiplication, division.',
+      opPart,
+      diffPart,
       'Return ONLY a JSON array, no extra text.',
       'Each object must have: "game_type" (addition|subtraction|multiplication|division),',
       '"question" (e.g. "12 + 7 = ?"), "correct_answer" (number), "difficulty" (easy|medium|hard).',
@@ -45,12 +55,12 @@ export async function generateGamesWithAI(
     const raw = await generateText(prompt)
     const parsed = extractJsonArray(raw)
     const games = GeneratedGameArraySchema.parse(parsed)
-    if (games.length === 0) return generateGamesLocally(count)
+    if (games.length === 0) return generateGamesLocally(count, operation, difficultyHint)
     return games.slice(0, count)
   } catch (err) {
     // eslint-disable-next-line no-console
     console.warn('[generateGamesWithAI] Hugging Face failed, using local fallback', err)
-    return generateGamesLocally(count)
+    return generateGamesLocally(count, operation, difficultyHint)
   }
 }
 
@@ -72,8 +82,14 @@ const OPERATIONS: Array<'addition' | 'subtraction' | 'multiplication' | 'divisio
   'division',
 ]
 
-function generateSingleQuestion(): GeneratedGame {
-  const op = OPERATIONS[randomInt(0, OPERATIONS.length - 1)]
+function generateSingleQuestion(
+  forcedOp?: OperationMode,
+  forcedDifficulty?: GameDifficulty,
+): GeneratedGame {
+  const opBase = forcedOp && forcedOp !== 'mixed' && forcedOp !== 'custom'
+    ? forcedOp
+    : OPERATIONS[randomInt(0, OPERATIONS.length - 1)]
+  const op = opBase as (typeof OPERATIONS)[number]
   const a = randomInt(1, 50)
   const b = randomInt(1, 50)
 
@@ -108,8 +124,12 @@ function generateSingleQuestion(): GeneratedGame {
       answer = a + b
   }
 
-  const difficulty: GameDifficulty =
+  let difficulty: GameDifficulty =
     answer < 50 ? 'easy' : answer < 250 ? 'medium' : 'hard'
+
+  if (forcedDifficulty) {
+    difficulty = forcedDifficulty
+  }
 
   return {
     game_type: op === 'addition' || op === 'subtraction' || op === 'multiplication' || op === 'division' ? op : 'mixed',
@@ -119,23 +139,34 @@ function generateSingleQuestion(): GeneratedGame {
   }
 }
 
-function generateGamesLocally(count: number): GeneratedGame[] {
-  return Array.from({ length: count }, () => generateSingleQuestion())
+function generateGamesLocally(
+  count: number,
+  operation?: OperationMode,
+  difficulty?: GameDifficulty,
+): GeneratedGame[] {
+  return Array.from(
+    { length: count },
+    () => generateSingleQuestion(operation, difficulty),
+  )
 }
 
-export async function generateAndStoreGames(batchSize = 20): Promise<void> {
+export async function generateAndStoreGames(
+  batchSize = 20,
+  operation?: OperationMode,
+  difficulty?: GameDifficulty,
+): Promise<void> {
   const supabase = getSupabaseClient()
   const now = new Date()
   const expires = new Date(now.getTime() + 60 * 60 * 1000) // +1 hour
 
   let games: GeneratedGame[]
   try {
-    const rawGames = await generateGamesWithAI(batchSize)
+    const rawGames = await generateGamesWithAI(batchSize, operation, difficulty)
     games = GeneratedGameArraySchema.parse(rawGames)
   } catch (parseErr) {
     // eslint-disable-next-line no-console
     console.warn('[generateAndStoreGames] AI output invalid, using local fallback', parseErr)
-    games = generateGamesLocally(batchSize)
+    games = generateGamesLocally(batchSize, operation, difficulty)
   }
 
   if (games.length === 0) {

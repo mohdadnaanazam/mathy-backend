@@ -1,5 +1,11 @@
 import { getSupabaseClient } from '../database/supabaseClient'
-import { GeneratedGame, generateAndStoreGames, generateCustomGames, storeGeneratedGames } from '../ai/gameGenerator'
+import {
+  GeneratedGame,
+  generateAndStoreGames,
+  generateCustomGames,
+  storeGeneratedGames,
+  GameDifficulty,
+} from '../ai/gameGenerator'
 import { OperationMode } from '../ai/types'
 
 export async function getActiveGames(type?: OperationMode) {
@@ -19,14 +25,39 @@ export async function getActiveGames(type?: OperationMode) {
 }
 
 export async function ensureGamesExist(minCount = 10): Promise<void> {
-  const existing = await getActiveGames('mixed')
-  if (existing.length >= minCount) return
-  await deleteExpiredGames()
-  await generateRandomGames(20)
+  const supabase = getSupabaseClient()
+  const nowIso = new Date().toISOString()
+
+  const ops: OperationMode[] = ['addition', 'subtraction', 'multiplication', 'division']
+  const diffs: GameDifficulty[] = ['easy', 'medium', 'hard']
+  const perComboTarget = Math.max(minCount, 20)
+
+  for (const op of ops) {
+    for (const diff of diffs) {
+      const { data, error } = await supabase
+        .from('games')
+        .select('id')
+        .eq('game_type', op)
+        .eq('difficulty', diff)
+        .gt('expires_at', nowIso)
+
+      if (error) throw error
+      const have = data?.length ?? 0
+      if (have >= perComboTarget) continue
+
+      await deleteExpiredGames()
+      const missing = perComboTarget - have
+      await generateRandomGames(missing, op, diff)
+    }
+  }
 }
 
-export async function generateRandomGames(batchSize = 20) {
-  await generateAndStoreGames(batchSize)
+export async function generateRandomGames(
+  batchSize = 20,
+  operation?: OperationMode,
+  difficulty?: GameDifficulty,
+) {
+  await generateAndStoreGames(batchSize, operation, difficulty)
 }
 
 /** Delete games whose expires_at has passed. Returns how many were deleted. */
