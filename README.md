@@ -5,7 +5,7 @@ Node.js + Express + TypeScript backend for the Mathy game.
 #### Tech
 
 - **Runtime**: Node.js, Express, TypeScript  
-- **Database**: Supabase PostgreSQL (`games` table)  
+- **Database**: Supabase PostgreSQL (`games`, `users` tables)  
 - **AI**: LangChain integration placeholder with a local fallback generator  
 - **Scheduling**: `node-cron` hourly job to delete expired games and create new ones
 
@@ -28,6 +28,8 @@ Copy `.env.example` to `.env` and fill:
 - `GET /games` – all active games  
 - `GET /games/:type` – filter by type (`addition|subtraction|multiplication|division|mixed`)  
 - `POST /games/generate?count=20` – generate & store a new batch  
+- `POST /users` – ensure anonymous user exists (body: `{ "user_id": "<uuid>" }`).  
+- `PATCH /users/:userId` – update score (body: `{ "score": number }`).  
 - `POST /games/custom` – generate custom games in memory:
 
 ```json
@@ -67,10 +69,21 @@ create table if not exists public.games (
 );
 ```
 
-3. **Insert data**  
+3. **Create `users` table** (for Memory Grid / score sync):
+
+```sql
+create table if not exists public.users (
+  user_id uuid primary key,
+  score integer not null default 0,
+  created_at timestamptz not null default now(),
+  last_sync timestamptz
+);
+```
+
+4. **Insert data**  
    Call `POST /games/generate` (or `POST /games/generate?count=10`). Then open **Table Editor** → **games** to see rows.
 
-4. **If backend is on Render**  
+5. **If backend is on Render**  
    Free tier sleeps after inactivity. Wake it with a request (e.g. GET `/health` or UptimeRobot), then call `POST /games/generate`.
 
 #### Deployment

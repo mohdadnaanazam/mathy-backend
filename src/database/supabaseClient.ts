@@ -1,7 +1,7 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js'
 import { env } from '../config/env'
 
-type Database = {
+export type Database = {
   public: {
     Tables: {
       games: {
@@ -22,6 +22,24 @@ type Database = {
           difficulty: string
           created_at?: string
           expires_at: string
+        }
+      }
+      users: {
+        Row: {
+          user_id: string
+          score: number
+          created_at: string
+          last_sync: string | null
+        }
+        Insert: {
+          user_id: string
+          score?: number
+          created_at?: string
+          last_sync?: string | null
+        }
+        Update: {
+          score?: number
+          last_sync?: string | null
         }
       }
     }

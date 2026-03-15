@@ -3,6 +3,7 @@ import cors from 'cors'
 import helmet from 'helmet'
 import { env } from './config/env'
 import gameRoutes from './routes/gameRoutes'
+import userRoutes from './routes/userRoutes'
 import { errorHandler } from './utils/errorHandler'
 import { startGameCron } from './jobs/gameCron'
 
@@ -75,6 +76,7 @@ app.get('/health/db', async (_req, res) => {
 })
 
 app.use('/games', gameRoutes)
+app.use('/users', userRoutes)
 
 app.use(errorHandler)
 
