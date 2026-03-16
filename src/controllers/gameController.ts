@@ -20,11 +20,19 @@ export async function getGames(req: any, res: any, next: any) {
   }
 }
 
+const VALID_GAME_TYPES: readonly string[] = [
+  'addition', 'subtraction', 'multiplication', 'division', 'mixed',
+]
+
 export async function getGamesByType(req: any, res: any, next: any) {
   try {
-    const type = (req as any).params.type as OperationMode
+    const type = (req as any).params.type as string
+    if (!VALID_GAME_TYPES.includes(type)) {
+      res.status(400).json({ error: `Invalid game type "${type}". Must be one of: ${VALID_GAME_TYPES.join(', ')}` })
+      return
+    }
     await ensureGamesExist(10)
-    const games = await getActiveGames(type)
+    const games = await getActiveGames(type as OperationMode)
     res.json(games)
   } catch (err) {
     next(err)

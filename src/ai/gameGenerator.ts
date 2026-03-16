@@ -66,9 +66,17 @@ export async function generateGamesWithAI(
 
 /** Extract a JSON array from model output (may be wrapped in markdown or extra text). */
 function extractJsonArray(raw: string): unknown[] {
-  const match = raw.match(/\[[\s\S]*\]/)
+  // Use non-greedy match to avoid grabbing content between separate arrays
+  const match = raw.match(/\[[\s\S]*?\]/)
   if (!match) throw new Error('No JSON array in response')
-  return JSON.parse(match[0]) as unknown[]
+  // If the non-greedy match fails to parse (nested arrays), fall back to greedy
+  try {
+    return JSON.parse(match[0]) as unknown[]
+  } catch {
+    const greedyMatch = raw.match(/\[[\s\S]*\]/)
+    if (!greedyMatch) throw new Error('No valid JSON array in response')
+    return JSON.parse(greedyMatch[0]) as unknown[]
+  }
 }
 
 function randomInt(min: number, max: number) {
@@ -265,7 +273,9 @@ export function generateCustomGames(params: {
       }
       case 'mixed': {
         const mixedOp = OPERATIONS[randomInt(0, OPERATIONS.length - 1)]
-        return generateCustomGames({ ...params, operation: mixedOp })
+        const g = generateCustomGames({ ...params, operation: mixedOp, questions: 1 })
+        list.push(...g)
+        continue
       }
       default:
         question = `${a} + ${b} = ?`

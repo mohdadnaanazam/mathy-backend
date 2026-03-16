@@ -25,7 +25,8 @@ export async function updateScoreHandler(req: any, res: any, next: any) {
       res.status(400).json({ error: 'score must be a non-negative number' })
       return
     }
-    const { updateUserScore } = await import('../services/userService')
+    const { ensureUser, updateUserScore } = await import('../services/userService')
+    await ensureUser(userId)
     await updateUserScore(userId, score)
     res.status(200).json({ ok: true })
   } catch (err) {

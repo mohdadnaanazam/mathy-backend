@@ -4,10 +4,16 @@ import { deleteExpiredGames, generateRandomGames } from '../services/gameService
 const HOURLY_BATCH_SIZE = 20
 
 async function runHourlyGameRefresh(): Promise<void> {
-  const deleted = await deleteExpiredGames()
+  let deleted = 0
+  try {
+    deleted = await deleteExpiredGames()
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[cron] Failed to delete expired games, continuing with generation', err)
+  }
   await generateRandomGames(HOURLY_BATCH_SIZE)
   // eslint-disable-next-line no-console
-  console.log(`[cron] Hourly refresh: deleted ${deleted} old games, added ${HOURLY_BATCH_SIZE} new games`)
+  console.log(`[cron] Hourly refresh: deleted ${deleted} old games, generated new batch`)
 }
 
 export function startGameCron() {
