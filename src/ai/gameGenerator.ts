@@ -37,7 +37,7 @@ export async function generateGamesWithAI(
       ? `Only use the "${operation}" operation for all questions.`
       : 'Use only these operations: addition, subtraction, multiplication, division.'
     const diffPart = difficultyHint
-      ? `All questions must match "${difficultyHint}" difficulty. Number ranges: easy = 1–10, medium = 10–50, hard = 50–200. For multiplication: easy = 1–10, medium = 5–15, hard = 10–30. Do NOT use numbers outside these ranges.`
+      ? `All questions must match "${difficultyHint}" difficulty using digit-count scaling. Easy: 1–2 digit numbers. Medium: 2–3 digit numbers. Hard: 3–5 digit numbers. Multiplication: Easy = 1–2 digit × 1 digit, Medium = 2 digit × 2 digit, Hard = 3 digit × 2 digit. Division must always produce integer results. Do NOT use small numbers in Medium or Hard.`
       : 'Mix easy, medium, and hard questions.'
 
     const prompt = [
@@ -101,17 +101,25 @@ function generateSingleQuestion(
 
   const difficulty: GameDifficulty = forcedDifficulty ?? 'easy'
 
-  // Number ranges per difficulty
+  // Digit-count-based ranges:
+  // Easy:   1–2 digits (1–99)
+  // Medium: 2–3 digits (10–999)
+  // Hard:   3–5 digits (100–99999)
   const ranges: Record<GameDifficulty, { min: number; max: number }> = {
-    easy:   { min: 1,  max: 10 },
-    medium: { min: 10, max: 50 },
-    hard:   { min: 50, max: 200 },
+    easy:   { min: 1,   max: 99 },
+    medium: { min: 10,  max: 999 },
+    hard:   { min: 100, max: 99999 },
   }
-  // Multiplication uses smaller ranges to keep answers reasonable
-  const mulRanges: Record<GameDifficulty, { min: number; max: number }> = {
-    easy:   { min: 1,  max: 10 },
-    medium: { min: 5,  max: 15 },
-    hard:   { min: 10, max: 30 },
+
+  // Multiplication scaling by digit count:
+  // Easy:   1–2 digit × 1 digit
+  // Medium: 2 digit × 2 digit
+  // Hard:   3 digit × 2 digit (or 2 digit × 3 digit)
+  type MulRange = { aMin: number; aMax: number; bMin: number; bMax: number }
+  const mulRanges: Record<GameDifficulty, MulRange> = {
+    easy:   { aMin: 1,   aMax: 99,  bMin: 2, bMax: 9 },
+    medium: { aMin: 10,  aMax: 99,  bMin: 10, bMax: 99 },
+    hard:   { aMin: 100, aMax: 999, bMin: 10, bMax: 99 },
   }
 
   let question: string
@@ -136,17 +144,19 @@ function generateSingleQuestion(
       break
     }
     case 'multiplication': {
-      const { min, max } = mulRanges[difficulty]
-      const a = randomInt(min, max)
-      const b = randomInt(min, max)
+      const mr = mulRanges[difficulty]
+      const a = randomInt(mr.aMin, mr.aMax)
+      const b = randomInt(mr.bMin, mr.bMax)
       question = `${a} × ${b} = ?`
       answer = a * b
       break
     }
     case 'division': {
-      const { min, max } = mulRanges[difficulty]
-      const divisor = randomInt(min, max)
-      const quotient = randomInt(min, max)
+      // Generate divisor and quotient using multiplication ranges,
+      // then compute dividend = divisor × quotient for clean integer division.
+      const mr = mulRanges[difficulty]
+      const divisor = randomInt(mr.bMin, mr.bMax)
+      const quotient = randomInt(mr.bMin, mr.bMax)
       const dividend = divisor * quotient
       question = `${dividend} ÷ ${divisor} = ?`
       answer = quotient
@@ -174,10 +184,22 @@ function generateGamesLocally(
   operation?: OperationMode,
   difficulty?: GameDifficulty,
 ): GeneratedGame[] {
-  return Array.from(
-    { length: count },
-    () => generateSingleQuestion(operation, difficulty),
-  )
+  // Generate with deduplication — avoid repeating the same question in a batch
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  const maxAttempts = count * 5
+
+  while (results.length < count && attempts < maxAttempts) {
+    attempts++
+    const q = generateSingleQuestion(operation, difficulty)
+    if (!seen.has(q.question)) {
+      seen.add(q.question)
+      results.push(q)
+    }
+  }
+
+  return results
 }
 
 export async function generateAndStoreGames(
