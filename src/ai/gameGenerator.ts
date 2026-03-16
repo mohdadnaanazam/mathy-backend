@@ -37,7 +37,7 @@ export async function generateGamesWithAI(
       ? `Only use the "${operation}" operation for all questions.`
       : 'Use only these operations: addition, subtraction, multiplication, division.'
     const diffPart = difficultyHint
-      ? `All questions should roughly match "${difficultyHint}" difficulty.`
+      ? `All questions must match "${difficultyHint}" difficulty. Number ranges: easy = 1–10, medium = 10–50, hard = 50–200. For multiplication: easy = 1–10, medium = 5–15, hard = 10–30. Do NOT use numbers outside these ranges.`
       : 'Mix easy, medium, and hard questions.'
 
     const prompt = [
@@ -98,45 +98,67 @@ function generateSingleQuestion(
     ? forcedOp
     : OPERATIONS[randomInt(0, OPERATIONS.length - 1)]
   const op = opBase as (typeof OPERATIONS)[number]
-  const a = randomInt(1, 50)
-  const b = randomInt(1, 50)
+
+  const difficulty: GameDifficulty = forcedDifficulty ?? 'easy'
+
+  // Number ranges per difficulty
+  const ranges: Record<GameDifficulty, { min: number; max: number }> = {
+    easy:   { min: 1,  max: 10 },
+    medium: { min: 10, max: 50 },
+    hard:   { min: 50, max: 200 },
+  }
+  // Multiplication uses smaller ranges to keep answers reasonable
+  const mulRanges: Record<GameDifficulty, { min: number; max: number }> = {
+    easy:   { min: 1,  max: 10 },
+    medium: { min: 5,  max: 15 },
+    hard:   { min: 10, max: 30 },
+  }
 
   let question: string
   let answer: number
 
   switch (op) {
-    case 'addition':
+    case 'addition': {
+      const { min, max } = ranges[difficulty]
+      const a = randomInt(min, max)
+      const b = randomInt(min, max)
       question = `${a} + ${b} = ?`
       answer = a + b
       break
+    }
     case 'subtraction': {
-      const [x, y] = a >= b ? [a, b] : [b, a]
-      question = `${x} - ${y} = ?`
-      answer = x - y
+      const { min, max } = ranges[difficulty]
+      let a = randomInt(min, max)
+      let b = randomInt(min, max)
+      if (b > a) [a, b] = [b, a]
+      question = `${a} - ${b} = ?`
+      answer = a - b
       break
     }
-    case 'multiplication':
+    case 'multiplication': {
+      const { min, max } = mulRanges[difficulty]
+      const a = randomInt(min, max)
+      const b = randomInt(min, max)
       question = `${a} × ${b} = ?`
       answer = a * b
       break
+    }
     case 'division': {
-      const divisor = randomInt(1, 12)
-      const quotient = randomInt(1, 12)
+      const { min, max } = mulRanges[difficulty]
+      const divisor = randomInt(min, max)
+      const quotient = randomInt(min, max)
       const dividend = divisor * quotient
       question = `${dividend} ÷ ${divisor} = ?`
       answer = quotient
       break
     }
-    default:
+    default: {
+      const { min, max } = ranges[difficulty]
+      const a = randomInt(min, max)
+      const b = randomInt(min, max)
       question = `${a} + ${b} = ?`
       answer = a + b
-  }
-
-  let difficulty: GameDifficulty =
-    answer < 50 ? 'easy' : answer < 250 ? 'medium' : 'hard'
-
-  if (forcedDifficulty) {
-    difficulty = forcedDifficulty
+    }
   }
 
   return {
@@ -264,8 +286,8 @@ export function generateCustomGames(params: {
         answer = a * b
         break
       case 'division': {
-        const divisor = randomInt(1, safeMax || 12)
-        const quotient = randomInt(1, safeMax || 12)
+        const divisor = randomInt(safeMin || 1, safeMax || 12)
+        const quotient = randomInt(safeMin || 1, safeMax || 12)
         const dividend = divisor * quotient
         question = `${dividend} ÷ ${divisor} = ?`
         answer = quotient
