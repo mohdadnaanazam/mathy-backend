@@ -5,6 +5,7 @@ import {
   generateCustomGames,
   storeGeneratedGames,
   GameDifficulty,
+  generateAndStoreTrueFalseGames,
 } from '../ai/gameGenerator'
 import { OperationMode } from '../ai/types'
 
@@ -52,6 +53,24 @@ export async function ensureGamesExist(minCount = 10): Promise<void> {
       await generateRandomGames(missing, op, diff)
     }
   }
+
+  // Also ensure true_false_math questions exist per difficulty
+  for (const diff of diffs) {
+    const { data, error } = await supabase
+      .from('games')
+      .select('id')
+      .eq('game_type', 'true_false_math')
+      .eq('difficulty', diff)
+      .gt('expires_at', nowIso)
+
+    if (error) throw error
+    const have = data?.length ?? 0
+    if (have >= perComboTarget) continue
+
+    await deleteExpiredGames()
+    const missing = perComboTarget - have
+    await generateAndStoreTrueFalseGames(missing, diff)
+  }
 }
 
 export async function generateRandomGames(
@@ -81,8 +100,14 @@ export async function forceRegenerateAllGames(perCombo = 50): Promise<void> {
       await generateRandomGames(perCombo, op, diff)
     }
   }
+
+  // Also regenerate true_false_math per difficulty
+  for (const diff of diffs) {
+    await generateAndStoreTrueFalseGames(perCombo, diff)
+  }
+
   // eslint-disable-next-line no-console
-  console.log(`[forceRegenerateAllGames] Regenerated ${ops.length * diffs.length * perCombo} games`)
+  console.log(`[forceRegenerateAllGames] Regenerated math + true_false_math games`)
 }
 
 /** Delete games whose expires_at has passed. Returns how many were deleted. */

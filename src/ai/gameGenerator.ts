@@ -9,7 +9,7 @@ import { generateText } from './huggingfaceClient'
 export type GameDifficulty = 'easy' | 'medium' | 'hard'
 
 export const GeneratedGameSchema = z.object({
-  game_type: z.enum(['addition', 'subtraction', 'multiplication', 'division', 'mixed']),
+  game_type: z.enum(['addition', 'subtraction', 'multiplication', 'division', 'mixed', 'true_false_math']),
   question: z.string(),
   correct_answer: z.union([z.string(), z.number()]),
   difficulty: z.enum(['easy', 'medium', 'hard']),
@@ -337,3 +337,168 @@ export function generateCustomGames(params: {
   return list
 }
 
+
+// ─── True / False Math ───────────────────────────────────────────────
+
+/**
+ * Generate a single True/False math question.
+ * Picks a random operation, generates operands per difficulty,
+ * then randomly decides if the displayed result is correct or wrong.
+ * If wrong, the displayed result is offset by a small amount close to the real answer.
+ */
+function generateSingleTrueFalseQuestion(
+  forcedDifficulty?: GameDifficulty,
+): GeneratedGame {
+  const op = OPERATIONS[randomInt(0, OPERATIONS.length - 1)]
+  const difficulty: GameDifficulty = forcedDifficulty ?? 'easy'
+
+  const ranges: Record<GameDifficulty, { min: number; max: number }> = {
+    easy:   { min: 1,   max: 99 },
+    medium: { min: 10,  max: 999 },
+    hard:   { min: 100, max: 99999 },
+  }
+
+  type MulRange = { aMin: number; aMax: number; bMin: number; bMax: number }
+  const mulRanges: Record<GameDifficulty, MulRange> = {
+    easy:   { aMin: 1,   aMax: 99,  bMin: 2, bMax: 9 },
+    medium: { aMin: 10,  aMax: 99,  bMin: 10, bMax: 99 },
+    hard:   { aMin: 100, aMax: 999, bMin: 10, bMax: 99 },
+  }
+
+  const opSymbol: Record<string, string> = {
+    addition: '+',
+    subtraction: '−',
+    multiplication: '×',
+    division: '÷',
+  }
+
+  let a: number, b: number, correctAnswer: number
+
+  switch (op) {
+    case 'addition': {
+      const { min, max } = ranges[difficulty]
+      a = randomInt(min, max)
+      b = randomInt(min, max)
+      correctAnswer = a + b
+      break
+    }
+    case 'subtraction': {
+      const { min, max } = ranges[difficulty]
+      a = randomInt(min, max)
+      b = randomInt(min, max)
+      if (b > a) [a, b] = [b, a]
+      correctAnswer = a - b
+      break
+    }
+    case 'multiplication': {
+      const mr = mulRanges[difficulty]
+      a = randomInt(mr.aMin, mr.aMax)
+      b = randomInt(mr.bMin, mr.bMax)
+      correctAnswer = a * b
+      break
+    }
+    case 'division': {
+      const mr = mulRanges[difficulty]
+      const divisor = randomInt(mr.bMin, mr.bMax)
+      const quotient = randomInt(mr.bMin, mr.bMax)
+      a = divisor * quotient
+      b = divisor
+      correctAnswer = quotient
+      break
+    }
+    default: {
+      const { min, max } = ranges[difficulty]
+      a = randomInt(min, max)
+      b = randomInt(min, max)
+      correctAnswer = a + b
+    }
+  }
+
+  // 50/50 chance: show correct or wrong result
+  const isTrue = Math.random() < 0.5
+  let displayResult: number
+
+  if (isTrue) {
+    displayResult = correctAnswer
+  } else {
+    // Generate a close-but-wrong result
+    // Offset by 1–10% of the correct answer, minimum ±1
+    const magnitude = Math.max(1, Math.ceil(Math.abs(correctAnswer) * 0.1))
+    let offset = randomInt(1, magnitude)
+    // Randomly positive or negative offset
+    if (Math.random() < 0.5) offset = -offset
+    displayResult = correctAnswer + offset
+    // Ensure we didn't accidentally land on the correct answer
+    if (displayResult === correctAnswer) displayResult = correctAnswer + 1
+  }
+
+  const symbol = opSymbol[op] ?? '+'
+  const question = `${a} ${symbol} ${b} = ${displayResult} ?`
+
+  return {
+    game_type: 'true_false_math',
+    question,
+    correct_answer: isTrue ? 'true' : 'false',
+    difficulty,
+  }
+}
+
+/**
+ * Generate a batch of True/False math questions with deduplication.
+ */
+export function generateTrueFalseGamesLocally(
+  count: number,
+  difficulty?: GameDifficulty,
+): GeneratedGame[] {
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  const maxAttempts = count * 5
+
+  while (results.length < count && attempts < maxAttempts) {
+    attempts++
+    const q = generateSingleTrueFalseQuestion(difficulty)
+    if (!seen.has(q.question)) {
+      seen.add(q.question)
+      results.push(q)
+    }
+  }
+
+  return results
+}
+
+/**
+ * Generate True/False games and store them in Supabase.
+ */
+export async function generateAndStoreTrueFalseGames(
+  batchSize = 20,
+  difficulty?: GameDifficulty,
+): Promise<void> {
+  const supabase = getSupabaseClient()
+  const now = new Date()
+  const expires = new Date(now.getTime() + 60 * 60 * 1000)
+
+  const games = generateTrueFalseGamesLocally(batchSize, difficulty)
+
+  if (games.length === 0) {
+    console.warn('[generateAndStoreTrueFalseGames] No games to insert')
+    return
+  }
+
+  const payload = games.map(g => ({
+    id: uuidv4(),
+    game_type: g.game_type,
+    question: g.question,
+    correct_answer: String(g.correct_answer),
+    difficulty: g.difficulty,
+    created_at: now.toISOString(),
+    expires_at: expires.toISOString(),
+  }))
+
+  const { error } = await supabase.from('games').insert(payload as any)
+  if (error) {
+    console.error('[generateAndStoreTrueFalseGames] insert error', error)
+    throw error
+  }
+  console.log('[generateAndStoreTrueFalseGames] Inserted', payload.length, 'games')
+}

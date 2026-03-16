@@ -5,4 +5,5 @@ export type OperationMode =
   | 'division'
   | 'mixed'
   | 'custom'
+  | 'true_false_math'
 
