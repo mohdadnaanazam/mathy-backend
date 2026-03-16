@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { ensureGamesExist, getActiveGames, generateRandomGames, generateAndStoreCustomGames } from '../services/gameService.js'
+import { ensureGamesExist, getActiveGames, generateRandomGames, generateAndStoreCustomGames, forceRegenerateAllGames } from '../services/gameService.js'
 import { OperationMode } from '../ai/types.js'
 
 const customGameSchema = z.object({
@@ -60,6 +60,15 @@ export async function generateCustomGamesHandler(req: any, res: any, next: any) 
       res.status(400).json({ error: 'Invalid request', details: err.issues })
       return
     }
+    next(err)
+  }
+}
+
+export async function regenerateAllGamesHandler(req: any, res: any, next: any) {
+  try {
+    await forceRegenerateAllGames(50)
+    res.status(201).json({ message: 'All games regenerated for every operation × difficulty combo' })
+  } catch (err) {
     next(err)
   }
 }

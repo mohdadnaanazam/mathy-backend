@@ -62,6 +62,29 @@ export async function generateRandomGames(
   await generateAndStoreGames(batchSize, operation, difficulty)
 }
 
+/** Delete ALL games (not just expired) and regenerate for every combo. */
+export async function forceRegenerateAllGames(perCombo = 50): Promise<void> {
+  const supabase = getSupabaseClient()
+  // Wipe everything
+  const { error } = await supabase.from('games').delete().neq('id', '00000000-0000-0000-0000-000000000000')
+  if (error) {
+    // eslint-disable-next-line no-console
+    console.error('[forceRegenerateAllGames] delete error', error)
+    throw error
+  }
+
+  const ops: OperationMode[] = ['addition', 'subtraction', 'multiplication', 'division']
+  const diffs: GameDifficulty[] = ['easy', 'medium', 'hard']
+
+  for (const op of ops) {
+    for (const diff of diffs) {
+      await generateRandomGames(perCombo, op, diff)
+    }
+  }
+  // eslint-disable-next-line no-console
+  console.log(`[forceRegenerateAllGames] Regenerated ${ops.length * diffs.length * perCombo} games`)
+}
+
 /** Delete games whose expires_at has passed. Returns how many were deleted. */
 export async function deleteExpiredGames(): Promise<number> {
   const supabase = getSupabaseClient()

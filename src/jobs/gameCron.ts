@@ -1,5 +1,8 @@
 import cron from 'node-cron'
-import { deleteExpiredGames, ensureGamesExist } from '../services/gameService'
+import { deleteExpiredGames, ensureGamesExist, forceRegenerateAllGames } from '../services/gameService'
+
+// Track whether we've done the initial full regeneration (clears stale data from old code).
+let initialRegenerationDone = false
 
 async function runHourlyGameRefresh(): Promise<void> {
   let deleted = 0
@@ -18,15 +21,25 @@ async function runHourlyGameRefresh(): Promise<void> {
 }
 
 export function startGameCron() {
-  // Run once at startup so the DB has games immediately.
+  // Run once at startup: full flush + regenerate to clear any stale games
+  // from old code that used wrong number ranges.
   ;(async () => {
     try {
       // eslint-disable-next-line no-console
-      console.log('[cron] Initial game maintenance run')
-      await runHourlyGameRefresh()
+      console.log('[cron] Initial full regeneration — clearing stale games')
+      await forceRegenerateAllGames(50)
+      initialRegenerationDone = true
+      // eslint-disable-next-line no-console
+      console.log('[cron] Initial regeneration complete')
     } catch (error) {
       // eslint-disable-next-line no-console
-      console.error('[cron] Error during initial run', error)
+      console.error('[cron] Error during initial regeneration, falling back to ensure', error)
+      try {
+        await runHourlyGameRefresh()
+      } catch (err2) {
+        // eslint-disable-next-line no-console
+        console.error('[cron] Fallback also failed', err2)
+      }
     }
   })()
 
