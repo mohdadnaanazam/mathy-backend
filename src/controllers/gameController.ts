@@ -22,6 +22,7 @@ export async function getGames(req: any, res: any, next: any) {
 
 const VALID_GAME_TYPES: readonly string[] = [
   'addition', 'subtraction', 'multiplication', 'division', 'mixed', 'true_false_math',
+  'square_root', 'fractions', 'percentage', 'algebra', 'speed_math', 'logic_puzzle',
 ]
 
 export async function getGamesByType(req: any, res: any, next: any) {

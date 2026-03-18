@@ -9,7 +9,11 @@ import { generateText } from './huggingfaceClient'
 export type GameDifficulty = 'easy' | 'medium' | 'hard'
 
 export const GeneratedGameSchema = z.object({
-  game_type: z.enum(['addition', 'subtraction', 'multiplication', 'division', 'mixed', 'true_false_math']),
+  game_type: z.enum([
+    'addition', 'subtraction', 'multiplication', 'division', 'mixed',
+    'true_false_math', 'square_root', 'fractions', 'percentage',
+    'algebra', 'speed_math', 'logic_puzzle',
+  ]),
   question: z.string(),
   correct_answer: z.union([z.string(), z.number()]),
   difficulty: z.enum(['easy', 'medium', 'hard']),
@@ -501,4 +505,192 @@ export async function generateAndStoreTrueFalseGames(
     throw error
   }
   console.log('[generateAndStoreTrueFalseGames] Inserted', payload.length, 'games')
+}
+
+// ─── New Game Type Generators ────────────────────────────────────────
+
+/** Perfect squares by difficulty. */
+const PERFECT_SQUARES: Record<GameDifficulty, number[]> = {
+  easy:   [1, 4, 9, 16, 25, 36, 49, 64, 81, 100],
+  medium: [121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625],
+  hard:   [676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2500, 3600, 4900, 6400, 8100, 10000],
+}
+
+function generateSingleSquareRootQuestion(difficulty: GameDifficulty): GeneratedGame {
+  const pool = PERFECT_SQUARES[difficulty]
+  const n = pool[randomInt(0, pool.length - 1)]
+  const root = Math.round(Math.sqrt(n))
+  return { game_type: 'square_root', question: `√${n} = ?`, correct_answer: root, difficulty }
+}
+
+export function generateSquareRootGamesLocally(count: number, difficulty?: GameDifficulty): GeneratedGame[] {
+  const diff = difficulty ?? 'easy'
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  while (results.length < count && attempts < count * 5) {
+    attempts++
+    const q = generateSingleSquareRootQuestion(diff)
+    if (!seen.has(q.question)) { seen.add(q.question); results.push(q) }
+  }
+  return results
+}
+
+function generateSingleFractionQuestion(difficulty: GameDifficulty): GeneratedGame {
+  const maxDenom: Record<GameDifficulty, number> = { easy: 10, medium: 20, hard: 50 }
+  const md = maxDenom[difficulty]
+  const d1 = randomInt(2, md), n1 = randomInt(1, d1 - 1)
+  const d2 = randomInt(2, md), n2 = randomInt(1, d2 - 1)
+  const ops = ['+', '-'] as const
+  const op = ops[randomInt(0, ops.length - 1)]
+  const numResult = op === '+' ? n1 * d2 + n2 * d1 : n1 * d2 - n2 * d1
+  const denomResult = d1 * d2
+  const g = gcd(Math.abs(numResult), denomResult)
+  const sn = numResult / g, sd = denomResult / g
+  const answer = sd === 1 ? `${sn}` : `${sn}/${sd}`
+  return { game_type: 'fractions', question: `${n1}/${d1} ${op} ${n2}/${d2} = ?`, correct_answer: answer, difficulty }
+}
+
+function gcd(a: number, b: number): number { return b === 0 ? a : gcd(b, a % b) }
+
+export function generateFractionGamesLocally(count: number, difficulty?: GameDifficulty): GeneratedGame[] {
+  const diff = difficulty ?? 'easy'
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  while (results.length < count && attempts < count * 5) {
+    attempts++
+    const q = generateSingleFractionQuestion(diff)
+    if (!seen.has(q.question)) { seen.add(q.question); results.push(q) }
+  }
+  return results
+}
+
+function generateSinglePercentageQuestion(difficulty: GameDifficulty): GeneratedGame {
+  const ranges: Record<GameDifficulty, { maxBase: number; percents: number[] }> = {
+    easy:   { maxBase: 100,  percents: [10, 20, 25, 50] },
+    medium: { maxBase: 500,  percents: [5, 10, 15, 20, 25, 30, 40, 50, 75] },
+    hard:   { maxBase: 2000, percents: [3, 7, 12, 15, 18, 22, 33, 45, 60, 85] },
+  }
+  const { maxBase, percents } = ranges[difficulty]
+  const base = randomInt(10, maxBase)
+  const pct = percents[randomInt(0, percents.length - 1)]
+  const answer = (base * pct) / 100
+  return { game_type: 'percentage', question: `${pct}% of ${base} = ?`, correct_answer: answer, difficulty }
+}
+
+export function generatePercentageGamesLocally(count: number, difficulty?: GameDifficulty): GeneratedGame[] {
+  const diff = difficulty ?? 'easy'
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  while (results.length < count && attempts < count * 5) {
+    attempts++
+    const q = generateSinglePercentageQuestion(diff)
+    if (!seen.has(q.question)) { seen.add(q.question); results.push(q) }
+  }
+  return results
+}
+
+function generateSingleAlgebraQuestion(difficulty: GameDifficulty): GeneratedGame {
+  // Solve for x: a*x + b = c
+  const ranges: Record<GameDifficulty, { aMax: number; xMax: number; bMax: number }> = {
+    easy:   { aMax: 1, xMax: 20, bMax: 20 },
+    medium: { aMax: 9, xMax: 20, bMax: 50 },
+    hard:   { aMax: 15, xMax: 50, bMax: 200 },
+  }
+  const { aMax, xMax, bMax } = ranges[difficulty]
+  const x = randomInt(1, xMax)
+  const a = randomInt(1, aMax)
+  const b = randomInt(0, bMax)
+  const c = a * x + b
+  const question = a === 1 ? `x + ${b} = ${c}, x = ?` : `${a}x + ${b} = ${c}, x = ?`
+  return { game_type: 'algebra', question, correct_answer: x, difficulty }
+}
+
+export function generateAlgebraGamesLocally(count: number, difficulty?: GameDifficulty): GeneratedGame[] {
+  const diff = difficulty ?? 'easy'
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  while (results.length < count && attempts < count * 5) {
+    attempts++
+    const q = generateSingleAlgebraQuestion(diff)
+    if (!seen.has(q.question)) { seen.add(q.question); results.push(q) }
+  }
+  return results
+}
+
+function generateSingleSpeedMathQuestion(difficulty: GameDifficulty): GeneratedGame {
+  // Chain of two operations: a op1 b op2 c (left-to-right, no precedence)
+  const ranges: Record<GameDifficulty, { min: number; max: number }> = {
+    easy:   { min: 1, max: 20 },
+    medium: { min: 5, max: 50 },
+    hard:   { min: 10, max: 200 },
+  }
+  const { min, max } = ranges[difficulty]
+  const a = randomInt(min, max), b = randomInt(min, max), c = randomInt(min, max)
+  const ops = ['+', '-'] as const
+  const op1 = ops[randomInt(0, 1)], op2 = ops[randomInt(0, 1)]
+  const step1 = op1 === '+' ? a + b : a - b
+  const answer = op2 === '+' ? step1 + c : step1 - c
+  return { game_type: 'speed_math', question: `${a} ${op1} ${b} ${op2} ${c} = ?`, correct_answer: answer, difficulty }
+}
+
+export function generateSpeedMathGamesLocally(count: number, difficulty?: GameDifficulty): GeneratedGame[] {
+  const diff = difficulty ?? 'easy'
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  while (results.length < count && attempts < count * 5) {
+    attempts++
+    const q = generateSingleSpeedMathQuestion(diff)
+    if (!seen.has(q.question)) { seen.add(q.question); results.push(q) }
+  }
+  return results
+}
+
+function generateSingleLogicPuzzleQuestion(difficulty: GameDifficulty): GeneratedGame {
+  // Number sequence: find the next number
+  const start = randomInt(1, difficulty === 'easy' ? 10 : difficulty === 'medium' ? 30 : 100)
+  const step = randomInt(difficulty === 'easy' ? 1 : 2, difficulty === 'easy' ? 5 : difficulty === 'medium' ? 12 : 25)
+  const len = difficulty === 'easy' ? 4 : difficulty === 'medium' ? 5 : 6
+  const seq: number[] = []
+  for (let i = 0; i < len; i++) seq.push(start + step * i)
+  const answer = start + step * len
+  return { game_type: 'logic_puzzle', question: `${seq.join(', ')}, ? = ?`, correct_answer: answer, difficulty }
+}
+
+export function generateLogicPuzzleGamesLocally(count: number, difficulty?: GameDifficulty): GeneratedGame[] {
+  const diff = difficulty ?? 'easy'
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  while (results.length < count && attempts < count * 5) {
+    attempts++
+    const q = generateSingleLogicPuzzleQuestion(diff)
+    if (!seen.has(q.question)) { seen.add(q.question); results.push(q) }
+  }
+  return results
+}
+
+/** Unified generator: store a batch of any new game type into Supabase. */
+export async function generateAndStoreNewGameType(
+  gameType: 'square_root' | 'fractions' | 'percentage' | 'algebra' | 'speed_math' | 'logic_puzzle',
+  batchSize = 20,
+  difficulty?: GameDifficulty,
+): Promise<void> {
+  const generators: Record<string, (c: number, d?: GameDifficulty) => GeneratedGame[]> = {
+    square_root: generateSquareRootGamesLocally,
+    fractions: generateFractionGamesLocally,
+    percentage: generatePercentageGamesLocally,
+    algebra: generateAlgebraGamesLocally,
+    speed_math: generateSpeedMathGamesLocally,
+    logic_puzzle: generateLogicPuzzleGamesLocally,
+  }
+  const gen = generators[gameType]
+  if (!gen) throw new Error(`Unknown game type: ${gameType}`)
+  const games = gen(batchSize, difficulty)
+  if (games.length === 0) return
+  await storeGeneratedGames(games)
 }

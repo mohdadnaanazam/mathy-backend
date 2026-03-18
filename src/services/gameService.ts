@@ -6,6 +6,7 @@ import {
   storeGeneratedGames,
   GameDifficulty,
   generateAndStoreTrueFalseGames,
+  generateAndStoreNewGameType,
 } from '../ai/gameGenerator'
 import { OperationMode } from '../ai/types'
 
@@ -71,6 +72,27 @@ export async function ensureGamesExist(minCount = 10): Promise<void> {
     const missing = perComboTarget - have
     await generateAndStoreTrueFalseGames(missing, diff)
   }
+
+  // Ensure new game types exist per difficulty
+  const newGameTypes = ['square_root', 'fractions', 'percentage', 'algebra', 'speed_math', 'logic_puzzle'] as const
+  for (const gt of newGameTypes) {
+    for (const diff of diffs) {
+      const { data, error } = await supabase
+        .from('games')
+        .select('id')
+        .eq('game_type', gt)
+        .eq('difficulty', diff)
+        .gt('expires_at', nowIso)
+
+      if (error) throw error
+      const have = data?.length ?? 0
+      if (have >= perComboTarget) continue
+
+      await deleteExpiredGames()
+      const missing = perComboTarget - have
+      await generateAndStoreNewGameType(gt, missing, diff)
+    }
+  }
 }
 
 export async function generateRandomGames(
@@ -106,8 +128,16 @@ export async function forceRegenerateAllGames(perCombo = 50): Promise<void> {
     await generateAndStoreTrueFalseGames(perCombo, diff)
   }
 
+  // Regenerate new game types per difficulty
+  const newGameTypes = ['square_root', 'fractions', 'percentage', 'algebra', 'speed_math', 'logic_puzzle'] as const
+  for (const gt of newGameTypes) {
+    for (const diff of diffs) {
+      await generateAndStoreNewGameType(gt, perCombo, diff)
+    }
+  }
+
   // eslint-disable-next-line no-console
-  console.log(`[forceRegenerateAllGames] Regenerated math + true_false_math games`)
+  console.log(`[forceRegenerateAllGames] Regenerated all game types`)
 }
 
 /** Delete games whose expires_at has passed. Returns how many were deleted. */

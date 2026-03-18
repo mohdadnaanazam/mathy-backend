@@ -6,4 +6,10 @@ export type OperationMode =
   | 'mixed'
   | 'custom'
   | 'true_false_math'
+  | 'square_root'
+  | 'fractions'
+  | 'percentage'
+  | 'algebra'
+  | 'speed_math'
+  | 'logic_puzzle'
 
