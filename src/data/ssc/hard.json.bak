@@ -1,0 +1,882 @@
+[
+  {
+    "id": "ssc_2018_q10",
+    "question": "The total production of cars of type B in 2013, 2014, 2015 and 2017 taken together is what percent less than the total production of all types of cars in 2017 ? (Correct to one decimal place) ?",
+    "options": {
+      "A": "15.8",
+      "B": "18.2",
+      "C": "18.4 k",
+      "D": "17.6"
+    },
+    "correctAnswer": "D",
+    "correctValue": "17.6",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q14",
+    "question": "The table shows the production of different types of cars (in thousands). The ratio of the total production of cars of type C and E taken together in 2013 to the total production of cars of type D in 2014 and 2016 and type E in 2017 taken together is:",
+    "options": {
+      "A": "13:32",
+      "B": "5:8",
+      "C": "8:13",
+      "D": "8:11"
+    },
+    "correctAnswer": "C",
+    "correctValue": "8:13",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q21",
+    "question": "The Table shows the production of different types of cars (in thousands). The ratio of the total production of type A cars in 2015 and type B cars in 2014 taken together to the total production of type C cars in 2017 and type E cars in 2015 taken tMogether is:",
+    "options": {
+      "A": "16:19",
+      "B": "4:5",
+      "C": "8:9 t",
+      "D": "34:39"
+    },
+    "correctAnswer": "C",
+    "correctValue": "8:9 t",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q32",
+    "question": "The total production of type D cars during 2015 to 2017 is what percent less than the total production of type E cars during 2014, 2015, 2016 and 2018 taken together?",
+    "options": {
+      "A": "35",
+      "B": "32",
+      "C": "28",
+      "D": "30"
+    },
+    "correctAnswer": "D",
+    "correctValue": "30",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q33",
+    "question": "The total production of type C cars in 2015 and type E cars in 2015 taken together is what percent of the total production of cars in 2014 and 2017 taken together ? 22",
+    "options": {
+      "A": "",
+      "B": "25",
+      "C": "20",
+      "D": "27"
+    },
+    "correctAnswer": "C",
+    "correctValue": "20",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q47",
+    "question": "What is the ratio of the total production of type C cars in 2015 and type D cars in 2017 taken together to the total production of type B cars in 2016 and type A cars in 2017 taken together?",
+    "options": {
+      "A": "4:3",
+      "B": "13:10 11:9",
+      "C": "",
+      "D": "12:11"
+    },
+    "correctAnswer": "A",
+    "correctValue": "4:3",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q68",
+    "question": "What is the ratio of the total production of type E cars in 2014 and type C cars in 2016 taken together to the total production of type B cars in 2014 and type D cars in 2013 taken together?",
+    "options": {
+      "A": "9 : 8",
+      "B": "10 : 7 r",
+      "C": "11 : 8",
+      "D": "11 : 5"
+    },
+    "correctAnswer": "B",
+    "correctValue": "10 : 7 r",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q98",
+    "question": "The table shows the production of different types of cars (in thousands) The ratio of the total production of type A cars in 2014 and 2016 and type cars in 2013 taken together to the total production of type B cars and type D cars taken together in 2014 is:",
+    "options": {
+      "A": "17 : 12",
+      "B": "9 : 8 4 : 3 11 : 8",
+      "C": "",
+      "D": ""
+    },
+    "correctAnswer": "D",
+    "correctValue": "",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q99",
+    "question": "The table shows the production of different types of cars (in thousands). The total production of type E cars in 2015 and type C cars in 2013 taken together is what percent of the total production of type A cars and type D cars taken together during 2012 to 2016?",
+    "options": {
+      "A": "20%",
+      "B": "22%",
+      "C": "21.4%",
+      "D": "21.8% Answer: A"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q105",
+    "question": "If '+' means '÷' , '−' means '×' , '÷' means '+' and '×' means '−', then 36×12+4÷6+2−3= ? '+' '÷', '−' '×', '÷' '+' '×' यद का अथ है का अथ है का अथ है और का अथ '−' , 36×12+4÷6+2−3= ? है हो तो",
+    "options": {
+      "A": "2",
+      "B": "6 1/2",
+      "C": "18",
+      "D": "42"
+    },
+    "correctAnswer": "D",
+    "correctValue": "42",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q120",
+    "question": "Student strength of a college in Arts, Science and Commerce from 2004 - 2005 to 2007 - 2008 session are shown in the following bar graph. Study the graph and answer the questions that follow. 2004-2005 2007-2008 न नलखत बार ाफ मवष से केतक के , स मकसी कॉलेज मवाथय क कला वान और वाण य वषय म सं या दशायी गयी है। ाफ का अ ययन कजए और न नलखत न के ? उर दजये The ratio of average number of students in Science to the average number of students in Commerce is वान मवाथय क औसत सं या का वाण य वषय मवाथय क ? औसत सं या सेअनुपात ात कजये",
+    "options": {
+      "A": "10 : 7",
+      "B": "7 : 4",
+      "C": "12:5",
+      "D": "48 : 35"
+    },
+    "correctAnswer": "B",
+    "correctValue": "7 : 4",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q121",
+    "question": "Student strength of a college in Arts, Science and Commerce from 2004 - 2005 to 2007 - 2008 session are shown in the following bar graph. Study the graph and answer the questions that follow. 2004-2005 2007-2008 न नलखत बार ाफ मवष से केतक के , स मकसी कॉलेज मवाथय क कला वान और वाण य वषय म सं या दशायी गयी है। ाफ का अ ययन कजए और न नलखत न के ? उर दजये The increase in the number of Arts students in 2007-2008 session over that in 2005-2006 session is 2005-2006 2007-2008 वष केस क अपेा वष केस मकला के ? वाथय क सं या मकतनेतशत क वृ ई",
+    "options": {
+      "A": "25%",
+      "B": "21.42%",
+      "C": "27.27%",
+      "D": "37.5%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "27.27%",
+    "difficulty": "hard",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q122",
+    "question": "Student strength of a college in Arts, Science and Commerce from 2004 - 2005 to 2007 - 2008 session are shown in the following bar graph. Study the graph and answer the questions that follow. 2004-2005 2007-2008 न नलखत बार ाफ मवष से केतक के , स मकसी कॉलेज मवाथय क कला वान और वाण य वषय म सं या दशायी गयी है। ाफ का अ ययन कजए और न नलखत न के सं या दशायी गयी है। ाफ का अ ययन कजए और न नलखत न के ? उर दजये Approximate percentage of students in Science stream during the session 2006-2007 is 2006-2007 वष केस मवान वषय मवाथय क सं या का ? तशत ात कजये",
+    "options": {
+      "A": "42.31%",
+      "B": "40.91%",
+      "C": "41.26%",
+      "D": "31.42%"
+    },
+    "correctAnswer": "A",
+    "correctValue": "42.31%",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q123",
+    "question": "Student strength of a college in Arts, Science and Commerce from 2004 - 2005 to 2007 - 2008 session are shown in the following bar graph. Study the graph and answer the questions that follow. 2004-2005 2007-2008 न नलखत बार ाफ मवष से केतक के , स मकसी कॉलेज मवाथय क कला वान और वाण य वषय म सं या दशायी गयी है। ाफ का अ ययन कजए और न नलखत न के ? उर दजये Percentage increase in total number of students in 2007 - 2008 session over that in 2004 - 2005 session is approximately 2004-2005 2007-2008 वष केस क अपेा वष केस म ? वाथय क कुल सं या मवृ का तशत ात कजये",
+    "options": {
+      "A": "29.71",
+      "B": "25.65",
+      "C": "10.56",
+      "D": "20.83"
+    },
+    "correctAnswer": "D",
+    "correctValue": "20.83",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q127",
+    "question": "If ' + ' means minus , ' - ' means multiplication , ' ÷ ' means plus , and ' x ' means division , then यद + का अथ घटा है, - का अथ गुणा है, ÷ का अथ जमा है, और x का अथ भाग है, तो ननलखत को हल कजए ? 15 - 3 + 10 x 5 ÷ 5",
+    "options": {
+      "A": "52",
+      "B": "48",
+      "C": "22",
+      "D": "5"
+    },
+    "correctAnswer": "B",
+    "correctValue": "48",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q133",
+    "question": "A dealer marks a washing machine for ₹ 7500, and allows a discount of 6% on it. Find the selling price एक वेता वाशग मशीन पर अंकत मूय ₹ 7500 लखता है और उस पर 6% क छूट देता है। उसका ब मूय ात कजए ?",
+    "options": {
+      "A": "6850",
+      "B": "7050",
+      "C": "7250",
+      "D": "6950"
+    },
+    "correctAnswer": "B",
+    "correctValue": "7050",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q141",
+    "question": "If x = 222, y = 223, z = 225 then the value of x + y + z - 3xyz is 3 3 3 यद x = 222, y = 223, z = 225 हो, तो x + y + z - 3xyz का मान या है ?",
+    "options": {
+      "A": "4590",
+      "B": "4690",
+      "C": "4950",
+      "D": "4960"
+    },
+    "correctAnswer": "B",
+    "correctValue": "4690",
+    "difficulty": "hard",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q147",
+    "question": "A bar graph showing the heights of six mountain peaks. Study the bar graph and answer questions बार ाफ का अययन कजए और ननलखत के उर दजए। ाफ म 6 पवत शखर क ऊं चाई दशायी गयी है। The average height of all the peaks (in meters) is ाफ म 6 पवत शखर क ऊं चाई दशायी गयी है। सभी शखर क औसतन ऊं चाई (मीटर म) ात कजए ?",
+    "options": {
+      "A": "7601.5",
+      "B": "7600",
+      "C": "7599.5",
+      "D": "7610"
+    },
+    "correctAnswer": "B",
+    "correctValue": "7600",
+    "difficulty": "hard",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q149",
+    "question": "A bar graph showing the heights of six mountain peaks. Study the bar graph and answer questions बार ाफ का अययन कजए और ननलखत के उर दजए। ाफ म 6 पवत शखर क ऊं चाई दशायी गयी है। When the heights of the given peaks are written in ascending order, what is the average of the middle two peaks? यद दए गए पवत शखर क ऊं चाई आरोही म म लखी जाती है, तो मय के दो शखर का औसत या है ?",
+    "options": {
+      "A": "7950 m 7950 मी.",
+      "B": "7560 m 7560 मी.",
+      "C": "7650 m 7650 मी.",
+      "D": "7850 m 7850 मी."
+    },
+    "correctAnswer": "D",
+    "correctValue": "7850 m 7850 मी.",
+    "difficulty": "hard",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q157",
+    "question": "A and B together can finish a work in 30 days. They worked for it for 20 days and then B left the work. The remaining work was done by A alone in 20 days more. In how many days can A alone finish the work? A और B िमल कर एक काम को 30 िदन म䆾 समा䒦䒥 कर सकते है। उ䒠䒟ोनंे 20 िदन काम िकया, उसके बाद B ने काम छोड़ िदया। शेष काम A ने अकेले िकया िजसम䆾 20 िदन का समय और लगा। बताइए A अकेला वह काम िकतने िदन म䆾 कर सकता है ?",
+    "options": {
+      "A": "48 days 48 िदन",
+      "B": "50 days 50 िदन",
+      "C": "54 days 54 िदन",
+      "D": "60 days 60 िदन"
+    },
+    "correctAnswer": "D",
+    "correctValue": "60 days 60 िदन",
+    "difficulty": "hard",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q171",
+    "question": "Study the pie­chart given and answer the following questions. नीचे िदए गए पाई चाट䊖䊕 का अ䑢䑡यन कीिजए और िन䓺䓹िलखत 䋠䋟䕨䕧ो ंके उ䐎䐍र िदिजए। If the miscellaneous charges are Rs. 6000, then the advertisement charges are यिद िविवध 䋠䋟भार Rs. 6000 हो ंतो िव䎨䎧ापन 䋠䋟भार 䌤䌣ा है ?",
+    "options": {
+      "A": "Rs.12000",
+      "B": "Rs.27000",
+      "C": "Rs.90000",
+      "D": "Rs.25000"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs.27000",
+    "difficulty": "hard",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q182",
+    "question": "If + means ÷, ­ means x, x means ­ and ÷ means +, which of the following will be the value of expression 16÷8­4+2x4=? यद + का मतलब ÷, ­ का x, x का ­ और ÷ का + है, तो 16÷8­4+2x4=?",
+    "options": {
+      "A": "16",
+      "B": "28",
+      "C": "32",
+      "D": "44"
+    },
+    "correctAnswer": "B",
+    "correctValue": "28",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q190",
+    "question": "Find the marked price if the selling price is (cid:0) 9250 and discount is 7½%. यद कसी व㾀तु का 䅐ब䍮冩䨀 मूय 9250 (cid:0) हो और उस पर 7½% छूट हो तो उसका अंकत मूय ात क冩䨀िजए।",
+    "options": {
+      "A": "9000",
+      "B": "8556.25",
+      "C": "10000",
+      "D": "9943.75"
+    },
+    "correctAnswer": "C",
+    "correctValue": "10000",
+    "difficulty": "hard",
+    "topic": "profit_loss",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q208",
+    "question": "If x means +, + means ÷, − means x and ÷ means −, then 8x7−8+40÷2 = ? x +, + ÷, − x ÷ −, यद का अथ है का अथ है का अथ हैऔर का अथ है 8 x 7−8+ 40 ÷ 2 ? तब या होगा",
+    "options": {
+      "A": "1 2) 3)",
+      "B": "",
+      "C": "",
+      "D": "44 Correct Answer: Candidate Answer:"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q219",
+    "question": "If x = 93 , y = 93 , z = 94 then the value of x - 2 y + 10xz + 10yz is 2 2 x=93,y=93,z=94 x - y + 10xz + 10yz ? यद तो का मान या है",
+    "options": {
+      "A": "104784",
+      "B": "147840",
+      "C": "174840",
+      "D": "184740"
+    },
+    "correctAnswer": "C",
+    "correctValue": "174840",
+    "difficulty": "hard",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q231",
+    "question": "Consider the given statement/s to be true and decide which of the given conclusions/assumptions can definitely be drawn from the given statement. Statement: All states having dams face no water problem. One of the states has no dam. Conclusions: I. It may be facing water problem. II. Dams solve water problem. िनिल￿￿खत ﳼﻼ￿￿ म藺 एक या दो व￿￿￿￿ िदये गये है, िजसके आगे दो िन￻﻿ष덭撌/मा￿￿ताएं, I और II िनकाले गये ह쏊। आपको िवचार करना है िक व￿￿￿￿ स￿ है चाहे वह सामा￿￿तः शत덭撌 त￿ो ंस ेिभ￿￿ ﳼﻼतीत होता हो। आपको िनण덭撌य करना है िक िदए गए व￿￿￿￿ म藺 स ेकोन­सा िनि￿￿त 헲प स ेसही िन￻﻿ष덭撌/मा￿￿ता िनकाला जा सकता है ? कथन : िजन रा替ो ंम藺 बांध है, उ﷿﷼藺 पानी की सम圠ा का सामना नही ंकरना पड़ता । एक रा替 के पास कोई बांध नही ंहै। िन￻﻿ष덭撌 : I. इस ेपानी की सम圠ा का सामना करना पड़ सकता है । II. बांध पानी की सम圠ा का समाधान करते ह쏊।",
+    "options": {
+      "A": "Only conclusion I follows केवल I िन￻﻿ष덭撌 सही है।",
+      "B": "Only conclusion II follows केवल II िन￻﻿ष덭撌 सही है I",
+      "C": "Both conclusion I and conclusion II follow I और II दोनो ंिन￻﻿ष덭撌 सही ह쏊।",
+      "D": "Neither conclusion I nor conclusion II follows ना तो Iऔर ना ही II िन￻﻿ष덭撌 सही है।"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Both conclusion I and conclusion II follow I और II दोनो ंिन￻﻿ष덭撌 सही ह쏊।",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q250",
+    "question": "The difference between compound interest and simple interest on a certain sum of money for 2 years at 5% per annum is Rs. 41. What is the sum of money? िकसी रािश पर 5% ﳼﻼित वष덭撌 पर 2 वष덭撌 के च￮뿚वृ￿￿￪ 顑 याज और साधरण 顑 याज के बीच अंतर Rs.41 है। तो रािश िकतनी है?",
+    "options": {
+      "A": "Rs.7200",
+      "B": "Rs.9600",
+      "C": "Rs.16400",
+      "D": "Rs.8400"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs.16400",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q261",
+    "question": "Some equations have been solved on the basis of certain system. Find the correct answer for the unsolved equation on that basis. If 98-39-27=31, 87-38-34=20, then 79-25-12 = ? कुछसमीकरणएककोडकेआधारपरहल�कयेगएह�।उसीआधारपरजोसमीकरणहलनहीक�गईहैउसकासहीउ�र�ातक��जए ? य�द 98-39-27=31, 87-38-34=20 तो 79-25-12 = ?",
+    "options": {
+      "A": "51",
+      "B": "22",
+      "C": "42",
+      "D": "15"
+    },
+    "correctAnswer": "A",
+    "correctValue": "51",
+    "difficulty": "hard",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q274",
+    "question": "The graph shows the production of food grains of a country in different years. Study the graph and answer the questions. �ाफम��कसीदेशके�व�भ�वष�म�उ�पादनकोदशा�यागयाहै।�ाफकाअ�ययनक��जएऔर�न�न�ल�खत���केउ�रद��जए। The sum of the production of food grains in the year 1982 and 1984 is equal to that in the year: वष� 1982 और 1984 म�खा�ा��केउ�पादनकायोग�कसवष�केउ�पादनकेबराबरहै ?",
+    "options": {
+      "A": "1980",
+      "B": "1981",
+      "C": "1983",
+      "D": "1985"
+    },
+    "correctAnswer": "B",
+    "correctValue": "1981",
+    "difficulty": "hard",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q275",
+    "question": "The graph shows the production of food grains of a country in different years. Study the graph and answer the questions. �ाफम��कसीदेशके�व�भ�वष�म�उ�पादनकोदशा�यागयाहै।�ाफकाअ�ययनक��जएऔर�न�न�ल�खत���केउ�रद��जए। The difference of the production of food grains for the year 1981 and 1985 is वष� 1981 और 1985 म�खा�ा��केउ�पादनकाअंतर�कतनाहै ?",
+    "options": {
+      "A": "500 tonnes 500 टन",
+      "B": "1000 tonnes 1000 टन",
+      "C": "5000 tonnes 5000 टन",
+      "D": "10000 tonnes 10000 टन"
+    },
+    "correctAnswer": "C",
+    "correctValue": "5000 tonnes 5000 टन",
+    "difficulty": "hard",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q282",
+    "question": "Given equations are solved on the basis of a certain system. Find the correct answer for the unsolved equation on that basis : 2 + 4 + 6 = 48 and 3 + 2 + 8 = 48 , then 2 + 5 + 7 = ? न䌳न⬼ᴝल夫⬫खत समीकरण एक ᑀ塜वशषे 䍟णाल के आधार पर हल 䍝]कए गये ह। उसी आधार पर अनु㾀त怘रत समीकरण का सह उ㾀तर 䌆Ĉात क䅐िजए। यद 2 + 4 + 6 = 48 और 3 + 2 + 8 = 48 , तो 2 + 5 + 7 = ? 4/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "48",
+      "B": "70",
+      "C": "14",
+      "D": "59"
+    },
+    "correctAnswer": "B",
+    "correctValue": "70",
+    "difficulty": "hard",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q283",
+    "question": "In the following question, one or two statement(s) is/are given followed by two conclusions/assumptions, I and II. You have to consider the statement to be true, even if it seems to be at variance from commonly known facts. You are to decide which of the given conclusions/assumptions can definitely be drawn from the given statement. Indicate your answer. Statement: Some kings are queens. All queens are beautiful . Conclusions:I­ All kings are beautiful. Conclusions:II­ All queens are kings न䌳न⬼ᴝल夫⬫खत 䍟怘न म,㾀 एक या एक स ेअ㥐而धक व त य दए गए ह िजसके आगे दो न कष覛/मा यताऍ,ं I और II उ㾀ल夫⬫ेखत ह। आपको मानना है 䍝]क व त य स㾀 य ह है चाहे वह सामा यत: 䌆Ĉात त覛 य स े⬼ᴝभ न 䍟तीत होता हो। आपको तय करना ह 䍝]क दए गए व त य म 㾀स ेकौन­स ेन कष覛/ मायताय㾀 नि怘चत प स ेसह ह। अपने उ㾀 तर को नद覛 ट क䅐िजए। कथन : I­ कुछ राजा रानयाँ ह। सभी रानयाँ सदंुर ह। न कष覛: I­सभी राजा सदंुर ह। न कष覛: II­ सभी रानयाँ राजा ह। 5/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "Only conclusion I follows केवल न कष覛 I सह है।",
+      "B": "Only conclusion II follows केवल न कष覛 II सह है।",
+      "C": "Either conclusion I or II follows या न कष覛 I सह है या II",
+      "D": "Neither conclusion I nor conclusion II follows न न कष覛 I सह है और न न कष覛 II"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Neither conclusion I nor conclusion II follows न न कष覛 I सह है और न न कष覛 II",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q289",
+    "question": "While selling a shirt, a shopkeeper gives a discount of 7%. If he gives discount of 9% he earns Rs. 15 less on profit. The market price of the shirt is :­ एक कमीज़ बेचने पर दकुानदार 7% क䅐 छूट देता है। यद वह 9% क䅐 छूट देता है, तो उसRेs. 15 कम का लाभ⬼ᴝमलते है। कमीज़ का बाजार म㾀ूय 䍝]कतना है ? 20/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "712",
+      "B": "787",
+      "C": "750",
+      "D": "697"
+    },
+    "correctAnswer": "C",
+    "correctValue": "750",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q298",
+    "question": "Study the bar diagram carefully and answer the following questions. Export (in Billion Rupees) of gems and jewellry in the year 1991­1992 is given. बार डाइाम का 䐆Ĉयानपूव覛क अ䐆Ĉययन क䅐िजए और न䌳न⬼ᴝल夫⬫खत 䍟怘न के उ㾀तर दिजए । र㾀न और आभषूण का 1991­1992 म 㾀नया覛त (䏄पये ब⬼ᴝलयन म)㾀 दया गया है। The ratio of the sum of the exports to the bottom six countries to the total exports to all the given countries in 1991­1992 is approximately: 1991­92 म 㾀नीच ेछह देश के 䍝]कए गए नया覛त के योग और दए गए सभी देश के कुल नया覛त के योग का अनुपात लगभग 䍝]कतना है ? 25/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "1/6",
+      "B": "1/5",
+      "C": "1/8",
+      "D": "2/9"
+    },
+    "correctAnswer": "A",
+    "correctValue": "1/6",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q299",
+    "question": "Study the bar diagram carefully and answer the following questions. Export (in Billion Rupees) of gems and jewellry in the year 1991­1992 is given. बार डाइाम का 䐆Ĉयानपूव覛क अ䐆Ĉययन क䅐िजए और न䌳न⬼ᴝल夫⬫खत 䍟怘न के उ㾀तर दिजए । र㾀न और आभषूण का 1991­1992 म 㾀नया覛त (䏄पये ब⬼ᴝलयन म)㾀 दया गया है। The country to which twice the export is nearly equal to the average exports in 1991­92 is वह कौन­सा देश है िजसम 㾀1991­92 म 㾀हुआ नया覛त का दोगनुा, औसत नया覛त के बराबर है ?",
+    "options": {
+      "A": "U.K यू.के.",
+      "B": "Thailand थाइल䅐ेड",
+      "C": "Israel इजराइल",
+      "D": "UAE यू. ए. ई."
+    },
+    "correctAnswer": "D",
+    "correctValue": "UAE यू. ए. ई.",
+    "difficulty": "hard",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q300",
+    "question": "Study the bar diagram carefully and answer the following questions. Export (in Billion Rupees) of gems and jewellry in the year 1991­1992 is given. बार डाइाम का 䐆Ĉयानपूव覛क अ䐆Ĉययन क䅐िजए और न䌳न⬼ᴝल夫⬫खत 䍟怘न के उ㾀तर दिजए । र㾀न और आभषूण का 1991­1992 म 㾀नया覛त (䏄पये ब⬼ᴝलयन म)㾀 दया गया है। The ratio of the total exports to Japan, Belgium and HongKong to the export to rest of the countries in 1991­92 is nearly: जापान , बेि㾀जयम और हॉगंकॉगं को 䍝]कए गए कुल नया覛त और 1991­92 म 㾀शषे देश को 䍝]कए गए नया覛त का अनुपात लगभग 䍝]कतना है ?",
+    "options": {
+      "A": "35:34",
+      "B": "35:69",
+      "C": "69:35",
+      "D": "35:35"
+    },
+    "correctAnswer": "A",
+    "correctValue": "35:34",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q301",
+    "question": "Study the bar diagram carefully and answer the following questions. Export (in Billion Rupees) of gems and jewellry in the year 1991­1992 is given. बार डाइाम का 䐆Ĉयानपूव覛क अ䐆Ĉययन क䅐िजए और न䌳न⬼ᴝल夫⬫खत 䍟怘न के उ㾀तर दिजए । र㾀न और आभषूण का 1991­1992 म 㾀नया覛त (䏄पये ब⬼ᴝलयन म)㾀 दया गया है। The export to Hongkong is approximately how many times the export to Germany? हॉगंकॉगंको 䍝]कया गया नया覛त जमन覛ी को 䍝]कए गए नया覛त के लगभग 䍝]कतना गनुा है ?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11"
+    },
+    "correctAnswer": "C",
+    "correctValue": "10",
+    "difficulty": "hard",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q308",
+    "question": "If '+' means 'x' , '­' means '÷' , 'x' means '­' and '÷' means '+' , then what will be the value of 16 ÷ 4 x 10 ­ 5 + 8 = ? अगर '+' स ेआशय 'x' हो , '­' स ेआशय '÷' हो , 'x' स ेआशय '­' हो, और '÷' स ेआशय '+' हो, तो 16 ÷ 4 x 10 ­ 5 + 8 = ? का मान 싇ᑡया होगा?",
+    "options": {
+      "A": "12",
+      "B": "8",
+      "C": "4",
+      "D": "2"
+    },
+    "correctAnswer": "D",
+    "correctValue": "2",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q326",
+    "question": "If the difference between the compound interest and the simple interest on a certain sum at the rate of 5% per annum for 2 years is Rs. 20, then the sum is य獀凜द कोई धन राⰈ槢श 5% वाꋆ䀌षｮ魴क दर पर 2 वषｮ魴 के Ⰸ槢लए द瓛 जाती है तो उस पर लगने वाल ेच꩖荚वꋆ䀌ृ몌 зयाज और साधारण зयाज म 膀勤Rs. 20 का अ㾝쎕तर है, तो बताइए वह राⰈ槢श 싇ᑡया है ?",
+    "options": {
+      "A": "Rs. 2000",
+      "B": "Rs. 4000",
+      "C": "Rs. 6000",
+      "D": "Rs. 8000"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Rs. 8000",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q334",
+    "question": "Select the correct combination of mathematical signs to replace * signs and to balance the equation. समीकरण को सतंु￿￿लत करने के ￿￿लए * को ￿￿कस ग￿￿णतीय ￿￿च￿￿ ह﻿￾ के सयंोजन स ेप￿￿रव￿￿तत￿￿ ￿￿कया जाएगा। 48 * 4 * 6 * 3 * 30",
+    "options": {
+      "A": "­, +, =, x",
+      "B": "÷, =, x, +",
+      "C": "÷, +, x, =",
+      "D": "­, =, x, +"
+    },
+    "correctAnswer": "C",
+    "correctValue": "÷, +, x, =",
+    "difficulty": "hard",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q336",
+    "question": "Consider the given statement/s to be true and decide which of the given conclusions/assumptions can definitely be drawn from the given statement. Statement: If he works hard he will be successful in life. Conclusions: I. He is a hard worker. Conclusions: II. Hard work pays ￿￿न￿￿न￿￿ल￿￿खत ￾￾￿￿न म ￾￿एक या दो व￿￿त￿￿य ￿￿दये गये है, िजसके आगे दो ￿￿न￿￿कष￿￿/मा￿￿यताएं, I और II ￿￿नकाल ेगये ह￿￿। आपको ￿￿वचार करना है ￿￿क व￿￿त￿￿य स￿￿य है चाहे वह सामा￿￿यतः शत￿￿ त￿￿य﻿￾ से ￿￿भ￿￿न ￾￾तीत होता हो। आपको ￿￿नणय￿￿ करना है ￿￿क ￿￿दए गए व￿￿त￿￿य म ￾￿स ेकोन­सा ￿￿नि￿￿चत ￿￿प स ेसह￿￿ ￿￿न￿￿कष￿￿/मा￿￿यता ￿￿नकाला जा सकता है ? व￿￿त￿￿य : अगर वह कठोर प￿￿र￿￾म करेगा तो वह िज￿￿दगी म ￾￿सफल हो जायेगा। ￿￿न￿￿ कष￿￿ 1 : वह कठोर प￿￿र￿￾म करने वाला ￿￿ यि￿￿त है। ￿￿न￿￿ कष￿￿ 2 : कठोर प￿￿र￿￾म फल देता है",
+    "options": {
+      "A": "Both I and II follow दोनो I और II ￿￿न￿￿ कष￿￿ स￿￿ह है",
+      "B": "Only I follows केवल ￿￿न￿￿ कष￿￿ I स￿￿ह है",
+      "C": "Only II follows केवल ￿￿न￿￿ कष￿￿ II स￿￿ह है",
+      "D": "Neither I nor II follow ना तो ￿￿न￿￿कष￿￿ I सह￿￿ है और ना ह￿￿ ￿￿न￿￿कष￿￿ II"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Only II follows केवल ￿￿न￿￿ कष￿￿ II स￿￿ह है",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q362",
+    "question": "If '+' stands for multiplication, '-' stands for addition, 'x' stands for division, then what is the value of 128 + 9 - 16 x 4 = ? यदि '+' का अर्च गुणा हप, '-' का अर्च िमा हप और 'x' का अर्च भाग हप, तप 128 + 9 - 16 x 4 = क्या हपगा",
+    "options": {
+      "A": "73",
+      "B": "256",
+      "C": "1156",
+      "D": "1352"
+    },
+    "correctAnswer": "C",
+    "correctValue": "1156",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q368",
+    "question": "The original price of a TV set is Rs. 6,000. If the price is discounted by 20% and then raised by 10% for service contract, the price charged by the shopkeeper is दकसी टीिी सेट की मूि कीमत Rs. 6000 है। यदि उस कीमत पर 20% की छू ट दिया िाए और दिर सेिा-सोंदििा के रूप में 10% रादश बढ़ा िी िाए तप िुकाििार उस टीिी की कीमत क्या िेगा ?",
+    "options": {
+      "A": "Rs. 5400",
+      "B": "Rs. 5280",
+      "C": "Rs. 5100",
+      "D": "Rs.4200"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 5280",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q373",
+    "question": "The value of (1 - √2) + (√2 - √3) + (√3 - √4) + ..... + (√15 - √16) is (1 - √2) + (√2 - √3) + (√3 - √4) + ..... + (√15 - √16) का माि ज्ञात कीदिए ?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "-3",
+      "D": "4"
+    },
+    "correctAnswer": "C",
+    "correctValue": "-3",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q377",
+    "question": "The average salary of male employees in a firm was Rs. 5200 and that of females was Rs. 4200. The mean salary of all the employees was Rs. 5000. What is the % of female employees? दकसी िमच के पुरूष कमचचाररओ ोंका औसत िेति Rs. 5200 र्ा और मदहिा कमचचाररयप ोंका Rs. 4200 र्ा| यदि सभी कमचचाररयप ोंकप दमिाकर औसत िेति Rs. 5000 हप, तप मदहिा कमचचाररयप ोंका प्रदतशत क्या है ?",
+    "options": {
+      "A": "80%",
+      "B": "20%",
+      "C": "40%",
+      "D": "30%"
+    },
+    "correctAnswer": "B",
+    "correctValue": "20%",
+    "difficulty": "hard",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q383",
+    "question": "In a mixture of 25 litres, the ratio of milk to water is 4:1. Another 3 litres of water is added to the mixture. The ratio of milk to water in the new mixture is 25 िीटर के दमश्रण में िूध और पािी का अिुपात क्रमशः 4:1 है। यदि दमश्रण में 3 िीटर पािी और दमिा दिया िाए तप दमश्रण में िूध और पािी का अिुपात क्या हपगा ?",
+    "options": {
+      "A": "5:1",
+      "B": "5:2",
+      "C": "5:3",
+      "D": "5:4"
+    },
+    "correctAnswer": "B",
+    "correctValue": "5:2",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q395",
+    "question": "If + means division, ­ means multiplication, '÷' means subtraction, x means addition, and < means less than, then which of the following is false? यⷅ煺द + का मतलब भाग हो, ­ का मतलब गणुा हो, '÷' का मतलब घटाना हो, x का मतलब योग हो और < का मतलब कम हो तो 䯛蓺न騉नᶸ휆लཡखत 框䉥वक在ᔎप㲧 म ♣स ेकौन­सा गलत है ?",
+    "options": {
+      "A": "(10+2)÷7 < (10÷7)+2",
+      "B": "(10­7)x2 < (10x2)­7",
+      "C": "(10X7)­2 < (10­2)x7",
+      "D": "(10÷2)+7 < (10+7)x2"
+    },
+    "correctAnswer": "C",
+    "correctValue": "(10X7)­2 < (10­2)x7",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q412",
+    "question": "The pie­chart shows the percentage of literate and illiterate male and female in a state. Study the diagram and answer the following questions. पाई चाट댊巕 म ♣郑笎कसी राꙚ⿠य म ♣सा酹淔र और 䯛蓺नर酹淔र पुꅅ썙ष㲧 और ि䅠ܲ泼鿙य㲧 का ꫺䯛蓺तशत दशा댊巕या गया है। आरेख का अ귛뮕ययन कर♣ और 䯛蓺न騉नᶸ휆लཡखत ꫺쉈㝍न㲧 के उ卑얛तर द㊍树िजए। If the total number is 35000, then the difference between the numbers of literate male and literate female is यⷅ煺द कुल स럶ቪंया 35000 हो तो सा酹淔र पुꅅ썙ष और सा酹淔र ि䅠ܲ泼鿙य㲧 क突 स럶ቪंया म ♣अ낵쑌तर बताइए ?",
+    "options": {
+      "A": "3500",
+      "B": "3700",
+      "C": "400",
+      "D": "4500"
+    },
+    "correctAnswer": "A",
+    "correctValue": "3500",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q420",
+    "question": "If + means ÷ , ÷ means ­ , ­ means x and x means + , what will be the value of the following expression: यिद '+' का मतलब ÷, '÷' का मतलब ­, '­' का मतलब x और 'x' का मतलब + हो, तो िदए गए ﳼﻼ￿￿ का मान बताइए ? 8 + 4 ÷ 3 x 5 ­ 9 = ?",
+    "options": {
+      "A": "44",
+      "B": "53",
+      "C": "62",
+      "D": "64"
+    },
+    "correctAnswer": "A",
+    "correctValue": "44",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q427",
+    "question": "A and B together have Rs. 6300. If 5/19 of A's amount is equal to 2/5 of B's amount. The amount of 'B' is A और B के पास कुल िमलाकर Rs. 6300 है। यिद A की 5/19 रािश B की 2/5 रािश के बराबर हो तो B के पास िकतनी रािश है ?",
+    "options": {
+      "A": "Rs. 2500",
+      "B": "Rs. 3800",
+      "C": "Rs.2300",
+      "D": "Rs. 4000"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Rs. 2500",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q435",
+    "question": "If Rs. 10000 amounts to Rs. 11664 invested in compound interest(compounded annually) for two years then the annual rate of compound interest is यिद Rs.10000 की रािश 2 वष덭撌 के च￮뿚वृ￿￿￪ 燐ाज पर (वािष덭撌क 헲प स ेसयंोिजत ) Rs. 11664 हो जाती है तो च￮뿚वृ￿￿￪ 燐ाज की वािष덭撌क दर बताइए ?",
+    "options": {
+      "A": "10%",
+      "B": "9%",
+      "C": "8%",
+      "D": "6%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "8%",
+    "difficulty": "hard",
+    "topic": "compound_interest",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q447",
+    "question": "If x stands for - , + means x , ÷ means + and - means ÷ , then what is the value of the given expression? x - , + x , ÷ + - ÷ यद का अथ का अथ का अथ और का अथ हो तो 175 - 25 ÷ 5 + 2 x 3 + 10 = ?",
+    "options": {
+      "A": "77",
+      "B": "160",
+      "C": "240",
+      "D": "2370"
+    },
+    "correctAnswer": "A",
+    "correctValue": "77",
+    "difficulty": "hard",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q457",
+    "question": "Speed of a boat along and against the current are 14 kms/hr and 8 kms/hr respectively. The speed of the current is : 14 . ./ एक नौका क गत धारा केसाथ और तकूल दशा ममश क मी 8 . ./ ? घ टा और क मी घ टा है। धारा क गत कतनी है",
+    "options": {
+      "A": "11 kms/hr 11 . ./ क मी घंटा",
+      "B": "6 kms/hr 6 . ./ क मी घंटा",
+      "C": "5.5 kms/hr 5.5 . ./ क मी घंटा",
+      "D": "3 kms/hr 3 . ./ क मी घंटा"
+    },
+    "correctAnswer": "D",
+    "correctValue": "3 kms/hr 3 . ./ क मी घंटा",
+    "difficulty": "hard",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q466",
+    "question": "The following pie chart shows proportion of population of seven villages in 2009. Study the pie chart and answer the questions that follows : - 2009 न नलखत पाई चाट म मसात गव क आबाद का अनुपात - दशाया गया है। पाई चाट का अ ययन कजए और न नलखत न का उ तर दजए। The ratio of the below poverty line population of village 'T' to that of the below poverty line population of village 'Z' is 'T' 'Z' गव क गरीबी रेखा सेनीचेक आबाद तथा गव क गरीबी रेखा से ? नीचेक आबाद का अनुपात कतना है",
+    "options": {
+      "A": "11:23",
+      "B": "13:11",
+      "C": "23:11",
+      "D": "11:13"
+    },
+    "correctAnswer": "C",
+    "correctValue": "23:11",
+    "difficulty": "hard",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q467",
+    "question": "The following pie chart shows proportion of population of seven villages in 2009. Study the pie chart and answer the questions that follows : - 2009 न नलखत पाई चाट म मसात गव क आबाद का अनुपात - दशाया गया है। पाई चाट का अ ययन कजए और न नलखत न का उ तर दजए। In 2010, the population of 'Y' and 'V' increases by 10% each and the percentage of population below poverty line remains unchanged for all the villages. If in 2009, the population of village Y was 30,000, then the below poverty line population of village 'V' in 2010 is _____ 2010 'Y' 'V' 10% म और गवो क आबाद बढ़ जाती हैऔर सभी गवो क गरीबी रेखा सेनीचेक आबाद का तशत अपरवतत रहता हैयद 2009 'Y' 30000 , 2010 'V' मगव क आबाद थी तो मगॉव क गरीबी ? रेखा सेनीचेक आबाद कतनी है",
+    "options": {
+      "A": "11250",
+      "B": "12760",
+      "C": "13140",
+      "D": "13780"
+    },
+    "correctAnswer": "B",
+    "correctValue": "12760",
+    "difficulty": "hard",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  }
+]

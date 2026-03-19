@@ -1,0 +1,4690 @@
+[
+  {
+    "id": "ssc_2018_q1",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 18+6−6÷3×3 = 6",
+    "options": {
+      "A": "+ and −",
+      "B": "+ and ÷",
+      "C": "+ and × − and ÷",
+      "D": ""
+    },
+    "correctAnswer": "B",
+    "correctValue": "+ and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the two signs to be swapped in the expression.\nStep 2: Substitute the swapped signs into the equation.\nStep 3: Evaluate using BODMAS to verify the equation equals the target.\nFinal Answer: + and ÷"
+  },
+  {
+    "id": "ssc_2018_q8",
+    "question": "How much iron sheet (in m2) will be needed to construct a rectangular tank measuring 10 m × 8 m × 6 m, if a circular opening of radius one metre is to be left at the top of the tank? (correct to one decimal place)",
+    "options": {
+      "A": "370.4",
+      "B": "370.8",
+      "C": "372.9",
+      "D": "371.6"
+    },
+    "correctAnswer": "C",
+    "correctValue": "372.9",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Express each person's rate as 1/(days alone).\nStep 2: Combine rates for people working together.\nStep 3: Use rate × time = work to find the required time.\nFinal Answer: 372.9"
+  },
+  {
+    "id": "ssc_2018_q11",
+    "question": "The production of cars of type A in 2015 and of type C in 2013 taken together is approximately what percent of the total production of cars of type D in five years ?",
+    "options": {
+      "A": "40.2",
+      "B": "42.4",
+      "C": "43.5",
+      "D": "42.8"
+    },
+    "correctAnswer": "C",
+    "correctValue": "43.5",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 43.5"
+  },
+  {
+    "id": "ssc_2018_q12",
+    "question": "The ratio of the efficiencies of A, B and C is 4 : 5 : 3 Working together, they can complete that work in 25 days. A and C together will complete 35% of that work in:",
+    "options": {
+      "A": "8",
+      "B": "62",
+      "C": "52",
+      "D": "5"
+    },
+    "correctAnswer": "D",
+    "correctValue": "5",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 5"
+  },
+  {
+    "id": "ssc_2018_q13",
+    "question": "The value of 5÷5 of 5×2+2÷2 of 2×5−(5−2)÷6×2 is: 9",
+    "options": {
+      "A": "5 23",
+      "B": "2",
+      "C": "19 19",
+      "D": "10"
+    },
+    "correctAnswer": "D",
+    "correctValue": "10",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 10"
+  },
+  {
+    "id": "ssc_2018_q15",
+    "question": "x3+y3+z3−3xyz If x + y + z = 19, xy + yz + zx = 114, then the value of is:",
+    "options": {
+      "A": "13",
+      "B": "19",
+      "C": "17",
+      "D": "21"
+    },
+    "correctAnswer": "B",
+    "correctValue": "19",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 19 17"
+  },
+  {
+    "id": "ssc_2018_q17",
+    "question": "What will be the value of the following equation if '÷' means 'addition', '+' means 'subtraction', '−' means 'multiplication' and '×' means 'division'? 54×6−7÷8+2 =?",
+    "options": {
+      "A": "63",
+      "B": "57",
+      "C": "69",
+      "D": "61"
+    },
+    "correctAnswer": "C",
+    "correctValue": "69",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Note each symbol and its redefined meaning.\nStep 2: Replace every symbol in the expression with its new meaning.\nStep 3: Evaluate the resulting expression using standard BODMAS rules.\nFinal Answer: 69"
+  },
+  {
+    "id": "ssc_2018_q18",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 15−9÷6×10+5 = 25",
+    "options": {
+      "A": "× and −",
+      "B": "+ and − + and ÷",
+      "C": "",
+      "D": "× and ÷"
+    },
+    "correctAnswer": "B",
+    "correctValue": "+ and − + and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the two signs to be swapped in the expression.\nStep 2: Substitute the swapped signs into the equation.\nStep 3: Evaluate using BODMAS to verify the equation equals the target.\nFinal Answer: + and − + and ÷"
+  },
+  {
+    "id": "ssc_2018_q23",
+    "question": "7 5 2 1 6 1 2 5 The value of 28 ÷(36 ÷ 7 of 23)×[(27 of 45 ÷ 3)× 9] is:",
+    "options": {
+      "A": "4",
+      "B": "4",
+      "C": "23",
+      "D": "5"
+    },
+    "correctAnswer": "D",
+    "correctValue": "5",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 5"
+  },
+  {
+    "id": "ssc_2018_q25",
+    "question": "What will be the compound interest (nearest to ₹1) on a sum of ₹25,000 for 2 years at 12% p.a., if the interest is compounded 8-monthly ?",
+    "options": {
+      "A": "₹6,394",
+      "B": "₹6,439",
+      "C": "₹6,493",
+      "D": "₹6,349"
+    },
+    "correctAnswer": "C",
+    "correctValue": "₹6,493",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Formula: CI = P × [(1 + r/100)ⁿ − 1].\nStep 2: Substitute: 0 = P × [(1 + 12/100)^8 − 1].\nStep 3: Calculate factor = (1.12)^8 − 1, then P = CI / factor = ₹6,493.\nFinal Answer: ₹6,493"
+  },
+  {
+    "id": "ssc_2018_q28",
+    "question": "The Table shows the production of different types of cars (in thousands). In the data related to the production of type D cars is represented by a pie chart, then the central angle of the sector representing production of cars in 2015 will be:",
+    "options": {
+      "A": "72∘",
+      "B": "63∘",
+      "C": "81∘",
+      "D": "99∘"
+    },
+    "correctAnswer": "C",
+    "correctValue": "81∘",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the specific year's production from the table.\nStep 2: Central angle = (Year's production / Total production over all years) × 360°.\nStep 3: Substitute the values and compute.\nFinal Answer: 81∘",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q30",
+    "question": "Three numbers are such that if the average of any two of them is added to the third number, the sums obtained are 168, 174 and 180 respectively. What is the average of the original three numbers ?",
+    "options": {
+      "A": "86",
+      "B": "87",
+      "C": "89",
+      "D": "84"
+    },
+    "correctAnswer": "B",
+    "correctValue": "87",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Each equation adds the average of two numbers to the third.\nStep 2: Summing all three equations: 2(x+y+z) = 168+174+180 = 522. So x+y+z = 261.\nStep 3: Average of original three numbers = 261 ÷ 3 = 87.0.\nFinal Answer: 87"
+  },
+  {
+    "id": "ssc_2018_q34",
+    "question": "Anu allows a discount on the marked price Of an article and still makes a profit Of 25%. If she gains ₹44.80 on the sale of the article, then the cost price of the article is:",
+    "options": {
+      "A": "₹188.80",
+      "B": "₹192.80",
+      "C": "₹184.20",
+      "D": "₹179.20"
+    },
+    "correctAnswer": "D",
+    "correctValue": "₹179.20",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Selling at 25.0% profit means gain = 25.0% of CP.\nStep 2: Given gain = ₹44.80. So CP = 44.80 ÷ (25.0/100) = 44.80 ÷ 0.25 = 179.20.\nFinal Answer: ₹179.20"
+  },
+  {
+    "id": "ssc_2018_q38",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 10+5÷10×8−10 = 16",
+    "options": {
+      "A": "× and +",
+      "B": "− and +",
+      "C": "÷ and ×",
+      "D": "+ and ÷"
+    },
+    "correctAnswer": "B",
+    "correctValue": "− and +",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the two signs to be swapped in the expression.\nStep 2: Substitute the swapped signs into the equation.\nStep 3: Evaluate using BODMAS to verify the equation equals the target.\nFinal Answer: − and +"
+  },
+  {
+    "id": "ssc_2018_q39",
+    "question": "Two mixtures contain milk and juice in the ratio of 2 : 1 and 4 : 5. If equal volumes of the two mixtures are mixed together, what would be ratio of milk to juice in the resulting mixture?",
+    "options": {
+      "A": "5:4",
+      "B": "7:5",
+      "C": "1:1",
+      "D": "5:3"
+    },
+    "correctAnswer": "A",
+    "correctValue": "5:4",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 5:4"
+  },
+  {
+    "id": "ssc_2018_q42",
+    "question": "The value of (5+3÷5×5)÷(3÷3 of 6) of (4×4÷4 of 4+4÷4×4) is:",
+    "options": {
+      "A": "73",
+      "B": "85",
+      "C": "95",
+      "D": "63"
+    },
+    "correctAnswer": "C",
+    "correctValue": "95",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 95"
+  },
+  {
+    "id": "ssc_2018_q43",
+    "question": "Pipes A and B can fill a tank in one hour and two hours respectively while pipe C can empty the filled up tank in one hour and fifteen minutes. A and C are turned on together at 9 a.m. After 2 hours, only A is closed and B is turned on. When will the tank be emptied?",
+    "options": {
+      "A": "11:30 am.",
+      "B": "12:10 pm.",
+      "C": "12:20 pm. 10:30 am.",
+      "D": ""
+    },
+    "correctAnswer": "C",
+    "correctValue": "12:20 pm. 10:30 am.",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Find each pipe's rate: fill rate = 1/(time to fill), empty rate = 1/(time to empty).\nStep 2: Net rate when pipes A and C are open = rate A − rate C (since C empties).\nStep 3: Track work done in each time interval; find when tank becomes empty/full.\nFinal Answer: 12:20 pm. 10:30 am."
+  },
+  {
+    "id": "ssc_2018_q44",
+    "question": "The table shows the production of different types of cars by a company (in thousands) in 5 years. If the data related to the production of cars in 2018 is represented by pie chart, then the central angle of the sector representing the production of type C cars will be:",
+    "options": {
+      "A": "72∘",
+      "B": "91∘",
+      "C": "59∘",
+      "D": "93∘"
+    },
+    "correctAnswer": "A",
+    "correctValue": "72∘",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the specific year's production from the table.\nStep 2: Central angle = (Year's production / Total production over all years) × 360°.\nStep 3: Substitute the values and compute.\nFinal Answer: 72∘",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q52",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 12−6÷12×6+6 = 9",
+    "options": {
+      "A": "÷ and ×",
+      "B": "+ and ÷",
+      "C": "− and +",
+      "D": "× and +"
+    },
+    "correctAnswer": "C",
+    "correctValue": "− and +",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the two signs to be swapped in the expression.\nStep 2: Substitute the swapped signs into the equation.\nStep 3: Evaluate using BODMAS to verify the equation equals the target.\nFinal Answer: − and +"
+  },
+  {
+    "id": "ssc_2018_q54",
+    "question": "The efficiencies of A, B and C are in the ratio 5 : 3 : 8. Working together they can complete a work in 30 days. A and B worked together for 20 days. The remaining work will be completed by C alone in:",
+    "options": {
+      "A": "40 days",
+      "B": "36 days",
+      "C": "30 days",
+      "D": "32 days"
+    },
+    "correctAnswer": "A",
+    "correctValue": "40 days",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Combined efficiency = 5+3+8 = 16 parts.\nStep 2: Total work = 16 × 20 = 320 units.\nStep 3: Find the required person's efficiency and divide total work by it.\nFinal Answer: 40 days"
+  },
+  {
+    "id": "ssc_2018_q56",
+    "question": "The distance between two stations A and B is 800 km. A train X starts from A and moves towards B at 40 km/h and another train Y starts from B and moves towards A at 60 km/h. How far from A will they cross each other ?",
+    "options": {
+      "A": "380 km",
+      "B": "320 km",
+      "C": "300 km",
+      "D": "360 km"
+    },
+    "correctAnswer": "B",
+    "correctValue": "320 km",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Trains move towards each other: relative speed = 40+60 = 100 km/h.\nStep 2: Time to meet = Distance / Relative speed = 800/100 = 8.00 h.\nStep 3: Distance covered by train X from A = 40 × 8.00 = 320 km.\nFinal Answer: 320 km"
+  },
+  {
+    "id": "ssc_2018_q57",
+    "question": "If 2x2+y2+6x−2xy+9 = 0, then the value of (4x3−y3+x2y2) is:",
+    "options": {
+      "A": "0",
+      "B": "9",
+      "C": "-3",
+      "D": "-9"
+    },
+    "correctAnswer": "A",
+    "correctValue": "0",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 0"
+  },
+  {
+    "id": "ssc_2018_q60",
+    "question": "The value of 9 2 2 3 3 3 a3 4 5 5 2 4 15 of (3 ÷ 3 of 2)÷(4 × 4 ÷ 4 of 3) of (4 ÷ 2 × 5 of 5) is: 20",
+    "options": {
+      "A": "9",
+      "B": "25 18",
+      "C": "125 40",
+      "D": "9"
+    },
+    "correctAnswer": "D",
+    "correctValue": "9",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 9"
+  },
+  {
+    "id": "ssc_2018_q64",
+    "question": "The table shows the production of different types of cars (in thousands). The total production of type E cars in 2012 and 2013 is approximately what percent more than the average production of type A cars during the years 2012 to 2016?",
+    "options": {
+      "A": "53.8",
+      "B": "55.2",
+      "C": "52.2",
+      "D": "56.4"
+    },
+    "correctAnswer": "B",
+    "correctValue": "55.2",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 55.2",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q66",
+    "question": "The total production of all type of cars, except type B, in 2012 is what percent less than the total production of all types of cars in 2016?",
+    "options": {
+      "A": "40",
+      "B": "25.8",
+      "C": "26.7",
+      "D": "42"
+    },
+    "correctAnswer": "A",
+    "correctValue": "40",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 40",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q71",
+    "question": "If a 9-digit number 32x4115y2 is divisible by 88, then the value of (4x y) for the smallest possible value of y, is:",
+    "options": {
+      "A": "31",
+      "B": "20",
+      "C": "-1",
+      "D": "11"
+    },
+    "correctAnswer": "C",
+    "correctValue": "-1",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: A number divisible by 88: split 88 into coprime factors.\nStep 2: 72 = 8 × 9. Apply: last 3 digits divisible by 8, digit sum divisible by 9.\nStep 3: Set up two equations in x and y. Solve to get 5x − 3y = -1.\nFinal Answer: -1"
+  },
+  {
+    "id": "ssc_2018_q72",
+    "question": "What will be the value of the following equation if '÷' means addition', '+' means 'subtraction', '−' means 'multiplication' and '×'means 'division'? 72×9−3÷8+2 =?",
+    "options": {
+      "A": "25",
+      "B": "40",
+      "C": "30",
+      "D": "35"
+    },
+    "correctAnswer": "C",
+    "correctValue": "30",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Note each symbol and its redefined meaning.\nStep 2: Replace every symbol in the expression with its new meaning.\nStep 3: Evaluate the resulting expression using standard BODMAS rules.\nFinal Answer: 30"
+  },
+  {
+    "id": "ssc_2018_q73",
+    "question": "The radii of three concentric circles are in the ratio of 4 : 5 : 7. What is the ratio of the area between the two inner circles to that between the two outer circles?",
+    "options": {
+      "A": "3:8",
+      "B": "4:7",
+      "C": "5:9",
+      "D": "4:5"
+    },
+    "correctAnswer": "A",
+    "correctValue": "3:8",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Radii in ratio 4:5:7.\nStep 2: Area between inner circles = π(5²−4²) = 9π.\nStep 3: Area between outer circles = π(7²−5²) = 24π. Ratio = 3:8.\nFinal Answer: 3:8"
+  },
+  {
+    "id": "ssc_2018_q74",
+    "question": "To do a certain work, the ratio of the efficiencies of A, B andC C is 7 : 5 : 6. Working together, they can complete the same work in 35 days. B and C work together for 21 days. The remaining work will be completed by A alone in: .",
+    "options": {
+      "A": "54 days",
+      "B": "50 days",
+      "C": "60 days",
+      "D": "57 days"
+    },
+    "correctAnswer": "D",
+    "correctValue": "57 days",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Combined efficiency = 7+5+6 = 18 parts.\nStep 2: Total work = 18 × 21 = 378 units.\nStep 3: Find the required person's efficiency and divide total work by it.\nFinal Answer: 57 days"
+  },
+  {
+    "id": "ssc_2018_q77",
+    "question": "The table shows the production of different types of cars (in thousands). The total production of type B cars during 2013 to 2016 is approximately what percent less than the total production of cars in 2017?",
+    "options": {
+      "A": "38%",
+      "B": "32%",
+      "C": "40%",
+      "D": "35%"
+    },
+    "correctAnswer": "D",
+    "correctValue": "35%",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 35%",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q78",
+    "question": "The average of eleven numbers is 54. The average of the first four numbers is 48 and that of the next four numbers is 25% more than the average of the first four. The ninth number is 8 greater than the 11th number and the tenth number is 4 greater than the 11th number. What is the average of the 9th and the 10th numbers?",
+    "options": {
+      "A": "52.6",
+      "B": "54",
+      "C": "56",
+      "D": "54.4"
+    },
+    "correctAnswer": "C",
+    "correctValue": "56",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 56"
+  },
+  {
+    "id": "ssc_2018_q79",
+    "question": "PQRS is a cyclic quadrilateral. If angle P is three times the angle R and angle S is five times the angle Q,then the sum of the angles Q and is:",
+    "options": {
+      "A": "65∘",
+      "B": "75∘",
+      "C": "72∘",
+      "D": "70∘"
+    },
+    "correctAnswer": "B",
+    "correctValue": "75∘",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 75∘"
+  },
+  {
+    "id": "ssc_2018_q81",
+    "question": "The total production of type B cars in 2015 and type C cars in 2013 is what percent more that the total production of type E cars in 2013 and 2014 ? (Correct to one decimal place)",
+    "options": {
+      "A": "23.4",
+      "B": "24.8",
+      "C": "25.6",
+      "D": "22.2"
+    },
+    "correctAnswer": "D",
+    "correctValue": "22.2",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 22.2",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q82",
+    "question": "If the data related to the production of type D cars is represented by a pie-chart, then the central angle of the sector representing the production of the cars in 2016 will be:",
+    "options": {
+      "A": "78∘",
+      "B": "72∘",
+      "C": "79.2∘",
+      "D": "67.2∘"
+    },
+    "correctAnswer": "A",
+    "correctValue": "78∘",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the specific year's production from the table.\nStep 2: Central angle = (Year's production / Total production over all years) × 360°.\nStep 3: Substitute the values and compute.\nFinal Answer: 78∘ 72∘",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q83",
+    "question": "The table shows the production of different types of cars (in thousands). The ratio of the total production of type A cars in 2017 and type D cars in 2015 to the total production of type B and type E cars in 2013 is:",
+    "options": {
+      "A": "7 : 8",
+      "B": "4 : 3",
+      "C": "8 : 7",
+      "D": "3 : 4"
+    },
+    "correctAnswer": "B",
+    "correctValue": "4 : 3",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 4 : 3",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q85",
+    "question": "The value of 16÷4 of 4×[3÷4 of {4×3÷(3+3)}]÷(2÷4 of 8) is:",
+    "options": {
+      "A": "6",
+      "B": "48",
+      "C": "9",
+      "D": "16"
+    },
+    "correctAnswer": "A",
+    "correctValue": "6",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 6"
+  },
+  {
+    "id": "ssc_2018_q89",
+    "question": "Which of the two signs should be interchanged in the following equation to make the given value correct? 15+5−10×6÷12 = 6",
+    "options": {
+      "A": "+ and ÷",
+      "B": "+ and −",
+      "C": "− and ÷",
+      "D": "+ and ×"
+    },
+    "correctAnswer": "C",
+    "correctValue": "− and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the two signs to be swapped in the expression.\nStep 2: Substitute the swapped signs into the equation.\nStep 3: Evaluate using BODMAS to verify the equation equals the target.\nFinal Answer: − and ÷"
+  },
+  {
+    "id": "ssc_2018_q92",
+    "question": "Asian Development Bank (ADB) in its Outlook Supplement has retained India's growth forecast at 7.3% for the current fiscal (2018-19) and __% for the following financial year (2019-20).",
+    "options": {
+      "A": "7.6",
+      "B": "8.6",
+      "C": "7.9",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "correctValue": "7.6",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 7.6"
+  },
+  {
+    "id": "ssc_2018_q93",
+    "question": "Three numbers are such that if the average of any two of them is added to the third number, the sums obtained are 164, 158 and 132 respectively. What is the average of the original three numbers?",
+    "options": {
+      "A": "753",
+      "B": "76 2 2",
+      "C": "753",
+      "D": "74"
+    },
+    "correctAnswer": "C",
+    "correctValue": "753",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Each equation adds the average of two numbers to the third.\nStep 2: Summing all three equations: 2(x+y+z) = 132+158+164 = 454. So x+y+z = 227.\nStep 3: Average of original three numbers = 227 ÷ 3 = 75.7.\nFinal Answer: 753"
+  },
+  {
+    "id": "ssc_2018_q94",
+    "question": "The table shows the production of different types of cars (in thousands). If the data related to the production of type E cars is represented by a pie-chart, then the central angle of the sector representing production of cars in 2013 will be:",
+    "options": {
+      "A": "76.8∘",
+      "B": "78∘",
+      "C": "81.6∘",
+      "D": "66∘"
+    },
+    "correctAnswer": "D",
+    "correctValue": "66∘",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the specific year's production from the table.\nStep 2: Central angle = (Year's production / Total production over all years) × 360°.\nStep 3: Substitute the values and compute.\nFinal Answer: 66∘",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q95",
+    "question": "The table shows the production of different types of cars (in thousands). The average production of type C cars during 2012 to 2016 is approximately what percent less than the total production of type D cars in 2012 and type E cars in 2014?",
+    "options": {
+      "A": "48.6%",
+      "B": "49.2%",
+      "C": "46.4%",
+      "D": "42.8%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "46.4%",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: ",
+    "data": {
+      "description": "Production of different types of cars by a company (in thousands)",
+      "years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "types": {
+        "A": {
+          "2012": 30,
+          "2013": 25,
+          "2014": 35,
+          "2015": 40,
+          "2016": 45,
+          "2017": 50,
+          "2018": 40
+        },
+        "B": {
+          "2012": 20,
+          "2013": 30,
+          "2014": 25,
+          "2015": 35,
+          "2016": 30,
+          "2017": 40,
+          "2018": 35
+        },
+        "C": {
+          "2012": 25,
+          "2013": 35,
+          "2014": 30,
+          "2015": 30,
+          "2016": 40,
+          "2017": 35,
+          "2018": 20
+        },
+        "D": {
+          "2012": 20,
+          "2013": 20,
+          "2014": 25,
+          "2015": 27,
+          "2016": 28,
+          "2017": 30,
+          "2018": 30
+        },
+        "E": {
+          "2012": 35,
+          "2013": 30,
+          "2014": 25,
+          "2015": 20,
+          "2016": 25,
+          "2017": 30,
+          "2018": 35
+        }
+      },
+      "unit": "thousands"
+    }
+  },
+  {
+    "id": "ssc_2018_q101",
+    "question": "The ratio of the efficiencies of A, B and C is 7: 5 : 8. Working together, they can complete a piece of work in 42 days. B and C worked together for 21 days and the remaining work was completed by A alone. The whole work was completed in:",
+    "options": {
+      "A": "102 days",
+      "B": "93 days",
+      "C": "99 days",
+      "D": "96 days"
+    },
+    "correctAnswer": "A",
+    "correctValue": "102 days",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Combined efficiency = 7+5+8 = 20 parts.\nStep 2: Total work = 20 × 21 = 420 units.\nStep 3: Find the required person's efficiency and divide total work by it.\nFinal Answer: 102 days"
+  },
+  {
+    "id": "ssc_2016_q108",
+    "question": "A dealer allows a discount of 15%. A customer pays an amount of Rs. 318.75 for an article. At what price is the article listed? 15% Rs. 318.75 ?",
+    "options": {
+      "A": "Rs. 366.50",
+      "B": "Rs. 375.00",
+      "C": "Rs. 350.00",
+      "D": "Rs. 431.25"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 375.00",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs. 375.00"
+  },
+  {
+    "id": "ssc_2016_q110",
+    "question": "The average of 15 numbers is 7. If the average of the first 8 numbers is 6.5 and the average of the last 8 numbers is 8.5 then middle number is 15 7 8 6.5 8 8.5 ?",
+    "options": {
+      "A": "10",
+      "B": "23",
+      "C": "13",
+      "D": "15"
+    },
+    "correctAnswer": "D",
+    "correctValue": "15",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Overall average × Total count.\nStep 2: Sum of first group = first-group avg × count. Sum of last group = last-group avg × count.\nStep 3: Remaining numbers' sum = Total − First group sum − Last group sum. Use individual conditions to solve.\nFinal Answer: 15"
+  },
+  {
+    "id": "ssc_2016_q111",
+    "question": "A man bought 25 crates of oranges for Rs. 10,000. He lost 5 crates. In order to earn a total profit of 25% of the total cost, he would have to sell each of the remaining crates at 25 Rs. 10000 5 25% ?",
+    "options": {
+      "A": "Rs.650",
+      "B": "Rs. 625",
+      "C": "Rs. 600",
+      "D": "Rs. 575"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 625",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs. 625"
+  },
+  {
+    "id": "ssc_2016_q113",
+    "question": "A man travels ¾th of the distance of his journey by bus, ⅙th by Rickshaw and 2 km on foot. The total distance travelled by the man is 3/4 , 1/6 2 0 0 ?",
+    "options": {
+      "A": "12 km",
+      "B": "18 km",
+      "C": "20 km",
+      "D": "24 km"
+    },
+    "correctAnswer": "D",
+    "correctValue": "24 km",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 24 km"
+  },
+  {
+    "id": "ssc_2016_q114",
+    "question": "The compound interest on Rs. 1000 at 10% per annum for 3 years in (Rs.) is 3 10% Rs. 1000 ?",
+    "options": {
+      "A": "Rs. 1331",
+      "B": "Rs. 331",
+      "C": "Rs. 300",
+      "D": "Rs. 1300"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 331",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs. 331"
+  },
+  {
+    "id": "ssc_2016_q117",
+    "question": "Sashi can do a piece of work in 20 days. Tanya is 25% more efficient than Sashi. The number of days taken by Tanya to do the same piece of work is: 20 25% ?",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "18",
+      "D": "25"
+    },
+    "correctAnswer": "B",
+    "correctValue": "16",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 16"
+  },
+  {
+    "id": "ssc_2016_q124",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. His parents usually spent (A) / their summer in Ooty (B) / but this year they are spending it in Darjeeling. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q125",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He lost heart (A) / because he could not cope up with (B) / the difficulties in life. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q128",
+    "question": "A certain system is followed to solve the problem . Accordingly find out the correct answer from the alternatives for the unsolved equations . , 7 x 4 x 9 = 479 9 x 5 x 2 = 592 6 x 9 x 5 = 965 8 x 6 x 2 = ?",
+    "options": {
+      "A": "286",
+      "B": "682",
+      "C": "628",
+      "D": "268"
+    },
+    "correctAnswer": "B",
+    "correctValue": "682",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Look at solved examples to identify the hidden mathematical pattern.\nStep 2: Test the pattern (e.g., product of numbers, sum times a factor, etc.).\nStep 3: Apply the same rule to the unsolved equation.\nFinal Answer: 682"
+  },
+  {
+    "id": "ssc_2016_q132",
+    "question": "A,B and C contract a work for ₹ 440. Together A and B are to do 9/11 of the work. The share of C should be: A, B C ₹ 440 A B 9/11 C ?",
+    "options": {
+      "A": "75",
+      "B": "90",
+      "C": "100",
+      "D": "80"
+    },
+    "correctAnswer": "D",
+    "correctValue": "80",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 80"
+  },
+  {
+    "id": "ssc_2016_q134",
+    "question": "The sum of the cubes of two numbers in the ratio 3 : 4 is 5824. The sum of the numbers is: 3 : 4 5824 ?",
+    "options": {
+      "A": "",
+      "B": "28",
+      "C": "24",
+      "D": "14"
+    },
+    "correctAnswer": "B",
+    "correctValue": "28",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 28"
+  },
+  {
+    "id": "ssc_2016_q136",
+    "question": "In a motor of 120 machine parts, 5% parts were defective. In another motor of 80 machine parts, 10% parts were defective. For the two motors considered together, the percentage of defective machine parts were 120 5% 80 10% ?",
+    "options": {
+      "A": "7",
+      "B": "6.5",
+      "C": "7.5",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "correctValue": "7",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 7"
+  },
+  {
+    "id": "ssc_2016_q137",
+    "question": "A train, 200 m long, is running at a speed of 54 km/hr. The time in seconds that will be taken by train to cross a 175 m long bridge is 200 54 ../ 175 () ?",
+    "options": {
+      "A": "12.5",
+      "B": "20",
+      "C": "25",
+      "D": "10"
+    },
+    "correctAnswer": "C",
+    "correctValue": "25",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 25"
+  },
+  {
+    "id": "ssc_2016_q139",
+    "question": "What least value must be assigned to ‛*' so that the numbers 451 * 603 is exactly divisible by 9? ‛*' 451*603 9 ?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "5",
+      "D": "9"
+    },
+    "correctAnswer": "B",
+    "correctValue": "8",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Divisibility by 9: split into coprime factors 9.\nStep 2: Apply each rule: last 3 digits for ÷8; digit sum for ÷9; alternating sum for ÷11.\nStep 3: Solve the resulting equations for the unknown digits.\nFinal Answer: 8"
+  },
+  {
+    "id": "ssc_2016_q144",
+    "question": "If cosec θ + sinθ = 5/2 then the value of cosecθ - sinθ is cosec θ + sin θ = 5/2 , cosec θ - sin θ ?",
+    "options": {
+      "A": "-3/2",
+      "B": "3/2",
+      "C": "−√3/2",
+      "D": "√3/2"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3/2",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 3/2"
+  },
+  {
+    "id": "ssc_2016_q145",
+    "question": "Two men are on opposite sides of a tower. They measure the angles of elevation of the top of the tower as 30 and 45 respectively. If the height of the tower is 50 m, the distance between the two men is (Take √3 = 1.73) 30 45 50 ? ( √3 = 1.73)",
+    "options": {
+      "A": "136.5 m 136.5 .",
+      "B": "50 √3 m 50 √3 .",
+      "C": "100 √3 m 100 √3 .",
+      "D": "135.5 m 135.5 ."
+    },
+    "correctAnswer": "A",
+    "correctValue": "136.5 m 136.5 .",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 136.5 m 136.5 ."
+  },
+  {
+    "id": "ssc_2016_q148",
+    "question": "A bar graph showing the heights of six mountain peaks. Study the bar graph and answer questions 6 Write the ratio of the heights of the highest peak and the lowest peak ?",
+    "options": {
+      "A": "22:15",
+      "B": "15:22",
+      "C": "20:13",
+      "D": "13:22"
+    },
+    "correctAnswer": "A",
+    "correctValue": "22:15",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 22:15"
+  },
+  {
+    "id": "ssc_2016_q150",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Too great a (A)/ variety of studies (B)/ distract the mind (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q151",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The severe cyclonic storm (A)/ has left behind (B)/ a trial of misery (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q153",
+    "question": "If HOUSE is written as FQSUC , then how can CHAIR be written in that code? HOUSE FQSUC , CHAIR 䊨䆽 ? 3/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "DIBJS",
+      "B": "SBJID",
+      "C": "SHBGD",
+      "D": "AJYKP"
+    },
+    "correctAnswer": "D",
+    "correctValue": "AJYKP",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: AJYKP"
+  },
+  {
+    "id": "ssc_2016_q154",
+    "question": "If 4 + 3 = 25 and 8 + 4 = 80 , then, 3 + 2 = ? 4 + 3 = 25 8 + 4 = 80 , 3 + 2 = ?",
+    "options": {
+      "A": "15",
+      "B": "10",
+      "C": "13",
+      "D": "12"
+    },
+    "correctAnswer": "C",
+    "correctValue": "13",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 13"
+  },
+  {
+    "id": "ssc_2016_q155",
+    "question": "A __________ is an agreement between the communicating parties on how communication is to proceed. _____________ 䌲䌱 䓾䓽 䋠䋟 12/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "Path",
+      "B": "SLA ..",
+      "C": "Bond 䑮䑭",
+      "D": "Protocol 䋠䋟"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Protocol 䋠䋟",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Protocol 䋠䋟"
+  },
+  {
+    "id": "ssc_2016_q156",
+    "question": "The complete form of 'IC' in electronics is 䌊䌉䇎䇍䌺䌹 䆾 'IC' 䊖䊕 䊾䊽 䌤䌣 ? 14/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "Internal circuit 䊖䊕 䊖䊕",
+      "B": "Independent circuit 䆾䑬䑫 䊖䊕",
+      "C": "Integrated circuit 䋌䋋 䊖䊕",
+      "D": "Inbuilt circuit ­䔤䔣 䊖䊕"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Integrated circuit 䋌䋋 䊖䊕",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Integrated circuit 䋌䋋 䊖䊕"
+  },
+  {
+    "id": "ssc_2016_q159",
+    "question": "A merchant changed his trade discount from 25% to 15%. This would increase selling price by 䕖䕕 䕖䕕 䏎䏍 25% 15% 䋈䋇 䕀䔿 䆾 䑄䑃 ?",
+    "options": {
+      "A": "3⅓%",
+      "B": "6⅙%",
+      "C": "13⅓%",
+      "D": "16⅓%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "13⅓%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 13⅓%"
+  },
+  {
+    "id": "ssc_2016_q160",
+    "question": "If 177 is divided into 3 parts in the ratio 1/2 : 2/3: 4/5, then the second part is 177 1/2 : 2/3: 4/5 䆾 䆾 䌎䌍 䌤䌣 ?",
+    "options": {
+      "A": "75",
+      "B": "45",
+      "C": "72",
+      "D": "60"
+    },
+    "correctAnswer": "D",
+    "correctValue": "60",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 60"
+  },
+  {
+    "id": "ssc_2016_q163",
+    "question": "Gautam travels 160 kms at 32 kmph and returns at 40 kmph. Then average speed is 32 ../ 160 .. 40 ../ ?",
+    "options": {
+      "A": "72 kmph 72 ../䏮䏭",
+      "B": "71.11 kmph 71.11 ../䏮䏭",
+      "C": "36 kmph 36 ../䏮䏭",
+      "D": "35.55 kmph 35.55 ../䏮䏭"
+    },
+    "correctAnswer": "D",
+    "correctValue": "35.55 kmph 35.55 ../䏮䏭",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 35.55 kmph 35.55 ../䏮䏭"
+  },
+  {
+    "id": "ssc_2016_q166",
+    "question": "(251 + 252+253+254+255) is divisible by (251 + 252 + 253 + 254 + 255) 䓺䓹 䆾 䎺䎹 ?",
+    "options": {
+      "A": "23",
+      "B": "58",
+      "C": "124",
+      "D": "127"
+    },
+    "correctAnswer": "C",
+    "correctValue": "124",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Divisibility by 72: split into coprime factors 8 × 9.\nStep 2: Apply each rule: last 3 digits for ÷8; digit sum for ÷9; alternating sum for ÷11.\nStep 3: Solve the resulting equations for the unknown digits.\nFinal Answer: 124"
+  },
+  {
+    "id": "ssc_2016_q170",
+    "question": "The compound interest on Rs. 64,000 for 3 years, compounded annually at 7.5% p.a. is Rs. 64,000 7.5% 䊖䊕 3 䊖䊕 䋈䋇䑄䑃 䓢䓡 ( 䋠䋟 䊖䊕 ),䌤䌣 ?",
+    "options": {
+      "A": "Rs. 14,400",
+      "B": "Rs. 15,705",
+      "C": "Rs. 15,507",
+      "D": "Rs. 15,075"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs. 15,507",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs. 15,507"
+  },
+  {
+    "id": "ssc_2016_q172",
+    "question": "Study the pie­chart given and answer the following questions. 䊖䊕 䑢䑡 䓺䓹 䋠䋟䕨䕧 䐎䐍 The central angle of printing charge is x more than that of advertisement charge. Then the value of x is 䋠䋟 䒀䑿 䎨䎧 䋠䋟 x , x 䌤䌣 ? 21/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "72°",
+      "B": "61.2°",
+      "C": "60°",
+      "D": "54.8°"
+    },
+    "correctAnswer": "B",
+    "correctValue": "61.2°",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: 61.2°",
+    "data": {
+      "description": "Cost breakdown of publishing a book",
+      "categories": {
+        "Paper": 10,
+        "Printing": 20,
+        "Binding": 15,
+        "Royalty": 25,
+        "Transportation": 10,
+        "Miscellaneous": 20
+      },
+      "unit": "percentage"
+    }
+  },
+  {
+    "id": "ssc_2016_q175",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. If you permit me to speak the truth (A) / I shall state without hesitation (B) / that you have done a mistake (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q176",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I succeeded persuading him (A) / to come with me (B) / only after hours of argument (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q177",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Vermin (A) / does much harm (B) / to crops (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q178",
+    "question": "Out of the four alternatives, choose the one which can be substituted for the given words/sentences and click the button corresponding to it. Falsification of documents etc.",
+    "options": {
+      "A": "Xeroxing",
+      "B": "Forgery",
+      "C": "Laminating",
+      "D": "Copying 24/27 9/21/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Forgery",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Forgery"
+  },
+  {
+    "id": "ssc_2016_q181",
+    "question": "The average age of A and B is 18 years. After 3 years, C joins them and the average ages of A, B and C becomes 22 years. The age of C is ? A B 冩䨀 18 䊪 C 㾀 A, B C 冩䨀 22 䊪 C 冩䨀 䅐 ?",
+    "options": {
+      "A": "20 years 20 䊪",
+      "B": "21 years 21 䊪",
+      "C": "24 years 24 䊪",
+      "D": "23 years 23 䊪"
+    },
+    "correctAnswer": "C",
+    "correctValue": "24 years 24 䊪",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 24 years 24 䊪"
+  },
+  {
+    "id": "ssc_2016_q189",
+    "question": "An electric pump can fill a tank in 2 hours. Because of a leak in the tank, it was taking 2½ hours to fill the tank. The leak can drain all the water off the tank in how many hours? ﻿ 冩䨀 2 㾀 冩䨀 㾀冩䨀 䏩耀 䏄耀 冩䨀 2½ 㾀䏩耀 冩䨀 㾀䏩耀 䏩耀 ?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "10½",
+      "D": "11½"
+    },
+    "correctAnswer": "B",
+    "correctValue": "10",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Express each person's rate as 1/(days alone).\nStep 2: Combine rates for people working together.\nStep 3: Use rate × time = work to find the required time.\nFinal Answer: 10"
+  },
+  {
+    "id": "ssc_2016_q193",
+    "question": "A car takes 5 hours to cover 100 kms distance at a particular speed whereas another car takes 3 hours to reach a particular distance at the same speed. Find the distance. ﻿ 㾀 5 㾀100 .. 䏩耀 㾀 ﻿ 㾀 3 㾀 䏩耀 冩䨀 ?",
+    "options": {
+      "A": "40 km 40 ..",
+      "B": "60 km 60 ..",
+      "C": "70 km 70 ..",
+      "D": "80 km 80 .."
+    },
+    "correctAnswer": "B",
+    "correctValue": "60 km 60 ..",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 60 km 60 .."
+  },
+  {
+    "id": "ssc_2016_q194",
+    "question": "A sum of (cid:0)1200 is lent to be paid back in 5 equal annual instalments of (cid:0) 264 each. The rate of interest per annum is (cid:0) 1200 冩䨀 䏩耀 (cid:0) 264 冩䨀 5 冩䨀 ﻿䊪 㾀 ﻿䊪 ?",
+    "options": {
+      "A": "6%",
+      "B": "8%",
+      "C": "2%",
+      "D": "4%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "2%",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 2%"
+  },
+  {
+    "id": "ssc_2016_q198",
+    "question": "The average age of 40 students of a class is 16 years.If the average age of 24 students is 15½ years and that of the 15 students is 16 ⅔ years, then the age of 40th student is 40 ﻿䊪 冩䨀 㾀 16 䊪 㾀 24 ﻿䊪 冩䨀 15½ 䊪 15 ﻿䊪 冩䨀 16 ⅔ 䊪 , 40㾀 ﻿䅐 冩䨀",
+    "options": {
+      "A": "17",
+      "B": "16",
+      "C": "16.5",
+      "D": "18"
+    },
+    "correctAnswer": "D",
+    "correctValue": "18",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 18"
+  },
+  {
+    "id": "ssc_2016_q199",
+    "question": "A contractor has got two orders A and B. On one (A) he spends (cid:0) 25,000 and makes a bill of (cid:0) 30,500. On the other (B) he makes a bill keeping a profit of 20%. Which of the two orders is more profitable to him? A B 䊪 㾀 (A) (cid:0) 25,000 䊪 (cid:0) 30,500 䅐 (B) 20% 䅐 㾀 䊪 ?",
+    "options": {
+      "A": "B",
+      "B": "A",
+      "C": "A nor",
+      "D": "None of the above 㾀 䏩耀"
+    },
+    "correctAnswer": "A",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q200",
+    "question": "If 9 x+2 = 240 + 9x, the value of (8x)x is 9 x+2 = 240 + 9x (8x)x",
+    "options": {
+      "A": "1",
+      "B": "­1",
+      "C": "0",
+      "D": "2"
+    },
+    "correctAnswer": "B",
+    "correctValue": "­1",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: ­1"
+  },
+  {
+    "id": "ssc_2016_q201",
+    "question": "Two circles with centres P and Q touch each other externally. A straight line drawn through the point of contact intersects the circle with centre P at A and the circle with centre Q at B. Then, which of the following is true? 䍀 䅐㾀 P Q 㾀 䊪 㾀 䊪 䅐䅐 , A 䅐䅐 䅐㾀 P 䍀 B 䅐䅐 䅐㾀 Q 䍀 㾀 㾀 䏩耀 䍀",
+    "options": {
+      "A": "AP = BQ",
+      "B": "AP | BQ",
+      "C": "AP || BQ",
+      "D": "AP = ½ BQ"
+    },
+    "correctAnswer": "C",
+    "correctValue": "AP || BQ",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: AP || BQ"
+  },
+  {
+    "id": "ssc_2016_q203",
+    "question": "12 men complete a work in 9 days. After they have worked for 6 days, 6 more men join them. How many days will they take to complete the remaining work? 12 䍍䅐 9 㾀 , 6 6 䍍䅐 㾀 㾀 ?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Express each person's rate as 1/(days alone).\nStep 2: Combine rates for people working together.\nStep 3: Use rate × time = work to find the required time.\nFinal Answer: 3"
+  },
+  {
+    "id": "ssc_2016_q204",
+    "question": "The ratio of money with Ram and Gopal is 7:17 and with Gopal and Krishan is 7:17. If Ram has (cid:0) 490, Krishan has 7:17 䅐 7:17 (cid:0) 490 䅐 ?",
+    "options": {
+      "A": "2890",
+      "B": "2680",
+      "C": "2330",
+      "D": "1190"
+    },
+    "correctAnswer": "A",
+    "correctValue": "2890",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 2890"
+  },
+  {
+    "id": "ssc_2016_q205",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The tour (A) / of the campus (B) / was so good (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q206",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He is a saint (A) / and as such (B) / must be respected (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "D",
+    "correctValue": "D",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: D"
+  },
+  {
+    "id": "ssc_2016_q207",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Neither the Captain (A) / nor his men are (B) / afraid of fighting (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "D",
+    "correctValue": "D",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: D"
+  },
+  {
+    "id": "ssc_2016_q212",
+    "question": "A fan is listed at Rs. 150 with a discount of 20% . What additional discount must be offered to the customer to bring the net price to Rs. 108 ? 20% Rs. 150 Rs. 108",
+    "options": {
+      "A": "11 1/9%",
+      "B": "15%",
+      "C": "8%",
+      "D": "None of these"
+    },
+    "correctAnswer": "A",
+    "correctValue": "11 1/9%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 11 1/9%"
+  },
+  {
+    "id": "ssc_2016_q213",
+    "question": "Three numbers are in the ratio 1 : 2 : 3 and the sum of their cubes is 4500 .The smallest numbers is 1 : 2 : 3 4500 ?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "10"
+    },
+    "correctAnswer": "B",
+    "correctValue": "5",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 5"
+  },
+  {
+    "id": "ssc_2016_q215",
+    "question": "A man travelled a distance of 61 km. in 9 hours , partly by walking at speed of 4 km / hr and partly on bicycle at speed of 9 km / hr. The distance covered by walking is 4 . ./ 9 . ./ 9 61 . . ?",
+    "options": {
+      "A": "16 Km 16 . .",
+      "B": "12 Km 12 . .",
+      "C": "15 Km 15 . .",
+      "D": "17 Km 17 . ."
+    },
+    "correctAnswer": "A",
+    "correctValue": "16 Km 16 . .",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 16 Km 16 . ."
+  },
+  {
+    "id": "ssc_2016_q218",
+    "question": "The average temperature of Monday , Tuesday , Wednesday and Thursday is 60° , The average for Tuesday , Wednesday , Thursday and Friday is 63° ; If the ratio of temperature for Monday and Friday is 21 : 25 , then what is the temperature of Friday ? , , 60° , , 63° 21 : 25 ?",
+    "options": {
+      "A": "70°",
+      "B": "73°",
+      "C": "75°",
+      "D": "78°"
+    },
+    "correctAnswer": "C",
+    "correctValue": "75°",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 75°"
+  },
+  {
+    "id": "ssc_2016_q220",
+    "question": "D , E , F are the mid - points of the sides BC , CA and AB respectively of a ∆ABC . Then the ratio of the areas of ∆ DEF and ∆ABC is D,E,F ABC BC, CA AB : , ∆DEF ∆ABC ?",
+    "options": {
+      "A": "1/2",
+      "B": "1/4",
+      "C": "1/8",
+      "D": "1/16"
+    },
+    "correctAnswer": "B",
+    "correctValue": "1/4",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 1/4"
+  },
+  {
+    "id": "ssc_2016_q221",
+    "question": "A circle has its centre at O . A tangent drawn from a point P , which is situated outside the circle , touches the circle at A. If PA = 4 cm & PO=5 cm, then the length of the radius of the circle is O P A PA = 4 . . PO = 5 . . ?",
+    "options": {
+      "A": "1 cm 1 . .",
+      "B": "2 cm 2 . .",
+      "C": "3 cm 3 . .",
+      "D": "4 cm 4 . ."
+    },
+    "correctAnswer": "C",
+    "correctValue": "3 cm 3 . .",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: A tangent is perpendicular to the radius at the point of contact.\nStep 2: Use the circle-tangent theorem and Pythagoras theorem for the given configuration.\nStep 3: Solve for the unknown length.\nFinal Answer: 3 cm 3 . ."
+  },
+  {
+    "id": "ssc_2016_q222",
+    "question": "An inverted conical shaped vessel is filled with water to its brim. The height of the vessel is 8 cm and radius of the open end is 5 cm . When a few solid spherical metallic balls each of radius ½ cm are dropped in the vessel , 25% water is overflowed. The number of balls is: 8 . . 5 . . ½ . . 25% ?",
+    "options": {
+      "A": "100",
+      "B": "400",
+      "C": "200",
+      "D": "150"
+    },
+    "correctAnswer": "A",
+    "correctValue": "100",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 100"
+  },
+  {
+    "id": "ssc_2016_q223",
+    "question": "The shadow of a tower when the angle of elevation of the sun is 45° , is found to be 10 m longer than when it was 60° . The height of the tower is , 45° 10.60° ?",
+    "options": {
+      "A": "5(√3 - 1) m 5(√3 - 1) .",
+      "B": "5(√3 + 1) m 5(√3 + 1) .",
+      "C": "10 (√3 - 1) m 10 (√3 - 1) .",
+      "D": "10 (√3 + 1) m 10 (√3 + 1) ."
+    },
+    "correctAnswer": "B",
+    "correctValue": "5(√3 + 1) m 5(√3 + 1) .",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 5(√3 + 1) m 5(√3 + 1) ."
+  },
+  {
+    "id": "ssc_2016_q226",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Computers give us (A) / the easier access (B) / to information. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q227",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I don't have (A) / any money to (B) / spend for luxuries. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q228",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I was first (A) / to reach the school (B) / today (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q229",
+    "question": "A*B means multiply A by B; A@B means divide A by B, A?B means add B to A and A=B means subtract B from A. Then find the value of 10*10 = 5*10 ? 50@10 A*B 덭撌 , @ 덭撌 , ? 덭撌 , A=B 덭撌 A ­ B 10*10= 5*10 ? 50@10 ￿ 藺 ?",
+    "options": {
+      "A": "100",
+      "B": "45",
+      "C": "1000",
+      "D": "55"
+    },
+    "correctAnswer": "D",
+    "correctValue": "55",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the number theory property (HCF, LCM, prime, remainder).\nStep 2: Apply the relevant rule or prime factorisation.\nStep 3: Compute the final answer.\nFinal Answer: 55"
+  },
+  {
+    "id": "ssc_2016_q230",
+    "question": "If 37*14 = 17, 69*33 = 34, 91*125 = 72 then what should 28*56 = ? 37*14 = 17, 69*33 = 34, 91*125 = 72 , 28*56 = ?",
+    "options": {
+      "A": "26",
+      "B": "42",
+      "C": "34",
+      "D": "28"
+    },
+    "correctAnswer": "D",
+    "correctValue": "28",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 28"
+  },
+  {
+    "id": "ssc_2016_q235",
+    "question": "The sum of three consecutive natural numbers each divisible by 5, is 225. The largest among them is 5 ￵￿ ￮뿚 ﳼﻼ 瑆￻ 225 藺 瑆￻ ­ ?",
+    "options": {
+      "A": "85",
+      "B": "75",
+      "C": "70",
+      "D": "80"
+    },
+    "correctAnswer": "D",
+    "correctValue": "80",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Divisibility by 5: split into coprime factors 5.\nStep 2: Apply each rule: last 3 digits for ÷8; digit sum for ÷9; alternating sum for ÷11.\nStep 3: Solve the resulting equations for the unknown digits.\nFinal Answer: 80"
+  },
+  {
+    "id": "ssc_2016_q236",
+    "question": "A can do a piece of work in 18 days. He worked at it for 12 days and B finished the remaining work in 8 days. B alone can do the whole work in A 18 藺 12 B 8 藺 B 藺 ?",
+    "options": {
+      "A": "16 days 16",
+      "B": "24 days 24",
+      "C": "28 days 28",
+      "D": "29 days 29"
+    },
+    "correctAnswer": "B",
+    "correctValue": "24 days 24",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Express each person's rate as 1/(days alone).\nStep 2: Combine rates for people working together.\nStep 3: Use rate × time = work to find the required time.\nFinal Answer: 24 days 24"
+  },
+  {
+    "id": "ssc_2016_q237",
+    "question": "The list price of an article is Rs. 900. It is available at two successive discounts of 20% and 10% . The selling price of the article is: ￿￿ ﻿￰ Rs. 900 | 20% 10% ￮뿚 ￿￿ ￮뿚 ﻿￰ ?",
+    "options": {
+      "A": "Rs. 640",
+      "B": "Rs. 648",
+      "C": "Rs. 540",
+      "D": "Rs. 548"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 648",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs. 648"
+  },
+  {
+    "id": "ssc_2016_q238",
+    "question": "A man spends a part of his monthly income and saves the rest. The ratio of his expenditure to the saving is 61 : 6. If his monthly income is Rs.8710, the amount of his monthly savings is ￿ﳿ ￿￿￿￿ 덭撌 ￿ﳿ 61:6 Rs.8710 , ?",
+    "options": {
+      "A": "Rs.870",
+      "B": "Rs.690",
+      "C": "Rs.980",
+      "D": "Rs.780"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Rs.780",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: Rs.780"
+  },
+  {
+    "id": "ssc_2016_q239",
+    "question": "An article was sold at Rs. 950 allowing 5% discount on the marked price. The marked price of the article is ￿￿ ﻿￰ 5% Rs. 950 ￿￿ ﻿￰ ￿￧ ?",
+    "options": {
+      "A": "Rs. 960",
+      "B": "Rs. 1000",
+      "C": "Rs. 955",
+      "D": "Rs. 945"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 1000",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs. 1000"
+  },
+  {
+    "id": "ssc_2016_q240",
+    "question": "A person loses 75% of his money in the first bet, 75% of the remaining in the second and 75% of the remaining in the third bet and returns home with Rs. 2 only. His initial money was ￿ﳿ ￿￿￿￿ 75% 藺, 75% 藺 75% 藺 Rs. 2 䁱 ﳼﻼ￿￿﫼ﳼ ?",
+    "options": {
+      "A": "Rs. 64",
+      "B": "Rs. 128",
+      "C": "Rs. 256",
+      "D": "Rs. 512"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 128",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs. 128"
+  },
+  {
+    "id": "ssc_2016_q241",
+    "question": "The time taken by a train 160 m long, running at 72 km/hr, in crossing an electric pole is 72 ../ 160 . 녺例 ￢ 녺例 藺 ?",
+    "options": {
+      "A": "8 sec 8 ￿",
+      "B": "9 sec 9 ￿",
+      "C": "6 sec 6 ￿",
+      "D": "4 sec 4 ￿"
+    },
+    "correctAnswer": "A",
+    "correctValue": "8 sec 8 ￿",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 8 sec 8 ￿"
+  },
+  {
+    "id": "ssc_2016_q242",
+    "question": "If a = 2 , b = ­3 then the value of 27 a3 ­ 54a2b + 36 ab2 ­ 8b3 is a = 2 , b = ­3 27 a3 ­ 54a2b + 36 ab2 ­ 8b3 ￿￧ ?",
+    "options": {
+      "A": "1562",
+      "B": "1616",
+      "C": "1676",
+      "D": "1728"
+    },
+    "correctAnswer": "D",
+    "correctValue": "1728",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 1728"
+  },
+  {
+    "id": "ssc_2016_q248",
+    "question": "The mean of 100 observations was calculated as 40. It was found later on that one of the observations was misread as 83 instead of 53. The correct mean is: 100 ﳼﻼ￿￿ 識￿ 40 ￿￿ 藺 ﳼﻼ￿￿ 53 83 識￿ ￿￧ ?",
+    "options": {
+      "A": "39",
+      "B": "39.7",
+      "C": "40.3",
+      "D": "42.7"
+    },
+    "correctAnswer": "B",
+    "correctValue": "39.7",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 39.7"
+  },
+  {
+    "id": "ssc_2016_q251",
+    "question": "A man standing on the bank of river observes that the angle subtended by a tree on the opposite bank is 60o. When he retires 36 m from the bank, he finds that the angle is 30o. The breadth of the river is ￿ﳿ ￿￿￿￿ ￿￿ ￿￿ ￿￿ 60° 36.30° ?",
+    "options": {
+      "A": "15 m 15 .",
+      "B": "18 m 18 .",
+      "C": "16 m 16 .",
+      "D": "11 m 11 ."
+    },
+    "correctAnswer": "B",
+    "correctValue": "18 m 18 .",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 18 m 18 ."
+  },
+  {
+    "id": "ssc_2016_q252",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. ­ 識￿ 녺例 ￿￿ 솊菿 덭撌 ﳼﻼ 덭撌 The expenditures on the interest on loans is more than the expenditures on transport by 顑 덭撌, ￿￿ 덭撌 ?",
+    "options": {
+      "A": "5%",
+      "B": "10%",
+      "C": "40%",
+      "D": "30%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "40%",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Carefully read the required values from the table or chart.\nStep 2: Apply the appropriate formula (ratio, percentage, or average).\nFinal Answer: 40%",
+    "data": {
+      "description": "Percentage distribution of total expenditures of a company under various expense heads",
+      "categories": {
+        "Salary": 22,
+        "Infrastructure": 18,
+        "Transport": 10,
+        "Interest on Loans": 14,
+        "Taxes": 8,
+        "Advertisement": 8,
+        "Research & Development": 6,
+        "Miscellaneous": 14
+      },
+      "unit": "percentage"
+    }
+  },
+  {
+    "id": "ssc_2016_q253",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. ­ 識￿ 녺例 ￿￿ 솊菿 덭撌 ﳼﻼ 덭撌 If the interest on loans amounted to ₹ 2.45 crores, then the total amount of expenditure on advertisement, taxes and research & development is: 顑 ₹ 2.45 , ﳼﻼ, ￿￧ ￿￿덭撌 ￿ 솊菿 덭撌 䁱 ?",
+    "options": {
+      "A": "₹ 7 Crores ₹ 7",
+      "B": "₹ 4.2 Crores ₹ 4.2",
+      "C": "₹ 5.4 Crores ₹ 5.4",
+      "D": "₹ 3 Crores ₹ 3"
+    },
+    "correctAnswer": "B",
+    "correctValue": "₹ 4.2 Crores ₹ 4.2",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Carefully read the required values from the table or chart.\nStep 2: Apply the appropriate formula (ratio, percentage, or average).\nFinal Answer: ₹ 4.2 Crores ₹ 4.2",
+    "data": {
+      "description": "Percentage distribution of total expenditures of a company under various expense heads",
+      "categories": {
+        "Salary": 22,
+        "Infrastructure": 18,
+        "Transport": 10,
+        "Interest on Loans": 14,
+        "Taxes": 8,
+        "Advertisement": 8,
+        "Research & Development": 6,
+        "Miscellaneous": 14
+      },
+      "unit": "percentage"
+    }
+  },
+  {
+    "id": "ssc_2016_q254",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. ­ 識￿ 녺例 ￿￿ 솊菿 덭撌 ﳼﻼ 덭撌 The ratio of the total expenditure on infrastructure and transport to the total expenditure on taxes and interest on loans is: 솊菿 ﳼﳼ￿￿ ￢￿￧ ￿￿ 덭撌 ￿￧ 顑 덭撌 ￿￧ ?",
+    "options": {
+      "A": "5:4",
+      "B": "8:7",
+      "C": "9:7",
+      "D": "13:11"
+    },
+    "correctAnswer": "D",
+    "correctValue": "13:11",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 13:11",
+    "data": {
+      "description": "Percentage distribution of total expenditures of a company under various expense heads",
+      "categories": {
+        "Salary": 22,
+        "Infrastructure": 18,
+        "Transport": 10,
+        "Interest on Loans": 14,
+        "Taxes": 8,
+        "Advertisement": 8,
+        "Research & Development": 6,
+        "Miscellaneous": 14
+      },
+      "unit": "percentage"
+    }
+  },
+  {
+    "id": "ssc_2016_q255",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. ­ 識￿ 녺例 ￿￿ 솊菿 덭撌 ﳼﻼ 덭撌 If the total expenditure of the company is Rs. 20 crores, then the ratio of expenditure on transport to that on salary is 녺例 덭撌 Rs. 20 , 덭撌 ￿￧ ?",
+    "options": {
+      "A": "5:4",
+      "B": "4:5",
+      "C": "5:8",
+      "D": "8:5"
+    },
+    "correctAnswer": "C",
+    "correctValue": "5:8",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 5:8",
+    "data": {
+      "description": "Percentage distribution of total expenditures of a company under various expense heads",
+      "categories": {
+        "Salary": 22,
+        "Infrastructure": 18,
+        "Transport": 10,
+        "Interest on Loans": 14,
+        "Taxes": 8,
+        "Advertisement": 8,
+        "Research & Development": 6,
+        "Miscellaneous": 14
+      },
+      "unit": "percentage"
+    }
+  },
+  {
+    "id": "ssc_2016_q256",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Each child (A) / was given a (B) / red beautiful balloon. (C) / No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q257",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. She has had the best medical facilities available (A) / but she will not be cured (B) / unless she does not have a strong desire to live (C) / No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q258",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. As if aware of my condition (A) / the infuriated bird suddenly doubled back on its course (B) / and charged straight after me (C) / No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q263",
+    "question": "A retailer gets a discount of 40% on the printed price of an article. The retailer sells it at the printed price. His gain percent is ������ 40% ����������� ?",
+    "options": {
+      "A": "40",
+      "B": "55",
+      "C": "",
+      "D": "75"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: This question requires data from an external table or figure not available in text form.\nStep 2: Identify the relevant values from the chart/table provided in the original exam.\nStep 3: Apply the appropriate formula or comparison.\nFinal Answer: See original paper",
+    "data": {
+      "description": "This question requires data from an external table/chart from the original exam paper.",
+      "note": "Data not available in text form"
+    }
+  },
+  {
+    "id": "ssc_2016_q264",
+    "question": "A mixture contains spirit and water in the ratio of 3 : 2. If it contains 3 litres more spirit than water, the quantity of spirit in the mixture is ������ 3 : 2 ����� 3 ����, ��������� ?",
+    "options": {
+      "A": "12 litres 12",
+      "B": "10 litres 10",
+      "C": "9 litres 9",
+      "D": "8 litres 8"
+    },
+    "correctAnswer": "C",
+    "correctValue": "9 litres 9",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 9 litres 9"
+  },
+  {
+    "id": "ssc_2016_q272",
+    "question": "The angle of elevation of an aeroplane from a point on the ground is 45°. After flying for 15 seconds, the elevation changes to 30°. If the aeroplane is flying at a height of 2500 metres, then the speed of the aeroplane in km/hr. is ������ 45° 15 � 30° �� 2500 �,�����../ ?",
+    "options": {
+      "A": "600",
+      "B": "600 (√3 +",
+      "C": "600 √3",
+      "D": "600 (√3 -"
+    },
+    "correctAnswer": "D",
+    "correctValue": "600 (√3 -",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 600 (√3 - 1)"
+  },
+  {
+    "id": "ssc_2016_q276",
+    "question": "The graph shows the production of food grains of a country in different years. Study the graph and answer the questions. ������������������������ The percentage increase in production from 1984 to 1985 was � 1984 1985 �������� ?",
+    "options": {
+      "A": "15",
+      "B": "30",
+      "C": "50",
+      "D": "100"
+    },
+    "correctAnswer": "D",
+    "correctValue": "100",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 100"
+  },
+  {
+    "id": "ssc_2016_q277",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I will not (A)/stay here another minute (B)/if I can help it! (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "D",
+    "correctValue": "D",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: D"
+  },
+  {
+    "id": "ssc_2016_q278",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Roger dressed (A)/in is best shirt, (B)/ silver tie and black jacket (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q279",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. They are looking forward (A)/to meet (B) /their parents (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q280",
+    "question": "For the following questions Find the odd words / letters / numbers from the given alternatives . ᑀ塜㾀 㾀 ᑀ塜 //",
+    "options": {
+      "A": "Moon",
+      "B": "Mars",
+      "C": "Venus",
+      "D": "Jupiter"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Moon",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Moon"
+  },
+  {
+    "id": "ssc_2016_q281",
+    "question": "Arrange the following words according to the dictionary order 䌳 ⬼ᴝ夫⬫ ⬼ᴝ夫⬫ a)Approach b) Appropriate c) Approval d) Approve 2/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "acdb",
+      "B": "abdc",
+      "C": "cdab",
+      "D": "abcd"
+    },
+    "correctAnswer": "D",
+    "correctValue": "abcd",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: abcd"
+  },
+  {
+    "id": "ssc_2016_q284",
+    "question": "Which one of the following events in a botanical garden is never directly influenced by light? 䍝] ,㾀 䌳⬼ᴝ夫⬫ 㾀 䍝] 䍟 䍟 㾀 ? 14/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "Flowering 䅐 䍝]",
+      "B": "Photosynthesis 䍟 怘",
+      "C": "Transpiration 㾀覛",
+      "D": "Fertilization"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Fertilization",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Fertilization"
+  },
+  {
+    "id": "ssc_2016_q286",
+    "question": "The Network is overloaded with enormous data sent by many computers within the network. The inability of the network to deliver the data is termed as __________ . 覛 㾀 㾀㥐而 覛 , ?",
+    "options": {
+      "A": "Access control 㾀",
+      "B": "Congestion",
+      "C": "Error propagation 䍟",
+      "D": "Deadlock 17/32 9/23/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Congestion",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Congestion"
+  },
+  {
+    "id": "ssc_2016_q287",
+    "question": "Vinegar is __________ . ⬼ᴝ ? 18/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "diluted acetic acid ⬼ᴝ ⬼ᴝ",
+      "B": "glacial acetic acid ⬼ᴝ ⬼ᴝ ⬼ᴝ",
+      "C": "glacial formic acid ⬼ᴝ ⬼ᴝ覛 ⬼ᴝ",
+      "D": "diluted formic acid ⬼ᴝ覛 ⬼ᴝ"
+    },
+    "correctAnswer": "A",
+    "correctValue": "diluted acetic acid ⬼ᴝ ⬼ᴝ",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: diluted acetic acid ⬼ᴝ ⬼ᴝ"
+  },
+  {
+    "id": "ssc_2016_q290",
+    "question": "The railway fares of air conditioned sleeper and ordinary sleeper class are in the ratio 4:1. The number of passengers travelled by air conditioned sleeper and ordinary sleeper classes were in the ratio 3:25. If the total collection was Rs. 37,000, how much did air conditioner sleeper passengers pay? ⬼ᴝ 怘 怘 䍝] 4:1 㾀 ⬼ᴝ 怘 䅐 3:25 㾀 䍝] Rs. 37,000 , ⬼ᴝ 怘 䍝] 䍝] 䍝] ?",
+    "options": {
+      "A": "Rs. 15,000",
+      "B": "Rs. 10,000",
+      "C": "Rs. 12,000",
+      "D": "Rs. 16,000"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs. 12,000",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: Rs. 12,000"
+  },
+  {
+    "id": "ssc_2016_q293",
+    "question": "The vertical angle A of an isosceles triangle ΔABC is three times the angle B of it. The measure of the angle A is 䍝] ᑀ塜 Δ ABC 覛 A B A ?",
+    "options": {
+      "A": "90°",
+      "B": "108°",
+      "C": "100°",
+      "D": "36°"
+    },
+    "correctAnswer": "B",
+    "correctValue": "108°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 108°"
+  },
+  {
+    "id": "ssc_2016_q294",
+    "question": "Two circles touch each other internally. The radius of the larger circle is 6 cm and the distance between the centre is 2 cm, then the radius (in cms) of the other circle is 㾀 䅐 覛 㾀 䅐 6 .. , 2 .. , 㾀 䅐 (.. )㾀 䍝] ?",
+    "options": {
+      "A": "8",
+      "B": "2",
+      "C": "4",
+      "D": "3"
+    },
+    "correctAnswer": "D",
+    "correctValue": "3",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 3"
+  },
+  {
+    "id": "ssc_2016_q296",
+    "question": "If the length of the shadow of a vertical pole be √3 times the height of the pole, the angle of elevation of the sun is:­ 䍝] 䐆Ĉ覛 䌳 䅐 䌳 䅐 √3 覛 A䍝] 㤋䀌 ? 24/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "60°",
+      "B": "45°",
+      "C": "30°",
+      "D": "90°"
+    },
+    "correctAnswer": "C",
+    "correctValue": "30°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 30°"
+  },
+  {
+    "id": "ssc_2016_q297",
+    "question": "If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, the compound interest on the same at the same rate and for the same time is:­ 䍝] ⬼ᴝ 5% ᑀ塜覛 䅐 2 覛 Rs. 50 , ⬼ᴝ ᑀ塜 䍝] ?",
+    "options": {
+      "A": "Rs. 50.50",
+      "B": "Rs. 51.25",
+      "C": "Rs. 51.50",
+      "D": "Rs. 50.05"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 51.25",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Formula: CI = P × [(1 + r/100)ⁿ − 1].\nStep 2: Substitute: 0 = P × [(1 + 2/100)^50 − 1].\nStep 3: Calculate factor = (1.02)^50 − 1, then P = CI / factor = Rs. 51.25.\nFinal Answer: Rs. 51.25"
+  },
+  {
+    "id": "ssc_2016_q302",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The leader (A) / with all his followers (B) / are send to prison. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q303",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Do you know (A) / whom the (B) / next speaker is? (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q304",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He is having an attack (A) / of fever everyday (B) / for the last few days. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q305",
+    "question": "For the following questions Find the odd numbers/letters/numbers from the given alternatives. 䵀ㄍ셼ಘ 膀勤獀凜 ꋆ䀌冀㍗᪻権 膀勤 ꋆ䀌 з᪻権/戴兖/酪줓 䕒汎",
+    "options": {
+      "A": "Red",
+      "B": "Brown",
+      "C": "Green",
+      "D": "Yellow"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Brown",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Brown"
+  },
+  {
+    "id": "ssc_2016_q306",
+    "question": "Arrange the following words as per order in the dictionary. 䕒汎鵗Ⰸ槢枩敡 з᪻権 з 膀勤獀凜 ꩖荚 Ⰸ槢膀勤 1.NEST 2. NECK 3. NEAT 4. NEAR 2/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "4, 2, 3, 1",
+      "B": "4, 2, 1, 3",
+      "C": "4, 3, 2, 1",
+      "D": "4, 2, 3, 1"
+    },
+    "correctAnswer": "C",
+    "correctValue": "4, 3, 2, 1",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 4, 3, 2, 1"
+  },
+  {
+    "id": "ssc_2016_q307",
+    "question": "A man is engaged for planting trees for 10 hours. He plants 10 trees in an hour. He takes rest for 30 minutes after every hour. How many trees does he plant in 10 hours? Ⰸ槢 10 獀凜 膀勤10 䵀ㄍꨐ 30 Ⰸ槢 10 膀勤势湜 ?",
+    "options": {
+      "A": "100",
+      "B": "50",
+      "C": "70",
+      "D": "45"
+    },
+    "correctAnswer": "C",
+    "correctValue": "70",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 70"
+  },
+  {
+    "id": "ssc_2016_q309",
+    "question": "Some equations are solved on the basis of certain system. Find the correct answer for the unsolved equation on that basis. 5 x 4 x 3 = 70 , 6 x 5 x 4 = 140 7 x 6 x 5 = ? 䕒汎鵗Ⰸ槢枩敡 ꋆ䀌 䵀ㄍ瓛 势湜 邗鄝 ꨐ凐쐋 瓛 ꨐ 䅷烥 ꗨ뀅 獀凜 5 x 4 x 3 = 70 , 6 x 5 x 4 = 140 7 x 6 x 5 = ?",
+    "options": {
+      "A": "210",
+      "B": "220",
+      "C": "230",
+      "D": "240"
+    },
+    "correctAnswer": "D",
+    "correctValue": "240",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: 240"
+  },
+  {
+    "id": "ssc_2016_q310",
+    "question": "Which one of the following is a good electrical conductor? 䕒汎鵗㾝쎕枩敡 膀勤 ­ 냔㴐 ꋆ䀌­ ? 12/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Graphite 㟻瓛",
+      "B": "Diamond 瓛",
+      "C": "Peat",
+      "D": "Charcoal"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Graphite 㟻瓛",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Graphite 㟻瓛"
+  },
+  {
+    "id": "ssc_2016_q311",
+    "question": "Prince of Wales Cup is associated with_____ ꋆ䀌䵀ㄍ 冀㍗ ' 势湜 鵗 㾝쎕 ? 13/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Rugby 㟑㌘",
+      "B": "Golf 冀㍗",
+      "C": "Polo",
+      "D": "Chess"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Golf 冀㍗",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Golf 冀㍗"
+  },
+  {
+    "id": "ssc_2016_q312",
+    "question": "Which of the following increases the rate of heart beat? 藩 ꗨ뀅 ꗨ뀅 䕒汎 䕒汎鵗Ⰸ槢枩敡 膀勤 势湜 ? 14/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Peripheral nerves 凐쐋 偌癠ᅡ䄹",
+      "B": "Sympathetic nerves 鵗 偌癠ᅡ䄹",
+      "C": "Parasympathetic nerves 鵗 偌癠ᅡ䄹",
+      "D": "Cranial nerves 偌癠ᅡ䄹"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Sympathetic nerves 鵗 偌癠ᅡ䄹",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Sympathetic nerves 鵗 偌癠ᅡ䄹"
+  },
+  {
+    "id": "ssc_2016_q313",
+    "question": "A pair of contrasting characters controlling the same trait is called ꋆ䀌 ᪻権 㟑㌘, ꋆ䀌 䕒汎偌癠ᅡ䄹 , 싇ᑡ ? 15/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "factors",
+      "B": "loci ꋆ䀌",
+      "C": "allele 㟑㌘ ꋆ䀌冀㍗ (瓛)",
+      "D": "lineage"
+    },
+    "correctAnswer": "C",
+    "correctValue": "allele 㟑㌘ ꋆ䀌冀㍗ (瓛)",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: allele 㟑㌘ ꋆ䀌冀㍗ (瓛)"
+  },
+  {
+    "id": "ssc_2016_q314",
+    "question": "Which of the following pairing is incorrect 䕒汎鵗Ⰸ槢枩敡 膀勤 ­ 㟑㌘ 瓛 瓛 ? 16/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Hygrometer ­ Water vapour content of the atmosphere 㟻瓛­ 蒰傯",
+      "B": "Lactometer ­ Specific gravity of liquids 싇ᑡ­ ꋆ䀌Ⰸ槢蒰傯 ꨐ",
+      "C": "Anemometer ­ Speed of the wind 䕒汎­ ꗨ뀅 䕒汎",
+      "D": "Seismograph ­ Earthquakes ⊆妥㟻瓛 ­"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Lactometer ­ Specific gravity of liquids 싇ᑡ­ ꋆ䀌Ⰸ槢蒰傯 ꨐ",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Lactometer ­ Specific gravity of liquids 싇ᑡ­ ꋆ䀌Ⰸ槢蒰傯 ꨐ"
+  },
+  {
+    "id": "ssc_2016_q315",
+    "question": "A can do a piece of work in 20 days and B in 15 days. With help of C, they finish the work in 5 days. C can alone do the work in A 势湜 20 獀凜 膀勤 B 15 獀凜 膀勤 C ꗨ뀅 5 獀凜 膀勤 텸믟 邗鄝 C 势湜 獀凜 膀勤 ?",
+    "options": {
+      "A": "5 days 5 獀凜",
+      "B": "6 days 6 獀凜",
+      "C": "10 days 10 獀凜",
+      "D": "12 days 12 獀凜"
+    },
+    "correctAnswer": "D",
+    "correctValue": "12 days 12 獀凜",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Express each person's rate as 1/(days alone).\nStep 2: Combine rates for people working together.\nStep 3: Use rate × time = work to find the required time.\nFinal Answer: 12 days 12 獀凜"
+  },
+  {
+    "id": "ssc_2016_q316",
+    "question": "A spherical lead ball of radius 6 cm is melted and small lead balls of radius 3 mm are made. The total number of possible small lead balls is 6 .. 偌癠ᅡ䄹폨푗 瓛 ꗨ뀅 ꋆ䀌 3 Ⰸ槢.. 偌癠ᅡ䄹폨푗 瓛 瓛 ­ 瓛 ꗨ뀅 膀勤 邗鄝 ꗨ뀅 瓛 ᪻権 ꗨ뀅 ꋆ䀌 酪줓 싇ᑡ ?",
+    "options": {
+      "A": "4250",
+      "B": "4000",
+      "C": "8005",
+      "D": "8000"
+    },
+    "correctAnswer": "D",
+    "correctValue": "8000",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 8000"
+  },
+  {
+    "id": "ssc_2016_q317",
+    "question": "At what percentage above the cost price must an article be marked so as to gain 33% after allowing a customer a discount of 5%? 势湜 ⊆妥 ꩖荚 冀㍗ 势湜 䵀ㄍ䕒汎 ꗨ뀅 势湜 ꗨ뀅 势湜 㟻瓛 5% ꗨ뀅 셼ಘ 33% ?",
+    "options": {
+      "A": "40%",
+      "B": "45%",
+      "C": "35%",
+      "D": "47%"
+    },
+    "correctAnswer": "A",
+    "correctValue": "40%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 40%"
+  },
+  {
+    "id": "ssc_2016_q320",
+    "question": "A train 100 m long is running at a speed of 120 kms/hr. The time taken to pass a person standing near the line is 100 鵗 120 势湜../ ꗨ뀅 ꇛ 瓛 ꏋ㔨싇ᑡ 膀勤 势湜 ?",
+    "options": {
+      "A": "1 second 1 ﭴ",
+      "B": "3 seconds 3 ﭴ",
+      "C": "5 seconds 5 ﭴ",
+      "D": "7 seconds 7 ﭴ"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3 seconds 3 ﭴ",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 3 seconds 3 ﭴ"
+  },
+  {
+    "id": "ssc_2016_q323",
+    "question": "A man buys a table and a chair for Rs. 500. He sells the table at a loss of 10% and the chair at a gain of 10%. He still gains Rs.10 on the whole. The cost price of chair in rupees is ꏋ㔨싇ᑡ 玟 Rs.500 膀勤瓛 10% ꗨ뀅 䕒汎 玟 10% 势湜 Ⰸ槢 Rs.100 玟 ꩖荚 冀㍗ 捽闛᪻権 膀勤 ? 19/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Rs.200",
+      "B": "Rs.250",
+      "C": "Rs.300",
+      "D": "RS.350"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs.300",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs.300"
+  },
+  {
+    "id": "ssc_2016_q324",
+    "question": "The average age of a class of 39 students is 15 years. If the age of the teacher is included, then the average increases by 3 months. Find the age of the teacher. 39 ᅡ䄹᪻権 ꗨ뀅 戴兖 膀勤 15 ｮ魴 獀凜 瀊诂 ꗨ뀅 瓛 3 瀊诂 ꗨ뀅 䅷烥 ꗨ뀅 ?",
+    "options": {
+      "A": "30",
+      "B": "25",
+      "C": "35",
+      "D": "40"
+    },
+    "correctAnswer": "B",
+    "correctValue": "25",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 25"
+  },
+  {
+    "id": "ssc_2016_q325",
+    "question": "Two persons are on either side of a temple, 75 m high, observe the angle of elevation of the top of the temple to be 30o and 60o respectively. The distance between the persons is ꏋ㔨싇ᑡ, 75 㾝쎕 ꋆ䀌瓛 ᪻権 , 膀勤 邗鄝 獀凜 ｮ魴 㾝쎕 300 600 䵀ㄍ ᪻権 ꏋ㔨싇ᑡ᪻権 势湜 瓛 ?",
+    "options": {
+      "A": "173.2m 173.2",
+      "B": "100m 100",
+      "C": "157.7m 157.7",
+      "D": "273.2m 273.2"
+    },
+    "correctAnswer": "A",
+    "correctValue": "173.2m 173.2",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 173.2m 173.2"
+  },
+  {
+    "id": "ssc_2016_q327",
+    "question": "Study the following histogram of marks in mathematics (out of 50) of students in a class and answer the following questions. ᅡ䄹᪻権 枩敡 膀勤䵀ㄍ텸믟 ᪻権 (50 膀勤 ) ｮ魴 䕒汎鵗Ⰸ槢枩敡 㑟ܓᅡ䄹 瀊诂 膀勤 䕒汎鵗Ⰸ槢枩敡 䵀ㄍ셼ಘ ᪻権 ꨐ 瓛 If the students have got the marks out of 50 and if A+ grade has been declared for above 90%, then the number of students who have got A+ grade is 獀凜 ᅡ䄹᪻権 50 膀勤 獀凜 ᪻権 90% 㑟ܓ 䵀ㄍ텸믟 ᅡ䄹᪻権 A+ 獀凜 势湜 ᅡ䄹᪻権 A+ 獀凜 ?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "correctAnswer": "A",
+    "correctValue": "10",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 10"
+  },
+  {
+    "id": "ssc_2016_q328",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He is jealous for (A)/my success (B)/and wants to destroy me.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q329",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The main purpose of the visit (A)/is to develop a close relationship (B)/ among the two countries.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q330",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I left (A)/no stone unturned(B)/to achieve for my object.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q331",
+    "question": "Out of the four alternatives, choose the one which can be substituted for the given words/sentences and click the button corresponding to it. Providing relief",
+    "options": {
+      "A": "Reissue",
+      "B": "Reprieve",
+      "C": "Rejoinder",
+      "D": "Refuge 25/28 21/09/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Reprieve",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Reprieve"
+  },
+  {
+    "id": "ssc_2016_q332",
+    "question": "The average age of 19 boys in a class is 21 years. If the teacher's age is included, the average increases to 22 years. What is the teacher's age? ￿￿ ￾￿19 ﻿￾ ￿￿ 21 ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ 22 ￿￿ ￿￿ ￿￿ ￿￿ ?",
+    "options": {
+      "A": "39 years 39 ￿￿",
+      "B": "41 years 41 ￿￿",
+      "C": "40 years 40 ￿￿",
+      "D": "44 years 44 ￿￿"
+    },
+    "correctAnswer": "B",
+    "correctValue": "41 years 41 ￿￿",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 41 years 41 ￿￿"
+  },
+  {
+    "id": "ssc_2016_q333",
+    "question": "Which of the following interchange of signs would make the equation correct? ￿￿￿￿ ￿￿￿￿ ￾￿ ￿￿ ￿￿￿￿ ﻿￾ ￾￿ ￿￿ ? 5 + 3 x 8 ­ 12 ÷ 4 = 3",
+    "options": {
+      "A": "­ and ÷",
+      "B": "+ and",
+      "C": "+ and ÷",
+      "D": "+ and ­"
+    },
+    "correctAnswer": "A",
+    "correctValue": "­ and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the two signs to be swapped in the expression.\nStep 2: Substitute the swapped signs into the equation.\nStep 3: Evaluate using BODMAS to verify the equation equals the target.\nFinal Answer: ­ and ÷"
+  },
+  {
+    "id": "ssc_2016_q340",
+    "question": "The difference between the greatest and least five­digit numbers formed by the digits 2,5,0,6,8 is (repetition of digits are not allowed) 2,5,0,6,8 ﻿￾ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ? (﻿￾ ￿￿ ￿￿ ￿￿ )",
+    "options": {
+      "A": "69552",
+      "B": "65925",
+      "C": "65952",
+      "D": "63952"
+    },
+    "correctAnswer": "C",
+    "correctValue": "65952",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the number theory property (HCF, LCM, prime, remainder).\nStep 2: Apply the relevant rule or prime factorisation.\nStep 3: Compute the final answer.\nFinal Answer: 65952"
+  },
+  {
+    "id": "ssc_2016_q341",
+    "question": "The price of a shirt after 15% discount, is Rs.119. What was the marked price of the shirt before discount ￿￿ ￿￿ 15% ￿￿ Rs. 119 ￿￿ ￿￿ ￿￿ ?",
+    "options": {
+      "A": "Rs.129",
+      "B": "Rs.140",
+      "C": "Rs.150",
+      "D": "Rs.160"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs.140",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs.140"
+  },
+  {
+    "id": "ssc_2016_q345",
+    "question": "A gun is fired at a distance of 1.7 km from Ram and he hears the sound after 25 seconds. The speed of sound in meter per second is 1.7 ￿￿.. ￿￿ ￿￿ ￿￿ ￿￿ 25 ￿￿ ￿￿ ￿￿ ￾￾￿￿ ?",
+    "options": {
+      "A": "60",
+      "B": "62",
+      "C": "64",
+      "D": "68"
+    },
+    "correctAnswer": "D",
+    "correctValue": "68",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 68"
+  },
+  {
+    "id": "ssc_2016_q346",
+    "question": "A sum of (cid:0) 3000 yields an interest of (cid:0) 1080 at 12% per annum simple interest in how many years ? (cid:0) 3000 ￿￿ ￿￿ 12% ￿￿￿￿ ￿￿ (cid:0) 1080 ￿￿ ￿￿ ﻿￾ ￾￿￿￿ ?",
+    "options": {
+      "A": "4 Years 4",
+      "B": "3 Years 3",
+      "C": "5 years 5",
+      "D": "2½ Years 2½"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3 Years 3",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 3 Years 3"
+  },
+  {
+    "id": "ssc_2016_q348",
+    "question": "Twenty women can do a work in sixteen days. Sixteen men can complete the same work in fifteen days. The ratio between the capacity of a man and a woman is 20 ￿￿ ￿￿ ￿￿ ￾￿ ￿￿ ￿￿ 15 ￿￿ ￾￿ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ?",
+    "options": {
+      "A": "3:4",
+      "B": "4:3",
+      "C": "5:3",
+      "D": "5:7"
+    },
+    "correctAnswer": "B",
+    "correctValue": "4:3",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 4:3"
+  },
+  {
+    "id": "ssc_2016_q350",
+    "question": "The midpoints of AB and AC of a triangle ABC are X and Y respectively. If BC+XY=12 units, then BC­XY is ￿￿￾﷿ ABC AB AC ￿￿ ￿￿￿￿ ￿￿ X Y ￿￿ ￿￿ BC + XY = 12 ￿￿, BC ­ XY ￿￿ ?",
+    "options": {
+      "A": "10 units 10 ￿￿",
+      "B": "8 units 8 ￿￿",
+      "C": "6 units 6 ￿￿",
+      "D": "4 units 4 ￿￿"
+    },
+    "correctAnswer": "D",
+    "correctValue": "4 units 4 ￿￿",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 4 units 4 ￿￿"
+  },
+  {
+    "id": "ssc_2016_q351",
+    "question": "In an isosceles ΔABC, AD is the median to the unequal side meeting BC at D. DP is the angle disector of ∠ADB and PQ is drawn parallel to BC meeting AC at Q. Then the maeasure of ∠PDQ is ￿￿ ￿￿￿￿ ΔABC ,￾￿ AD, BC D ￿￿￿￿ ￿￿ ￿￿ . DP , ∠ADB ­￿￿￿￿ PQ, AC Q ￿￿￿￿ BC ∠PDQ ￿￿ ?",
+    "options": {
+      "A": "130°",
+      "B": "90°",
+      "C": "180°",
+      "D": "45°"
+    },
+    "correctAnswer": "B",
+    "correctValue": "90°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 90°"
+  },
+  {
+    "id": "ssc_2016_q354",
+    "question": "The bar graph shows the production of table fans in a factory during one week. Study the bar graph and answer the question. ￿￿ ￾￿￿￿ ￿￿﷿﻽￿￿ ￾￿ ￿￿ ﻿￾ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿￿￿ ￿￿￿￿ ￾￾￿￿ ﻿￾ ￿￿ ￿￿ The average production of table fan in that week is ￿￿ ￾￿ ﻿￾ ￿￿ ￿￿ ?",
+    "options": {
+      "A": "370",
+      "B": "280",
+      "C": "300",
+      "D": "250"
+    },
+    "correctAnswer": "C",
+    "correctValue": "300",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 300"
+  },
+  {
+    "id": "ssc_2016_q355",
+    "question": "The bar graph shows the production of table fans in a factory during one week. Study the bar graph and answer the question. ￿￿ ￾￿￿￿ ￿￿﷿﻽￿￿ ￾￿ ￿￿ ﻿￾ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿￿￿ ￿￿￿￿ ￾￾￿￿ ﻿￾ ￿￿ ￿￿ Ratio of the total production of table fans in the factory from Monday to Wednesday to that from Thursday to Saturday is ￿￿￿￿ ￾￿ ﻿￾ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ?",
+    "options": {
+      "A": "19:26",
+      "B": "26:19",
+      "C": "29:16",
+      "D": "16:29"
+    },
+    "correctAnswer": "C",
+    "correctValue": "29:16",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 29:16"
+  },
+  {
+    "id": "ssc_2016_q356",
+    "question": "The bar graph shows the production of table fans in a factory during one week. Study the bar graph and answer the question. ￿￿ ￾￿￿￿ ￿￿﷿﻽￿￿ ￾￿ ￿￿ ﻿￾ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿ ￿￿￿￿ ￿￿￿￿ ￾￾￿￿ ﻿￾ ￿￿ ￿￿ The average production of table fans on Monday & Tuesdays exceeds the average production of table fans during the week by ﻿￾ ￿￿ ￿￿ ﻿￾ ￿￿ ￿￿ ￿￿ ?",
+    "options": {
+      "A": "150 fans 150",
+      "B": "100 fans 100",
+      "C": "140 fans 140",
+      "D": "200 fans 200"
+    },
+    "correctAnswer": "B",
+    "correctValue": "100 fans 100",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 100 fans 100"
+  },
+  {
+    "id": "ssc_2016_q357",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. It took her a long time(A)/to get off (B)/the death of her husband.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q358",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. It is best(A)/ to be silent(B)/ than to speak in anger.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q363",
+    "question": "In this question, some equations are solved on the basis of a certain system. On the same basis find out the correct answer from amongst the four alternatives for the unsolved equation. ? 6 x 2 x 9 = 269 8 x 7 x 1 = 781 4 x 1 x 3 = ?",
+    "options": {
+      "A": "431",
+      "B": "413",
+      "C": "341",
+      "D": "143"
+    },
+    "correctAnswer": "D",
+    "correctValue": "143",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: 143"
+  },
+  {
+    "id": "ssc_2016_q366",
+    "question": "A & B together finish a job in 24 days, while A, B & C together can finish the same job in 8 days. C alone will finish the job in A B 24 A,B,C 8 C ?",
+    "options": {
+      "A": "12 days 12",
+      "B": "14 days 14",
+      "C": "16 days 16",
+      "D": "24 days 24"
+    },
+    "correctAnswer": "A",
+    "correctValue": "12 days 12",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 12 days 12"
+  },
+  {
+    "id": "ssc_2016_q369",
+    "question": "A certain sum of money was divided between A, B and C in the ratio 5:6:9. If A received Rs. 450 the sum divided was A,B C 5:6:9 A Rs. 450 ?",
+    "options": {
+      "A": "2000",
+      "B": "1800",
+      "C": "2250",
+      "D": "1000"
+    },
+    "correctAnswer": "B",
+    "correctValue": "1800",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 1800"
+  },
+  {
+    "id": "ssc_2016_q370",
+    "question": "By selling a bag at Rs. 230, profit of 15% is made. The selling price of the bag, when it is sold at 20% profit would be Rs. 230 15% 20% - ?",
+    "options": {
+      "A": "Rs.250",
+      "B": "Rs.205",
+      "C": "Rs.240",
+      "D": "Rs.200"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs.240",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs.240"
+  },
+  {
+    "id": "ssc_2016_q375",
+    "question": "If the length of a chord of a circle is equal to that of the radius of the circle, then the angle subtended, in radians, at the centre of the circle by chord is , ( ) ?",
+    "options": {
+      "A": "1",
+      "B": "∏/ 2",
+      "C": "∏/ 3",
+      "D": "∏/ 4"
+    },
+    "correctAnswer": "B",
+    "correctValue": "∏/ 2",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: ∏/ 2"
+  },
+  {
+    "id": "ssc_2016_q376",
+    "question": "The value of (sec245o - cot245o) - (sin230o + sin260o) is (sec245o - cot245o) - (sin230o + sin260o) ?",
+    "options": {
+      "A": "1",
+      "B": "2√3",
+      "C": "0",
+      "D": ""
+    },
+    "correctAnswer": "C",
+    "correctValue": "0",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 0 4)"
+  },
+  {
+    "id": "ssc_2016_q380",
+    "question": "The angle of elevation of a ladder leaning against a wall is 60o and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is 600 4.6 ?",
+    "options": {
+      "A": "2.3 m 2.3",
+      "B": "4.6 m 4.6",
+      "C": "9.2 m 9.2",
+      "D": "7.8 m 7.8"
+    },
+    "correctAnswer": "C",
+    "correctValue": "9.2 m 9.2",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 9.2 m 9.2"
+  },
+  {
+    "id": "ssc_2016_q381",
+    "question": "The product of two 2-digit numbers is 2160 and their H.C.F. is 12. The numbers are 2 2160 12 ?",
+    "options": {
+      "A": "(12, 60)",
+      "B": "(72, 30)",
+      "C": "(36, 60)",
+      "D": "(60, 72)"
+    },
+    "correctAnswer": "C",
+    "correctValue": "(36, 60)",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the number theory property (HCF, LCM, prime, remainder).\nStep 2: Apply the relevant rule or prime factorisation.\nStep 3: Compute the final answer.\nFinal Answer: (36, 60)"
+  },
+  {
+    "id": "ssc_2016_q382",
+    "question": "The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Rs. 1. The sum (in Rs.) is: 4% 2 ( ) Rs. 1 ?",
+    "options": {
+      "A": "620",
+      "B": "630",
+      "C": "640",
+      "D": "625"
+    },
+    "correctAnswer": "D",
+    "correctValue": "625",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Formula: CI = P × [(1 + r/100)ⁿ − 1].\nStep 2: Substitute: 0 = P × [(1 + 2/100)^1 − 1].\nStep 3: Calculate factor = (1.02)^1 − 1, then P = CI / factor = 625.\nFinal Answer: 625"
+  },
+  {
+    "id": "ssc_2016_q384",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. A,B,C,D X Y Approximately how much percent of voters voted in favour of X? X ?",
+    "options": {
+      "A": "45.4",
+      "B": "47.5",
+      "C": "50",
+      "D": "225"
+    },
+    "correctAnswer": "B",
+    "correctValue": "47.5",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 47.5"
+  },
+  {
+    "id": "ssc_2016_q385",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. A,B,C,D X Y Approximately how much percent of voters did not caste their votes? ?",
+    "options": {
+      "A": "4.9",
+      "B": "4.5",
+      "C": "0.23",
+      "D": "23"
+    },
+    "correctAnswer": "A",
+    "correctValue": "4.9",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 4.9"
+  },
+  {
+    "id": "ssc_2016_q386",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. A,B,C,D X Y In region B, Y gets A% more votes than X. Find the value of A? B , Y X A% | A ?",
+    "options": {
+      "A": "24%",
+      "B": "21%",
+      "C": "19%",
+      "D": "15%"
+    },
+    "correctAnswer": "B",
+    "correctValue": "21%",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: 21%"
+  },
+  {
+    "id": "ssc_2016_q387",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. A,B,C,D X Y Nearly what percentage of his total votes did X receive from region B? X B ?",
+    "options": {
+      "A": "30",
+      "B": "31",
+      "C": "32",
+      "D": "35"
+    },
+    "correctAnswer": "C",
+    "correctValue": "32",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 32"
+  },
+  {
+    "id": "ssc_2016_q388",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Could she cite (A)/ any precedent in support (B)/ for her case? (C)/ No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q389",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The General Manager of the industry has felt (A)/ that there is no use of (B)/ discussing about the problems with the labourers. (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q390",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. She enquired from the stranger (A)/ who was he and (B)/ what he wanted from her. (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q394",
+    "question": "The ratio of the ages of man and his wife is 4:3. After 4 years, the ration will be 9:7. If at the time of marriage, the ratio was 5:3, how many years ago were they married? ꅅ썙 突 卑얛 突 4:3 4 댊巕 9:7 ⷅ煺 ㊍树 5:3 , 突 ㊍树 郑笎 댊巕 댊巕 ?",
+    "options": {
+      "A": "12",
+      "B": "24",
+      "C": "5",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "correctValue": "12",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Let the current ages be in the given ratio (multiply by k).\nStep 2: Form an equation using the past/future age ratio condition.\nStep 3: Solve for k to find both ages, then apply the final condition.\nFinal Answer: 12"
+  },
+  {
+    "id": "ssc_2016_q397",
+    "question": "A and B together can do a piece of work in 9 days. If A does thrice the work of B in a given time, the time A alone will take to finish the work is A B ᶸ휆 郑笎 9 ⷅ煺 ♣ 騃兾 ⷅ煺 A 郑笎 䯛蓺ⷅ煺댊巕漲㠎 ♣B 䯛蓺 A 郑笎 ♣慆밀 ?",
+    "options": {
+      "A": "4 days 4 ⷅ煺",
+      "B": "6 days 6 ⷅ煺",
+      "C": "8 days 8 ⷅ煺",
+      "D": "12 days 12 ⷅ煺"
+    },
+    "correctAnswer": "D",
+    "correctValue": "12 days 12 ⷅ煺",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Express each person's rate as 1/(days alone).\nStep 2: Combine rates for people working together.\nStep 3: Use rate × time = work to find the required time.\nFinal Answer: 12 days 12 ⷅ煺"
+  },
+  {
+    "id": "ssc_2016_q399",
+    "question": "A trader sold a cycle at a loss of 10%. If the selling price had been increased by Rs. 200, there would have been a gain of 6%. The cost price of the cycle is 毮䄃㊍树 郑笎 10% 䯛蓺 ⷅ煺 蛥蒦ᖁ突 在ᔎ Rs. 200 ⷅ煺 6% 郑笎 蒦ᖁ 在ᔎ ?",
+    "options": {
+      "A": "Rs.1200",
+      "B": "Rs.1205",
+      "C": "Rs.1250",
+      "D": "Rs.1275"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs.1250",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs.1250"
+  },
+  {
+    "id": "ssc_2016_q401",
+    "question": "In what time will a 100 metre long train running with a speed of 50 km/hr cross a pillar? 100 騉 㤎 郑笎 50 郑笎../ 突 邷篳 ㊍树 , 郑笎 䅠ܲ 騉 ♣郑笎 ?",
+    "options": {
+      "A": "7.0 sec 7.0",
+      "B": "72 sec 72",
+      "C": "7.2 sec 7.2",
+      "D": "70 sec 70"
+    },
+    "correctAnswer": "C",
+    "correctValue": "7.2 sec 7.2",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 7.2 sec 7.2"
+  },
+  {
+    "id": "ssc_2016_q406",
+    "question": "If a shop keeper marks his goods for a certain amount so as to get 25% gain after allowing a discount of 20%, then his marked price is ⷅ煺 䅠ܲ 突 郑笎 20% 25% 郑笎 在ᔎ ?",
+    "options": {
+      "A": "Rs.156.25",
+      "B": "Rs.146.25",
+      "C": "Rs.166.25",
+      "D": "Rs.150.25"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Rs.156.25",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: Rs.156.25"
+  },
+  {
+    "id": "ssc_2016_q407",
+    "question": "The average of marks of 17 students in an examination was calculated as 71. But it was later found that the mark of one student had been wrongly entered as 65 instead of 56 and another as 24 instead of 50. The correct average is 郑笎 ㊍树酹淔 ♣17 框䉥䱒厙屡뗉댊巕㲧 71 郑笎낵쑌 ♣ 郑笎 框䉥䱒厙끜糦 56 65 ᶸ휆 框䉥䱒厙끜糦 50 24 ᶸ휆 ㊍树 训稉 突",
+    "options": {
+      "A": "70",
+      "B": "71",
+      "C": "72",
+      "D": "73"
+    },
+    "correctAnswer": "C",
+    "correctValue": "72",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 72"
+  },
+  {
+    "id": "ssc_2016_q409",
+    "question": "In ΔABC, ∠B = 70° and ∠C = 60°. The internal bisectors of the two smallest angles of ΔABC meet at O. The angle so formed at O is ΔABC ♣∠B = 70° C = 60°, ΔABC 㲧 낵쑌㐼忤 䱒厙框䉥 O ᶸ휆 ꫺ O 郑笎 猋ᘓ鷤䂮 ?",
+    "options": {
+      "A": "125°",
+      "B": "120°",
+      "C": "115°",
+      "D": "110°"
+    },
+    "correctAnswer": "A",
+    "correctValue": "125°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 125°"
+  },
+  {
+    "id": "ssc_2016_q411",
+    "question": "The angle of elevation of the top of a pillar from the foot and the top of a building 20 m high, are 60° and 30° respectively. The height of the pillar is 20 댊巕 郑笎 騉 댊巕 낵쑌 蒦ᖁ 60° 30° 騉 突 |",
+    "options": {
+      "A": "10 m 10 .",
+      "B": "10√3m 10√3 .",
+      "C": "60 m 60 .",
+      "D": "30 m 30 ."
+    },
+    "correctAnswer": "D",
+    "correctValue": "30 m 30 .",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 30 m 30 ."
+  },
+  {
+    "id": "ssc_2016_q413",
+    "question": "The pie­chart shows the percentage of literate and illiterate male and female in a state. Study the diagram and answer the following questions. 댊巕 ♣郑笎 Ꙛ⿠ ♣酹淔 䯛蓺酹淔 ꅅ썙㲧 䅠ܲ泼鿙㲧 ꫺䯛蓺 댊巕 귛뮕 ♣ 䯛蓺騉ᶸ휆ཡ ꫺쉈㝍㲧 卑얛 ㊍树 The difference of central angles corresponding to illiterate male and illiterate female is 䯛蓺酹淔 ꅅ썙 䯛蓺酹淔 䅠ܲ泼鿙㲧 멟ⴀ 낵쑌惹㯦㊍树 㲧 낵쑌 ?",
+    "options": {
+      "A": "12.2°",
+      "B": "13.4°",
+      "C": "11.2°",
+      "D": "14.4°"
+    },
+    "correctAnswer": "D",
+    "correctValue": "14.4°",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 14.4°"
+  },
+  {
+    "id": "ssc_2016_q414",
+    "question": "The pie­chart shows the percentage of literate and illiterate male and female in a state. Study the diagram and answer the following questions. 댊巕 ♣郑笎 Ꙛ⿠ ♣酹淔 䯛蓺酹淔 ꅅ썙㲧 䅠ܲ泼鿙㲧 ꫺䯛蓺 댊巕 귛뮕 ♣ 䯛蓺騉ᶸ휆ཡ ꫺쉈㝍㲧 卑얛 ㊍树 If the difference between the two categories of people are represented by 36° in the diagram then these categories are ⷅ煺 뇸宴ཡ㲧 㲧 낵쑌 ♣36° 댊巕 , 뇸宴ཡ ­ 騃兾 ?",
+    "options": {
+      "A": "literate male and literate female 酹淔 ꅅ썙 酹淔 䅠ܲ泼鿙",
+      "B": "literate male and illiterate male 酹淔 ꅅ썙 䯛蓺酹淔 ꅅ썙",
+      "C": "illiterate male and literate female 䯛蓺酹淔 ꅅ썙 酹淔 䅠ܲ泼鿙",
+      "D": "illiterate male and illiterate female 䯛蓺酹淔 ꅅ썙 䯛蓺酹淔 䅠ܲ泼鿙"
+    },
+    "correctAnswer": "A",
+    "correctValue": "literate male and literate female 酹淔 ꅅ썙 酹淔 䅠ܲ泼鿙",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: literate male and literate female 酹淔 ꅅ썙 酹淔 䅠ܲ泼鿙"
+  },
+  {
+    "id": "ssc_2016_q415",
+    "question": "The pie­chart shows the percentage of literate and illiterate male and female in a state. Study the diagram and answer the following questions. 댊巕 ♣郑笎 Ꙛ⿠ ♣酹淔 䯛蓺酹淔 ꅅ썙㲧 䅠ܲ泼鿙㲧 ꫺䯛蓺 댊巕 귛뮕 ♣ 䯛蓺騉ᶸ휆ཡ ꫺쉈㝍㲧 卑얛 ㊍树 If two categories together have a central angle of 169.2° , then these categories are ⷅ煺 뇸宴ཡ㲧 ᶸ휆 낵쑌惹㯦㊍树 169.2° , 뇸宴ཡ ­ 騃兾 ?",
+    "options": {
+      "A": "literate female and illiterate female 酹淔 䅠ܲ泼鿙 䯛蓺酹淔 䅠ܲ泼鿙",
+      "B": "literate male and illiterate female 酹淔 ꅅ썙 䯛蓺酹淔 䅠ܲ泼鿙",
+      "C": "illiterate male and illiterate female 䯛蓺酹淔 ꅅ썙 䯛蓺酹淔 䅠ܲ泼鿙",
+      "D": "illiterate male and literate female 䯛蓺酹淔 ꅅ썙 酹淔 䅠ܲ泼鿙"
+    },
+    "correctAnswer": "A",
+    "correctValue": "literate female and illiterate female 酹淔 䅠ܲ泼鿙 䯛蓺酹淔 䅠ܲ泼鿙",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: literate female and illiterate female 酹淔 䅠ܲ泼鿙 䯛蓺酹淔 䅠ܲ泼鿙"
+  },
+  {
+    "id": "ssc_2016_q416",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Although I have never seen the girl before, (A)/ I recognized her at once (B)/ from her photograph (C)/ no error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q417",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. There was a (A)/ comparison between (B)/ you and he (C)/ no error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q418",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He flowed into a rage (A)/ at the very (B)/ sight of that man (C)/ No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q421",
+    "question": "In this question, some equations are solved on the basis of a certain system. On the same basis find out the correct answer from amongst the four alternatives for the unsolved equation. ￿￿ ﳼﻼ 쏊 ￿￿ 藺 즞玤 ￿￿ ? 8 x 5 x 0 = 805 , 7 x 4 x 6 = 764 , 6 x 8 x 9 = ?",
+    "options": {
+      "A": "689",
+      "B": "698",
+      "C": "968",
+      "D": "986"
+    },
+    "correctAnswer": "B",
+    "correctValue": "698",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: 698"
+  },
+  {
+    "id": "ssc_2016_q422",
+    "question": "Which of the following Sultans of Tughlaq dynasty issued copper coins instead of silver ones? ￿￿ ￿￿ ￿￿ ￿￿ ? 11/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "Ghiyasuddin Tughlaq ￓ",
+      "B": "Muhammad bin Tughlaq ﻼﳾ",
+      "C": "Firoz Shah Tughlaq",
+      "D": "Mahmud Tughlaq"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Muhammad bin Tughlaq ﻼﳾ",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: Muhammad bin Tughlaq ﻼﳾ"
+  },
+  {
+    "id": "ssc_2016_q423",
+    "question": "Security Council of the UN comprises of 10 non­permanent members and their tenure is____________ ￿￿ ￠￢ ￿￿ ￿￿ 10 ￿￿ 圠 덭撌 ? 13/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "5 years 5 덭撌",
+      "B": "4 years 4 덭撌",
+      "C": "3 years 3 덭撌",
+      "D": "2 years 2 덭撌"
+    },
+    "correctAnswer": "D",
+    "correctValue": "2 years 2 덭撌",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 2 years 2 덭撌"
+  },
+  {
+    "id": "ssc_2016_q424",
+    "question": "The virus of AIDS affects the growth of_____________ ￿￿￪ ﳼﻼ ? 15/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "Haemoglobin 컿﫵",
+      "B": "RBCs in blood ￿￿ 藺 ...",
+      "C": "T cells in blood ￿￿ 藺 .",
+      "D": "Grey cells in brain ￿￿￿￻﻿ 藺 "
+    },
+    "correctAnswer": "C",
+    "correctValue": "T cells in blood ￿￿ 藺 .",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: T cells in blood ￿￿ 藺 ."
+  },
+  {
+    "id": "ssc_2016_q426",
+    "question": "Two successive discounts of 10% and 20% are equivalent to a single discount of 10% 20% ￮뿚 ﷽ﷸ ￿￿ ?",
+    "options": {
+      "A": "28%",
+      "B": "27%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "correctAnswer": "A",
+    "correctValue": "28%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 28%"
+  },
+  {
+    "id": "ssc_2016_q430",
+    "question": "In what time will a train, 60 metres long, running at the rate of 36 km/hr pass a telegraph post? 60 ￳ 36 ../  﫼ﳼ 藺 ? 17/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "9 seconds 9 ￷ﯼ",
+      "B": "8 seconds 8 ￷ﯼ",
+      "C": "7 seconds 7 ￷ﯼ",
+      "D": "6 seconds 6 ￷ﯼ"
+    },
+    "correctAnswer": "D",
+    "correctValue": "6 seconds 6 ￷ﯼ",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify speed, distance, and time from the problem.\nStep 2: Apply: Distance = Speed × Time or rearrange as needed.\nStep 3: For relative motion: add speeds (opposite direction) or subtract (same direction).\nFinal Answer: 6 seconds 6 ￷ﯼ"
+  },
+  {
+    "id": "ssc_2016_q431",
+    "question": "Three angles of a quadrilateral are 60°,90°and 100°.Then the fourth angle of the quadrilateral is 덭撌 600 , 900 1000 덭撌 ? 18/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "95°",
+      "B": "100°",
+      "C": "110°",
+      "D": "115°"
+    },
+    "correctAnswer": "C",
+    "correctValue": "110°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 110°"
+  },
+  {
+    "id": "ssc_2016_q432",
+    "question": "If x+1/x = 2, then the value of x7+2/x6 is equal to? x + 1/x = 2 x7 + 2/x6 ?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correctAnswer": "C",
+    "correctValue": "2",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 2"
+  },
+  {
+    "id": "ssc_2016_q434",
+    "question": "If 5 sin2θ+ 4cos2 θ= 9/2 and 0 <θ<Π/2 then tanθ is equal to? 5 sin2θ+ 4cos2 θ = 9/2 0 <θ<Π/2 tanθ ?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "­1",
+      "D": "¼ 20/27 9/22/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "A",
+    "correctValue": "1",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 1"
+  },
+  {
+    "id": "ssc_2016_q436",
+    "question": "From the top of a tower 60 mts high the angle of depression of the top and bottomof a pole are observed to be 45° and 60° respectively. If the pole and tower stand on the same plane, the height of the pole in meters is 60 덭撌 ￳ 덭撌 ￮뿚 450 600 ￳ ￿ 藺 ￳ ?",
+    "options": {
+      "A": "60(√3­1)",
+      "B": "20(√3­1)",
+      "C": "20(3­√3)",
+      "D": "20(√3+1)"
+    },
+    "correctAnswer": "C",
+    "correctValue": "20(3­√3)",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 20(3­√3)"
+  },
+  {
+    "id": "ssc_2016_q437",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. ￿￿ 덭撌 藺 ￿￿ 덭撌 藺 ￿￿ 덭撌 덭撌 덭撌 ￿￿ ﳼﻼ￿￿ 즞玤 The ratio of the amount spent on football, basketball and cricket to that spent on tennis,hockey andgolf is ,鉐㷿 ￮뿚 덭撌 , ￿￿ 덭撌 藺 ?",
+    "options": {
+      "A": "5:7",
+      "B": "7:5",
+      "C": "15:1",
+      "D": "3:20"
+    },
+    "correctAnswer": "B",
+    "correctValue": "7:5",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the quantities to be compared.\nStep 2: Set up the proportion or ratio equation from the given conditions.\nStep 3: Simplify to find the required ratio or value.\nFinal Answer: 7:5"
+  },
+  {
+    "id": "ssc_2016_q438",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. ￿￿ 덭撌 藺 ￿￿ 덭撌 藺 ￿￿ 덭撌 덭撌 덭撌 ￿￿ ﳼﻼ￿￿ 즞玤 If the total amount spent on sports during the year was Rs. 1,20,00,000 how muchwas spent on basketball 덭撌 Rs. 1,20,00,000 덭撌 鉐㷿 덭撌 ?",
+    "options": {
+      "A": "Rs. 950000",
+      "B": "Rs. 10,00,000",
+      "C": "Rs. 12,00,000",
+      "D": "Rs. 15,00,000"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Rs. 15,00,000",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Carefully read the required values from the table or chart.\nStep 2: Apply the appropriate formula (ratio, percentage, or average).\nFinal Answer: Rs. 15,00,000"
+  },
+  {
+    "id": "ssc_2016_q439",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. ￿￿ 덭撌 藺 ￿￿ 덭撌 藺 ￿￿ 덭撌 덭撌 덭撌 ￿￿ ﳼﻼ￿￿ 즞玤 Total central angle showing the money spent on hockey,football and other during the year was , 䁱 덭撌 덭撌 ?",
+    "options": {
+      "A": "104°",
+      "B": "244°",
+      "C": "96°",
+      "D": "144°"
+    },
+    "correctAnswer": "D",
+    "correctValue": "144°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the specific year's production from the table.\nStep 2: Central angle = (Year's production / Total production over all years) × 360°.\nStep 3: Substitute the values and compute.\nFinal Answer: 144°"
+  },
+  {
+    "id": "ssc_2016_q440",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. ￿￿ 덭撌 藺 ￿￿ 덭撌 藺 ￿￿ 덭撌 덭撌 덭撌 ￿￿ ﳼﻼ￿￿ 즞玤 If the money spent on cricket during the year was Rs. 20,00,000, then the money spent on tennis was: 덭撌 ￮뿚 Rs. 20,00,000 덭撌 덭撌 ?",
+    "options": {
+      "A": "Rs. 8,00,000",
+      "B": "Rs.10,00,000",
+      "C": "Rs. 80,00,000",
+      "D": "Rs. 40,00,000"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Rs. 8,00,000",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Carefully read the required values from the table or chart.\nStep 2: Apply the appropriate formula (ratio, percentage, or average).\nFinal Answer: Rs. 8,00,000"
+  },
+  {
+    "id": "ssc_2016_q441",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Why you (A) / copying your homework (B) / from someone else? (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q442",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. There is (A) / few time (B) / for preparation. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q443",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. All my hope (A) / were duped (B) / and I was plunged in deep sorrow. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  },
+  {
+    "id": "ssc_2016_q448",
+    "question": "If 4 * 2 = 3 and 8 * 4 = 3 , then 21 * 7 = ? 4 * 2 = 3 8 * 4 =3, 21 * 7 = ?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "8",
+      "D": "16"
+    },
+    "correctAnswer": "D",
+    "correctValue": "16",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 16"
+  },
+  {
+    "id": "ssc_2016_q450",
+    "question": "Find the least number which must be subtracted from 18265 to make it a perfect square 18265",
+    "options": {
+      "A": "30",
+      "B": "38",
+      "C": "40",
+      "D": "45"
+    },
+    "correctAnswer": "C",
+    "correctValue": "40",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: 40"
+  },
+  {
+    "id": "ssc_2016_q451",
+    "question": "A and B together can do a piece of work in 36 days, B and C together can do it in 24 days. A and C together can do it in 18 days. The three working together can finish the work in A B 36 , B C 24 A C 18 ?",
+    "options": {
+      "A": "8 days 8",
+      "B": "16 days 16",
+      "C": "30 days 30",
+      "D": "32 days 32"
+    },
+    "correctAnswer": "B",
+    "correctValue": "16 days 16",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Express each person's rate as 1/(days alone).\nStep 2: Combine rates for people working together.\nStep 3: Use rate × time = work to find the required time.\nFinal Answer: 16 days 16"
+  },
+  {
+    "id": "ssc_2016_q452",
+    "question": "Two adjacent sides of a parallelogram are 21 cms and 20 cms. The diagonal joining the end points of these two sides is 29 cms. The area of the parallelogram (in sq.cms) is 21 . . 20 . . 29 . . ( . .) ?",
+    "options": {
+      "A": "240",
+      "B": "120",
+      "C": "210",
+      "D": "420"
+    },
+    "correctAnswer": "D",
+    "correctValue": "420",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: DE ∥ AE means △ADE ∼ △ABC by AA similarity.\nStep 2: Ratio of sides = AD/AB = 1/(1+6) = 1/7.\nStep 3: Ratio of areas = (1/7)² = 1/49.\nFinal Answer: 420"
+  },
+  {
+    "id": "ssc_2016_q453",
+    "question": "A dealer marks his goods 20% above cost price. He then allows some discount on it and makes a profit of 8%. The rate of discount is 20% 8% ?",
+    "options": {
+      "A": "4%",
+      "B": "6%",
+      "C": "10%",
+      "D": "12%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "10%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the base value and the rate from the question.\nStep 2: Apply: Result = (Rate / 100) × Base.\nStep 3: Substitute the given numbers to calculate the answer.\nFinal Answer: 10%"
+  },
+  {
+    "id": "ssc_2016_q455",
+    "question": "The average age of 36 students in a group is 14 years. When the teacher's age is included in it, the average increases by one. The teacher's age in years is 36 14 ?",
+    "options": {
+      "A": "31",
+      "B": "51",
+      "C": "36",
+      "D": "50"
+    },
+    "correctAnswer": "B",
+    "correctValue": "51",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Total sum = Average × Number of items.\nStep 2: Use sub-group sums and the total to form an equation.\nStep 3: Solve for the unknown quantity.\nFinal Answer: 51"
+  },
+  {
+    "id": "ssc_2016_q456",
+    "question": "A dishonest dealer professes to sell his goods at cost price but uses a weight of 875 gms for the kilogram weight. His gain in percentage is 875 ( ) ?",
+    "options": {
+      "A": "17%",
+      "B": "",
+      "C": "",
+      "D": "14%"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: This question requires data from an external table or figure not available in text form.\nStep 2: Identify the relevant values from the chart/table provided in the original exam.\nStep 3: Apply the appropriate formula or comparison.\nFinal Answer: See original paper",
+    "data": {
+      "description": "This question requires data from an external table/chart from the original exam paper.",
+      "note": "Data not available in text form"
+    }
+  },
+  {
+    "id": "ssc_2016_q459",
+    "question": "If a/b + b/a = 1, then the value of a + b will be 3 3 a/b + b/a = 1, a + b ?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "2"
+    },
+    "correctAnswer": "B",
+    "correctValue": "0",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: 0"
+  },
+  {
+    "id": "ssc_2016_q460",
+    "question": "If p = 99, then the value of p(p +3p+3) will be 2 p = 99 p(p +3p+3) ?",
+    "options": {
+      "A": "999999",
+      "B": "1000000",
+      "C": "1000001",
+      "D": "999998"
+    },
+    "correctAnswer": "A",
+    "correctValue": "999999",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: 999999"
+  },
+  {
+    "id": "ssc_2016_q462",
+    "question": "∆ ABC a right angled triangle has ∠B = 90° and AC is hypotenuse. D is its circumcentre and AB = 3 cms, BC = 4 cms. The value of BD is ∆ ABC , ∠B =90° AC D AB = 3 . ., BC = 4 . . , BD ?",
+    "options": {
+      "A": "3cms 3 . .",
+      "B": "4 cms 4 . .",
+      "C": "2.5 cms 2.5 . .",
+      "D": "5.5 cms 5.5 . ."
+    },
+    "correctAnswer": "C",
+    "correctValue": "2.5 cms 2.5 . .",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 2.5 cms 2.5 . ."
+  },
+  {
+    "id": "ssc_2016_q463",
+    "question": "∆ ABC is an equilateral triangle and D, E are midpoints of AB and BC respectively. Then the area of ∆ ABC : the area of the trapezium ADEC is ∆ ABC D,E : AB BC ∆ ABC ADEC ?",
+    "options": {
+      "A": "5:3",
+      "B": "4:1",
+      "C": "8:5",
+      "D": "4:3"
+    },
+    "correctAnswer": "D",
+    "correctValue": "4:3",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 4:3"
+  },
+  {
+    "id": "ssc_2016_q464",
+    "question": "If x=aCosθCosΦ, y = aCosθSinΦ and z= 2 2 2 aSinθ, then the value of x + y + z is 2 x=aCosθCosΦ, y = aCosθSinΦ z= aSinθ x + 2 2 y + z ?",
+    "options": {
+      "A": "2a 2",
+      "B": "4a 2",
+      "C": "9a 2",
+      "D": "a 2"
+    },
+    "correctAnswer": "D",
+    "correctValue": "a 2",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the algebraic expression or equation.\nStep 2: Apply the relevant identity or substitution.\nStep 3: Simplify to reach the answer.\nFinal Answer: a 2"
+  },
+  {
+    "id": "ssc_2016_q465",
+    "question": "A 1.6 m tall observer is 45 meters away from a tower. The angle of elevation from his eye to the top of the tower is 30°, then the height of the tower in meters is (Take √3 = 1.732) 1.6 . 45.30° . ( √3 = 1.732 )",
+    "options": {
+      "A": "25.98",
+      "B": "26.58",
+      "C": "27.58",
+      "D": "27.98"
+    },
+    "correctAnswer": "C",
+    "correctValue": "27.58",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the relevant geometry theorem or formula.\nStep 2: Apply it to the given dimensions and angles.\nStep 3: Compute the required value.\nFinal Answer: 27.58"
+  },
+  {
+    "id": "ssc_2016_q468",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I always enjoy (A)/ to read (B)/ books (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: B"
+  },
+  {
+    "id": "ssc_2016_q469",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Variety (A)/ is (B)/ spice of life (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: "
+  },
+  {
+    "id": "ssc_2016_q470",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Neither of the scout leaders know (A)/ how to trap wild animals (B)/ or how to prepare them for mounting (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL",
+    "explanation": "Step 1: Identify the rule or pattern from the given information.\nStep 2: Apply it carefully to the unknown, step by step.\nStep 3: Verify your answer against the given options.\nFinal Answer: A"
+  }
+]

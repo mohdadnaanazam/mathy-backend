@@ -1,0 +1,4098 @@
+[
+  {
+    "id": "ssc_2018_q1",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 18+6−6÷3×3 = 6",
+    "options": {
+      "A": "+ and −",
+      "B": "+ and ÷",
+      "C": "+ and × − and ÷",
+      "D": ""
+    },
+    "correctAnswer": "B",
+    "correctValue": "+ and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q8",
+    "question": "How much iron sheet (in m2) will be needed to construct a rectangular tank measuring 10 m × 8 m × 6 m, if a circular opening of radius one metre is to be left at the top of the tank? (correct to one decimal place)",
+    "options": {
+      "A": "370.4",
+      "B": "370.8",
+      "C": "372.9",
+      "D": "371.6"
+    },
+    "correctAnswer": "C",
+    "correctValue": "372.9",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q11",
+    "question": "The production of cars of type A in 2015 and of type C in 2013 taken together is approximately what percent of the total production of cars of type D in five years ?",
+    "options": {
+      "A": "40.2",
+      "B": "42.4",
+      "C": "43.5",
+      "D": "42.8"
+    },
+    "correctAnswer": "C",
+    "correctValue": "43.5",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q12",
+    "question": "The ratio of the efficiencies of A, B and C is 4 : 5 : 3 Working together, they can complete that work in 25 days. A and C together will complete 35% of that work in:",
+    "options": {
+      "A": "8",
+      "B": "62 r",
+      "C": "52 S",
+      "D": "5"
+    },
+    "correctAnswer": "D",
+    "correctValue": "5",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q13",
+    "question": "The value of 5÷5 of 5×2+2÷2 of 2×5−(5−2)÷6×2 is: 9 a",
+    "options": {
+      "A": "5 23",
+      "B": "2 r",
+      "C": "19 19",
+      "D": "10"
+    },
+    "correctAnswer": "D",
+    "correctValue": "10",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q15",
+    "question": "x3+y3+z3−3xyz If x + y + z = 19, xy + yz + zx = 114, then the value of is:",
+    "options": {
+      "A": "13",
+      "B": "19 17",
+      "C": "",
+      "D": "21"
+    },
+    "correctAnswer": "B",
+    "correctValue": "19 17",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q17",
+    "question": "What will be the value of the following equation if '÷' means 'addition', '+' means 'subtraction', '−' means 'multiplication' and '×' means 'division'? 54×6−7÷8+2 =?",
+    "options": {
+      "A": "63",
+      "B": "57",
+      "C": "69",
+      "D": "61"
+    },
+    "correctAnswer": "C",
+    "correctValue": "69",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q18",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 15−9÷6×10+5 = 25",
+    "options": {
+      "A": "× and −",
+      "B": "+ and − + and ÷",
+      "C": "",
+      "D": "× and ÷"
+    },
+    "correctAnswer": "B",
+    "correctValue": "+ and − + and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q19",
+    "question": "21 March 2019 was celebrated by the UN as World Down Syndrome Day and the theme was _____.",
+    "options": {
+      "A": "\"Leave no one behind\"",
+      "B": "\"All is well\"",
+      "C": "\"Together we grow\"",
+      "D": "\"Live and let live\""
+    },
+    "correctAnswer": "A",
+    "correctValue": "\"Leave no one behind\"",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q23",
+    "question": "7 5 2 1 6 1 2 5 The value of 28 ÷(36 ÷ 7 of 23)×[(27 of 45 ÷ 3)× 9] is:",
+    "options": {
+      "A": "4",
+      "B": "4",
+      "C": "23",
+      "D": "5"
+    },
+    "correctAnswer": "D",
+    "correctValue": "5",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q25",
+    "question": "What will be the compound interest (nearest to ₹1) on a sum of ₹25,000 for 2 years at 12% p.a., if the interest is compounded 8-monthly ?",
+    "options": {
+      "A": "₹6,394",
+      "B": "₹6,439",
+      "C": "₹6,493",
+      "D": "₹6,349"
+    },
+    "correctAnswer": "C",
+    "correctValue": "₹6,493",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q28",
+    "question": "The Table shows the production of different types of cars (in thousands). In the data related to the production of type D cars is represented by a pie chart, then the central angle of the sector representing production of cars in 2015 will be:",
+    "options": {
+      "A": "72∘",
+      "B": "63∘",
+      "C": "81∘",
+      "D": "99∘"
+    },
+    "correctAnswer": "C",
+    "correctValue": "81∘",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q30",
+    "question": "Three numbers are such that if the average of any two of them is added to the third number, the sums obtained are 168, 174 and 180 respectively. What is the average of the original three numbers ?",
+    "options": {
+      "A": "86",
+      "B": "87",
+      "C": "89",
+      "D": "84"
+    },
+    "correctAnswer": "B",
+    "correctValue": "87",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q34",
+    "question": "Anu allows a discount on the marked price Of an article and still makes a profit Of 25%. If she gains ₹44.80 on the sale of the article, then the cost price of the article is:",
+    "options": {
+      "A": "₹188.80",
+      "B": "₹192.80",
+      "C": "₹184.20",
+      "D": "₹179.20"
+    },
+    "correctAnswer": "D",
+    "correctValue": "₹179.20",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q37",
+    "question": "Given below are four jumbled sentences. Select the option that gives their correct order. A. An estimated 70% of this plastic which enters the sea sinks. B. This is a problem that stretches far beyond India. C. Eight million tonnes of plastic ends up in the world's oceans every year, causing damage to the fragile ecosystem. D. And much of it is not biodegradable.",
+    "options": {
+      "A": "CADB",
+      "B": "ABDC CDBA",
+      "C": "",
+      "D": "ADBC"
+    },
+    "correctAnswer": "A",
+    "correctValue": "CADB",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q38",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 10+5÷10×8−10 = 16",
+    "options": {
+      "A": "× and +",
+      "B": "− and +",
+      "C": "÷ and ×",
+      "D": "+ and ÷ T Answer: B i"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q39",
+    "question": "Two mixtures contain milk and juice in the ratio of 2 : 1 and 4 : 5. If equal volumes of the two mixtures are mixed together, what would be ratio of milk to juice in the resulting mixture?",
+    "options": {
+      "A": "5:4",
+      "B": "7:5 T",
+      "C": "1:1",
+      "D": "5:3"
+    },
+    "correctAnswer": "A",
+    "correctValue": "5:4",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q42",
+    "question": "The value of (5+3÷5×5)÷(3÷3 of 6) of (4×4÷4 of 4+4÷4×4) is:",
+    "options": {
+      "A": "73",
+      "B": "85",
+      "C": "95",
+      "D": "63"
+    },
+    "correctAnswer": "C",
+    "correctValue": "95",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q43",
+    "question": "Pipes A and B can fill a tank in one hour and two hours respectively while pipe C can empty the filled up tank in one hour and fifteen minutes. A and C are turned on together at 9 a.m. After 2 hours, only A is closed and B is turned on. When will the tank be emptied?",
+    "options": {
+      "A": "11:30 am.",
+      "B": "12:10 pm.",
+      "C": "12:20 pm. 10:30 am.",
+      "D": ""
+    },
+    "correctAnswer": "C",
+    "correctValue": "12:20 pm. 10:30 am.",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q44",
+    "question": "The table shows the production of different types of cars by a company (in thousands) in 5 years. If the data related to the production of cars in 2018 is represented by pie chart, then the central angle of the sector representing the production of type C cars will be:",
+    "options": {
+      "A": "72∘",
+      "B": "91∘",
+      "C": "59∘",
+      "D": "93∘"
+    },
+    "correctAnswer": "A",
+    "correctValue": "72∘",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q52",
+    "question": "Which two signs should be interchanged in the following equation to make it correct? 12−6÷12×6+6 = 9",
+    "options": {
+      "A": "÷ and × t",
+      "B": "+ and ÷ e",
+      "C": "− and +",
+      "D": "× and + r"
+    },
+    "correctAnswer": "C",
+    "correctValue": "− and +",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q54",
+    "question": "The efficiencies of A, B and C are in the ratio 5 : 3 : 8. Working together they can complete a work in 30 days. A and B worked together for 20 days. The remaining work will be completed by C alone in:",
+    "options": {
+      "A": "40 days",
+      "B": "36 days",
+      "C": "30 days",
+      "D": "32 days"
+    },
+    "correctAnswer": "A",
+    "correctValue": "40 days",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q56",
+    "question": "The distance between two stations A and B is 800 km. A train X starts from A and moves towards B at 40 km/h and another train Y starts from B and moves towards A at 60 km/h. How far from A will they cross each other ?",
+    "options": {
+      "A": "380 km",
+      "B": "320 km",
+      "C": "300 km",
+      "D": "360 km"
+    },
+    "correctAnswer": "B",
+    "correctValue": "320 km",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q57",
+    "question": "If 2x2+y2+6x−2xy+9 = 0, then the value of (4x3−y3+x2y2) is:",
+    "options": {
+      "A": "0",
+      "B": "9",
+      "C": "-3",
+      "D": "-9"
+    },
+    "correctAnswer": "A",
+    "correctValue": "0",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q60",
+    "question": "The value of 9 2 2 3 3 3 a3 4 5 5 2 4 15 of (3 ÷ 3 of 2)÷(4 × 4 ÷ 4 of 3) of (4 ÷ 2 × 5 of 5) is: 20",
+    "options": {
+      "A": "9",
+      "B": "25 18",
+      "C": "125 40",
+      "D": "9"
+    },
+    "correctAnswer": "D",
+    "correctValue": "9",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q64",
+    "question": "The table shows the production of different types of cars (in thousands). The total production of type E cars in 2012 and 2013 is approximately what percent more than the average production of type A cars during the years 2012 to 2016?",
+    "options": {
+      "A": "53.8",
+      "B": "55.2",
+      "C": "52.2",
+      "D": "56.4"
+    },
+    "correctAnswer": "B",
+    "correctValue": "55.2",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q66",
+    "question": "The total production of all type of cars, except type B, in 2012 is what percent less than the total production of all types of cars in 2016?",
+    "options": {
+      "A": "40",
+      "B": "25.8",
+      "C": "26.7",
+      "D": "42"
+    },
+    "correctAnswer": "A",
+    "correctValue": "40",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q71",
+    "question": "If a 9-digit number 32x4115y2 is divisible by 88, then the value of (4x M- y) for the smallest possible value of y, is:",
+    "options": {
+      "A": "31",
+      "B": "20",
+      "C": "-1",
+      "D": "11"
+    },
+    "correctAnswer": "C",
+    "correctValue": "-1",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q72",
+    "question": "What will be the value of the following equation if '÷' means addition', '+' means 'subtraction', '−' means 'multiplication' and '×'means 'division'? 72×9−3÷8+2 =?",
+    "options": {
+      "A": "25",
+      "B": "40",
+      "C": "30",
+      "D": "35"
+    },
+    "correctAnswer": "C",
+    "correctValue": "30",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q73",
+    "question": "The radii of three concentric circles are in the ratio of 4 : 5 : 7. What is the ratio of the area between the two inner circles to that between the two outer circles?",
+    "options": {
+      "A": "3:8",
+      "B": "4:7",
+      "C": "5:9",
+      "D": "4:5"
+    },
+    "correctAnswer": "A",
+    "correctValue": "3:8",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q74",
+    "question": "To do a certain work, the ratio of the efficiencies of A, B andC C is 7 : 5 : 6. Working together, they can complete the same work in 35 days. B and C work together for 21 days. The remaining work will be completed by A alone in: .",
+    "options": {
+      "A": "54 days e",
+      "B": "50 days",
+      "C": "60 days r",
+      "D": "57 days k Answer: D r"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q77",
+    "question": "The table shows the production of different types of cars (in thousands). The total production of type B cars during 2013 to 2016 is approximately what percent less than the total production of cars in 2017?",
+    "options": {
+      "A": "38% 32% 40%",
+      "B": "",
+      "C": "",
+      "D": "35%"
+    },
+    "correctAnswer": "D",
+    "correctValue": "35%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q78",
+    "question": "The average of eleven numbers is 54. The average of the first four numbers is 48 and that of the next four numbers is 25% more than the average of the firsst four. The ninth number is 8 greater than the 11th number and the tenth number is 4 greater than the 11th number. What is the average of the 9th and the 10th numbers?",
+    "options": {
+      "A": "52.6",
+      "B": "54",
+      "C": "56 r",
+      "D": "54.4"
+    },
+    "correctAnswer": "C",
+    "correctValue": "56 r",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q79",
+    "question": "PQRS is a cyclic quadrilateral. If angle P is three times the angle R and angle S is five times the angle Q,then the sum of the angles Q and is:",
+    "options": {
+      "A": "65∘",
+      "B": "75∘",
+      "C": "72∘",
+      "D": "70∘"
+    },
+    "correctAnswer": "B",
+    "correctValue": "75∘",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q81",
+    "question": "The total production of type B cars in 2015 and type C cars in 2013 is what percent more that the total production of type E cars in 2013 and 2014 ? (Correct to one decimal place)",
+    "options": {
+      "A": "23.4",
+      "B": "24.8",
+      "C": "25.6",
+      "D": "22.2"
+    },
+    "correctAnswer": "D",
+    "correctValue": "22.2",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q82",
+    "question": "If the data related to the production of type D cars is represented by a pie-chart, then the central angle of the sector representing the production of the cars in 2016 will be:",
+    "options": {
+      "A": "78∘ 72∘",
+      "B": "",
+      "C": "79.2∘",
+      "D": "67.2∘"
+    },
+    "correctAnswer": "A",
+    "correctValue": "78∘ 72∘",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q83",
+    "question": "The table shows the production of different types of cars (in thousands). The ratio of the total production of type A cars in 2017 and type D cars in 2015 to the total production of type B and type E cars in 2013 is:",
+    "options": {
+      "A": "7 : 8",
+      "B": "4 : 3",
+      "C": "8 : 7",
+      "D": "3 : 4"
+    },
+    "correctAnswer": "B",
+    "correctValue": "4 : 3",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q85",
+    "question": "The value of 16÷4 of 4×[3÷4 of {4×3÷(3+3)}]÷(2÷4 of 8) is:",
+    "options": {
+      "A": "6",
+      "B": "48",
+      "C": "9",
+      "D": "16"
+    },
+    "correctAnswer": "A",
+    "correctValue": "6",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q86",
+    "question": "Given below are four jumbled sentences. Select the option that gives their correct order. A. What was supposed to be a holiday of a lifetime turned into a dangerous experience for 1,300 passengers on a cruise ship off the coast of Norway. B. The Norwegian Government decided to evacuate the passengers with the help of helicopters. C. The ship broke down in rough seas and high-speed winds caused it to rock heavily from side to side. D. From the first 371 evacuated passengers, 17 had to be taken to hospital.",
+    "options": {
+      "A": "ABCD",
+      "B": "ACBD",
+      "C": "CBDA",
+      "D": "CABD"
+    },
+    "correctAnswer": "B",
+    "correctValue": "ACBD",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q89",
+    "question": "Which of the two signs should be interchanged in the following equation to make the given value correct? 15+5−10×6÷12 = 6",
+    "options": {
+      "A": "+ and ÷",
+      "B": "+ and −",
+      "C": "− and ÷",
+      "D": "+ and ×"
+    },
+    "correctAnswer": "C",
+    "correctValue": "− and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q92",
+    "question": "Asian Development Bank (ADB) in its Outlrook Supplement has retained India's growth forecast at 7.3% for the current fiscal (2018-19) and ___a_% for the following financial year (2019-20).",
+    "options": {
+      "A": "7.6",
+      "B": "8.6",
+      "C": "7.9",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "correctValue": "7.6",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q93",
+    "question": "Three numbers are such that if the average of any two of them is added to the third number, the sums obtained are 164, 158 and 132 respectively. What is the average of the original three numbers?",
+    "options": {
+      "A": "753",
+      "B": "76 2 2",
+      "C": "753",
+      "D": "74"
+    },
+    "correctAnswer": "C",
+    "correctValue": "753",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q94",
+    "question": "The table shows the production of different types of cars (in thousands). If the data related to the production of type E cars is represented by a pie-chart, then the central angle of the sector representing production of cars in 2013 will be:",
+    "options": {
+      "A": "76.8∘",
+      "B": "78∘",
+      "C": "81.6∘",
+      "D": "66∘"
+    },
+    "correctAnswer": "D",
+    "correctValue": "66∘",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q95",
+    "question": "The table shows the production of different types of cars (in thousands). The average production of type C cars during 2012 to 2016 is approximately what percent less than the total production of type D cars in 2012 and type E cars in 2014?",
+    "options": {
+      "A": "48.6%",
+      "B": "49.2% 46.4%",
+      "C": "",
+      "D": "42.8%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2018_q101",
+    "question": "The ratio of the efficiencies of A, B and C is 7: 5 : 8. Working together, they can complete a piece of work in 42 days. B and C worked together for 21 days and the remaining work was completed by A alone. The whole work was completed in:",
+    "options": {
+      "A": "102 days",
+      "B": "93 days",
+      "C": "99 days",
+      "D": "96 days"
+    },
+    "correctAnswer": "A",
+    "correctValue": "102 days",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2018,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q108",
+    "question": "A dealer allows a discount of 15%. A customer pays an amount of Rs. 318.75 for an article. At what price is the article listed? 15% Rs. एक वेता क छूट देता है। कोई ाहक कसी व तुकेलए 318.75 ? क राश अदा करता है। व तुक सूची कमत ात कजये",
+    "options": {
+      "A": "Rs. 366.50",
+      "B": "Rs. 375.00",
+      "C": "Rs. 350.00",
+      "D": "Rs. 431.25"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 375.00",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q110",
+    "question": "The average of 15 numbers is 7. If the average of the first 8 numbers is 6.5 and the average of the last 8 numbers is 8.5 then middle number is 15 7 8 6.5 सं या का औसत है। यद पहली सं या का औसत हो 8 8.5 और अंतम सं या का औसत हो तो बीच वाली सं या ात ? कजये",
+    "options": {
+      "A": "10",
+      "B": "23",
+      "C": "13",
+      "D": "15"
+    },
+    "correctAnswer": "D",
+    "correctValue": "15",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q111",
+    "question": "A man bought 25 crates of oranges for Rs. 10,000. He lost 5 crates. In order to earn a total profit of 25% of the total cost, he would have to sell each of the remaining crates at 25 Rs. 10000 5 कसी य नेसंतर के ेट मखरीदे। उनमसेेट खो गये। अब वह शेष ेट मसे येक ेट कस दाम पर बेचेक उसको 25% ? कुल लागत पर का लाभ हो",
+    "options": {
+      "A": "Rs.650",
+      "B": "Rs. 625",
+      "C": "Rs. 600",
+      "D": "Rs. 575"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 625",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q113",
+    "question": "A man travels ¾th of the distance of his journey by bus, ⅙th by Rickshaw and 2 km on foot. The total distance travelled by the man is 3/4 , 1/6 2 कोई य अपनी याा क री बस से र शा सेऔर 0 0 ? क मी पैदल तय करता है। उस य नेकुल कतनी याा क",
+    "options": {
+      "A": "12 km",
+      "B": "18 km",
+      "C": "20 km",
+      "D": "24 km"
+    },
+    "correctAnswer": "D",
+    "correctValue": "24 km",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q114",
+    "question": "The compound interest on Rs. 1000 at 10% per annum for 3 years in (Rs.) is 3 10% Rs. 1000 वष केलए वाषक दर पर पर चवृ याज या ? होगा",
+    "options": {
+      "A": "Rs. 1331",
+      "B": "Rs. 331",
+      "C": "Rs. 300",
+      "D": "Rs. 1300"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 331",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q117",
+    "question": "Sashi can do a piece of work in 20 days. Tanya is 25% more efficient than Sashi. The number of days taken by Tanya to do the same piece of work is: 20 25% शश कसी काम को दन मकर सकती है। ता या उससे अधक ? द है। वही काम ता या कतनेदन मपूरा करेगी",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "18",
+      "D": "25"
+    },
+    "correctAnswer": "B",
+    "correctValue": "16",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q124",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. His parents usually spent (A) / their summer in Ooty (B) / but this year they are spending it in Darjeeling. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q125",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He lost heart (A) / because he could not cope up with (B) / the difficulties in life. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q126",
+    "question": "A sentence/a part of the sentence is underlined. Four alternatives are given to the underlined part which will improve the sentence. Choose the correct alternative and click the button corresponding to it. In case no improvement is needed, click the button corresponding to \"No improvement\". Would you find one absent, please don't forget to leave a message behind.",
+    "options": {
+      "A": "As you find",
+      "B": "Should you find",
+      "C": "Unless you find",
+      "D": "No improvement"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Should you find",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q128",
+    "question": "A certain system is followed to solve the problem . Accordingly find out the correct answer from the alternatives for the unsolved equations . ननलखत म कुछ समीकरण का हल नकालने के लए एक वश णाली का योग कया गया है। जस समीकरण का हल नह नकाला गया है, उसी वश णाली से उस समीकरण का उर ात कजए 7 x 4 x 9 = 479 9 x 5 x 2 = 592 6 x 9 x 5 = 965 8 x 6 x 2 = ?",
+    "options": {
+      "A": "286",
+      "B": "682",
+      "C": "628",
+      "D": "268"
+    },
+    "correctAnswer": "B",
+    "correctValue": "682",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q132",
+    "question": "A,B and C contract a work for ₹ 440. Together A and B are to do 9/11 of the work. The share of C should be: A, B और C कसी काम को ₹ 440 म करने का ठेका लेते ह। A और B को मलकर 9/11 भाग काम करना है। C का शेयर या होना चाहए ?",
+    "options": {
+      "A": "75",
+      "B": "90",
+      "C": "100",
+      "D": "80"
+    },
+    "correctAnswer": "D",
+    "correctValue": "80",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q134",
+    "question": "The sum of the cubes of two numbers in the ratio 3 : 4 is 5824. The sum of the numbers is: 3 : 4 के अनुपात म दो संया के घन का योग 5824 है। संया का योग कतना है ?",
+    "options": {
+      "A": "",
+      "B": "28",
+      "C": "24",
+      "D": "14"
+    },
+    "correctAnswer": "B",
+    "correctValue": "28",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q136",
+    "question": "In a motor of 120 machine parts, 5% parts were defective. In another motor of 80 machine parts, 10% parts were defective. For the two motors considered together, the percentage of defective machine parts were 120 मशीनी पुज क मोटर म 5% पुज खराब थे। 80 मशीनी पुज क सरी मोटर म 10% पुज खराब थे। दोन मोटर को मलाकर खराब मशीनी पुज का तशत कतना था ?",
+    "options": {
+      "A": "7",
+      "B": "6.5",
+      "C": "7.5",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "correctValue": "7",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q137",
+    "question": "A train, 200 m long, is running at a speed of 54 km/hr. The time in seconds that will be taken by train to cross a 175 m long bridge is 200 मीटर लबी एक ेन 54 क.मी./घंटा क गत से दौड रही है। 175 मीटर लबे पुल को वह कतने समय (सेकेड) म पार करेगी ?",
+    "options": {
+      "A": "12.5",
+      "B": "20",
+      "C": "25",
+      "D": "10"
+    },
+    "correctAnswer": "C",
+    "correctValue": "25",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q139",
+    "question": "What least value must be assigned to ‛*' so that the numbers 451 * 603 is exactly divisible by 9? ‛*' का यूनतम कतना मूय रखा जाए क 451*603 संया 9 से पूरी तरह वभाजत हो जाए ?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "5",
+      "D": "9"
+    },
+    "correctAnswer": "B",
+    "correctValue": "8",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q142",
+    "question": "Two circles touch each other internally. The radius of the smaller circle is 6 cm and the distance between the centre of two circles is 3 cm. The radius of the larger circle is दो वृ एक सरे को अंदर क ओर पश करते ह। छोटे वृ क या 6 से.मी. है, और दोन वृ के क के बीच री 3 से.मी. है। बडे़ वृ क या कतनी है ?",
+    "options": {
+      "A": "7.5 cm 7.5 से.मी.",
+      "B": "9 cm 9 से.मी.",
+      "C": "8 cm 8 से.मी.",
+      "D": "10 cm 10 से.मी."
+    },
+    "correctAnswer": "B",
+    "correctValue": "9 cm 9 से.मी.",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q143",
+    "question": "PQR is an equilateral triangle. MN is drawn parallel to QR such that M is on PQ and N is on PR. If PN = 6 cm, then the length of MN is PQR एक समबा भुज है। MN, QR के समांतर इस कार बनाया गया है क M,PQ पर है और N, PR पर है। यद PN = 6 से.मी. हो, तो MN क लबाई कतनी होगी ?",
+    "options": {
+      "A": "3 cm 3 से.मी.",
+      "B": "6 cm 6 से.मी.",
+      "C": "12 cm 12 से.मी.",
+      "D": "4.5 cm 4.5 से.मी."
+    },
+    "correctAnswer": "B",
+    "correctValue": "6 cm 6 से.मी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q144",
+    "question": "If cosec θ + sinθ = 5/2 then the value of cosecθ - sinθ is यद cosec θ + sin θ = 5/2 है, तब cosec θ - sin θ का मान ात कजए ?",
+    "options": {
+      "A": "-3/2",
+      "B": "3/2",
+      "C": "−√3/2",
+      "D": "√3/2"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3/2",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q145",
+    "question": "Two men are on opposite sides of a tower. They measure the angles of elevation of the top of the tower as 30˚ and 45˚ respectively. If the height of the tower is 50 m, the distance between the two men is (Take √3 = 1.73) दो एक टॉवर क वपरत दशा म खड़े ह। वे टॉवर के शीष का उत कोण मशः 30˚ और 45˚ मापते ह । यद टॉवर क ऊं चाई 50 मीटर है तो दोन य के बीच क री कतनी है ? ( माना √3 = 1.73)",
+    "options": {
+      "A": "136.5 m 136.5 मी.",
+      "B": "50 √3 m 50 √3 मी.",
+      "C": "100 √3 m 100 √3 मी.",
+      "D": "135.5 m 135.5 मी."
+    },
+    "correctAnswer": "A",
+    "correctValue": "136.5 m 136.5 मी.",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q148",
+    "question": "A bar graph showing the heights of six mountain peaks. Study the bar graph and answer questions बार ाफ का अययन कजए और ननलखत के उर दजए। ाफ म 6 पवत शखर क ऊं चाई दशायी गयी है। Write the ratio of the heights of the highest peak and the lowest peak उचतम शखर और ननतम शखर क ऊं चाई का अनुपात बताइए ?",
+    "options": {
+      "A": "22:15",
+      "B": "15:22",
+      "C": "20:13",
+      "D": "13:22"
+    },
+    "correctAnswer": "A",
+    "correctValue": "22:15",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q150",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Too great a (A)/ variety of studies (B)/ distract the mind (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q151",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The severe cyclonic storm (A)/ has left behind (B)/ a trial of misery (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q153",
+    "question": "If HOUSE is written as FQSUC , then how can CHAIR be written in that code? यिद HOUSE को FQSUC िलखा जा सकता है, तो CHAIR को कैस ेिलख सकते ह䊨䆽 ? 3/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "DIBJS",
+      "B": "SBJID",
+      "C": "SHBGD",
+      "D": "AJYKP"
+    },
+    "correctAnswer": "D",
+    "correctValue": "AJYKP",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q154",
+    "question": "If 4 + 3 = 25 and 8 + 4 = 80 , then, 3 + 2 = ? अगर 4 + 3 = 25 और 8 + 4 = 80 हो, तो 3 + 2 = ?",
+    "options": {
+      "A": "15",
+      "B": "10",
+      "C": "13",
+      "D": "12"
+    },
+    "correctAnswer": "C",
+    "correctValue": "13",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q155",
+    "question": "A __________ is an agreement between the communicating parties on how communication is to proceed. _____________ दो प䌲䌱ो ंके बीच स䓾䓽ेषण करने का एक ऐसा समझौता है जो यह बताता है िक स䋠䋟ंेषण कैस ेिकया जाए । 12/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "Path पाथ",
+      "B": "SLA एस.एल.ए",
+      "C": "Bond बॉ䑮䑭",
+      "D": "Protocol 䋠䋟ोटोकॉल"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Protocol 䋠䋟ोटोकॉल",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q156",
+    "question": "The complete form of 'IC' in electronics is इलै䌊䌉䇎䇍ॅािन䌺䌹 म䆾 'IC' का पूण䊖䊕 䊾䊽प 䌤䌣ा है ? 14/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "Internal circuit इंटन䊖䊕ल सिक䊖䊕ट",
+      "B": "Independent circuit इंिडप䆾डे䑬䑫 सिक䊖䊕ट",
+      "C": "Integrated circuit इंटी䋌䋋ेटेड सिक䊖䊕ट",
+      "D": "Inbuilt circuit इन­िब䔤䔣 सिक䊖䊕ट"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Integrated circuit इंटी䋌䋋ेटेड सिक䊖䊕ट",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q159",
+    "question": "A merchant changed his trade discount from 25% to 15%. This would increase selling price by िकसी 䕖䕕ापारी ने अपने 䕖䕕वसायी ब䏎䏍े की दर 25% स े15% कर दी। इसस ेिव䋈䋇य मू䕀䔿 म䆾 िकतनी वृ䑄䑃 होगी ?",
+    "options": {
+      "A": "3⅓%",
+      "B": "6⅙%",
+      "C": "13⅓%",
+      "D": "16⅓%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "13⅓%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q160",
+    "question": "If 177 is divided into 3 parts in the ratio 1/2 : 2/3: 4/5, then the second part is यिद 177 को 1/2 : 2/3: 4/5 को अनुपात म䆾 तीन भागो ंम䆾 िवभ䌎䌍 िकया जाए तो बताएं दूसरा भाग 䌤䌣ा होगा ?",
+    "options": {
+      "A": "75",
+      "B": "45",
+      "C": "72",
+      "D": "60"
+    },
+    "correctAnswer": "D",
+    "correctValue": "60",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q163",
+    "question": "Gautam travels 160 kms at 32 kmph and returns at 40 kmph. Then average speed is गौतम 32 िक.मी./घंटा की चाल स े160 िक.मी. चलता है और 40 िक.मी./घंटा की चाल स ेलौटता है। औसत चाल बताइए ?",
+    "options": {
+      "A": "72 kmph 72 िक.मी./घ䏮䏭ा",
+      "B": "71.11 kmph 71.11 िक.मी./घ䏮䏭ा",
+      "C": "36 kmph 36 िक.मी./घ䏮䏭ा",
+      "D": "35.55 kmph 35.55 िक.मी./घ䏮䏭ा"
+    },
+    "correctAnswer": "D",
+    "correctValue": "35.55 kmph 35.55 िक.मी./घ䏮䏭ा",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q166",
+    "question": "(251 + 252+253+254+255) is divisible by (251 + 252 + 253 + 254 + 255) िन䓺䓹िलखत म䆾 स ेिकसस ेिवभा䎺䎹 है ?",
+    "options": {
+      "A": "23",
+      "B": "58",
+      "C": "124",
+      "D": "127"
+    },
+    "correctAnswer": "C",
+    "correctValue": "124",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q170",
+    "question": "The compound interest on Rs. 64,000 for 3 years, compounded annually at 7.5% p.a. is Rs. 64,000 की रािश पर 7.5% वािष䊖䊕क की दर स े3 वष䊖䊕 का च䋈䋇वृ䑄䑃 䓢䓡ाज (िजसे 䋠䋟ित वष䊖䊕 सयंोिजत िकया जाता है),䌤䌣ा होगा ?",
+    "options": {
+      "A": "Rs. 14,400",
+      "B": "Rs. 15,705",
+      "C": "Rs. 15,507",
+      "D": "Rs. 15,075"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs. 15,507",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q172",
+    "question": "Study the pie­chart given and answer the following questions. नीचे िदए गए पाई चाट䊖䊕 का अ䑢䑡यन कीिजए और िन䓺䓹िलखत 䋠䋟䕨䕧ो ंके उ䐎䐍र िदिजए। The central angle of printing charge is x more than that of advertisement charge. Then the value of x is छपाई 䋠䋟भार का के䒀䑿ीय कोण िव䎨䎧ापन 䋠䋟भार स ेx अिधक है, तो x का मान 䌤䌣ा होगा ? 21/27 9/21/2016 Staff Selection Commision",
+    "options": {
+      "A": "72°",
+      "B": "61.2°",
+      "C": "60°",
+      "D": "54.8°"
+    },
+    "correctAnswer": "B",
+    "correctValue": "61.2°",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q175",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. If you permit me to speak the truth (A) / I shall state without hesitation (B) / that you have done a mistake (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q176",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I succeeded persuading him (A) / to come with me (B) / only after hours of argument (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q177",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Vermin (A) / does much harm (B) / to crops (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q178",
+    "question": "Out of the four alternatives, choose the one which can be substituted for the given words/sentences and click the button corresponding to it. Falsification of documents etc.",
+    "options": {
+      "A": "Xeroxing",
+      "B": "Forgery",
+      "C": "Laminating",
+      "D": "Copying 24/27 9/21/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Forgery",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q179",
+    "question": "A sentence/a part of the sentence is underlined. Four alternatives are given to the underlined part which will improve the sentence. Choose the correct alternative and click the button corresponding to it. In case no improvement is needed, click the button corresponding to \"No improvement\". The boys absented themselves for two days.",
+    "options": {
+      "A": "were absented",
+      "B": "absented",
+      "C": "had absented",
+      "D": "No improvement"
+    },
+    "correctAnswer": "D",
+    "correctValue": "No improvement",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q181",
+    "question": "The average age of A and B is 18 years. After 3 years, C joins them and the average ages of A, B and C becomes 22 years. The age of C is ? A और B क冩䨀 औसत आयु 18 वष䊪 है। तीन साल बाद C उनम 㾀शामल होता है तो A, B और C क冩䨀 आयु का औसत 22 वष䊪 हो जाता है। C क冩䨀 आयु 䅐या है ?",
+    "options": {
+      "A": "20 years 20 वष䊪",
+      "B": "21 years 21 वष䊪",
+      "C": "24 years 24 वष䊪",
+      "D": "23 years 23 वष䊪"
+    },
+    "correctAnswer": "C",
+    "correctValue": "24 years 24 वष䊪",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q189",
+    "question": "An electric pump can fill a tank in 2 hours. Because of a leak in the tank, it was taking 2½ hours to fill the tank. The leak can drain all the water off the tank in how many hours? एक ﻿वयुत पप कसी टंक冩䨀 को 2 घंटे म 㾀भर सकता है। टंक冩䨀 म 㾀चँकू冩䨀 कह䏩耀 पर 䏄耀रसाव हो रहा था इसलए टंक冩䨀 2½ घंटे म 㾀भर䏩耀। उस हसाब स ेटंक冩䨀 कतने घंटे म 㾀पूर䏩耀 तरह स ेखाल䏩耀 हो सकती है ?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "10½",
+      "D": "11½"
+    },
+    "correctAnswer": "B",
+    "correctValue": "10",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q193",
+    "question": "A car takes 5 hours to cover 100 kms distance at a particular speed whereas another car takes 3 hours to reach a particular distance at the same speed. Find the distance. कोई कार कसी ﻿वशषे ग㾀त पर 5 घंटे म 㾀100 क.मी. चलती है और एक दसूर䏩耀 कार उसी ग㾀त पर एक ﻿वशषे 㾀थान पर 3 घंटे म 㾀पहुँचती है। दरू䏩耀 ात क冩䨀िजए ?",
+    "options": {
+      "A": "40 km 40 क.मी.",
+      "B": "60 km 60 क.मी.",
+      "C": "70 km 70 क.मी.",
+      "D": "80 km 80 क.मी."
+    },
+    "correctAnswer": "B",
+    "correctValue": "60 km 60 क.मी.",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q194",
+    "question": "A sum of (cid:0)1200 is lent to be paid back in 5 equal annual instalments of (cid:0) 264 each. The rate of interest per annum is (cid:0) 1200 क冩䨀 धनराश उधार द䏩耀 जाती है िजस े(cid:0) 264 क冩䨀 5 बराबर क冩䨀 वा﻿ष䊪क कत म 㾀लौटाया जाना है। वा﻿ष䊪क याज दर ात किजए ?",
+    "options": {
+      "A": "6%",
+      "B": "8%",
+      "C": "2%",
+      "D": "4%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "2%",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q197",
+    "question": "The height of a right circular cylinder is twice its radius of the base. If its height be 6 times its radius of the base, then the volume of the cylinder will be 539 cm3 more. Assuming Π = 22/7, the height of the cylinder is कसी लब वतृ䅐य बेलन क冩䨀 ऊंचाई तल स ेउसक冩䨀 䅐या स ेदगुनुी है। यद उसक冩䨀 ऊंचाई उसके तल क冩䨀 䅐या स े6 गनुा हो तो बेलन का आयतन 539 स.ेमी.3 अधक होगा। यह मानते हुए क Π = 22/7, बेलन क冩䨀 ऊंचाई बताइए|",
+    "options": {
+      "A": "5 cm 5 स.ेमी.",
+      "B": "7 cm 7 स.ेमी.",
+      "C": "9 cm 9 स.ेमी.",
+      "D": "11 cm 11 स.ेमी."
+    },
+    "correctAnswer": "B",
+    "correctValue": "7 cm 7 स.ेमी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q198",
+    "question": "The average age of 40 students of a class is 16 years.If the average age of 24 students is 15½ years and that of the 15 students is 16 ⅔ years, then the age of 40th student is 40 ﻿वयाथय䊪 क冩䨀 एक का म 㾀औसत आयु 16 वष䊪 है। यद उनम 㾀स े24 ﻿वयाथय䊪 क冩䨀 औसत आयु 15½ वष䊪 हो और 15 ﻿वयाथय䊪 क冩䨀 16 ⅔ वष䊪 हो, तो 40व㾀 ﻿वयाथ䅐 क冩䨀 आयु बताइए।",
+    "options": {
+      "A": "17",
+      "B": "16",
+      "C": "16.5",
+      "D": "18"
+    },
+    "correctAnswer": "D",
+    "correctValue": "18",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q199",
+    "question": "A contractor has got two orders A and B. On one (A) he spends (cid:0) 25,000 and makes a bill of (cid:0) 30,500. On the other (B) he makes a bill keeping a profit of 20%. Which of the two orders is more profitable to him? कसी ठेकेदार को A और B दो आडर䊪 मल।े उनम 㾀स ेएक (A) पर उसने (cid:0) 25,000 खच 䊪कये और (cid:0) 30,500 का 䅐बल बनाया। दसूरे (B) पर उसने 20% लाभ रखते हुए 䅐बल बनाया। उन दोन म 㾀से यादा फायदा कस आडर䊪 पर हुआ ?",
+    "options": {
+      "A": "B B",
+      "B": "A A",
+      "C": "A nor B ना तो A और ना B",
+      "D": "None of the above इनम 㾀स ेकोई नह䏩耀ं"
+    },
+    "correctAnswer": "A",
+    "correctValue": "B B",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q200",
+    "question": "If 9 x+2 = 240 + 9x, the value of (8x)x is यद 9 x+2 = 240 + 9x तो (8x)x का मान बताइए।",
+    "options": {
+      "A": "1",
+      "B": "­1",
+      "C": "0",
+      "D": "2"
+    },
+    "correctAnswer": "B",
+    "correctValue": "­1",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q201",
+    "question": "Two circles with centres P and Q touch each other externally. A straight line drawn through the point of contact intersects the circle with centre P at A and the circle with centre Q at B. Then, which of the following is true? दो व䍀ृ त िजनके के䅐㾀 P और Q ह बाहर स ेएक दसूरे को 㾀पश 䊪करते है। एक सरल रेखा जो 㾀पश 䊪करने वाल े䅐ब䅐द ुस ेहोकर खींची जाती है, A 䅐ब䅐द ुपर के䅐㾀 P वाल ेव䍀ृ त को काटती है और B 䅐ब䅐दु पर के䅐㾀 Q वाल ेव䍀ृ त को काटती है। 㾀ननलखत म 㾀स ेसह䏩耀 उ䍀तर बताइये ।",
+    "options": {
+      "A": "AP = BQ",
+      "B": "AP | BQ",
+      "C": "AP || BQ",
+      "D": "AP = ½ BQ"
+    },
+    "correctAnswer": "C",
+    "correctValue": "AP || BQ",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q203",
+    "question": "12 men complete a work in 9 days. After they have worked for 6 days, 6 more men join them. How many days will they take to complete the remaining work? 12 䍍यि䅐त कसी काम को 9 दन म 㾀पूरा करते ह, 6 दन काम करने के पचात 6 䍍यि䅐त और शामल हो जाते ह। शषे काम समा㾀त करने म 㾀कतने दन का समय लगेगा ?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q204",
+    "question": "The ratio of money with Ram and Gopal is 7:17 and with Gopal and Krishan is 7:17. If Ram has (cid:0) 490, Krishan has राम और गौपाल के बीच धन का अनुपात 7:17 ह और गोपाल और कृ䅐ण के बीच का अनुपात 7:17 ह। यद राम के पास (cid:0) 490 हो तो कृ䅐ण के पास कतनी धन राश है ?",
+    "options": {
+      "A": "2890",
+      "B": "2680",
+      "C": "2330",
+      "D": "1190"
+    },
+    "correctAnswer": "A",
+    "correctValue": "2890",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q205",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The tour (A) / of the campus (B) / was so good (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q206",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He is a saint (A) / and as such (B) / must be respected (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "D",
+    "correctValue": "D",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q207",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Neither the Captain (A) / nor his men are (B) / afraid of fighting (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "D",
+    "correctValue": "D",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q212",
+    "question": "A fan is listed at Rs. 150 with a discount of 20% . What additional discount must be offered to the customer to bring the net price to Rs. 108 ? 20% Rs. 150 एक पंखेका सूची मू य क छूट केसाथ है। ाहक को Rs. 108 कतनी अतर त छूट द जाए क शु द मू य हो जाए ।",
+    "options": {
+      "A": "11 1/9%",
+      "B": "15%",
+      "C": "8%",
+      "D": "None of these इनमसेकोई नह"
+    },
+    "correctAnswer": "A",
+    "correctValue": "11 1/9%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q213",
+    "question": "Three numbers are in the ratio 1 : 2 : 3 and the sum of their cubes is 4500 .The smallest numbers is 1 : 2 : 3 4500 तीन सं या केअनुपात महैऔर उनकेघन का योग है। ? सबसेछोट सं या या है",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "10"
+    },
+    "correctAnswer": "B",
+    "correctValue": "5",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q215",
+    "question": "A man travelled a distance of 61 km. in 9 hours , partly by walking at speed of 4 km / hr and partly on bicycle at speed of 9 km / hr. The distance covered by walking is 4 . ./ एक य नेआंशक प सेक मी घ टा क रतार पैदल चलकर 9 . ./ 9 61 और आंशक प सेक मी घ टा साईकल पर चलकर घ टेम . . ? क मी क याा तय क। पैदल चलकर कतनी री तय क गई",
+    "options": {
+      "A": "16 Km 16 . . क मी",
+      "B": "12 Km 12 . . क मी",
+      "C": "15 Km 15 . . क मी",
+      "D": "17 Km 17 . . क मी"
+    },
+    "correctAnswer": "A",
+    "correctValue": "16 Km 16 . . क मी",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q218",
+    "question": "The average temperature of Monday , Tuesday , Wednesday and Thursday is 60° , The average for Tuesday , Wednesday , Thursday and Friday is 63° ; If the ratio of temperature for Monday and Friday is 21 : 25 , then what is the temperature of Friday ? , , 60° सोमवार मंगलवार बुधवार और बृह पतवार का औसत तापमान है। , , 63° मंगलवार बुधवार बृह पतवार और शुवार का औसत तापमान है। 21 : 25 यद सोमवार और शुवार केतापमान का अनुपात हैतो शुवार ? का तापमान या है",
+    "options": {
+      "A": "70°",
+      "B": "73°",
+      "C": "75°",
+      "D": "78°"
+    },
+    "correctAnswer": "C",
+    "correctValue": "75°",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q220",
+    "question": "D , E , F are the mid - points of the sides BC , CA and AB respectively of a ∆ABC . Then the ratio of the areas of ∆ DEF and ∆ABC is D,E,F ABC BC, CA AB : एक भुज क भुजा और केमश म य , ∆DEF ∆ABC ? ब हैतो और केेफल का अनुपात या होगा",
+    "options": {
+      "A": "1/2",
+      "B": "1/4",
+      "C": "1/8",
+      "D": "1/16"
+    },
+    "correctAnswer": "B",
+    "correctValue": "1/4",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q221",
+    "question": "A circle has its centre at O . A tangent drawn from a point P , which is situated outside the circle , touches the circle at A. If PA = 4 cm & PO=5 cm, then the length of the radius of the circle is O P एक वृत का के है। वृत केबाहर थत ब सेएक पश रेखा A PA = 4 . . PO खीची गई हैजो वृत को पर पश करती है। यद सेमी और = 5 . . ? सेमी तो वृत क या क लंबाई कतनी है",
+    "options": {
+      "A": "1 cm 1 . . सेमी",
+      "B": "2 cm 2 . . सेमी",
+      "C": "3 cm 3 . . सेमी",
+      "D": "4 cm 4 . . सेमी"
+    },
+    "correctAnswer": "C",
+    "correctValue": "3 cm 3 . . सेमी",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q222",
+    "question": "An inverted conical shaped vessel is filled with water to its brim. The height of the vessel is 8 cm and radius of the open end is 5 cm . When a few solid spherical metallic balls each of radius ½ cm are dropped in the vessel , 25% water is overflowed. The number of balls is: एक उ टा शं वाकार बतन पानी सेलबालब भरा आ है। बतन क ऊँ चाई 8 . . 5 . . ½ . . सेमी हैऔर खुलेसरेक या सेमी है। यद सेमी या वाले 25% कुछ ठोस गोलेबतन मडालेजातेहैतो पानी बाहर नकल जाता है। ? गोल क सं या कतनी है",
+    "options": {
+      "A": "100",
+      "B": "400",
+      "C": "200",
+      "D": "150"
+    },
+    "correctAnswer": "A",
+    "correctValue": "100",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q223",
+    "question": "The shadow of a tower when the angle of elevation of the sun is 45° , is found to be 10 m longer than when it was 60° . The height of the tower is , 45° 10 . एक टॉवर क छाया जब सूय का उ नतांश मी लबी होती हैउसी 60° ? टॉवर क छाया सेजब उ नतांश होता है। टॉवर क ऊँ चाई कतनी है",
+    "options": {
+      "A": "5(√3 - 1) m 5(√3 - 1) . मी",
+      "B": "5(√3 + 1) m 5(√3 + 1) . मी",
+      "C": "10 (√3 - 1) m 10 (√3 - 1) . मी",
+      "D": "10 (√3 + 1) m 10 (√3 + 1) . मी"
+    },
+    "correctAnswer": "B",
+    "correctValue": "5(√3 + 1) m 5(√3 + 1) . मी",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q224",
+    "question": "The following pie diagram gives the marks scored by a student in different subjects- English , Hindi , mathematics , science and social science in an examination . Assuming that the total marks obtained for the examination are 540 , answer the question - , , न न लखत पाई चाट मएक छा ारा वभ न वषय अंेजी ह द , गणत वान और सामाजक वान मा त अंक को दशाया गया है। 540 , माना क परीा केकुल ा तांक हयह मानतेए नीचेदये न का उर दजये। The marks scored is English , Science and Social science exceed the marks scored in Hindi and Mathematics by , अंेजी वान और सामाजक वान मा त अंक ह द और गणत म ? ा त अंक सेकतनेअधक ह",
+    "options": {
+      "A": "10% 2)",
+      "B": "",
+      "C": "11% 4) Correct Answer: Candidate Answer: [ NOT ANSWERED ]",
+      "D": ""
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q225",
+    "question": "The following pie diagram gives the marks scored by a student in different subjects- English , Hindi , mathematics , science and social science in an examination . Assuming that the total marks obtained for the examination are 540 , answer the question - , , न न लखत पाई चाट मएक छा ारा वभ न वषय अंेजी ह द , गणत वान और सामाजक वान मा त अंक को दशाया गया है। 540 , माना क परीा केकुल ा तांक हयह मानतेए नीचेदये न का उर दजये। The difference of marks between English and Science is the same as between कौन सेवषय केअंको का अंतर अंेजी और वान केअंक केअंतर के ? समान है",
+    "options": {
+      "A": "Science and English वान और अंेजी",
+      "B": "Hindi and Social science ह द और सामाजक वान",
+      "C": "English and Hindi अंेजी और ह द",
+      "D": "Mathematics and Social science गणत और सामाजक वान"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Mathematics and Social science गणत और सामाजक वान",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q226",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Computers give us (A) / the easier access (B) / to information. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q227",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I don't have (A) / any money to (B) / spend for luxuries. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q228",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I was first (A) / to reach the school (B) / today (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q229",
+    "question": "A*B means multiply A by B; A@B means divide A by B, A?B means add B to A and A=B means subtract B from A. Then find the value of 10*10 = 5*10 ? 50@10 A*B का अथ덭撌 गुणा, @ का अथ덭撌 भाग, ? का अथ덭撌 योग, A=B का अथ덭撌 A ­ B है तो 10*10= 5*10 ? 50@10 का मान ￿ात कर藺 ?",
+    "options": {
+      "A": "100",
+      "B": "45",
+      "C": "1000",
+      "D": "55"
+    },
+    "correctAnswer": "D",
+    "correctValue": "55",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q230",
+    "question": "If 37*14 = 17, 69*33 = 34, 91*125 = 72 then what should 28*56 = ? यिद 37*14 = 17, 69*33 = 34, 91*125 = 72 हो, तो 28*56 = ?",
+    "options": {
+      "A": "26",
+      "B": "42",
+      "C": "34",
+      "D": "28"
+    },
+    "correctAnswer": "D",
+    "correctValue": "28",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q235",
+    "question": "The sum of three consecutive natural numbers each divisible by 5, is 225. The largest among them is 5 स ेिवभा￵￿ य तीन ￮뿚मागत ﳼﻼाकृत स瑆￻ं याओ ंका योग 225 है। उनम藺 सबस ेबड़ी स瑆￻ं या कौन­सी है ?",
+    "options": {
+      "A": "85",
+      "B": "75",
+      "C": "70",
+      "D": "80"
+    },
+    "correctAnswer": "D",
+    "correctValue": "80",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q236",
+    "question": "A can do a piece of work in 18 days. He worked at it for 12 days and B finished the remaining work in 8 days. B alone can do the whole work in A िकसी काम को 18 िदन म藺 कर सकता है। उसने 12 िदन काम िकया और शेष काम B ने 8 िदन म藺 पूरा िकया। B अकेले पूरे काम को िकतने िदन म藺 पूरा कर सकता था ?",
+    "options": {
+      "A": "16 days 16 िदन",
+      "B": "24 days 24 िदन",
+      "C": "28 days 28 िदन",
+      "D": "29 days 29 िदन"
+    },
+    "correctAnswer": "B",
+    "correctValue": "24 days 24 िदन",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q237",
+    "question": "The list price of an article is Rs. 900. It is available at two successive discounts of 20% and 10% . The selling price of the article is: एक व￿￿ तु का अंिकत मू﻿￰ य Rs. 900 है| यह 20% और 10% के दो ￮뿚मागत छूटो ंके साथ िमलती है। व￿￿ तु का िव￮뿚य मू﻿￰ य है ?",
+    "options": {
+      "A": "Rs. 640",
+      "B": "Rs. 648",
+      "C": "Rs. 540",
+      "D": "Rs. 548"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 648",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q238",
+    "question": "A man spends a part of his monthly income and saves the rest. The ratio of his expenditure to the saving is 61 : 6. If his monthly income is Rs.8710, the amount of his monthly savings is एक ￿ﳿ य￿￿￿￿ अपनी मािसक आय का कुछ भाग खच덭撌 करता है और बाकी की बचत करता है। उसके ￿ﳿ यय और बचत का अनुपात 61:6 है। यिद उसकी मािसक आय Rs.8710 हो, तो उसकी मािसक बचत की रािश िकतनी है ?",
+    "options": {
+      "A": "Rs.870",
+      "B": "Rs.690",
+      "C": "Rs.980",
+      "D": "Rs.780"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Rs.780",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q239",
+    "question": "An article was sold at Rs. 950 allowing 5% discount on the marked price. The marked price of the article is एक व￿￿ तु अंिकत मू﻿￰ य पर 5% की छूट देकर Rs. 950 की है। व￿￿ तु का अंिकत मू﻿￰ य ￿￧ या है ?",
+    "options": {
+      "A": "Rs. 960",
+      "B": "Rs. 1000",
+      "C": "Rs. 955",
+      "D": "Rs. 945"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 1000",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q240",
+    "question": "A person loses 75% of his money in the first bet, 75% of the remaining in the second and 75% of the remaining in the third bet and returns home with Rs. 2 only. His initial money was एक ￿ﳿ य￿￿￿￿ अपनी 75% रािश पहली बाजी म藺, शेष की 75% दूसरी बाजी म藺 ओर शेष की 75% तीसरी बाजी म藺 हार गया और केवल Rs. 2 लेकर अपने घर प䁱ॄँचा। उसकी ﳼﻼार￿￿﫼ﳼक रािश िकतनी थी ?",
+    "options": {
+      "A": "Rs. 64",
+      "B": "Rs. 128",
+      "C": "Rs. 256",
+      "D": "Rs. 512"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 128",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q241",
+    "question": "The time taken by a train 160 m long, running at 72 km/hr, in crossing an electric pole is 72 िक.मी./घंटे की गित स ेचलने वाली 160 मी. ल녺例 बी ट￢ेन को एक िवघुत ख녺例 भे को पार करने म藺 िकतना समय लगता है ?",
+    "options": {
+      "A": "8 sec 8 सके￿ ड़",
+      "B": "9 sec 9 सके￿ ड़",
+      "C": "6 sec 6 सके￿ ड़",
+      "D": "4 sec 4 सके￿ ड़"
+    },
+    "correctAnswer": "A",
+    "correctValue": "8 sec 8 सके￿ ड़",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q242",
+    "question": "If a = 2 , b = ­3 then the value of 27 a3 ­ 54a2b + 36 ab2 ­ 8b3 is यिद a = 2 , b = ­3 हो तो 27 a3 ­ 54a2b + 36 ab2 ­ 8b3 का मान ￿￧ या होगा ?",
+    "options": {
+      "A": "1562",
+      "B": "1616",
+      "C": "1676",
+      "D": "1728"
+    },
+    "correctAnswer": "D",
+    "correctValue": "1728",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q248",
+    "question": "The mean of 100 observations was calculated as 40. It was found later on that one of the observations was misread as 83 instead of 53. The correct mean is: 100 ﳼﻼे￿￿णो ंका मा識￿ य 40 प￿￿रकिलत िकया गया है। बाद म藺 यह देखा गया िक एक ﳼﻼ￿￿ेप 53 के बजाय गलती स े83 पढ़ा गया था। सही मा識￿ य ￿￧ या है ?",
+    "options": {
+      "A": "39",
+      "B": "39.7",
+      "C": "40.3",
+      "D": "42.7"
+    },
+    "correctAnswer": "B",
+    "correctValue": "39.7",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q251",
+    "question": "A man standing on the bank of river observes that the angle subtended by a tree on the opposite bank is 60o. When he retires 36 m from the bank, he finds that the angle is 30o. The breadth of the river is एक नदी के िकनारे खड़ा ￿ﳿ य￿￿￿￿ देखता है िक नदी पार िकनारे पर लगे वृ￿￿ ￿￿ारा अंत￿￿रत कोण 60° है। जब वह िकनारे स े36 मी. पीछे आता है तो वह देखता है िक कोण 30° है। नदी की चौड़ाई िकतनी है ?",
+    "options": {
+      "A": "15 m 15 मी.",
+      "B": "18 m 18 मी.",
+      "C": "16 m 16 मी.",
+      "D": "11 m 11 मी."
+    },
+    "correctAnswer": "B",
+    "correctValue": "18 m 18 मी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q252",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. नीचे िदये गये बार­ाफ का अ識￿ ययन कीिजए जो िकसी क녺例 पनी ￿￿ारा िविभ솊菿 न मदो ंपर िकए गये कुल खच덭撌 के ﳼﻼितशत िवतरण को दशा덭撌ता है । The expenditures on the interest on loans is more than the expenditures on transport by ऋण के 顑 याज पर िकया गया खच덭撌, प￿￿रवहन पर िकये गये खच덭撌 स ेिकतना अिधक है ?",
+    "options": {
+      "A": "5%",
+      "B": "10%",
+      "C": "40%",
+      "D": "30%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "40%",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q253",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. नीचे िदये गये बार­ाफ का अ識￿ ययन कीिजए जो िकसी क녺例 पनी ￿￿ारा िविभ솊菿 न मदो ंपर िकए गये कुल खच덭撌 के ﳼﻼितशत िवतरण को दशा덭撌ता है । If the interest on loans amounted to ₹ 2.45 crores, then the total amount of expenditure on advertisement, taxes and research & development is: यिद ऋण पर 顑 याज ₹ 2.45 करोड़ है, तो ﳼﻼचार, टै￿￧ स और ￿￿रसच덭撌 ए￿ ड डवलपमै솊菿 ट पर कुल िकतना खच덭撌 䁱ॄआ ?",
+    "options": {
+      "A": "₹ 7 Crores ₹ 7 करोड़",
+      "B": "₹ 4.2 Crores ₹ 4.2 करोड़",
+      "C": "₹ 5.4 Crores ₹ 5.4 करोड़",
+      "D": "₹ 3 Crores ₹ 3 करोड़"
+    },
+    "correctAnswer": "B",
+    "correctValue": "₹ 4.2 Crores ₹ 4.2 करोड़",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q254",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. नीचे िदये गये बार­ाफ का अ識￿ ययन कीिजए जो िकसी क녺例 पनी ￿￿ारा िविभ솊菿 न मदो ंपर िकए गये कुल खच덭撌 के ﳼﻼितशत िवतरण को दशा덭撌ता है । The ratio of the total expenditure on infrastructure and transport to the total expenditure on taxes and interest on loans is: इ솊菿 ﳼﳼा￿￿ ट￢￿￧ चर और प￿￿रवहन पर कुल खच덭撌 तथा टै￿￧ स और ऋण के 顑 याज पर कुल खच덭撌 का अनुपात ￿￧ या है ?",
+    "options": {
+      "A": "5:4",
+      "B": "8:7",
+      "C": "9:7",
+      "D": "13:11"
+    },
+    "correctAnswer": "D",
+    "correctValue": "13:11",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q255",
+    "question": "Study the bar­graph given below which shows the % distribution of total expenditures of a company under various expense and answer the questions. नीचे िदये गये बार­ाफ का अ識￿ ययन कीिजए जो िकसी क녺例 पनी ￿￿ारा िविभ솊菿 न मदो ंपर िकए गये कुल खच덭撌 के ﳼﻼितशत िवतरण को दशा덭撌ता है । If the total expenditure of the company is Rs. 20 crores, then the ratio of expenditure on transport to that on salary is यिद क녺例 पनी का कुल खच덭撌 Rs. 20 करोड़ है, तो वाहन और वेतन पर खच덭撌 का अनुपात ￿￧ या है ?",
+    "options": {
+      "A": "5:4",
+      "B": "4:5",
+      "C": "5:8",
+      "D": "8:5"
+    },
+    "correctAnswer": "C",
+    "correctValue": "5:8",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q256",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Each child (A) / was given a (B) / red beautiful balloon. (C) / No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q257",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. She has had the best medical facilities available (A) / but she will not be cured (B) / unless she does not have a strong desire to live (C) / No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q258",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. As if aware of my condition (A) / the infuriated bird suddenly doubled back on its course (B) / and charged straight after me (C) / No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q259",
+    "question": "A sentence/a part of the sentence is underlined. Four alternatives are given to the underlined part which will improve the sentence. Choose the correct alternative and click the button corresponding to it. In case no improvement is needed, click the button corresponding to \"No improvement\". You must complete this work up to Sunday.",
+    "options": {
+      "A": "within Sunday",
+      "B": "by Sunday",
+      "C": "on to Sunday",
+      "D": "No improvement"
+    },
+    "correctAnswer": "B",
+    "correctValue": "by Sunday",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q263",
+    "question": "A retailer gets a discount of 40% on the printed price of an article. The retailer sells it at the printed price. His gain percent is एकफुटकर�व�ेता�कसीव�तुकेअं�कतमू�यपर 40% क�छूट�ा�तकरताहै।य�दफुटकर�व�ेताउसेअं�कतमू�यपरबेचताहैतोउसे�कतने��तशतलाभहोगा ?",
+    "options": {
+      "A": "40",
+      "B": "55 3)",
+      "C": "",
+      "D": "75 Correct Answer: Candidate Answer:"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q264",
+    "question": "A mixture contains spirit and water in the ratio of 3 : 2. If it contains 3 litres more spirit than water, the quantity of spirit in the mixture is एक�म�णम���प�रटऔरपानी 3 : 2 केअनुपातम�है।य�दइसम�पानीक�तुलनाम� 3 लीटरअ�धक��प�रटहो, तो�म�णम���प�रटक�मा�ा�कतनीहै ?",
+    "options": {
+      "A": "12 litres 12 लीटर",
+      "B": "10 litres 10 लीटर",
+      "C": "9 litres 9 लीटर",
+      "D": "8 litres 8 लीटर"
+    },
+    "correctAnswer": "C",
+    "correctValue": "9 litres 9 लीटर",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q272",
+    "question": "The angle of elevation of an aeroplane from a point on the ground is 45°. After flying for 15 seconds, the elevation changes to 30°. If the aeroplane is flying at a height of 2500 metres, then the speed of the aeroplane in km/hr. is जमीनपर�कसी�ब��सेएक�वमानकाउ�नतांश 45° है। 15 सेकंडउड़नेकेबादउ�नतांशघटकर 30° होजाताहै।य�द�वमान 2500 मीटरक�ऊंचाईपरउड़रहाहै,तो�वमानक�ग�त�कतने�क.मी./घंटाहै ?",
+    "options": {
+      "A": "600",
+      "B": "600 (√3 + 1)",
+      "C": "600 √3",
+      "D": "600 (√3 - 1)"
+    },
+    "correctAnswer": "D",
+    "correctValue": "600 (√3 - 1)",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q276",
+    "question": "The graph shows the production of food grains of a country in different years. Study the graph and answer the questions. �ाफम��कसीदेशके�व�भ�वष�म�उ�पादनकोदशा�यागयाहै।�ाफकाअ�ययनक��जएऔर�न�न�ल�खत���केउ�रद��जए। The percentage increase in production from 1984 to 1985 was वष� 1984 से 1985 तकउ�पादनम��कतने��तशतवृ���ई ?",
+    "options": {
+      "A": "15",
+      "B": "30",
+      "C": "50",
+      "D": "100"
+    },
+    "correctAnswer": "D",
+    "correctValue": "100",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q277",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I will not (A)/stay here another minute (B)/if I can help it! (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "D",
+    "correctValue": "D",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q278",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Roger dressed (A)/in is best shirt, (B)/ silver tie and black jacket (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q279",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. They are looking forward (A)/to meet (B) /their parents (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q280",
+    "question": "For the following questions Find the odd words / letters / numbers from the given alternatives . दए गए ᑀ塜वक㾀 प म 㾀स ेᑀ塜वषम श द/अर/सं या चुनये ।",
+    "options": {
+      "A": "Moon च मा",
+      "B": "Mars मगंल",
+      "C": "Venus शु",
+      "D": "Jupiter बहृ पत"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Moon च मा",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q281",
+    "question": "Arrange the following words according to the dictionary order न䌳 न⬼ᴝल夫⬫खत श द को श दकोश के म म े⬼ᴝल夫⬫खए। a)Approach b) Appropriate c) Approval d) Approve 2/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "acdb",
+      "B": "abdc",
+      "C": "cdab",
+      "D": "abcd"
+    },
+    "correctAnswer": "D",
+    "correctValue": "abcd",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q284",
+    "question": "Which one of the following events in a botanical garden is never directly influenced by light? 䍝]कसी वनपत उयान म,㾀 न䌳न⬼ᴝल夫⬫खत म 㾀स े䍝]कस पर 䍟काश का सीधा 䍟भाव ब㾀कुल नहं पड़ता ? 14/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "Flowering फूल नकलने क䅐 प䍝]या",
+      "B": "Photosynthesis 䍟काश स怘ंलषेण",
+      "C": "Transpiration वापो㾀सजन覛",
+      "D": "Fertilization नषेचन"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Fertilization नषेचन",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q286",
+    "question": "The Network is overloaded with enormous data sent by many computers within the network. The inability of the network to deliver the data is termed as __________ . नेटवक覛 के अदंर बहुत स ेकंयूटर वारा भजे ेगए भार माा म 㾀डाटा के अ㾀या㥐而धक भर जाने पर नेटवक覛 डाटा नहं दे पाता, उस ेया कहते है ?",
+    "options": {
+      "A": "Access control एससे क㾀ोल",
+      "B": "Congestion कजशेन",
+      "C": "Error propagation एरर 䍟ोपेगेशन",
+      "D": "Deadlock डडेलॉक 17/32 9/23/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Congestion कजशेन",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q287",
+    "question": "Vinegar is __________ . ⬼ᴝसरका या है ? 18/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "diluted acetic acid तनु ए⬼ᴝसटक ए⬼ᴝसड",
+      "B": "glacial acetic acid ल⬼ᴝेसअल ए⬼ᴝसटक ए⬼ᴝसड",
+      "C": "glacial formic acid ल⬼ᴝेसअल फो⬼ᴝमक覛 ए⬼ᴝसड",
+      "D": "diluted formic acid तनु फो⬼ᴝमक覛 ए⬼ᴝसड"
+    },
+    "correctAnswer": "A",
+    "correctValue": "diluted acetic acid तनु ए⬼ᴝसटक ए⬼ᴝसड",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q288",
+    "question": "A hollow hemispherical bowl is made of silver with its outer radius 8 cm and inner radius 4 cm respectively. The bowl is melted to form a solid right circular cone of radius 8 cm. The height of the cone formed is एक खोखला अधग覛ोलाकार कटोरा ⬼ᴝस㾀वर का बना है िजसक䅐 बाहर या 8 स.ेमी. और आंत怘रक या 4 स.ेमी. क䅐 है। कटोरे को 8 स.ेमी. या वाला एक ठोस समको夫⬫णक शकंु बनाने के ⬼ᴝलए गलाया जाता है। बने हुए शकंु क䅐 ऊंचाई 䍝]कतनी होगी ?",
+    "options": {
+      "A": "7 cm 7 स.ेमी.",
+      "B": "9 cm 9 स.ेमी.",
+      "C": "12 cm 12 स.ेमी.",
+      "D": "14 cm 14 स.ेमी."
+    },
+    "correctAnswer": "D",
+    "correctValue": "14 cm 14 स.ेमी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q290",
+    "question": "The railway fares of air conditioned sleeper and ordinary sleeper class are in the ratio 4:1. The number of passengers travelled by air conditioned sleeper and ordinary sleeper classes were in the ratio 3:25. If the total collection was Rs. 37,000, how much did air conditioner sleeper passengers pay? वातानुकू⬼ᴝलत शयन 怘ेणी और साधारण शयन 怘ेणी का रेलवे 䍝]कराया 4:1 के अनुपात म 㾀है। वातानुकू⬼ᴝलत शयन और साधारण शयन 怘ेणी वारा याा करने वाल ेयाय क䅐 संया 3:25 के अनुपात म 㾀थी। यद कुल 䍝]कराया संह Rs. 37,000 हुआ, तो वातानुकू⬼ᴝलत शयन 怘ेणी के याय ने 䍝]कतने 䍝]कराये का भगुतान 䍝]कया ?",
+    "options": {
+      "A": "Rs. 15,000",
+      "B": "Rs. 10,000",
+      "C": "Rs. 12,000",
+      "D": "Rs. 16,000"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs. 12,000",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q293",
+    "question": "The vertical angle A of an isosceles triangle ΔABC is three times the angle B of it. The measure of the angle A is 䍝]कसी समᑀ塜भजु Δ ABC का शीष覛 कोण A उसके कोण B स ेतीन गणुा है तो कोण A का माप या होगा ?",
+    "options": {
+      "A": "90°",
+      "B": "108°",
+      "C": "100°",
+      "D": "36°"
+    },
+    "correctAnswer": "B",
+    "correctValue": "108°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q294",
+    "question": "Two circles touch each other internally. The radius of the larger circle is 6 cm and the distance between the centre is 2 cm, then the radius (in cms) of the other circle is दो व㾀ृत एक दसूरे को अदंर क䅐 ओर पश 覛करते है। बड़ ेव㾀ृत क䅐 या 6 स.ेमी. है, और के के बीच दरू 2 स.ेमी. है, तो दसूरे व㾀ृत क䅐 या (स.ेमी. म)㾀 䍝]कतनी होगी ?",
+    "options": {
+      "A": "8",
+      "B": "2",
+      "C": "4",
+      "D": "3"
+    },
+    "correctAnswer": "D",
+    "correctValue": "3",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q296",
+    "question": "If the length of the shadow of a vertical pole be √3 times the height of the pole, the angle of elevation of the sun is:­ यद 䍝]कसी उ䐆Ĉवा覛धर ख䌳भ ेक䅐 छाया ख䌳भ ेक䅐 ऊंचाई स े√3 गणुा हो तो सयू 覛का उनयन कोण A䍝]कतने 㤋䀌डी का होगा ? 24/32 9/23/2016 Staff Selection Commision",
+    "options": {
+      "A": "60°",
+      "B": "45°",
+      "C": "30°",
+      "D": "90°"
+    },
+    "correctAnswer": "C",
+    "correctValue": "30°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q297",
+    "question": "If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, the compound interest on the same at the same rate and for the same time is:­ यद 䍝]कसी रा⬼ᴝश पर 5% वाᑀ塜ष覛क क䅐 दर स े2 वष覛 का साधारण याज Rs. 50 है, तो उस रा⬼ᴝश पर उसी दर स ेउतने ह समय का चᑀ塜 याज 䍝]कतना होगा ?",
+    "options": {
+      "A": "Rs. 50.50",
+      "B": "Rs. 51.25",
+      "C": "Rs. 51.50",
+      "D": "Rs. 50.05"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs. 51.25",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q302",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The leader (A) / with all his followers (B) / are send to prison. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q303",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Do you know (A) / whom the (B) / next speaker is? (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q304",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He is having an attack (A) / of fever everyday (B) / for the last few days. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q305",
+    "question": "For the following questions Find the odd numbers/letters/numbers from the given alternatives. इस 䵀ㄍ셼ಘन म 膀勤獀凜दए गए ꋆ䀌वक冀㍗प᪻権 म 膀勤स ेꋆ䀌वषम शзद᪻権/अ戴兖र/स酪줓ंयाओं को च䕒汎ुनए।",
+    "options": {
+      "A": "Red लाल",
+      "B": "Brown भरूा",
+      "C": "Green हरा",
+      "D": "Yellow पीला"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Brown भरूा",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q306",
+    "question": "Arrange the following words as per order in the dictionary. 䕒汎नि鵗नⰈ槢ल枩敡खत शзद᪻権 को शзदकोश म 膀勤獀凜दए गए ꩖荚म के अनुसार Ⰸ槢लख膀勤। 1.NEST 2. NECK 3. NEAT 4. NEAR 2/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "4, 2, 3, 1",
+      "B": "4, 2, 1, 3",
+      "C": "4, 3, 2, 1",
+      "D": "4, 2, 3, 1"
+    },
+    "correctAnswer": "C",
+    "correctValue": "4, 3, 2, 1",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q307",
+    "question": "A man is engaged for planting trees for 10 hours. He plants 10 trees in an hour. He takes rest for 30 minutes after every hour. How many trees does he plant in 10 hours? एक आदमी को पेड़ लगाने के Ⰸ槢लए 10 घंटे 獀凜दए गए । वह एक घंटे म 膀勤10 पेड़ लगाता है और 䵀ㄍꨐयेक घंटे के बाद 30 Ⰸ槢मनट आराम करता है। उसने 10 घंटे म 膀勤势湜कतने पेड़ लगाए ?",
+    "options": {
+      "A": "100",
+      "B": "50",
+      "C": "70",
+      "D": "45"
+    },
+    "correctAnswer": "C",
+    "correctValue": "70",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q309",
+    "question": "Some equations are solved on the basis of certain system. Find the correct answer for the unsolved equation on that basis. 5 x 4 x 3 = 70 , 6 x 5 x 4 = 140 7 x 6 x 5 = ? 䕒汎न鵗नⰈ槢ल枩敡खत समीकरण एक ꋆ䀌वशषे 䵀ㄍणाल瓛 के आधार पर हल 势湜कए गये ह邗鄝। उसी आधार पर अनुꨐत凐쐋रत समीकरण का सह瓛 उꨐतर 䅷烥ात कꗨ뀅िजए। य獀凜द 5 x 4 x 3 = 70 , 6 x 5 x 4 = 140 हो तो 7 x 6 x 5 = ?",
+    "options": {
+      "A": "210",
+      "B": "220",
+      "C": "230",
+      "D": "240"
+    },
+    "correctAnswer": "D",
+    "correctValue": "240",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q310",
+    "question": "Which one of the following is a good electrical conductor? 䕒汎नि鵗㾝쎕ल枩敡खत म 膀勤स ेकौन­सा अ냔㴐छा ꋆ䀌वघुत­चालक है ? 12/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Graphite 㟻瓛ेफाइट",
+      "B": "Diamond ह瓛रा",
+      "C": "Peat पीट",
+      "D": "Charcoal लकड़ी का कोयला"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Graphite 㟻瓛ेफाइट",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q311",
+    "question": "Prince of Wales Cup is associated with_____ ꋆ䀌䵀ㄍसं ऑफ वे冀㍗ स ' कप 势湜कस खेल स ेस鵗 बि㾝쎕धत है ? 13/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Rugby र㟑㌘ बी",
+      "B": "Golf गो冀㍗फ",
+      "C": "Polo पोलो",
+      "D": "Chess शतरंज"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Golf गो冀㍗फ",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q312",
+    "question": "Which of the following increases the rate of heart beat? 藩दय कꗨ뀅 धड़कन कꗨ뀅 ग䕒汎त 䕒汎न鵗नⰈ槢ल枩敡खत म 膀勤स े势湜कसस ेबढ़ती है ? 14/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Peripheral nerves प凐쐋रधीय तं偌癠ᅡ䄹का",
+      "B": "Sympathetic nerves अनुक鵗पी तं偌癠ᅡ䄹का",
+      "C": "Parasympathetic nerves परानुक鵗पी तं偌癠ᅡ䄹का",
+      "D": "Cranial nerves कपाल तं偌癠ᅡ䄹का"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Sympathetic nerves अनुक鵗पी तं偌癠ᅡ䄹का",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q313",
+    "question": "A pair of contrasting characters controlling the same trait is called ꋆ䀌वरोधी गणु᪻権 का यु㟑㌘म, जो समान ꋆ䀌वशषेताओं को 䕒汎नयं偌癠ᅡ䄹त करे, 싇ᑡया कहलाता है ? 15/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "factors घटक",
+      "B": "loci अनुꋆ䀌वषमवास",
+      "C": "allele यु㟑㌘ मꋆ䀌वक冀㍗ पी (ऐल瓛ल)",
+      "D": "lineage वंश परंपरा"
+    },
+    "correctAnswer": "C",
+    "correctValue": "allele यु㟑㌘ मꋆ䀌वक冀㍗ पी (ऐल瓛ल)",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q314",
+    "question": "Which of the following pairing is incorrect 䕒汎न鵗नⰈ槢ल枩敡खत म 膀勤स ेकौन­सा यु㟑㌘ म सह瓛 नह瓛ं है ? 16/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Hygrometer ­ Water vapour content of the atmosphere हाई㟻瓛ोमीटर­ वायुमडंल का जलवा蒰傯 प अशं",
+      "B": "Lactometer ­ Specific gravity of liquids ल싇ᑡैटोमीटर­ तरल का ꋆ䀌वⰈ槢श蒰傯 ट घनꨐ व",
+      "C": "Anemometer ­ Speed of the wind ए䕒汎नमोमीटर­ वायु कꗨ뀅 ग䕒汎त",
+      "D": "Seismograph ­ Earthquakes सी⊆妥मो㟻瓛ाफ ­ भकूंप"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Lactometer ­ Specific gravity of liquids ल싇ᑡैटोमीटर­ तरल का ꋆ䀌वⰈ槢श蒰傯 ट घनꨐ व",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q315",
+    "question": "A can do a piece of work in 20 days and B in 15 days. With help of C, they finish the work in 5 days. C can alone do the work in A 势湜कसी काम को 20 獀凜दन म 膀勤कर सकता है और B 15 獀凜दन म 膀勤कर सकता है C कꗨ뀅 सहायता स ेवे 5 獀凜दन म 膀勤काम समा텸믟त कर लतेे ह邗鄝। C अकेला उस काम को 势湜कतने 獀凜दन म 膀勤करेगा ?",
+    "options": {
+      "A": "5 days 5 獀凜दन",
+      "B": "6 days 6 獀凜दन",
+      "C": "10 days 10 獀凜दन",
+      "D": "12 days 12 獀凜दन"
+    },
+    "correctAnswer": "D",
+    "correctValue": "12 days 12 獀凜दन",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q316",
+    "question": "A spherical lead ball of radius 6 cm is melted and small lead balls of radius 3 mm are made. The total number of possible small lead balls is 6 स.ेमी. 偌癠ᅡ䄹폨푗या वाल瓛 एक गोल सीस ेकꗨ뀅 बॉल को ꋆ䀌पघंला कर 3 Ⰸ槢म.मी. 偌癠ᅡ䄹폨푗या वाल瓛 छोट瓛 ­ छोट瓛 सीस ेकꗨ뀅 बॉल 膀勤बनाई जाती ह邗鄝। सीस ेकꗨ뀅 छोट瓛 बॉल᪻権 कꗨ뀅 सभंाꋆ䀌वत स酪줓ंया 싇ᑡया होगी ?",
+    "options": {
+      "A": "4250",
+      "B": "4000",
+      "C": "8005",
+      "D": "8000"
+    },
+    "correctAnswer": "D",
+    "correctValue": "8000",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q317",
+    "question": "At what percentage above the cost price must an article be marked so as to gain 33% after allowing a customer a discount of 5%? 势湜कसी व⊆妥तु के ꩖荚य म冀㍗ूय स ेऊपर 势湜कतने 䵀ㄍ䕒汎तशत उसकꗨ뀅 अ势湜ंकत कꗨ뀅मत रखी जाए 势湜क 㟻瓛ाहक को 5% कꗨ뀅 छूट देने के प셼ಘचात दकुानदार को 33% का लाभ हो ?",
+    "options": {
+      "A": "40%",
+      "B": "45%",
+      "C": "35%",
+      "D": "47%"
+    },
+    "correctAnswer": "A",
+    "correctValue": "40%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q320",
+    "question": "A train 100 m long is running at a speed of 120 kms/hr. The time taken to pass a person standing near the line is 100 मीटर ल鵗बी एक रेलगाड़ी 120 势湜क.मी./घंटे कꗨ뀅 रꇛतार स ेचल रह瓛 है। रेल पथ के पास खड़ ेएक ꏋ㔨यि싇ᑡत को पार करने म 膀勤इस े势湜कतना समय लगेगा ?",
+    "options": {
+      "A": "1 second 1 सकेेﭴड",
+      "B": "3 seconds 3 सकेेﭴड",
+      "C": "5 seconds 5 सकेेﭴड",
+      "D": "7 seconds 7 सकेेﭴड"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3 seconds 3 सकेेﭴड",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q323",
+    "question": "A man buys a table and a chair for Rs. 500. He sells the table at a loss of 10% and the chair at a gain of 10%. He still gains Rs.10 on the whole. The cost price of chair in rupees is कोई ꏋ㔨यि싇ᑡत एक मजे और एक कुस玟 Rs.500म 膀勤खर瓛दता है। वह मजे 10% कꗨ뀅 हा䕒汎न पर और कुस玟 10% के लाभ पर बेच देता है। 势湜फर भी उस ेकुल Ⰸ槢मला कर Rs.100 का लाभ होता है। कुस玟 का ꩖荚य म冀㍗ूय 捽闛पय᪻権 म 膀勤बताइए ? 19/28 21/09/2016 Staff Selection Commision",
+    "options": {
+      "A": "Rs.200",
+      "B": "Rs.250",
+      "C": "Rs.300",
+      "D": "RS.350"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs.300",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q324",
+    "question": "The average age of a class of 39 students is 15 years. If the age of the teacher is included, then the average increases by 3 months. Find the age of the teacher. 39 छाᅡ䄹᪻権 कꗨ뀅 एक क戴兖ा म 膀勤औसत आयु 15 वषｮ魴 है। य獀凜द अ瀊诂यापक कꗨ뀅 आयु भी जोड द瓛 जाए तो औसत आयु 3 माह बढ जाती है। अ瀊诂यापक कꗨ뀅 आयु 䅷烥ात कꗨ뀅िजए ?",
+    "options": {
+      "A": "30",
+      "B": "25",
+      "C": "35",
+      "D": "40"
+    },
+    "correctAnswer": "B",
+    "correctValue": "25",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q325",
+    "question": "Two persons are on either side of a temple, 75 m high, observe the angle of elevation of the top of the temple to be 30o and 60o respectively. The distance between the persons is दो ꏋ㔨यि싇ᑡत, एक 75 मीटर ऊंच ेमि㾝쎕दर के ꋆ䀌वपर瓛त छोर᪻権 पर, एक सीधी रेखा म 膀勤खड़ ेह邗鄝 और म獀凜ंदर के शीषｮ魴 का उ㾝쎕नयन कोण देखते है जो एक को 300 और दसूरे को 600 䵀ㄍतीत होता है। दोन᪻権 ꏋ㔨यि싇ᑡतय᪻権 के बीच 势湜कतनी दरू瓛 है ?",
+    "options": {
+      "A": "173.2m 173.2 मीटर",
+      "B": "100m 100 मीटर",
+      "C": "157.7m 157.7 मीटर",
+      "D": "273.2m 273.2 मीटर"
+    },
+    "correctAnswer": "A",
+    "correctValue": "173.2m 173.2 मीटर",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q327",
+    "question": "Study the following histogram of marks in mathematics (out of 50) of students in a class and answer the following questions. छाᅡ䄹᪻権 के ग枩敡णत म 膀勤䵀ㄍा텸믟त अकं᪻権 (50 म 膀勤स े) को दशाｮ魴ने वाल े䕒汎न鵗नⰈ槢ल枩敡खत आयत 㑟ܓचᅡ䄹 का अ瀊诂ययन कर膀勤 और 䕒汎न鵗नⰈ槢ल枩敡खत 䵀ㄍ셼ಘ न᪻権 के उꨐतर द瓛िजए। If the students have got the marks out of 50 and if A+ grade has been declared for above 90%, then the number of students who have got A+ grade is य獀凜द छाᅡ䄹᪻権 को 50 म 膀勤स ेअकं 獀凜दए गए ह᪻権 और 90% स ेअ㑟ܓधक अकं 䵀ㄍा텸믟त करने वाल ेछाᅡ䄹᪻権 को A+ 獀凜दया जाए तो 势湜कतने छाᅡ䄹᪻権 को A+ 獀凜दया गया ?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "correctAnswer": "A",
+    "correctValue": "10",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q328",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He is jealous for (A)/my success (B)/and wants to destroy me.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q329",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The main purpose of the visit (A)/is to develop a close relationship (B)/ among the two countries.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q330",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I left (A)/no stone unturned(B)/to achieve for my object.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q331",
+    "question": "Out of the four alternatives, choose the one which can be substituted for the given words/sentences and click the button corresponding to it. Providing relief",
+    "options": {
+      "A": "Reissue",
+      "B": "Reprieve",
+      "C": "Rejoinder",
+      "D": "Refuge 25/28 21/09/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Reprieve",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q332",
+    "question": "The average age of 19 boys in a class is 21 years. If the teacher's age is included, the average increases to 22 years. What is the teacher's age? एक क￿￿ा म ￾￿19 लड़क﻿￾ क￿￿ औसत आयु 21 वष￿￿ है। य￿￿द अ￿￿यापक क￿￿ आयु भी शा￿￿मल क￿￿ जाए तो वह बढ़कर 22 वष￿￿ हो जाती है। अ￿￿ यापक क￿￿ आयु ￿￿कतनी है ?",
+    "options": {
+      "A": "39 years 39 वष￿￿",
+      "B": "41 years 41 वष￿￿",
+      "C": "40 years 40 वष￿￿",
+      "D": "44 years 44 वष￿￿"
+    },
+    "correctAnswer": "B",
+    "correctValue": "41 years 41 वष￿￿",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q333",
+    "question": "Which of the following interchange of signs would make the equation correct? ￿￿न￿￿ न￿￿ल￿￿खत म ￾￿स े￿￿कन ￿￿च￿￿ ह﻿￾ को आपस म ￾￿बदलने स ेसमीकरण सह￿￿ हो जाएगी ? 5 + 3 x 8 ­ 12 ÷ 4 = 3",
+    "options": {
+      "A": "­ and ÷",
+      "B": "+ and x",
+      "C": "+ and ÷",
+      "D": "+ and ­"
+    },
+    "correctAnswer": "A",
+    "correctValue": "­ and ÷",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q340",
+    "question": "The difference between the greatest and least five­digit numbers formed by the digits 2,5,0,6,8 is (repetition of digits are not allowed) 2,5,0,6,8 अकं﻿￾ स ेबनी पॉचं अकं￿￿य सबस ेबडी स￿￿ं या और सबस ेछोट￿￿ स￿￿ंया का अतंर ￿￿कतना होगा ? (अकं﻿￾ क￿￿ पुनराव￿￿ृती अनुमत नह￿￿ं है)",
+    "options": {
+      "A": "69552",
+      "B": "65925",
+      "C": "65952",
+      "D": "63952"
+    },
+    "correctAnswer": "C",
+    "correctValue": "65952",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q341",
+    "question": "The price of a shirt after 15% discount, is Rs.119. What was the marked price of the shirt before discount ￿￿कसी कमीज का म￿￿ूय 15% क￿￿ छूट देने के बाद Rs. 119 है। छूट के पहल ेकमीज का अकं￿￿त म￿￿ूय ￿￿या था ?",
+    "options": {
+      "A": "Rs.129",
+      "B": "Rs.140",
+      "C": "Rs.150",
+      "D": "Rs.160"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Rs.140",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q345",
+    "question": "A gun is fired at a distance of 1.7 km from Ram and he hears the sound after 25 seconds. The speed of sound in meter per second is राम स े1.7 ￿￿क.मी. दरू￿￿ स े￿￿कसी बंदकू स ेगोल￿￿ चलाई जाती है और वह उसक￿￿ आवाज 25 सकेंड बाद सनुता है। आवाज क￿￿ ग￿￿त ￿￿कतने मीटर ￾￾￿￿त सकेंड है ?",
+    "options": {
+      "A": "60",
+      "B": "62",
+      "C": "64",
+      "D": "68"
+    },
+    "correctAnswer": "D",
+    "correctValue": "68",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q346",
+    "question": "A sum of (cid:0) 3000 yields an interest of (cid:0) 1080 at 12% per annum simple interest in how many years ? (cid:0) 3000 क￿￿ रा￿￿श पर 12% वा￿￿ष￿￿क के साधारण ￿￿ याज पर (cid:0) 1080 का ￿￿ याज ￿￿कतने साल﻿￾ म ￾￿￿￿मलगेा ?",
+    "options": {
+      "A": "4 Years 4 साल",
+      "B": "3 Years 3 साल",
+      "C": "5 years 5 साल",
+      "D": "2½ Years 2½ साल"
+    },
+    "correctAnswer": "B",
+    "correctValue": "3 Years 3 साल",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q348",
+    "question": "Twenty women can do a work in sixteen days. Sixteen men can complete the same work in fifteen days. The ratio between the capacity of a man and a woman is 20 म￿￿हलाऍ ं￿￿कसी काम को सोलह ￿￿दन म ￾￿कर सकती ह￿￿। सोलह पु￿￿ष उसी काम को 15 ￿￿दन म ￾￿कर सकते ह￿￿। एक पु￿￿ष और एक म￿￿हला क￿￿ ￿￿मता के बीच अनुपात ￿￿कतना है ?",
+    "options": {
+      "A": "3:4",
+      "B": "4:3",
+      "C": "5:3",
+      "D": "5:7"
+    },
+    "correctAnswer": "B",
+    "correctValue": "4:3",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q350",
+    "question": "The midpoints of AB and AC of a triangle ABC are X and Y respectively. If BC+XY=12 units, then BC­XY is एक ￿￿￾﷿भजु ABC के AB और AC के म￿￿ य ￿￿ब￿￿ द ु￿￿मशः X और Y ह￿￿। य￿￿द BC + XY = 12 यू￿￿नट, तो BC ­ XY का मान ￿￿या होगा ?",
+    "options": {
+      "A": "10 units 10 यू￿￿नट",
+      "B": "8 units 8 यू￿￿नट",
+      "C": "6 units 6 यू￿￿नट",
+      "D": "4 units 4 यू￿￿नट"
+    },
+    "correctAnswer": "D",
+    "correctValue": "4 units 4 यू￿￿नट",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q351",
+    "question": "In an isosceles ΔABC, AD is the median to the unequal side meeting BC at D. DP is the angle disector of ∠ADB and PQ is drawn parallel to BC meeting AC at Q. Then the maeasure of ∠PDQ is य￿￿द एक सम￿￿￿￿वभजु ΔABC म,￾￿ AD, BC के D पर ￿￿मलनेवाल￿￿ ￿￿वषमभजुा का मा￿￿यक है. DP , ∠ADB का कोण­￿￿￿￿वभाजक है और PQ, AC के Q पर ￿￿मलनेवाल￿￿ BC के समांतर खींची जाती है तो ∠PDQ का माप ￿￿या होगा ?",
+    "options": {
+      "A": "130°",
+      "B": "90°",
+      "C": "180°",
+      "D": "45°"
+    },
+    "correctAnswer": "B",
+    "correctValue": "90°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q354",
+    "question": "The bar graph shows the production of table fans in a factory during one week. Study the bar graph and answer the question. इस बार ￿￿ाफ म ￾￿￿￿कसी फै￿￿﷿﻽￿￿ म ￾￿एक स￿￿ताह के दौरान टेबल पंख﻿￾ के उ￿￿पादन को दशा￿￿या गया है। बार ￿￿ाफ का अ￿￿ ययन क￿￿िजए और ￿￿न￿￿ न￿￿ल￿￿खत ￾￾￿￿ न﻿￾ के उ￿￿तर ￿￿दिजए। The average production of table fan in that week is उस स￿￿ताह म ￾￿टेबल पंख﻿￾ का औसत उ￿￿पादन ￿￿कतना है ?",
+    "options": {
+      "A": "370",
+      "B": "280",
+      "C": "300",
+      "D": "250"
+    },
+    "correctAnswer": "C",
+    "correctValue": "300",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q355",
+    "question": "The bar graph shows the production of table fans in a factory during one week. Study the bar graph and answer the question. इस बार ￿￿ाफ म ￾￿￿￿कसी फै￿￿﷿﻽￿￿ म ￾￿एक स￿￿ताह के दौरान टेबल पंख﻿￾ के उ￿￿पादन को दशा￿￿या गया है। बार ￿￿ाफ का अ￿￿ ययन क￿￿िजए और ￿￿न￿￿ न￿￿ल￿￿खत ￾￾￿￿ न﻿￾ के उ￿￿तर ￿￿दिजए। Ratio of the total production of table fans in the factory from Monday to Wednesday to that from Thursday to Saturday is फै￿￿टर￿￿ म ￾￿सोमवार स ेबुधवार तक टेबल पंख﻿￾ के कुल उ￿￿पादन और ग￿￿ुवार स ेश￿￿नवार तक के कुल उ￿￿पादन का अनुपात ￿￿कतना है ?",
+    "options": {
+      "A": "19:26",
+      "B": "26:19",
+      "C": "29:16",
+      "D": "16:29"
+    },
+    "correctAnswer": "C",
+    "correctValue": "29:16",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q356",
+    "question": "The bar graph shows the production of table fans in a factory during one week. Study the bar graph and answer the question. इस बार ￿￿ाफ म ￾￿￿￿कसी फै￿￿﷿﻽￿￿ म ￾￿एक स￿￿ताह के दौरान टेबल पंख﻿￾ के उ￿￿पादन को दशा￿￿या गया है। बार ￿￿ाफ का अ￿￿ ययन क￿￿िजए और ￿￿न￿￿ न￿￿ल￿￿खत ￾￾￿￿ न﻿￾ के उ￿￿तर ￿￿दिजए। The average production of table fans on Monday & Tuesdays exceeds the average production of table fans during the week by सोमवार और मगंलवार को टेबल पंख﻿￾ का औसत उ￿￿पादन उस स￿￿ताह के टेबल पंख﻿￾ के औसत उ￿￿पादन स े￿￿कतना अ￿￿धक होता है ?",
+    "options": {
+      "A": "150 fans 150 पंखे",
+      "B": "100 fans 100 पंखे",
+      "C": "140 fans 140 पंखे",
+      "D": "200 fans 200 पंखे"
+    },
+    "correctAnswer": "B",
+    "correctValue": "100 fans 100 पंखे",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q357",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. It took her a long time(A)/to get off (B)/the death of her husband.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q358",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. It is best(A)/ to be silent(B)/ than to speak in anger.(C)/No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q363",
+    "question": "In this question, some equations are solved on the basis of a certain system. On the same basis find out the correct answer from amongst the four alternatives for the unsolved equation. कु छ समीकरण एक दिदित प्रणािी से हि दकए गए हैं। उसी आधार पर दिए गए दिकल्प ोंमें से सही उत्तर चुिकर दिन्धिए ? 6 x 2 x 9 = 269 8 x 7 x 1 = 781 4 x 1 x 3 = ?",
+    "options": {
+      "A": "431",
+      "B": "413",
+      "C": "341",
+      "D": "143"
+    },
+    "correctAnswer": "D",
+    "correctValue": "143",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q366",
+    "question": "A & B together finish a job in 24 days, while A, B & C together can finish the same job in 8 days. C alone will finish the job in A और B दमिकर दकसी काम कप 24 दिि में करते हैं और A,B,C दमिकर उसी काम कप 8 दिि में समाप्त कर सकते हैं। C अके िा उस कायच कप दकतिे दिि में समाप्त करेगा ?",
+    "options": {
+      "A": "12 days 12 दिि",
+      "B": "14 days 14 दिि",
+      "C": "16 days 16 दिि",
+      "D": "24 days 24 दिि"
+    },
+    "correctAnswer": "A",
+    "correctValue": "12 days 12 दिि",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q369",
+    "question": "A certain sum of money was divided between A, B and C in the ratio 5:6:9. If A received Rs. 450 the sum divided was कपई धिरादश A,B और C के बीच 5:6:9 के अिुपात में दिभादित की गई । यदि A कप Rs. 450 दमिे हप तप कु ि धिरादश दकतिी र्ी ?",
+    "options": {
+      "A": "2000",
+      "B": "1800",
+      "C": "2250",
+      "D": "1000"
+    },
+    "correctAnswer": "B",
+    "correctValue": "1800",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q370",
+    "question": "By selling a bag at Rs. 230, profit of 15% is made. The selling price of the bag, when it is sold at 20% profit would be दकसी बैग कप Rs. 230 में बेचे िािे पर 15% का िाभ हपता है। यदि बैग कप 20% िाभ पर बेचा िाए तप उसकी दबक्री-कीमत बताइए ?",
+    "options": {
+      "A": "Rs.250",
+      "B": "Rs.205",
+      "C": "Rs.240",
+      "D": "Rs.200"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs.240",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q374",
+    "question": "∆ABC and ∆DEF are two similar triangles and the perimeter of ∆ABC and ∆DEF are 30 cm and 18 cm respectively. If length of DE = 36 cm, then length of AB is ∆ABC और ∆DEF िप एक िैसे दिभुि है और ∆ABC तर्ा ∆DEF की पररदधयाों क्रमशः 30 से.मी. और 18 से.मी. है। यदि DE की िम्बाई 36 से.मी. हप तप AB की िम्बाई बताइए ?",
+    "options": {
+      "A": "60 cm 60 से.मी.",
+      "B": "40 cm 40 से.मी.",
+      "C": "45 cm 45 से.मी.",
+      "D": "50 cm 50 से.मी."
+    },
+    "correctAnswer": "A",
+    "correctValue": "60 cm 60 से.मी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q375",
+    "question": "If the length of a chord of a circle is equal to that of the radius of the circle, then the angle subtended, in radians, at the centre of the circle by chord is यदि दकसी िृत्त के िीिा की िम्बाई िृत्त की दििा के बराबर हप, तप िृत्त के के न्द्र पर िीिा द्वारा अि्तररत कपण (रेद डयि में) क्या हपगा ?",
+    "options": {
+      "A": "1",
+      "B": "∏/ 2",
+      "C": "∏/ 3",
+      "D": "∏/ 4"
+    },
+    "correctAnswer": "B",
+    "correctValue": "∏/ 2",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q376",
+    "question": "The value of (sec245o - cot245o) - (sin230o + sin260o) is (sec245o - cot245o) - (sin230o + sin260o) का माि क्या हपगा ?",
+    "options": {
+      "A": "1",
+      "B": "2√3",
+      "C": "0 4)",
+      "D": ""
+    },
+    "correctAnswer": "C",
+    "correctValue": "0 4)",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q380",
+    "question": "The angle of elevation of a ladder leaning against a wall is 60o and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is दकसी िीिार से िगी दकसी सीढ़ी का उन्नयि कपण 600 है और सीढ़ी के पाये िीिार से 4.6 मीटर की िूरी पर है। सीढ़ी की िम्बाई बताइए ?",
+    "options": {
+      "A": "2.3 m 2.3 मीटर",
+      "B": "4.6 m 4.6 मीटर",
+      "C": "9.2 m 9.2 मीटर",
+      "D": "7.8 m 7.8 मीटर"
+    },
+    "correctAnswer": "C",
+    "correctValue": "9.2 m 9.2 मीटर",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q381",
+    "question": "The product of two 2-digit numbers is 2160 and their H.C.F. is 12. The numbers are 2 अोंक की सोंख्याओ ोंका गुणििि 2160 है और उिका महत्तम समापितचक 12 है। बताएों सोंख्याएों क्या है ?",
+    "options": {
+      "A": "(12, 60)",
+      "B": "(72, 30)",
+      "C": "(36, 60)",
+      "D": "(60, 72)"
+    },
+    "correctAnswer": "C",
+    "correctValue": "(36, 60)",
+    "difficulty": "medium",
+    "topic": "number_system",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q382",
+    "question": "The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Rs. 1. The sum (in Rs.) is: दकसी रादश पर 4% िादषचक की िर से 2 िषच के दिए (िादषचक रूप से सोंयपदित) साधारण ब्याि और चक्रिृन्धि ब्याि का अन्तर Rs. 1 है। िह धिरादश क्या है?",
+    "options": {
+      "A": "620",
+      "B": "630",
+      "C": "640",
+      "D": "625"
+    },
+    "correctAnswer": "D",
+    "correctValue": "625",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q384",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. एक दििाचचि क्षेि कप चार क्षेिप ोंA,B,C,D में बाुँटा गया है। िप प्रत्यादशयप ोंX तर्ा Y िे इस दििाचचि क्षेि से चुिाि िड़ा। यहाुँ दिया गया ग्राि दििाचचि क्षेि के चारप ोंक्षेिप ोंमें मतप ोंकप अिग अिग िशाचता है। ग्राि का अध्ययि कीदिए और दिम्िदिन्धित प्रश्िप ोंके उत्तर िीदिए। Approximately how much percent of voters voted in favour of X? िगभग दकतिे प्रदतशत मतिाताओ ोंिे X के पक्ष में मतिाि दकया ?",
+    "options": {
+      "A": "45.4",
+      "B": "47.5",
+      "C": "50",
+      "D": "225"
+    },
+    "correctAnswer": "B",
+    "correctValue": "47.5",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q385",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. एक दििाचचि क्षेि कप चार क्षेिप ोंA,B,C,D में बाुँटा गया है। िप प्रत्यादशयप ोंX तर्ा Y िे इस दििाचचि क्षेि से चुिाि िड़ा। यहाुँ दिया गया ग्राि दििाचचि क्षेि के चारप ोंक्षेिप ोंमें मतप ोंकप अिग अिग िशाचता है। ग्राि का अध्ययि कीदिए और दिम्िदिन्धित प्रश्िप ोंके उत्तर िीदिए। Approximately how much percent of voters did not caste their votes? िगभग दकतिे प्रदतशत मतिाताओ ोंिे मतिाि िही ोंदकया?",
+    "options": {
+      "A": "4.9",
+      "B": "4.5",
+      "C": "0.23",
+      "D": "23"
+    },
+    "correctAnswer": "A",
+    "correctValue": "4.9",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q386",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. एक दििाचचि क्षेि कप चार क्षेिप ोंA,B,C,D में बाुँटा गया है। िप प्रत्यादशयप ोंX तर्ा Y िे इस दििाचचि क्षेि से चुिाि िड़ा। यहाुँ दिया गया ग्राि दििाचचि क्षेि के चारप ोंक्षेिप ोंमें मतप ोंकप अिग अिग िशाचता है। ग्राि का अध्ययि कीदिए और दिम्िदिन्धित प्रश्िप ोंके उत्तर िीदिए। In region B, Y gets A% more votes than X. Find the value of A? क्षेि B में, Y कप X से A% अदधक मत दमिे | A का माि बताओ ों?",
+    "options": {
+      "A": "24%",
+      "B": "21%",
+      "C": "19%",
+      "D": "15%"
+    },
+    "correctAnswer": "B",
+    "correctValue": "21%",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q387",
+    "question": "A constituency is divided in four regions A, B, C and D. Two candidates X & Y contested the last election from that constituency. The adjoining graph gives the break up of voting in the four regions. Study the graph and answer the following questions. एक दििाचचि क्षेि कप चार क्षेिप ोंA,B,C,D में बाुँटा गया है। िप प्रत्यादशयप ोंX तर्ा Y िे इस दििाचचि क्षेि से चुिाि िड़ा। यहाुँ दिया गया ग्राि दििाचचि क्षेि के चारप ोंक्षेिप ोंमें मतप ोंकप अिग अिग िशाचता है। ग्राि का अध्ययि कीदिए और दिम्िदिन्धित प्रश्िप ोंके उत्तर िीदिए। Nearly what percentage of his total votes did X receive from region B? X कप दमिे कु ि मतप ोंका िगभग दकतिा प्रदतशत मत क्षेि B से प्राप्त हआ ?",
+    "options": {
+      "A": "30",
+      "B": "31",
+      "C": "32",
+      "D": "35"
+    },
+    "correctAnswer": "C",
+    "correctValue": "32",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q388",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Could she cite (A)/ any precedent in support (B)/ for her case? (C)/ No Error(D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q389",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. The General Manager of the industry has felt (A)/ that there is no use of (B)/ discussing about the problems with the labourers. (C)/No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q390",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. She enquired from the stranger (A)/ who was he and (B)/ what he wanted from her. (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q391",
+    "question": "A sentence/a part of the sentence is underlined. Four alternatives are given to the underlined part which will improve the sentence. Choose the correct alternative and click the button corresponding to it. In case no improvement is needed, click the button corresponding to \"No improvement\". He likes to drive his car at a speed of eighty kilometres each hour.",
+    "options": {
+      "A": "every hour",
+      "B": "an hour",
+      "C": "hourly",
+      "D": "No improvement"
+    },
+    "correctAnswer": "B",
+    "correctValue": "an hour",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q392",
+    "question": "A sentence/a part of the sentence is underlined. Four alternatives are given to the underlined part which will improve the sentence. Choose the correct alternative and click the button corresponding to it. In case no improvement is needed, click the button corresponding to \"No improvement\". Do you know the time when the train departs?",
+    "options": {
+      "A": "which",
+      "B": "by",
+      "C": "that",
+      "D": "No improvement"
+    },
+    "correctAnswer": "D",
+    "correctValue": "No improvement",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q394",
+    "question": "The ratio of the ages of man and his wife is 4:3. After 4 years, the ration will be 9:7. If at the time of marriage, the ratio was 5:3, how many years ago were they married? एक पुꅅ썙ष और उसक突 प卑얛नी क突 आयु का अनुपात 4:3 है। 4 वष댊巕 बाद यह अनुपात 9:7 हो जायेगा। यⷅ煺द शाद㊍树 के समय यह अनुपात 5:3 था, तो उनक突 शाद㊍树 郑笎कतने वष댊巕 पूव댊巕 हुई थी ?",
+    "options": {
+      "A": "12",
+      "B": "24",
+      "C": "5",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "correctValue": "12",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q397",
+    "question": "A and B together can do a piece of work in 9 days. If A does thrice the work of B in a given time, the time A alone will take to finish the work is A और B ᶸ휆मलकर 郑笎कसी काम को 9 ⷅ煺दन म ♣कर सकते ह騃兾। यⷅ煺द A 郑笎कसी 䯛蓺नⷅ煺द댊巕漲㠎ट समय म ♣B स े䯛蓺तगनुा काम कर लतेा है तो A अकेला काम को 郑笎कतने समय म ♣समा慆밀त करेगा ?",
+    "options": {
+      "A": "4 days 4 ⷅ煺दन",
+      "B": "6 days 6 ⷅ煺दन",
+      "C": "8 days 8 ⷅ煺दन",
+      "D": "12 days 12 ⷅ煺दन"
+    },
+    "correctAnswer": "D",
+    "correctValue": "12 days 12 ⷅ煺दन",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q399",
+    "question": "A trader sold a cycle at a loss of 10%. If the selling price had been increased by Rs. 200, there would have been a gain of 6%. The cost price of the cycle is एक 毮䄃यापार㊍树 ने एक साइ郑笎कल को 10% हा䯛蓺न पर बेची । यⷅ煺द 蛥ब蒦ᖁ突 का म在ᔎूय Rs. 200बढ़ा ⷅ煺दया जाता तो उस े6% का लाभ होता है। साइ郑笎कल का 蒦ᖁय म在ᔎूय बताइए ?",
+    "options": {
+      "A": "Rs.1200",
+      "B": "Rs.1205",
+      "C": "Rs.1250",
+      "D": "Rs.1275"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Rs.1250",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q401",
+    "question": "In what time will a 100 metre long train running with a speed of 50 km/hr cross a pillar? एक 100 मीटर ल騉बी 㤎ेन जो 郑笎क 50 郑笎क.मी./घंटा क突 र邷篳तार स ेचल रह㊍树 है, 郑笎कसी 䅠ܲ त騉 भ को पार करने म ♣郑笎कतना समय लगेी ?",
+    "options": {
+      "A": "7.0 sec 7.0 सकेंडस्",
+      "B": "72 sec 72 सकेंडस्",
+      "C": "7.2 sec 7.2 सकेंडस्",
+      "D": "70 sec 70 सकेंडस्"
+    },
+    "correctAnswer": "C",
+    "correctValue": "7.2 sec 7.2 सकेंडस्",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q404",
+    "question": "In a trapezium ABCD, AB || CD, AB < CD, CD = 6 cm and distance between the parallel sides is 4 cm. If the area of ABCD is 16 cm2, then AB is 郑笎कसी समलबं ABCD म ♣AB || CD, AB < CD, CD = 6 स.ेमी. और समा낵쑌तर भजुाओं के बीच दरू㊍树 4 स.ेमी. है। यⷅ煺द ABCD का 酹淔े泼鿙फल 16 स.ेमी.2 हो, तो AB का मान या होगा ?",
+    "options": {
+      "A": "1 cm 1 स.ेमी.",
+      "B": "2 cm 2 स.ेमी.",
+      "C": "3 cm 3 स.ेमी.",
+      "D": "8 cm 8 स.ेमी."
+    },
+    "correctAnswer": "B",
+    "correctValue": "2 cm 2 स.ेमी.",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q406",
+    "question": "If a shop keeper marks his goods for a certain amount so as to get 25% gain after allowing a discount of 20%, then his marked price is यⷅ煺द कोई दकुानदार अपनी व䅠ܲतुओं पर ऐसी क突मत अ郑笎ंकत करता है िजस पर 20% छूट देने के बाद उस े25% का लाभ हो तो अ郑笎ंकत म在ᔎूय बताइए ?",
+    "options": {
+      "A": "Rs.156.25",
+      "B": "Rs.146.25",
+      "C": "Rs.166.25",
+      "D": "Rs.150.25"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Rs.156.25",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q407",
+    "question": "The average of marks of 17 students in an examination was calculated as 71. But it was later found that the mark of one student had been wrongly entered as 65 instead of 56 and another as 24 instead of 50. The correct average is 郑笎कसी पर㊍树酹淔ा म ♣17 框䉥व䱒厙या屡뗉थय댊巕㲧 के औसत अकं 71 थ।े 郑笎क낵쑌तु बाद म ♣पता चला 郑笎क एक 框䉥व䱒厙याथ끜糦 के अकं गलती स े56 के बजाय 65 ᶸ휆लखे गए और एक दसूरे 框䉥व䱒厙याथ끜糦 के 50 के बजाय 24 ᶸ휆लखे गए। सह㊍树 औसत 训稉ात क突िजए।",
+    "options": {
+      "A": "70",
+      "B": "71",
+      "C": "72",
+      "D": "73"
+    },
+    "correctAnswer": "C",
+    "correctValue": "72",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q409",
+    "question": "In ΔABC, ∠B = 70° and ∠C = 60°. The internal bisectors of the two smallest angles of ΔABC meet at O. The angle so formed at O is ΔABC म ♣∠B = 70° और C = 60°, ΔABC के सबस ेछोटे कोण㲧 के आ낵쑌त㐼忤रक 䱒厙框䉥वभाजक O पर ᶸ휆मलते है। इस ꫺कार O पर बना कोण 郑笎कतने 猋ᘓड鷤䂮ी का होगा ?",
+    "options": {
+      "A": "125°",
+      "B": "120°",
+      "C": "115°",
+      "D": "110°"
+    },
+    "correctAnswer": "A",
+    "correctValue": "125°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q410",
+    "question": "A cylinderical container of 32 cm height and 18 cm radius is filled with sand. Now all this sand is used to form a conical heap of sand. If the height of the conical heap is 24 cm, what is the radius of its base? 32 स.ेमी. ऊंचाई और 18 स.ेमी. क突 蛥泼鿙Ꙛ⿠या वाला एक बेलनाकार पा泼鿙 रेत स ेभरा है। यह सार㊍树 रेत एक शकंु आकार का ढ़ेर बनाने के ᶸ휆लए ꫺योग क突 जाती है। यⷅ煺द इस शकंु आकार के ढ़ेर क突 ऊंचाई 24 स.ेमी. हो, तो उसके तल क突 蛥泼鿙Ꙛ⿠या या होगी ?",
+    "options": {
+      "A": "12 cm 12 स.ेमी.",
+      "B": "24 cm 24 स.ेमी.",
+      "C": "36 cm 36 स.ेमी.",
+      "D": "48 cm 48 स.ेमी."
+    },
+    "correctAnswer": "C",
+    "correctValue": "36 cm 36 स.ेमी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q411",
+    "question": "The angle of elevation of the top of a pillar from the foot and the top of a building 20 m high, are 60° and 30° respectively. The height of the pillar is 20 मीटर ऊंची इमारत के आधार और शीष댊巕 स े郑笎कसी ख騉बे के शीष댊巕 भाग का उ낵쑌नयन कोण 蒦ᖁमशः 60° और 30°है। ख騉 भ ेक突 ऊंचाई बताए |",
+    "options": {
+      "A": "10 m 10 मी.",
+      "B": "10√3m 10√3 मी.",
+      "C": "60 m 60 मी.",
+      "D": "30 m 30 मी."
+    },
+    "correctAnswer": "D",
+    "correctValue": "30 m 30 मी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q413",
+    "question": "The pie­chart shows the percentage of literate and illiterate male and female in a state. Study the diagram and answer the following questions. पाई चाट댊巕 म ♣郑笎कसी राꙚ⿠य म ♣सा酹淔र और 䯛蓺नर酹淔र पुꅅ썙ष㲧 और ि䅠ܲ泼鿙य㲧 का ꫺䯛蓺तशत दशा댊巕या गया है। आरेख का अ귛뮕ययन कर♣ और 䯛蓺न騉नᶸ휆लཡखत ꫺쉈㝍न㲧 के उ卑얛तर द㊍树िजए। The difference of central angles corresponding to illiterate male and illiterate female is 䯛蓺नर酹淔र पुꅅ썙ष और 䯛蓺नर酹淔र ि䅠ܲ泼鿙य㲧 के तदनु멟ⴀपी के낵쑌惹㯦㊍树य कोण㲧 का अ낵쑌तर बताइए ?",
+    "options": {
+      "A": "12.2°",
+      "B": "13.4°",
+      "C": "11.2°",
+      "D": "14.4°"
+    },
+    "correctAnswer": "D",
+    "correctValue": "14.4°",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q414",
+    "question": "The pie­chart shows the percentage of literate and illiterate male and female in a state. Study the diagram and answer the following questions. पाई चाट댊巕 म ♣郑笎कसी राꙚ⿠य म ♣सा酹淔र और 䯛蓺नर酹淔र पुꅅ썙ष㲧 और ि䅠ܲ泼鿙य㲧 का ꫺䯛蓺तशत दशा댊巕या गया है। आरेख का अ귛뮕ययन कर♣ और 䯛蓺न騉नᶸ휆लཡखत ꫺쉈㝍न㲧 के उ卑얛तर द㊍树िजए। If the difference between the two categories of people are represented by 36° in the diagram then these categories are यⷅ煺द दो 뇸宴ेཡणय㲧 के लोग㲧 के बीच अ낵쑌तर आरेख म ♣36° दशा댊巕या गया है, तो बताइए वे 뇸宴ेཡणयां कौन­सी ह騃兾 ?",
+    "options": {
+      "A": "literate male and literate female सा酹淔र पुꅅ썙ष और सा酹淔र ि䅠ܲ泼鿙याँ",
+      "B": "literate male and illiterate male सा酹淔र पुꅅ썙ष और 䯛蓺नर酹淔र पुꅅ썙ष",
+      "C": "illiterate male and literate female 䯛蓺नर酹淔र पुꅅ썙ष और सा酹淔र ि䅠ܲ泼鿙याँ",
+      "D": "illiterate male and illiterate female 䯛蓺नर酹淔र पुꅅ썙ष और 䯛蓺नर酹淔र ि䅠ܲ泼鿙याँ"
+    },
+    "correctAnswer": "A",
+    "correctValue": "literate male and literate female सा酹淔र पुꅅ썙ष और सा酹淔र ि䅠ܲ泼鿙याँ",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q415",
+    "question": "The pie­chart shows the percentage of literate and illiterate male and female in a state. Study the diagram and answer the following questions. पाई चाट댊巕 म ♣郑笎कसी राꙚ⿠य म ♣सा酹淔र और 䯛蓺नर酹淔र पुꅅ썙ष㲧 और ि䅠ܲ泼鿙य㲧 का ꫺䯛蓺तशत दशा댊巕या गया है। आरेख का अ귛뮕ययन कर♣ और 䯛蓺न騉नᶸ휆लཡखत ꫺쉈㝍न㲧 के उ卑얛तर द㊍树िजए। If two categories together have a central angle of 169.2° , then these categories are यⷅ煺द दो 뇸宴ेཡणय㲧 को एक साथ ᶸ휆मलाकर के낵쑌惹㯦㊍树य कोण 169.2° है, तो बताइए वे 뇸宴ेཡणयां कौन­सी ह騃兾 ?",
+    "options": {
+      "A": "literate female and illiterate female सा酹淔र ि䅠ܲ泼鿙यां और 䯛蓺नर酹淔र ि䅠ܲ泼鿙याँ",
+      "B": "literate male and illiterate female सा酹淔र पुꅅ썙ष और 䯛蓺नर酹淔र ि䅠ܲ泼鿙यां",
+      "C": "illiterate male and illiterate female 䯛蓺नर酹淔र पुꅅ썙ष और 䯛蓺नर酹淔र ि䅠ܲ泼鿙याँ",
+      "D": "illiterate male and literate female 䯛蓺नर酹淔र पुꅅ썙ष और सा酹淔र ि䅠ܲ泼鿙यां"
+    },
+    "correctAnswer": "A",
+    "correctValue": "literate female and illiterate female सा酹淔र ि䅠ܲ泼鿙यां और 䯛蓺नर酹淔र ि䅠ܲ泼鿙याँ",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q416",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Although I have never seen the girl before, (A)/ I recognized her at once (B)/ from her photograph (C)/ no error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q417",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. There was a (A)/ comparison between (B)/ you and he (C)/ no error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q418",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. He flowed into a rage (A)/ at the very (B)/ sight of that man (C)/ No error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q421",
+    "question": "In this question, some equations are solved on the basis of a certain system. On the same basis find out the correct answer from amongst the four alternatives for the unsolved equation. कुछ समीकरण एक िनि￿￿त ﳼﻼणाली स ेहल िकए गए ह쏊। उसी आधार पर िदए गए िवक￿￿ो ंम藺 स ेसही उ즞玤र चुनकर िल￿￿खए ? 8 x 5 x 0 = 805 , 7 x 4 x 6 = 764 , 6 x 8 x 9 = ?",
+    "options": {
+      "A": "689",
+      "B": "698",
+      "C": "968",
+      "D": "986"
+    },
+    "correctAnswer": "B",
+    "correctValue": "698",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q422",
+    "question": "Which of the following Sultans of Tughlaq dynasty issued copper coins instead of silver ones? िनिल￿￿खत तुगलकी राजवंश के िकस सलुतान ने चाँदी के िस￿￿ो ंके ￿￿थान पर तांबे के िस￿￿े चलाए थे ? 11/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "Ghiyasuddin Tughlaq गयासￓुीन तुगलक",
+      "B": "Muhammad bin Tughlaq मुहﻼﳾद िबन तुगलक",
+      "C": "Firoz Shah Tughlaq िफरोज़ शाह तुगलक",
+      "D": "Mahmud Tughlaq महमूद तुगलक"
+    },
+    "correctAnswer": "B",
+    "correctValue": "Muhammad bin Tughlaq मुहﻼﳾद िबन तुगलक",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q423",
+    "question": "Security Council of the UN comprises of 10 non­permanent members and their tenure is____________ सयंु￿￿ रा￠￢ की सरु￿￿ा प￿￿रषद के 10 अ￿￿थायी सद圠ो ंका काय덭撌काल िकतना होता है ? 13/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "5 years 5 वष덭撌",
+      "B": "4 years 4 वष덭撌",
+      "C": "3 years 3 वष덭撌",
+      "D": "2 years 2 वष덭撌"
+    },
+    "correctAnswer": "D",
+    "correctValue": "2 years 2 वष덭撌",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q424",
+    "question": "The virus of AIDS affects the growth of_____________ एड्स का िवषाणु िकसकी वृ￿￿￪ को ﳼﻼभािवत करता है ? 15/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "Haemoglobin हीमो컿﫵ोिबन",
+      "B": "RBCs in blood र￿￿ म藺 आर.बी.सी.",
+      "C": "T cells in blood र￿￿ म藺 टी. कोिशका",
+      "D": "Grey cells in brain म￿￿￿￻﻿ म藺 े कोिशका"
+    },
+    "correctAnswer": "C",
+    "correctValue": "T cells in blood र￿￿ म藺 टी. कोिशका",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q426",
+    "question": "Two successive discounts of 10% and 20% are equivalent to a single discount of 10% तथा 20% की दो ￮뿚मवार छूट िकस एकमा﷽ﷸ छूट के समतु￿￿ है ?",
+    "options": {
+      "A": "28%",
+      "B": "27%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "correctAnswer": "A",
+    "correctValue": "28%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q430",
+    "question": "In what time will a train, 60 metres long, running at the rate of 36 km/hr pass a telegraph post? 60 मीटर ल￳ी एक रेलगाडी 36 िक.मी./घंटा की चाल स ेएक टेलाॉफ के ख﫼ﳼ ेको िकतने समय म藺 पार करेगी ? 17/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "9 seconds 9 सके￷ﯼ्स",
+      "B": "8 seconds 8 सके￷ﯼ्स",
+      "C": "7 seconds 7 सके￷ﯼ्स",
+      "D": "6 seconds 6 सके￷ﯼ्स"
+    },
+    "correctAnswer": "D",
+    "correctValue": "6 seconds 6 सके￷ﯼ्स",
+    "difficulty": "medium",
+    "topic": "speed_distance",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q431",
+    "question": "Three angles of a quadrilateral are 60°,90°and 100°.Then the fourth angle of the quadrilateral is िकसी चतुभु덭撌ज के तीन कोण 600 , 900 और 1000 के है। बताइए चतुभु덭撌ज का चौथा कोण िकतना होगा ? 18/27 9/22/2016 Staff Selection Commision",
+    "options": {
+      "A": "95°",
+      "B": "100°",
+      "C": "110°",
+      "D": "115°"
+    },
+    "correctAnswer": "C",
+    "correctValue": "110°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q432",
+    "question": "If x+1/x = 2, then the value of x7+2/x6 is equal to? यिद x + 1/x = 2 हो तो x7 + 2/x6 का मान बताओ ं?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correctAnswer": "C",
+    "correctValue": "2",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q433",
+    "question": "In a triangle PQR, S and T are the points on PQ and PR respectively, such that ST II QR and PS/SQ=3/5,PR =6cm, then PT is PQR ि﷽ﷸभुज म藺, S और T ￮뿚मश: PQ और PR पर दो िब솊菿द ु ह쏊। ST ⅡQR और PS/SQ=3/5, यिद PR = 6 स.ेमी. हो, तो PT ￿￿ा होगा ?",
+    "options": {
+      "A": "2 cm 2 स.ेमी.",
+      "B": "2.25 cm 2.25 स.ेमी.",
+      "C": "3.5 cm 3.5 स.ेमी.",
+      "D": "4 cm 4 स.ेमी."
+    },
+    "correctAnswer": "B",
+    "correctValue": "2.25 cm 2.25 स.ेमी.",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q434",
+    "question": "If 5 sin2θ+ 4cos2 θ= 9/2 and 0 <θ<Π/2 then tanθ is equal to? यिद 5 sin2θ+ 4cos2 θ = 9/2 हो और 0 <θ<Π/2 हो तो tanθ िकसके बराबर होगा ?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "­1",
+      "D": "¼ 20/27 9/22/2016 Staff Selection Commision"
+    },
+    "correctAnswer": "A",
+    "correctValue": "1",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q436",
+    "question": "From the top of a tower 60 mts high the angle of depression of the top and bottomof a pole are observed to be 45° and 60° respectively. If the pole and tower stand on the same plane, the height of the pole in meters is 60 मीटर ऊंची िकसी मीनार के शीष덭撌 भाग स ेिकसी ख￳े के शीष덭撌 और तल के अवनमन कोण ￮뿚मशः 450 और 600 िदखाई देते है। यिद ख￳ा और मीनार एक ही ￿र पर हो तो मीटर म藺 ख￳े की ऊँचाई बताइए ?",
+    "options": {
+      "A": "60(√3­1)",
+      "B": "20(√3­1)",
+      "C": "20(3­√3)",
+      "D": "20(√3+1)"
+    },
+    "correctAnswer": "C",
+    "correctValue": "20(3­√3)",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q437",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. िनिल￿￿खत पाई चाट덭撌 म藺 िकसी देश ￿￿ारा िकसी वष덭撌 िवशेष म藺 िविभ￿￿ खेलकूदो ंपर खच덭撌 की गई रािश दशा덭撌यी गई है। पाई चाट덭撌 का अ￿￿यन कीिजए और ﳼﻼ￿￿ो ंके उ즞玤र िदिजए । The ratio of the amount spent on football, basketball and cricket to that spent on tennis,hockey andgolf is फुटबॉल ,बा鉐㷿ेटबॉल और ि￮뿚केट के ऊपर िकये गए खच덭撌 तथा टेिनस, हॉकी और गॉ￿￿ के ऊपर िकये गये खच덭撌 म藺 अनुपात बताइएं ?",
+    "options": {
+      "A": "5:7",
+      "B": "7:5",
+      "C": "15:1",
+      "D": "3:20"
+    },
+    "correctAnswer": "B",
+    "correctValue": "7:5",
+    "difficulty": "medium",
+    "topic": "ratio",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q438",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. िनिल￿￿खत पाई चाट덭撌 म藺 िकसी देश ￿￿ारा िकसी वष덭撌 िवशेष म藺 िविभ￿￿ खेलकूदो ंपर खच덭撌 की गई रािश दशा덭撌यी गई है। पाई चाट덭撌 का अ￿￿यन कीिजए और ﳼﻼ￿￿ो ंके उ즞玤र िदिजए । If the total amount spent on sports during the year was Rs. 1,20,00,000 how muchwas spent on basketball यिद वष덭撌 के दौरान खेलकूद परकुल Rs. 1,20,00,000की रािश खच덭撌 की गई तो बा鉐㷿ेट बॉल पर िकतनी रािश खच덭撌 की गई ?",
+    "options": {
+      "A": "Rs. 950000",
+      "B": "Rs. 10,00,000",
+      "C": "Rs. 12,00,000",
+      "D": "Rs. 15,00,000"
+    },
+    "correctAnswer": "D",
+    "correctValue": "Rs. 15,00,000",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q439",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. िनिल￿￿खत पाई चाट덭撌 म藺 िकसी देश ￿￿ारा िकसी वष덭撌 िवशेष म藺 िविभ￿￿ खेलकूदो ंपर खच덭撌 की गई रािश दशा덭撌यी गई है। पाई चाट덭撌 का अ￿￿यन कीिजए और ﳼﻼ￿￿ो ंके उ즞玤र िदिजए । Total central angle showing the money spent on hockey,football and other during the year was कौन सा कोण हॉकी , फुटबॉल और दूसरे खेलो ंपर 䁱ॄए खच덭撌 को दशा덭撌ता है ?",
+    "options": {
+      "A": "104°",
+      "B": "244°",
+      "C": "96°",
+      "D": "144°"
+    },
+    "correctAnswer": "D",
+    "correctValue": "144°",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q440",
+    "question": "The pie chart drawn below shows below the spendings of a country on various sports during a particular year. Study the pie chart and answer the questions. िनिल￿￿खत पाई चाट덭撌 म藺 िकसी देश ￿￿ारा िकसी वष덭撌 िवशेष म藺 िविभ￿￿ खेलकूदो ंपर खच덭撌 की गई रािश दशा덭撌यी गई है। पाई चाट덭撌 का अ￿￿यन कीिजए और ﳼﻼ￿￿ो ंके उ즞玤र िदिजए । If the money spent on cricket during the year was Rs. 20,00,000, then the money spent on tennis was: यिद वष덭撌 के दौरान ￮뿚ेकेट पर Rs. 20,00,000 की रािश खच덭撌 की गई तो टेिनस पर िकतनी रािश खच덭撌 की गई ?",
+    "options": {
+      "A": "Rs. 8,00,000",
+      "B": "Rs.10,00,000",
+      "C": "Rs. 80,00,000",
+      "D": "Rs. 40,00,000"
+    },
+    "correctAnswer": "A",
+    "correctValue": "Rs. 8,00,000",
+    "difficulty": "medium",
+    "topic": "data_interpretation",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q441",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Why you (A) / copying your homework (B) / from someone else? (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q442",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. There is (A) / few time (B) / for preparation. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q443",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. All my hope (A) / were duped (B) / and I was plunged in deep sorrow. (C) / No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q444",
+    "question": "A sentence/a part of the sentence is underlined. Four alternatives are given to the underlined part which will improve the sentence. Choose the correct alternative and click the button corresponding to it. In case no improvement is needed, click the button corresponding to \"No improvement\". At the present rate of exchange, fourteen dozen cost Rs.3000.",
+    "options": {
+      "A": "dozen costs",
+      "B": "dozens cost",
+      "C": "dozens costs",
+      "D": "No improvement"
+    },
+    "correctAnswer": "D",
+    "correctValue": "No improvement",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q448",
+    "question": "If 4 * 2 = 3 and 8 * 4 = 3 , then 21 * 7 = ? 4 * 2 = 3 यद 8 * 4 =3, और 21 * 7 = ? तो",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "8",
+      "D": "16"
+    },
+    "correctAnswer": "D",
+    "correctValue": "16",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q450",
+    "question": "Find the least number which must be subtracted from 18265 to make it a perfect square 18265 वह यूनतम सं या ात कजए जो सेघटायेजानेपर और उसे पूण वग बना दे।",
+    "options": {
+      "A": "30",
+      "B": "38",
+      "C": "40",
+      "D": "45"
+    },
+    "correctAnswer": "C",
+    "correctValue": "40",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q451",
+    "question": "A and B together can do a piece of work in 36 days, B and C together can do it in 24 days. A and C together can do it in 18 days. The three working together can finish the work in A B 36 , B C और मकर कसी काम को दन मकर सकतेहै और 24 A C 18 मकर उसे दन मकर सकतेहै। और मलकर उसे दन म ? कर सकतेहै। तीन मलकर काम करतो उसेकतनेदन मपूरा करगे",
+    "options": {
+      "A": "8 days 8 दन",
+      "B": "16 days 16 दन",
+      "C": "30 days 30 दन",
+      "D": "32 days 32 दन"
+    },
+    "correctAnswer": "B",
+    "correctValue": "16 days 16 दन",
+    "difficulty": "medium",
+    "topic": "time_work",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q452",
+    "question": "Two adjacent sides of a parallelogram are 21 cms and 20 cms. The diagonal joining the end points of these two sides is 29 cms. The area of the parallelogram (in sq.cms) is 21 . . 20 . . एक समांतर चतुभुज क दो आस न भुजा सेमी और सेमी क 29 . . है। इन दोनो भुजा केसर को जोड़नेवाला वकण सेमी है। समांतर ( . .) ? चतुभुज का ेफल कतना वग सेमी होगा",
+    "options": {
+      "A": "240",
+      "B": "120",
+      "C": "210",
+      "D": "420"
+    },
+    "correctAnswer": "D",
+    "correctValue": "420",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q453",
+    "question": "A dealer marks his goods 20% above cost price. He then allows some discount on it and makes a profit of 8%. The rate of discount is 20% एक वेता अपनेसामान पर लागत मू य से अधक मू य अंकत 8% करता है। उस पर वह कुछ छूट देता हैऔर का लाभ कमाता है। छूट क ? दर या है",
+    "options": {
+      "A": "4%",
+      "B": "6%",
+      "C": "10%",
+      "D": "12%"
+    },
+    "correctAnswer": "C",
+    "correctValue": "10%",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q455",
+    "question": "The average age of 36 students in a group is 14 years. When the teacher's age is included in it, the average increases by one. The teacher's age in years is 36 14 छा केएक समूह क औसत आयु वष है। जब उसमशक क आयुशामल कर द जाती हैतो औसत एक बढ़ जाता है। शक क आयु ? कतनेवष है",
+    "options": {
+      "A": "31",
+      "B": "51",
+      "C": "36",
+      "D": "50"
+    },
+    "correctAnswer": "B",
+    "correctValue": "51",
+    "difficulty": "medium",
+    "topic": "average",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q456",
+    "question": "A dishonest dealer professes to sell his goods at cost price but uses a weight of 875 gms for the kilogram weight. His gain in percentage is एक बेईमान वेता अपना सामान लागत मू य पर बेचनेका दावा करता है 875 ( ) लेकन कलोाम वजन केबदलेम ाम केवजन बांट का ? इ तेमाल करता है। उसका लाभ तशत कतना होगा",
+    "options": {
+      "A": "17% 2) 3)",
+      "B": "",
+      "C": "",
+      "D": "14% Correct Answer: Candidate Answer:"
+    },
+    "correctAnswer": "",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "percentage",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q459",
+    "question": "If a/b + b/a = 1, then the value of a + b will be 3 3 a/b + b/a = 1, a + b ? यद तो कतना होगा",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "2"
+    },
+    "correctAnswer": "B",
+    "correctValue": "0",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q460",
+    "question": "If p = 99, then the value of p(p +3p+3) will be 2 p = 99 p(p +3p+3) ? यद तो का मान या होगा",
+    "options": {
+      "A": "999999",
+      "B": "1000000",
+      "C": "1000001",
+      "D": "999998"
+    },
+    "correctAnswer": "A",
+    "correctValue": "999999",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q462",
+    "question": "∆ ABC a right angled triangle has ∠B = 90° and AC is hypotenuse. D is its circumcentre and AB = 3 cms, BC = 4 cms. The value of BD is ∆ ABC एक समकोणीय भुज है , इसम ∠B =90° और AC कण है। D AB = 3 . ., BC = 4 . . , BD उसका परके हैऔर सेमी सेमी हैतो का मान ? या है",
+    "options": {
+      "A": "3cms 3 . . सेमी",
+      "B": "4 cms 4 . . सेमी",
+      "C": "2.5 cms 2.5 . . सेमी",
+      "D": "5.5 cms 5.5 . . सेमी"
+    },
+    "correctAnswer": "C",
+    "correctValue": "2.5 cms 2.5 . . सेमी",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q463",
+    "question": "∆ ABC is an equilateral triangle and D, E are midpoints of AB and BC respectively. Then the area of ∆ ABC : the area of the trapezium ADEC is ∆ ABC D,E : AB BC एक समबा भुज हैऔर मश और केम य ब ∆ ABC ADEC है। तो केेफल व समल ब केेफल का अनुपात ? कतना होगा",
+    "options": {
+      "A": "5:3",
+      "B": "4:1",
+      "C": "8:5",
+      "D": "4:3"
+    },
+    "correctAnswer": "D",
+    "correctValue": "4:3",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q464",
+    "question": "If x=aCosθCosΦ, y = aCosθSinΦ and z= 2 2 2 aSinθ, then the value of x + y + z is 2 x=aCosθCosΦ, y = aCosθSinΦ z= aSinθ x + यद और हो तो 2 2 y + z ? का मान या है",
+    "options": {
+      "A": "2a 2",
+      "B": "4a 2",
+      "C": "9a 2",
+      "D": "a 2"
+    },
+    "correctAnswer": "D",
+    "correctValue": "a 2",
+    "difficulty": "medium",
+    "topic": "algebra",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q465",
+    "question": "A 1.6 m tall observer is 45 meters away from a tower. The angle of elevation from his eye to the top of the tower is 30°, then the height of the tower in meters is (Take √3 = 1.732) 1.6 . 45 . मी ल बा एक ेक कसी टॉवर से मी र है। उसक ख से 30° . टॉवर केशीष तक उ नयन कोण है। टॉवर क ऊँ चाई कतनेमी होगी। ( √3 = 1.732 ) माना",
+    "options": {
+      "A": "25.98",
+      "B": "26.58",
+      "C": "27.58",
+      "D": "27.98"
+    },
+    "correctAnswer": "C",
+    "correctValue": "27.58",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q468",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. I always enjoy (A)/ to read (B)/ books (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "B",
+    "correctValue": "B",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q469",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Variety (A)/ is (B)/ spice of life (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "C",
+    "correctValue": "",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q470",
+    "question": "In the following questions, one part of the sentence may have an error. Find out which part of the sentence has an error and click the button corresponding to it. If the sentence is free from error, click the \"No error\" option. Neither of the scout leaders know (A)/ how to trap wild animals (B)/ or how to prepare them for mounting (C)/ No Error (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "",
+      "D": "D"
+    },
+    "correctAnswer": "A",
+    "correctValue": "A",
+    "difficulty": "medium",
+    "topic": "general_math",
+    "year": 2016,
+    "exam": "SSC CGL"
+  },
+  {
+    "id": "ssc_2016_q471",
+    "question": "A sentence/a part of the sentence is underlined. Four alternatives are given to the underlined part which will improve the sentence. Choose the correct alternative and click the button corresponding to it. In case no improvement is needed, click the button corresponding to \"No improvement\". Knowing that the area was prone to earthquakes, all the buildings were reinforced with additional concrete.",
+    "options": {
+      "A": "On being prone to earthquakes,",
+      "B": "Having been knowing that the area was prone to earthquakes,",
+      "C": "Since the area was known to be prone to earthquakes,",
+      "D": "No improvement"
+    },
+    "correctAnswer": "C",
+    "correctValue": "Since the area was known to be prone to earthquakes,",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "year": 2016,
+    "exam": "SSC CGL"
+  }
+]
