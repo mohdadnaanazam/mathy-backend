@@ -4,6 +4,7 @@ import helmet from 'helmet'
 import { env } from './config/env'
 import gameRoutes from './routes/gameRoutes'
 import userRoutes from './routes/userRoutes'
+import sscCglRoutes from './routes/sscCglRoutes'
 import { errorHandler } from './utils/errorHandler'
 import { startGameCron } from './jobs/gameCron'
 
@@ -34,6 +35,7 @@ app.get('/', (_req, res) => {
       games: '/games',
       gamesByType: '/games/:type',
       generate: 'POST /games/generate',
+      sscCgl: '/api/ssc-cgl?difficulty=easy|medium|hard',
     },
   })
 })
@@ -78,6 +80,7 @@ app.get('/health/db', async (_req, res) => {
 
 app.use('/games', gameRoutes)
 app.use('/users', userRoutes)
+app.use('/api/ssc-cgl', sscCglRoutes)
 
 app.use(errorHandler)
 
