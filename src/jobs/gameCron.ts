@@ -131,9 +131,12 @@ export function startGameCron() {
 
   // Safety net: check every 5 minutes in case a setTimeout was missed
   // (e.g. due to Node.js timer drift or process restart).
-  // This is NOT the primary scheduling mechanism — just a fallback.
+  // Also runs cleanup to prevent stale data accumulation.
   checkInterval = setInterval(async () => {
     try {
+      // Always run cleanup to catch orphaned/stale games
+      await cleanupExpiredSessions()
+
       const session = await getActiveSession()
       if (!session) {
         console.log('[scheduler:check] No active session, running cycle')

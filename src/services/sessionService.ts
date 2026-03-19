@@ -118,39 +118,66 @@ export async function promoteNextSession(): Promise<GameSession | null> {
 
 /**
  * Delete all expired sessions and their associated games.
+ * Also cleans up orphaned games (null session_id or expired timestamps).
  * Only keeps current + next session data.
  */
 export async function cleanupExpiredSessions(): Promise<number> {
   const supabase = getSupabaseClient()
+  let totalDeleted = 0
 
-  // Get expired session IDs
+  // 1. Delete games belonging to expired sessions
   const { data: expiredSessions, error: fetchErr } = await supabase
     .from('sessions')
     .select('id')
     .eq('status', 'expired') as any
 
-  if (fetchErr || !expiredSessions?.length) return 0
+  if (!fetchErr && expiredSessions?.length) {
+    const expiredIds = (expiredSessions as any[]).map((s: any) => s.id)
 
-  const expiredIds = (expiredSessions as any[]).map((s: any) => s.id)
+    const { data: deletedGames } = await supabase
+      .from('games')
+      .delete()
+      .in('session_id', expiredIds)
+      .select('id')
 
-  // Delete games belonging to expired sessions
-  const { data: deletedGames } = await supabase
+    await supabase
+      .from('sessions')
+      .delete()
+      .in('id', expiredIds)
+
+    const count = deletedGames?.length ?? 0
+    totalDeleted += count
+    if (count > 0) {
+      console.log(`[sessionService] Cleaned up ${expiredIds.length} expired sessions, ${count} games`)
+    }
+  }
+
+  // 2. Delete orphaned games (null session_id)
+  const { data: orphaned } = await supabase
     .from('games')
     .delete()
-    .in('session_id', expiredIds)
+    .is('session_id', null)
     .select('id')
 
-  // Delete the expired session rows
-  await supabase
-    .from('sessions')
-    .delete()
-    .in('id', expiredIds)
-
-  const count = deletedGames?.length ?? 0
-  if (count > 0) {
-    console.log(`[sessionService] Cleaned up ${expiredIds.length} expired sessions, ${count} games`)
+  if (orphaned?.length) {
+    totalDeleted += orphaned.length
+    console.log(`[sessionService] Cleaned up ${orphaned.length} orphaned games (null session_id)`)
   }
-  return count
+
+  // 3. Delete games whose expires_at has passed (safety net for stale data)
+  const nowIso = new Date().toISOString()
+  const { data: stale } = await supabase
+    .from('games')
+    .delete()
+    .lte('expires_at', nowIso)
+    .select('id')
+
+  if (stale?.length) {
+    totalDeleted += stale.length
+    console.log(`[sessionService] Cleaned up ${stale.length} stale games (past expires_at)`)
+  }
+
+  return totalDeleted
 }
 
 /**
