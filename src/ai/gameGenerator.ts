@@ -210,10 +210,12 @@ export async function generateAndStoreGames(
   batchSize = 20,
   operation?: OperationMode,
   difficulty?: GameDifficulty,
+  sessionId?: string,
+  expiresAt?: Date,
 ): Promise<void> {
   const supabase = getSupabaseClient()
   const now = new Date()
-  const expires = new Date(now.getTime() + 60 * 60 * 1000) // +1 hour
+  const expires = expiresAt ?? new Date(now.getTime() + 60 * 60 * 1000) // +1 hour
 
   let games: GeneratedGame[]
   try {
@@ -239,6 +241,7 @@ export async function generateAndStoreGames(
     difficulty: g.difficulty,
     created_at: now.toISOString(),
     expires_at: expires.toISOString(),
+    session_id: sessionId ?? null,
   }))
 
   const { error } = await supabase.from('games').insert(payload as any)
@@ -248,15 +251,19 @@ export async function generateAndStoreGames(
     throw error
   }
   // eslint-disable-next-line no-console
-  console.log('[generateAndStoreGames] Inserted', payload.length, 'games')
+  console.log('[generateAndStoreGames] Inserted', payload.length, 'games', sessionId ? `for session ${sessionId}` : '')
 }
 
 /** Insert generated games into DB and return the inserted rows (with id, created_at, expires_at). */
-export async function storeGeneratedGames(games: GeneratedGame[]): Promise<Array<Record<string, unknown>>> {
+export async function storeGeneratedGames(
+  games: GeneratedGame[],
+  sessionId?: string,
+  expiresAt?: Date,
+): Promise<Array<Record<string, unknown>>> {
   if (games.length === 0) return []
   const supabase = getSupabaseClient()
   const now = new Date()
-  const expires = new Date(now.getTime() + 60 * 60 * 1000)
+  const expires = expiresAt ?? new Date(now.getTime() + 60 * 60 * 1000)
 
   const payload = games.map(g => ({
     id: uuidv4(),
@@ -266,6 +273,7 @@ export async function storeGeneratedGames(games: GeneratedGame[]): Promise<Array
     difficulty: g.difficulty,
     created_at: now.toISOString(),
     expires_at: expires.toISOString(),
+    session_id: sessionId ?? null,
   }))
 
   const { data, error } = await supabase.from('games').insert(payload as any).select()
@@ -477,10 +485,12 @@ export function generateTrueFalseGamesLocally(
 export async function generateAndStoreTrueFalseGames(
   batchSize = 20,
   difficulty?: GameDifficulty,
+  sessionId?: string,
+  expiresAt?: Date,
 ): Promise<void> {
   const supabase = getSupabaseClient()
   const now = new Date()
-  const expires = new Date(now.getTime() + 60 * 60 * 1000)
+  const expires = expiresAt ?? new Date(now.getTime() + 60 * 60 * 1000)
 
   const games = generateTrueFalseGamesLocally(batchSize, difficulty)
 
@@ -497,6 +507,7 @@ export async function generateAndStoreTrueFalseGames(
     difficulty: g.difficulty,
     created_at: now.toISOString(),
     expires_at: expires.toISOString(),
+    session_id: sessionId ?? null,
   }))
 
   const { error } = await supabase.from('games').insert(payload as any)
@@ -679,6 +690,8 @@ export async function generateAndStoreNewGameType(
   gameType: 'square_root' | 'fractions' | 'percentage' | 'algebra' | 'speed_math' | 'logic_puzzle',
   batchSize = 20,
   difficulty?: GameDifficulty,
+  sessionId?: string,
+  expiresAt?: Date,
 ): Promise<void> {
   const generators: Record<string, (c: number, d?: GameDifficulty) => GeneratedGame[]> = {
     square_root: generateSquareRootGamesLocally,
@@ -692,5 +705,5 @@ export async function generateAndStoreNewGameType(
   if (!gen) throw new Error(`Unknown game type: ${gameType}`)
   const games = gen(batchSize, difficulty)
   if (games.length === 0) return
-  await storeGeneratedGames(games)
+  await storeGeneratedGames(games, sessionId, expiresAt)
 }

@@ -30,6 +30,7 @@ app.get('/', (_req, res) => {
     endpoints: {
       health: '/health',
       healthDb: '/health/db',
+      session: '/games/session',
       games: '/games',
       gamesByType: '/games/:type',
       generate: 'POST /games/generate',

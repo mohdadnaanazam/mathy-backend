@@ -13,6 +13,7 @@ export type Database = {
           difficulty: string
           created_at: string
           expires_at: string
+          session_id: string | null
         }
         Insert: {
           id?: string
@@ -22,6 +23,29 @@ export type Database = {
           difficulty: string
           created_at?: string
           expires_at: string
+          session_id?: string | null
+        }
+        Update: {
+          session_id?: string | null
+        }
+      }
+      sessions: {
+        Row: {
+          id: string
+          starts_at: string
+          expires_at: string
+          status: string
+          created_at: string
+        }
+        Insert: {
+          id: string
+          starts_at: string
+          expires_at: string
+          status: string
+          created_at?: string
+        }
+        Update: {
+          status?: string
         }
       }
       users: {

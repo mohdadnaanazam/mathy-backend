@@ -1,5 +1,12 @@
 import { z } from 'zod'
-import { ensureGamesExist, getActiveGames, generateRandomGames, generateAndStoreCustomGames, forceRegenerateAllGames } from '../services/gameService.js'
+import {
+  ensureGamesExist,
+  getActiveGames,
+  generateRandomGames,
+  generateAndStoreCustomGames,
+  forceRegenerateAllGames,
+  getSessionInfo,
+} from '../services/gameService.js'
 import { OperationMode } from '../ai/types.js'
 
 const customGameSchema = z.object({
@@ -12,7 +19,7 @@ const customGameSchema = z.object({
 
 export async function getGames(req: any, res: any, next: any) {
   try {
-    await ensureGamesExist(10)
+    // No on-demand generation — just return what's in the active session
     const games = await getActiveGames()
     res.json(games)
   } catch (err) {
@@ -32,7 +39,7 @@ export async function getGamesByType(req: any, res: any, next: any) {
       res.status(400).json({ error: `Invalid game type "${type}". Must be one of: ${VALID_GAME_TYPES.join(', ')}` })
       return
     }
-    await ensureGamesExist(10)
+    // No on-demand generation — just return preloaded session games
     const games = await getActiveGames(type as OperationMode)
     res.json(games)
   } catch (err) {
@@ -74,3 +81,11 @@ export async function regenerateAllGamesHandler(req: any, res: any, next: any) {
   }
 }
 
+export async function getSessionHandler(req: any, res: any, next: any) {
+  try {
+    const info = await getSessionInfo()
+    res.json(info)
+  } catch (err) {
+    next(err)
+  }
+}
