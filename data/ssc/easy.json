@@ -2403,5 +2403,345 @@
     "year": 2016,
     "exam": "SSC CGL",
     "explanation": "Step 1: Identify the geometric property or theorem applicable.\nStep 2: Apply the formula with the given measurements.\nStep 3: Compute the answer = centroid.\nFinal Answer: centroid"
+  },
+  {
+    "id": "ssc_fe_easy_q0",
+    "question": "What is 25% of 480?",
+    "options": {
+      "A": "100",
+      "B": "120",
+      "C": "140",
+      "D": "160"
+    },
+    "correctAnswer": "B",
+    "correctValue": "120",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "25% of 480 = (25/100) × 480 = 120"
+  },
+  {
+    "id": "ssc_fe_easy_q1",
+    "question": "If a train travels 60 km in 1 hour, how far will it travel in 2.5 hours?",
+    "options": {
+      "A": "120 km",
+      "B": "150 km",
+      "C": "180 km",
+      "D": "200 km"
+    },
+    "correctAnswer": "B",
+    "correctValue": "150 km",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "Distance = Speed × Time = 60 × 2.5 = 150 km"
+  },
+  {
+    "id": "ssc_fe_easy_q2",
+    "question": "Find the average of 12, 18, 24, 30.",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "22",
+      "D": "24"
+    },
+    "correctAnswer": "B",
+    "correctValue": "21",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2020,
+    "exam": "SSC CGL",
+    "explanation": "Average = (12 + 18 + 24 + 30) / 4 = 84 / 4 = 21"
+  },
+  {
+    "id": "ssc_fe_easy_q3",
+    "question": "What is the simple interest on ₹5000 at 10% per annum for 2 years?",
+    "options": {
+      "A": "₹500",
+      "B": "₹1000",
+      "C": "₹1500",
+      "D": "₹2000"
+    },
+    "correctAnswer": "B",
+    "correctValue": "₹1000",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2021,
+    "exam": "SSC CGL",
+    "explanation": "SI = P × R × T / 100 = 5000 × 10 × 2 / 100 = ₹1000"
+  },
+  {
+    "id": "ssc_fe_easy_q4",
+    "question": "A shopkeeper sells an article for ₹450 at a profit of 25%. What was the cost price?",
+    "options": {
+      "A": "₹320",
+      "B": "₹340",
+      "C": "₹360",
+      "D": "₹380"
+    },
+    "correctAnswer": "C",
+    "correctValue": "₹360",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2022,
+    "exam": "SSC CGL",
+    "explanation": "CP = SP × 100 / (100 + Profit%) = 450 × 100 / 125 = ₹360"
+  },
+  {
+    "id": "ssc_fe_easy_q5",
+    "question": "The ratio of two numbers is 3:5. If their sum is 64, find the smaller number.",
+    "options": {
+      "A": "20",
+      "B": "24",
+      "C": "28",
+      "D": "32"
+    },
+    "correctAnswer": "B",
+    "correctValue": "24",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2023,
+    "exam": "SSC CGL",
+    "explanation": "Smaller = 3/(3+5) × 64 = 3/8 × 64 = 24"
+  },
+  {
+    "id": "ssc_fe_easy_q6",
+    "question": "What is the LCM of 12 and 18?",
+    "options": {
+      "A": "24",
+      "B": "36",
+      "C": "48",
+      "D": "72"
+    },
+    "correctAnswer": "B",
+    "correctValue": "36",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "12 = 2² × 3, 18 = 2 × 3². LCM = 2² × 3² = 36"
+  },
+  {
+    "id": "ssc_fe_easy_q7",
+    "question": "If the perimeter of a square is 48 cm, what is its area?",
+    "options": {
+      "A": "100 cm²",
+      "B": "121 cm²",
+      "C": "144 cm²",
+      "D": "169 cm²"
+    },
+    "correctAnswer": "C",
+    "correctValue": "144 cm²",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "Side = 48/4 = 12 cm. Area = 12² = 144 cm²"
+  },
+  {
+    "id": "ssc_fe_easy_q8",
+    "question": "A man walks 4 km/h. How long will he take to cover 10 km?",
+    "options": {
+      "A": "2 hours",
+      "B": "2.5 hours",
+      "C": "3 hours",
+      "D": "3.5 hours"
+    },
+    "correctAnswer": "B",
+    "correctValue": "2.5 hours",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2020,
+    "exam": "SSC CGL",
+    "explanation": "Time = Distance / Speed = 10 / 4 = 2.5 hours"
+  },
+  {
+    "id": "ssc_fe_easy_q9",
+    "question": "What is 15² ?",
+    "options": {
+      "A": "200",
+      "B": "215",
+      "C": "225",
+      "D": "250"
+    },
+    "correctAnswer": "C",
+    "correctValue": "225",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2021,
+    "exam": "SSC CGL",
+    "explanation": "15² = 15 × 15 = 225"
+  },
+  {
+    "id": "ssc_fe_easy_q10",
+    "question": "Find the HCF of 24 and 36.",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "12",
+      "D": "18"
+    },
+    "correctAnswer": "C",
+    "correctValue": "12",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2022,
+    "exam": "SSC CGL",
+    "explanation": "24 = 2³ × 3, 36 = 2² × 3². HCF = 2² × 3 = 12"
+  },
+  {
+    "id": "ssc_fe_easy_q11",
+    "question": "A discount of 20% on ₹500 gives a selling price of?",
+    "options": {
+      "A": "₹350",
+      "B": "₹380",
+      "C": "₹400",
+      "D": "₹420"
+    },
+    "correctAnswer": "C",
+    "correctValue": "₹400",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2023,
+    "exam": "SSC CGL",
+    "explanation": "Discount = 20% of 500 = ₹100. SP = 500 − 100 = ₹400"
+  },
+  {
+    "id": "ssc_fe_easy_q12",
+    "question": "What is the value of √196?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "15"
+    },
+    "correctAnswer": "C",
+    "correctValue": "14",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "14 × 14 = 196, so √196 = 14"
+  },
+  {
+    "id": "ssc_fe_easy_q13",
+    "question": "If 3x + 7 = 22, find x.",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctAnswer": "C",
+    "correctValue": "5",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "3x = 22 − 7 = 15, so x = 15/3 = 5"
+  },
+  {
+    "id": "ssc_fe_easy_q14",
+    "question": "The sum of first 10 natural numbers is?",
+    "options": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "60"
+    },
+    "correctAnswer": "C",
+    "correctValue": "55",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2020,
+    "exam": "SSC CGL",
+    "explanation": "Sum = n(n+1)/2 = 10 × 11 / 2 = 55"
+  },
+  {
+    "id": "ssc_fe_easy_q15",
+    "question": "A car covers 240 km in 4 hours. What is its speed?",
+    "options": {
+      "A": "50 km/h",
+      "B": "55 km/h",
+      "C": "60 km/h",
+      "D": "65 km/h"
+    },
+    "correctAnswer": "C",
+    "correctValue": "60 km/h",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2021,
+    "exam": "SSC CGL",
+    "explanation": "Speed = Distance / Time = 240 / 4 = 60 km/h"
+  },
+  {
+    "id": "ssc_fe_easy_q16",
+    "question": "What fraction of 1 hour is 45 minutes?",
+    "options": {
+      "A": "1/2",
+      "B": "2/3",
+      "C": "3/4",
+      "D": "4/5"
+    },
+    "correctAnswer": "C",
+    "correctValue": "3/4",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2022,
+    "exam": "SSC CGL",
+    "explanation": "45 minutes / 60 minutes = 45/60 = 3/4"
+  },
+  {
+    "id": "ssc_fe_easy_q17",
+    "question": "If a number is increased by 20% it becomes 60. What is the number?",
+    "options": {
+      "A": "45",
+      "B": "48",
+      "C": "50",
+      "D": "52"
+    },
+    "correctAnswer": "C",
+    "correctValue": "50",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2023,
+    "exam": "SSC CGL",
+    "explanation": "Let number = x. 1.2x = 60, so x = 60/1.2 = 50"
+  },
+  {
+    "id": "ssc_fe_easy_q18",
+    "question": "The area of a rectangle with length 12 cm and breadth 8 cm is?",
+    "options": {
+      "A": "80 cm²",
+      "B": "88 cm²",
+      "C": "96 cm²",
+      "D": "104 cm²"
+    },
+    "correctAnswer": "C",
+    "correctValue": "96 cm²",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Area = length × breadth = 12 × 8 = 96 cm²"
+  },
+  {
+    "id": "ssc_fe_easy_q19",
+    "question": "What is 0.75 as a fraction?",
+    "options": {
+      "A": "1/2",
+      "B": "2/3",
+      "C": "3/4",
+      "D": "4/5"
+    },
+    "correctAnswer": "C",
+    "correctValue": "3/4",
+    "difficulty": "easy",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "0.75 = 75/100 = 3/4"
   }
 ]

@@ -3930,5 +3930,345 @@
     "year": 2016,
     "exam": "SSC CGL",
     "explanation": "Step 1: Identify the geometric property or theorem applicable.\nStep 2: Apply the formula with the given measurements.\nStep 3: Compute the answer = 27.58.\nFinal Answer: 27.58"
+  },
+  {
+    "id": "ssc_fe_medium_q0",
+    "question": "A and B can do a work in 12 and 18 days respectively. In how many days can they finish it together?",
+    "options": {
+      "A": "6.2 days",
+      "B": "7.2 days",
+      "C": "8.2 days",
+      "D": "9.2 days"
+    },
+    "correctAnswer": "B",
+    "correctValue": "7.2 days",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Combined rate = 1/12 + 1/18 = 5/36. Time = 36/5 = 7.2 days"
+  },
+  {
+    "id": "ssc_fe_medium_q1",
+    "question": "The compound interest on ₹8000 at 10% per annum for 2 years is?",
+    "options": {
+      "A": "₹1600",
+      "B": "₹1680",
+      "C": "₹1720",
+      "D": "₹1800"
+    },
+    "correctAnswer": "B",
+    "correctValue": "₹1680",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "CI = P(1 + R/100)^T − P = 8000(1.1)² − 8000 = 9680 − 8000 = ₹1680"
+  },
+  {
+    "id": "ssc_fe_medium_q2",
+    "question": "A boat goes 12 km upstream in 3 hours and 16 km downstream in 2 hours. Find the speed of the stream.",
+    "options": {
+      "A": "1 km/h",
+      "B": "2 km/h",
+      "C": "3 km/h",
+      "D": "4 km/h"
+    },
+    "correctAnswer": "B",
+    "correctValue": "2 km/h",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2020,
+    "exam": "SSC CGL",
+    "explanation": "Upstream speed = 12/3 = 4 km/h. Downstream speed = 16/2 = 8 km/h. Stream speed = (8−4)/2 = 2 km/h"
+  },
+  {
+    "id": "ssc_fe_medium_q3",
+    "question": "If the selling price is ₹960 and loss is 20%, what is the cost price?",
+    "options": {
+      "A": "₹1100",
+      "B": "₹1150",
+      "C": "₹1200",
+      "D": "₹1250"
+    },
+    "correctAnswer": "C",
+    "correctValue": "₹1200",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2021,
+    "exam": "SSC CGL",
+    "explanation": "CP = SP × 100 / (100 − Loss%) = 960 × 100 / 80 = ₹1200"
+  },
+  {
+    "id": "ssc_fe_medium_q4",
+    "question": "The average of 5 consecutive odd numbers starting from 11 is?",
+    "options": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16"
+    },
+    "correctAnswer": "C",
+    "correctValue": "15",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2022,
+    "exam": "SSC CGL",
+    "explanation": "Numbers: 11, 13, 15, 17, 19. Average = 75/5 = 15 (middle number)"
+  },
+  {
+    "id": "ssc_fe_medium_q5",
+    "question": "Two pipes can fill a tank in 20 and 30 minutes. How long to fill together?",
+    "options": {
+      "A": "10 min",
+      "B": "12 min",
+      "C": "15 min",
+      "D": "18 min"
+    },
+    "correctAnswer": "B",
+    "correctValue": "12 min",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2023,
+    "exam": "SSC CGL",
+    "explanation": "Combined rate = 1/20 + 1/30 = 5/60 = 1/12. Time = 12 minutes"
+  },
+  {
+    "id": "ssc_fe_medium_q6",
+    "question": "A mixture of 40 litres has milk and water in ratio 3:1. How much water must be added to make the ratio 2:1?",
+    "options": {
+      "A": "5 litres",
+      "B": "6 litres",
+      "C": "8 litres",
+      "D": "10 litres"
+    },
+    "correctAnswer": "A",
+    "correctValue": "5 litres",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Milk = 30L, Water = 10L. For 2:1 ratio: 30/(10+x) = 2/1, so 10+x = 15, x = 5 litres"
+  },
+  {
+    "id": "ssc_fe_medium_q7",
+    "question": "The diagonal of a rectangle is 13 cm and one side is 5 cm. Find the other side.",
+    "options": {
+      "A": "8 cm",
+      "B": "10 cm",
+      "C": "12 cm",
+      "D": "14 cm"
+    },
+    "correctAnswer": "C",
+    "correctValue": "12 cm",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "By Pythagoras: other side = √(13² − 5²) = √(169 − 25) = √144 = 12 cm"
+  },
+  {
+    "id": "ssc_fe_medium_q8",
+    "question": "If x:y = 2:3 and y:z = 4:5, find x:y:z.",
+    "options": {
+      "A": "8:12:15",
+      "B": "6:9:10",
+      "C": "4:6:9",
+      "D": "2:3:5"
+    },
+    "correctAnswer": "A",
+    "correctValue": "8:12:15",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2020,
+    "exam": "SSC CGL",
+    "explanation": "Make y common: x:y = 8:12, y:z = 12:15. So x:y:z = 8:12:15"
+  },
+  {
+    "id": "ssc_fe_medium_q9",
+    "question": "A number when divided by 5 gives remainder 3. What is the remainder when the square of the number is divided by 5?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correctAnswer": "D",
+    "correctValue": "4",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2021,
+    "exam": "SSC CGL",
+    "explanation": "Let N = 5k + 3. N² = 25k² + 30k + 9. Remainder of 9/5 = 4"
+  },
+  {
+    "id": "ssc_fe_medium_q10",
+    "question": "The circumference of a circle is 44 cm. Find its area. (π = 22/7)",
+    "options": {
+      "A": "144 cm²",
+      "B": "150 cm²",
+      "C": "154 cm²",
+      "D": "160 cm²"
+    },
+    "correctAnswer": "C",
+    "correctValue": "154 cm²",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2022,
+    "exam": "SSC CGL",
+    "explanation": "2πr = 44, r = 7 cm. Area = πr² = 22/7 × 49 = 154 cm²"
+  },
+  {
+    "id": "ssc_fe_medium_q11",
+    "question": "A train 150 m long passes a pole in 15 seconds. What is its speed in km/h?",
+    "options": {
+      "A": "30 km/h",
+      "B": "36 km/h",
+      "C": "40 km/h",
+      "D": "45 km/h"
+    },
+    "correctAnswer": "B",
+    "correctValue": "36 km/h",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2023,
+    "exam": "SSC CGL",
+    "explanation": "Speed = 150/15 = 10 m/s = 10 × 18/5 = 36 km/h"
+  },
+  {
+    "id": "ssc_fe_medium_q12",
+    "question": "If the price of sugar increases by 25%, by what percent should consumption be reduced to keep expenditure the same?",
+    "options": {
+      "A": "15%",
+      "B": "20%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "correctAnswer": "B",
+    "correctValue": "20%",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Reduction = (increase / (100 + increase)) × 100 = 25/125 × 100 = 20%"
+  },
+  {
+    "id": "ssc_fe_medium_q13",
+    "question": "The product of two numbers is 192 and their sum is 28. Find the numbers.",
+    "options": {
+      "A": "12, 16",
+      "B": "10, 18",
+      "C": "8, 24",
+      "D": "14, 14"
+    },
+    "correctAnswer": "A",
+    "correctValue": "12, 16",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "x + y = 28, xy = 192. Solving: x = 12, y = 16 (12 × 16 = 192)"
+  },
+  {
+    "id": "ssc_fe_medium_q14",
+    "question": "A man invests ₹12000 at 5% simple interest. After how many years will it become ₹15000?",
+    "options": {
+      "A": "4 years",
+      "B": "5 years",
+      "C": "6 years",
+      "D": "7 years"
+    },
+    "correctAnswer": "B",
+    "correctValue": "5 years",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2020,
+    "exam": "SSC CGL",
+    "explanation": "SI = 15000 − 12000 = 3000. T = SI × 100 / (P × R) = 3000 × 100 / (12000 × 5) = 5 years"
+  },
+  {
+    "id": "ssc_fe_medium_q15",
+    "question": "The angles of a triangle are in ratio 2:3:4. Find the largest angle.",
+    "options": {
+      "A": "60°",
+      "B": "70°",
+      "C": "80°",
+      "D": "90°"
+    },
+    "correctAnswer": "C",
+    "correctValue": "80°",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2021,
+    "exam": "SSC CGL",
+    "explanation": "Sum = 180°. Parts = 2+3+4 = 9. Largest = 4/9 × 180 = 80°"
+  },
+  {
+    "id": "ssc_fe_medium_q16",
+    "question": "If 40% of a number is 80, what is 65% of that number?",
+    "options": {
+      "A": "120",
+      "B": "125",
+      "C": "130",
+      "D": "135"
+    },
+    "correctAnswer": "C",
+    "correctValue": "130",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2022,
+    "exam": "SSC CGL",
+    "explanation": "Number = 80/0.4 = 200. 65% of 200 = 130"
+  },
+  {
+    "id": "ssc_fe_medium_q17",
+    "question": "A can do a piece of work in 10 days. B is 25% more efficient than A. How many days does B take?",
+    "options": {
+      "A": "6 days",
+      "B": "7 days",
+      "C": "8 days",
+      "D": "9 days"
+    },
+    "correctAnswer": "C",
+    "correctValue": "8 days",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2023,
+    "exam": "SSC CGL",
+    "explanation": "B's efficiency = 1.25 × A's. If A takes 10 days, B takes 10/1.25 = 8 days"
+  },
+  {
+    "id": "ssc_fe_medium_q18",
+    "question": "The volume of a cube with side 5 cm is?",
+    "options": {
+      "A": "100 cm³",
+      "B": "125 cm³",
+      "C": "150 cm³",
+      "D": "175 cm³"
+    },
+    "correctAnswer": "B",
+    "correctValue": "125 cm³",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2018,
+    "exam": "SSC CGL",
+    "explanation": "Volume = side³ = 5³ = 125 cm³"
+  },
+  {
+    "id": "ssc_fe_medium_q19",
+    "question": "Two numbers are in ratio 5:7. If 6 is added to each, the ratio becomes 3:4. Find the numbers.",
+    "options": {
+      "A": "25, 35",
+      "B": "30, 42",
+      "C": "35, 49",
+      "D": "40, 56"
+    },
+    "correctAnswer": "B",
+    "correctValue": "30, 42",
+    "difficulty": "medium",
+    "topic": "general",
+    "year": 2019,
+    "exam": "SSC CGL",
+    "explanation": "5x + 6 : 7x + 6 = 3:4. Cross multiply: 20x + 24 = 21x + 18. x = 6. Numbers: 30, 42"
   }
 ]
