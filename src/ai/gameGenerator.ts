@@ -2,7 +2,7 @@ import { z } from 'zod'
 import { env } from '../config/env'
 import { OperationMode } from './types'
 import { getSupabaseClient } from '../database/supabaseClient'
-import { v4 as uuidv4 } from 'uuid'
+import { randomUUID } from 'crypto'
 import { generateText } from './huggingfaceClient'
 
 // Lightweight type shared with backend; mirrors frontend OperationMode
@@ -234,7 +234,7 @@ export async function generateAndStoreGames(
   }
 
   const payload = games.map(g => ({
-    id: uuidv4(),
+    id: randomUUID(),
     game_type: g.game_type,
     question: g.question,
     correct_answer: String(g.correct_answer),
@@ -266,7 +266,7 @@ export async function storeGeneratedGames(
   const expires = expiresAt ?? new Date(now.getTime() + 60 * 60 * 1000)
 
   const payload = games.map(g => ({
-    id: uuidv4(),
+    id: randomUUID(),
     game_type: g.game_type,
     question: g.question,
     correct_answer: String(g.correct_answer),
@@ -500,7 +500,7 @@ export async function generateAndStoreTrueFalseGames(
   }
 
   const payload = games.map(g => ({
-    id: uuidv4(),
+    id: randomUUID(),
     game_type: g.game_type,
     question: g.question,
     correct_answer: String(g.correct_answer),

@@ -1,5 +1,5 @@
 import { getSupabaseClient } from '../database/supabaseClient'
-import { v4 as uuidv4 } from 'uuid'
+import { randomUUID } from 'crypto'
 
 export type SessionStatus = 'active' | 'next' | 'expired'
 
@@ -67,7 +67,7 @@ export async function createSession(
   const end = expiresAt ?? new Date(start.getTime() + SESSION_DURATION_MS)
 
   const session: GameSession = {
-    id: uuidv4(),
+    id: randomUUID(),
     starts_at: start.toISOString(),
     expires_at: end.toISOString(),
     status,
