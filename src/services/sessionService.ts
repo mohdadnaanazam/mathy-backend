@@ -14,22 +14,21 @@ export interface GameSession {
 const SESSION_DURATION_MS = 60 * 60 * 1000 // 1 hour
 const PRELOAD_BEFORE_MS = 5 * 60 * 1000    // 5 minutes before expiry
 
+// ─── Core Queries ────────────────────────────────────────────────────
+
 /**
- * Get the currently active session (status = 'active' and not yet expired).
+ * Get the currently active session (status = 'active' AND not yet expired).
  */
 export async function getActiveSession(): Promise<GameSession | null> {
   const supabase = getSupabaseClient()
-  const now = new Date().toISOString()
-
   const { data, error } = await supabase
     .from('sessions')
     .select('*')
     .eq('status', 'active')
-    .gt('expires_at', now)
+    .gt('expires_at', new Date().toISOString())
     .order('created_at', { ascending: false })
     .limit(1)
     .single()
-
   if (error || !data) return null
   return data as GameSession
 }
@@ -39,7 +38,6 @@ export async function getActiveSession(): Promise<GameSession | null> {
  */
 export async function getNextSession(): Promise<GameSession | null> {
   const supabase = getSupabaseClient()
-
   const { data, error } = await supabase
     .from('sessions')
     .select('*')
@@ -47,14 +45,12 @@ export async function getNextSession(): Promise<GameSession | null> {
     .order('created_at', { ascending: false })
     .limit(1)
     .single()
-
   if (error || !data) return null
   return data as GameSession
 }
 
 /**
- * Create a new session with the given status.
- * startsAt/expiresAt default to now + 1 hour.
+ * Create a new session row.
  */
 export async function createSession(
   status: SessionStatus,
@@ -76,153 +72,174 @@ export async function createSession(
 
   const { error } = await supabase.from('sessions').insert(session as any)
   if (error) {
-    console.error('[sessionService] Failed to create session', error)
+    console.error('[session] Failed to create session', error)
     throw error
   }
-
-  console.log(`[sessionService] Created ${status} session ${session.id}, expires ${session.expires_at}`)
+  console.log(`[session] Created ${status} session ${session.id}, expires ${session.expires_at}`)
   return session
 }
 
+// ─── Batch Rotation (Generate → Switch → Delete) ────────────────────
+
 /**
- * Promote the "next" session to "active" and mark old active sessions as "expired".
- * Returns the newly active session.
+ * STEP 1-2: Create a "next" session and return it so the caller can generate games into it.
+ * If a "next" session already exists, return it (idempotent).
  */
-export async function promoteNextSession(): Promise<GameSession | null> {
-  const supabase = getSupabaseClient()
+export async function createNextSession(): Promise<GameSession> {
+  const existing = await getNextSession()
+  if (existing) return existing
 
-  // Mark all active sessions as expired
-  const client = supabase as any
-  await client
-    .from('sessions')
-    .update({ status: 'expired' })
-    .eq('status', 'active')
-
-  // Promote next → active
-  const next = await getNextSession()
-  if (!next) return null
-
-  const { error } = await client
-    .from('sessions')
-    .update({ status: 'active' })
-    .eq('id', next.id)
-
-  if (error) {
-    console.error('[sessionService] Failed to promote session', error)
-    return null
-  }
-
-  console.log(`[sessionService] Promoted session ${next.id} to active`)
-  return { ...next, status: 'active' }
+  const active = await getActiveSession()
+  const nextStart = active ? new Date(active.expires_at) : new Date()
+  const nextEnd = new Date(nextStart.getTime() + SESSION_DURATION_MS)
+  return createSession('next', nextStart, nextEnd)
 }
 
 /**
- * Delete all expired sessions and their associated games.
- * Also cleans up orphaned games (null session_id or expired timestamps).
- * Only keeps current + next session data.
+ * STEP 3-4-5: Atomic batch switch.
+ * - Mark ALL non-"next" sessions as "expired"
+ * - Promote the given "next" session to "active"
+ * - Delete all expired sessions + their games
+ *
+ * This is the CRITICAL function — it ensures users always have games.
+ * If anything fails, the old active session remains untouched.
+ */
+export async function promoteBatch(nextSessionId: string): Promise<GameSession | null> {
+  const supabase = getSupabaseClient()
+
+  // STEP 3: Mark everything except the next session as expired
+  const { error: markErr } = await (supabase as any)
+    .from('sessions')
+    .update({ status: 'expired' })
+    .neq('id', nextSessionId)
+    .neq('status', 'expired')
+  if (markErr) {
+    console.error('[session] Failed to mark old sessions expired', markErr)
+    return null
+  }
+
+  // STEP 4: Promote next → active
+  const { error: promoteErr } = await (supabase as any)
+    .from('sessions')
+    .update({ status: 'active' })
+    .eq('id', nextSessionId)
+  if (promoteErr) {
+    console.error('[session] Failed to promote session', promoteErr)
+    return null
+  }
+
+  console.log(`[session] Promoted session ${nextSessionId} to active`)
+
+  // STEP 5: Delete expired sessions + their games (async, non-blocking)
+  cleanupExpiredSessions().catch(err =>
+    console.error('[session] Background cleanup error', err),
+  )
+
+  return { id: nextSessionId, status: 'active' } as GameSession
+}
+
+/**
+ * Delete ALL expired sessions and their games.
+ * Also cleans up orphaned games and zombie sessions.
  */
 export async function cleanupExpiredSessions(): Promise<number> {
   const supabase = getSupabaseClient()
   let totalDeleted = 0
 
-  // 1. Delete games belonging to expired sessions
-  const { data: expiredSessions, error: fetchErr } = await supabase
+  // 1. Find all expired session IDs
+  const { data: expiredSessions } = await supabase
     .from('sessions')
     .select('id')
     .eq('status', 'expired') as any
 
-  if (!fetchErr && expiredSessions?.length) {
-    const expiredIds = (expiredSessions as any[]).map((s: any) => s.id)
+  if (expiredSessions?.length) {
+    const ids = (expiredSessions as any[]).map((s: any) => s.id)
 
-    const { data: deletedGames } = await supabase
-      .from('games')
-      .delete()
-      .in('session_id', expiredIds)
-      .select('id')
-
-    await supabase
-      .from('sessions')
-      .delete()
-      .in('id', expiredIds)
-
-    const count = deletedGames?.length ?? 0
-    totalDeleted += count
-    if (count > 0) {
-      console.log(`[sessionService] Cleaned up ${expiredIds.length} expired sessions, ${count} games`)
+    // Delete in chunks of 20 to avoid Supabase .in() limits
+    for (let i = 0; i < ids.length; i += 20) {
+      const chunk = ids.slice(i, i + 20)
+      const { data } = await supabase.from('games').delete().in('session_id', chunk).select('id')
+      totalDeleted += data?.length ?? 0
+      await supabase.from('sessions').delete().in('id', chunk)
     }
+    console.log(`[session] Cleaned ${ids.length} expired sessions, ${totalDeleted} games`)
   }
 
   // 2. Delete orphaned games (null session_id)
   const { data: orphaned } = await supabase
-    .from('games')
-    .delete()
-    .is('session_id', null)
-    .select('id')
-
+    .from('games').delete().is('session_id', null).select('id')
   if (orphaned?.length) {
     totalDeleted += orphaned.length
-    console.log(`[sessionService] Cleaned up ${orphaned.length} orphaned games (null session_id)`)
+    console.log(`[session] Cleaned ${orphaned.length} orphaned games`)
   }
 
-  // 3. Delete games whose expires_at has passed (safety net for stale data)
-  const nowIso = new Date().toISOString()
-  const { data: stale } = await supabase
-    .from('games')
-    .delete()
-    .lte('expires_at', nowIso)
+  // 3. Delete zombie sessions (status='active' but expired time has passed)
+  const now = new Date().toISOString()
+  const { data: zombies } = await supabase
+    .from('sessions')
     .select('id')
+    .eq('status', 'active')
+    .lte('expires_at', now) as any
 
+  if (zombies?.length) {
+    const zombieIds = (zombies as any[]).map((s: any) => s.id)
+    for (let i = 0; i < zombieIds.length; i += 20) {
+      const chunk = zombieIds.slice(i, i + 20)
+      const { data } = await supabase.from('games').delete().in('session_id', chunk).select('id')
+      totalDeleted += data?.length ?? 0
+      await supabase.from('sessions').delete().in('id', chunk)
+    }
+    console.log(`[session] Cleaned ${zombieIds.length} zombie sessions`)
+  }
+
+  // 4. Safety: delete games with past expires_at that somehow survived
+  const { data: stale } = await supabase
+    .from('games').delete().lte('expires_at', now).select('id')
   if (stale?.length) {
     totalDeleted += stale.length
-    console.log(`[sessionService] Cleaned up ${stale.length} stale games (past expires_at)`)
+    console.log(`[session] Cleaned ${stale.length} stale games`)
   }
 
   return totalDeleted
 }
 
+// ─── Ensure Active Session (API fallback) ────────────────────────────
+
 /**
- * Get or create the active session. If no active session exists,
- * try to promote a "next" session. If that also doesn't exist,
- * create a brand new active session.
+ * Guarantee an active session exists. Used by API endpoints.
+ * If no active session, promotes "next" or creates a fresh one.
+ * NEVER generates games — that's the caller's job.
  */
 export async function ensureActiveSession(): Promise<GameSession> {
-  // 1. Check for existing active session
-  let session = await getActiveSession()
-  if (session) return session
+  // 1. Active session exists and not expired
+  const active = await getActiveSession()
+  if (active) return active
 
   // 2. Try to promote a preloaded "next" session
-  session = await promoteNextSession()
-  if (session) {
-    // Clean up old expired sessions in the background
-    cleanupExpiredSessions().catch(err =>
-      console.error('[sessionService] Cleanup error', err),
-    )
-    return session
+  const next = await getNextSession()
+  if (next) {
+    const promoted = await promoteBatch(next.id)
+    if (promoted) {
+      // Re-fetch the full session data
+      const fresh = await getActiveSession()
+      if (fresh) return fresh
+    }
   }
 
-  // 3. No sessions at all — create a fresh active session
+  // 3. Nothing at all — create a fresh active session
   return createSession('active')
 }
 
-/**
- * Calculate when preloading should start for a given session.
- */
+// ─── Helpers ─────────────────────────────────────────────────────────
+
 export function getPreloadTime(session: GameSession): Date {
-  const expiresAt = new Date(session.expires_at)
-  return new Date(expiresAt.getTime() - PRELOAD_BEFORE_MS)
+  return new Date(new Date(session.expires_at).getTime() - PRELOAD_BEFORE_MS)
 }
 
-/**
- * Check if it's time to preload the next session.
- */
 export function shouldPreloadNow(session: GameSession): boolean {
-  const preloadAt = getPreloadTime(session)
-  return new Date() >= preloadAt
+  return new Date() >= getPreloadTime(session)
 }
 
-/**
- * Check if a session has expired.
- */
 export function isSessionExpired(session: GameSession): boolean {
   return new Date() >= new Date(session.expires_at)
 }

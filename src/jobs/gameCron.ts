@@ -1,126 +1,113 @@
-import { forceRegenerateAllGames, preloadNextSession, ensureGamesExist } from '../services/gameService'
+import { initializeOnBoot, preloadNextSession, rotateBatch } from '../services/gameService'
 import {
-  ensureActiveSession,
   getActiveSession,
   getNextSession,
-  getPreloadTime,
   shouldPreloadNow,
   cleanupExpiredSessions,
+  promoteBatch,
+  isSessionExpired,
 } from '../services/sessionService'
 
 let preloadTimer: ReturnType<typeof setTimeout> | null = null
 let checkInterval: ReturnType<typeof setInterval> | null = null
 
 /**
- * Schedule preloading for the next session based on the active session's expiry.
- * Uses setTimeout for precise time-based scheduling (not interval-based).
+ * Schedule the preload + rotation cycle based on the active session's expiry.
  */
 async function schedulePreload(): Promise<void> {
-  // Clear any existing timer
-  if (preloadTimer) {
-    clearTimeout(preloadTimer)
-    preloadTimer = null
-  }
+  if (preloadTimer) { clearTimeout(preloadTimer); preloadTimer = null }
 
   const session = await getActiveSession()
   if (!session) {
-    console.log('[scheduler] No active session found, will retry on next check')
+    console.log('[scheduler] No active session, will retry on next check')
+    return
+  }
+
+  // If next session already exists and current has expired, promote immediately
+  if (isSessionExpired(session)) {
+    const next = await getNextSession()
+    if (next) {
+      console.log('[scheduler] Active expired + next ready — promoting now')
+      await promoteBatch(next.id)
+      await schedulePreload() // re-schedule for the new active
+      return
+    }
+    // No next session — do a full rotation
+    console.log('[scheduler] Active expired + no next — full rotation')
+    await rotateBatch()
+    await schedulePreload()
     return
   }
 
   // Check if next session already exists
   const next = await getNextSession()
   if (next) {
-    console.log('[scheduler] Next session already preloaded, scheduling for after current expires')
-    // Schedule a check for when the current session expires (to set up the next cycle)
+    // Wait until current expires, then promote + schedule next cycle
     const expiresIn = new Date(session.expires_at).getTime() - Date.now()
     if (expiresIn > 0) {
+      console.log(`[scheduler] Next ready, will promote in ${Math.round(expiresIn / 1000)}s`)
       preloadTimer = setTimeout(async () => {
-        console.log('[scheduler] Active session expired, running new cycle')
-        await runSchedulerCycle()
-      }, expiresIn + 1000) // +1s buffer
-    }
-    return
-  }
-
-  // Should we preload now?
-  if (shouldPreloadNow(session)) {
-    console.log('[scheduler] Preload window reached, generating next session now')
-    try {
-      await preloadNextSession()
-    } catch (err) {
-      console.error('[scheduler] Preload failed', err)
-    }
-    // Schedule next cycle for when current session expires
-    const expiresIn = new Date(session.expires_at).getTime() - Date.now()
-    if (expiresIn > 0) {
-      preloadTimer = setTimeout(async () => {
-        await runSchedulerCycle()
+        await promoteBatch(next.id)
+        await runCycle()
       }, expiresIn + 1000)
     }
     return
   }
 
-  // Schedule preload for 5 minutes before expiry
-  const preloadAt = getPreloadTime(session)
-  const delayMs = preloadAt.getTime() - Date.now()
+  // Should we preload now? (5 min before expiry)
+  if (shouldPreloadNow(session)) {
+    console.log('[scheduler] Preload window — generating next session now')
+    try { await preloadNextSession() } catch (err) { console.error('[scheduler] Preload failed', err) }
 
+    const expiresIn = new Date(session.expires_at).getTime() - Date.now()
+    if (expiresIn > 0) {
+      preloadTimer = setTimeout(async () => {
+        const n = await getNextSession()
+        if (n) await promoteBatch(n.id)
+        await runCycle()
+      }, expiresIn + 1000)
+    }
+    return
+  }
+
+  // Schedule preload for 5 min before expiry
+  const preloadAt = new Date(new Date(session.expires_at).getTime() - 5 * 60 * 1000)
+  const delayMs = preloadAt.getTime() - Date.now()
   if (delayMs > 0) {
-    console.log(`[scheduler] Preload scheduled in ${Math.round(delayMs / 1000)}s (at ${preloadAt.toISOString()})`)
+    console.log(`[scheduler] Preload in ${Math.round(delayMs / 1000)}s`)
     preloadTimer = setTimeout(async () => {
-      console.log('[scheduler] Preload timer fired')
-      try {
-        await preloadNextSession()
-      } catch (err) {
-        console.error('[scheduler] Preload failed', err)
-      }
-      // After preloading, schedule next cycle
-      const session = await getActiveSession()
-      if (session) {
-        const expiresIn = new Date(session.expires_at).getTime() - Date.now()
-        if (expiresIn > 0) {
+      try { await preloadNextSession() } catch (err) { console.error('[scheduler] Preload failed', err) }
+      const s = await getActiveSession()
+      if (s) {
+        const wait = new Date(s.expires_at).getTime() - Date.now()
+        if (wait > 0) {
           preloadTimer = setTimeout(async () => {
-            await runSchedulerCycle()
-          }, expiresIn + 1000)
+            const n = await getNextSession()
+            if (n) await promoteBatch(n.id)
+            await runCycle()
+          }, wait + 1000)
         }
       }
     }, delayMs)
   }
 }
 
-/**
- * Run a full scheduler cycle: cleanup expired sessions, then schedule next preload.
- */
-async function runSchedulerCycle(): Promise<void> {
-  try {
-    await cleanupExpiredSessions()
-  } catch (err) {
-    console.error('[scheduler] Cleanup error', err)
-  }
-
-  // Ensure we have an active session (promotes next if current expired)
-  try {
-    await ensureActiveSession()
-  } catch (err) {
-    console.error('[scheduler] ensureActiveSession error', err)
-  }
-
+async function runCycle(): Promise<void> {
+  try { await cleanupExpiredSessions() } catch (err) { console.error('[scheduler] Cleanup error', err) }
   await schedulePreload()
 }
 
 export function startGameCron() {
-  // Run once at startup: full flush + regenerate to clear stale games
+  // Boot: check existing data, only generate if needed (no wipe)
   ;(async () => {
     try {
-      console.log('[scheduler] Initial full regeneration — clearing stale games')
-      await forceRegenerateAllGames(50)
-      console.log('[scheduler] Initial regeneration complete')
-
-      // Schedule the first preload cycle
+      await initializeOnBoot()
       await schedulePreload()
     } catch (error) {
-      console.error('[scheduler] Error during initial regeneration, falling back to ensure', error)
+      console.error('[scheduler] Boot error', error)
+      // Fallback: try to at least have something
       try {
+        const { ensureGamesExist } = await import('../services/gameService')
         await ensureGamesExist(50)
         await schedulePreload()
       } catch (err2) {
@@ -129,31 +116,42 @@ export function startGameCron() {
     }
   })()
 
-  // Safety net: check every 5 minutes in case a setTimeout was missed
-  // (e.g. due to Node.js timer drift or process restart).
-  // Also runs cleanup to prevent stale data accumulation.
+  // Safety net: every 5 minutes, check for issues
   checkInterval = setInterval(async () => {
     try {
-      // Always run cleanup to catch orphaned/stale games
+      // Always clean up stale data
       await cleanupExpiredSessions()
 
       const session = await getActiveSession()
       if (!session) {
-        console.log('[scheduler:check] No active session, running cycle')
-        await runSchedulerCycle()
+        console.log('[scheduler:check] No active session — running full rotation')
+        await rotateBatch()
+        await schedulePreload()
         return
       }
 
-      // If we should be preloading but haven't yet, do it now
+      // If session expired and next is ready, promote
+      if (isSessionExpired(session)) {
+        const next = await getNextSession()
+        if (next) {
+          await promoteBatch(next.id)
+        } else {
+          await rotateBatch()
+        }
+        await schedulePreload()
+        return
+      }
+
+      // If preload window and no next session, preload
       if (shouldPreloadNow(session)) {
         const next = await getNextSession()
         if (!next) {
-          console.log('[scheduler:check] Preload window reached but no next session, triggering preload')
+          console.log('[scheduler:check] Preload window, generating next session')
           await preloadNextSession()
         }
       }
     } catch (err) {
-      console.error('[scheduler:check] Error in safety check', err)
+      console.error('[scheduler:check] Error', err)
     }
-  }, 5 * 60 * 1000) // every 5 minutes
+  }, 5 * 60 * 1000)
 }

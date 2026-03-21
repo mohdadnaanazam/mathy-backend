@@ -11,29 +11,30 @@ import {
 import { OperationMode } from '../ai/types'
 import {
   ensureActiveSession,
+  getActiveSession,
   getNextSession,
-  createSession,
+  createNextSession,
+  promoteBatch,
   cleanupExpiredSessions,
-  isSessionExpired,
   type GameSession,
   SESSION_DURATION_MS,
 } from './sessionService'
 
-// All game types and difficulties that need to be pre-generated
+// All game types and difficulties to pre-generate
 const BASIC_OPS: OperationMode[] = ['addition', 'subtraction', 'multiplication', 'division']
 const DIFFS: GameDifficulty[] = ['easy', 'medium', 'hard']
 const NEW_GAME_TYPES = ['square_root', 'fractions', 'percentage', 'algebra', 'speed_math', 'logic_puzzle'] as const
 const PER_COMBO_TARGET = 50
 
+// ─── Public API: Fetch Games ─────────────────────────────────────────
+
 /**
- * Get active games for the current session, filtered by type.
- * This is the main query endpoint — it never generates games.
- * If the active session expired, it promotes the preloaded "next" session.
+ * Get games from the active session. This is the main read endpoint.
+ * NEVER generates games inline — returns what's available or empty array.
+ * If the active session has no games, triggers background generation as fallback.
  */
 export async function getActiveGames(type?: OperationMode) {
   const supabase = getSupabaseClient()
-
-  // Ensure we have an active session (promotes next if current expired)
   const session = await ensureActiveSession()
 
   let query = supabase
@@ -41,7 +42,6 @@ export async function getActiveGames(type?: OperationMode) {
     .select('*')
     .eq('session_id', session.id)
 
-  // For "mixed" we return all games (no filter)
   if (type && type !== 'mixed') {
     query = query.eq('game_type', type)
   }
@@ -49,13 +49,10 @@ export async function getActiveGames(type?: OperationMode) {
   const { data, error } = await query.order('created_at', { ascending: false })
   if (error) throw error
 
-  // If we got games, return them immediately
   if (data && data.length > 0) return data
 
-  // Edge case: active session exists but has no games yet (first boot or
-  // games weren't generated). Generate them now as a fallback, but this
-  // should rarely happen once the scheduler is running.
-  console.warn('[getActiveGames] No games found for active session, generating on-demand as fallback')
+  // Fallback: session exists but has no games (first boot / generation failed)
+  console.warn('[getActiveGames] No games for active session, generating on-demand')
   await generateAllGamesForSession(session)
 
   // Re-query
@@ -63,19 +60,18 @@ export async function getActiveGames(type?: OperationMode) {
     .from('games')
     .select('*')
     .eq('session_id', session.id)
-
   if (type && type !== 'mixed') {
     retryQuery = retryQuery.eq('game_type', type)
   }
-
   const { data: retryData, error: retryError } = await retryQuery.order('created_at', { ascending: false })
   if (retryError) throw retryError
   return retryData ?? []
 }
 
+// ─── Core: Generate Games for a Session ──────────────────────────────
+
 /**
- * Generate all game types × difficulties for a given session.
- * This is the core generation function used by both initial boot and preloading.
+ * Generate ALL game types × difficulties for a given session.
  */
 export async function generateAllGamesForSession(session: GameSession): Promise<void> {
   const expiresAt = new Date(session.expires_at)
@@ -105,88 +101,126 @@ export async function generateAllGamesForSession(session: GameSession): Promise<
   console.log(`[gameService] Finished generating all games for session ${sessionId}`)
 }
 
+// ─── Batch Rotation: Generate → Switch → Delete ─────────────────────
+
 /**
- * Preload the next session: create a "next" session and generate all its games.
- * If a "next" session already exists, skip.
+ * The main rotation function. Called by the cron/scheduler.
+ *
+ * 1. Create a "next" session
+ * 2. Generate all games into it
+ * 3. Promote it to "active" (old becomes "expired")
+ * 4. Delete expired sessions + games
+ *
+ * If generation fails, the old active session stays untouched.
+ */
+export async function rotateBatch(): Promise<void> {
+  console.log('[rotateBatch] Starting batch rotation...')
+
+  // Step 1: Create next session
+  const nextSession = await createNextSession()
+  console.log(`[rotateBatch] Next session: ${nextSession.id}`)
+
+  // Step 2: Generate all games into the next session
+  try {
+    await generateAllGamesForSession(nextSession)
+  } catch (err) {
+    console.error('[rotateBatch] Generation failed — keeping current active batch', err)
+    // Don't promote. Old active session stays. Next attempt will retry.
+    return
+  }
+
+  // Step 3-4-5: Promote next → active, mark old → expired, delete old
+  const promoted = await promoteBatch(nextSession.id)
+  if (promoted) {
+    console.log('[rotateBatch] Batch rotation complete')
+  } else {
+    console.error('[rotateBatch] Promotion failed — next session has games but is not active')
+  }
+}
+
+/**
+ * Preload the next session's games WITHOUT switching.
+ * Used by the scheduler to prepare games in advance.
  */
 export async function preloadNextSession(): Promise<void> {
   const existing = await getNextSession()
   if (existing) {
-    console.log('[gameService] Next session already exists, skipping preload')
+    // Check if it already has games
+    const supabase = getSupabaseClient()
+    const { count } = await supabase
+      .from('games')
+      .select('*', { count: 'exact', head: true })
+      .eq('session_id', existing.id)
+    if ((count ?? 0) > 0) {
+      console.log('[preload] Next session already has games, skipping')
+      return
+    }
+    // Has session but no games — generate them
+    await generateAllGamesForSession(existing)
+    console.log(`[preload] Generated games for existing next session ${existing.id}`)
     return
   }
 
-  // The next session starts when the current one expires
-  const active = await ensureActiveSession()
-  const nextStart = new Date(active.expires_at)
-  const nextEnd = new Date(nextStart.getTime() + SESSION_DURATION_MS)
-
-  const nextSession = await createSession('next', nextStart, nextEnd)
+  const nextSession = await createNextSession()
   await generateAllGamesForSession(nextSession)
-  console.log(`[gameService] Preloaded next session ${nextSession.id}`)
+  console.log(`[preload] Preloaded next session ${nextSession.id}`)
 }
 
+// ─── Initial Boot ────────────────────────────────────────────────────
+
 /**
- * Force regenerate: wipe everything and create a fresh active session with games.
- * Used for initial boot to clear stale data.
+ * Called on server startup. Instead of wiping everything (which causes downtime),
+ * this checks if we have a valid active session with games. If not, creates one.
+ * Then cleans up any stale data in the background.
  */
+export async function initializeOnBoot(): Promise<void> {
+  console.log('[boot] Initializing game system...')
+
+  // Check if we already have a valid active session with games
+  const active = await getActiveSession()
+  if (active) {
+    const supabase = getSupabaseClient()
+    const { count } = await supabase
+      .from('games')
+      .select('*', { count: 'exact', head: true })
+      .eq('session_id', active.id)
+
+    if ((count ?? 0) > 0) {
+      console.log(`[boot] Active session ${active.id} has ${count} games — system ready`)
+      // Clean up stale data in background
+      cleanupExpiredSessions().catch(err => console.error('[boot] Cleanup error', err))
+      return
+    }
+
+    // Active session exists but has no games — generate them
+    console.log('[boot] Active session has no games, generating...')
+    await generateAllGamesForSession(active)
+    cleanupExpiredSessions().catch(err => console.error('[boot] Cleanup error', err))
+    return
+  }
+
+  // No active session at all — do a full rotation
+  console.log('[boot] No active session found, creating fresh batch...')
+  await rotateBatch()
+}
+
+// ─── Legacy / Compatibility ──────────────────────────────────────────
+
+/** Force regenerate: wipe everything and create fresh. Use sparingly. */
 export async function forceRegenerateAllGames(perCombo = 50): Promise<void> {
-  const supabase = getSupabaseClient()
-
-  // Wipe all games
-  const { error: gErr } = await supabase.from('games').delete().neq('id', '00000000-0000-0000-0000-000000000000')
-  if (gErr) {
-    console.error('[forceRegenerateAllGames] delete games error', gErr)
-    throw gErr
-  }
-
-  // Wipe all sessions
-  const { error: sErr } = await supabase.from('sessions').delete().neq('id', '00000000-0000-0000-0000-000000000000')
-  if (sErr) {
-    console.error('[forceRegenerateAllGames] delete sessions error', sErr)
-    // Non-fatal — sessions table might not exist yet
-  }
-
-  // Create a fresh active session and generate all games
-  const session = await createSession('active')
-  await generateAllGamesForSession(session)
-
-  console.log(`[forceRegenerateAllGames] Regenerated all games for fresh session ${session.id}`)
+  // Instead of wiping, just do a proper rotation
+  await rotateBatch()
 }
 
-/** Delete games whose expires_at has passed (legacy cleanup). Returns how many were deleted. */
-export async function deleteExpiredGames(): Promise<number> {
-  const supabase = getSupabaseClient()
-  const nowIso = new Date().toISOString()
-  const { data, error } = await supabase
-    .from('games')
-    .delete()
-    .lte('expires_at', nowIso)
-    .select('id')
-  if (error) throw error
-  return data?.length ?? 0
-}
-
-/**
- * Ensure games exist for the current active session.
- * This is a lightweight check — if the session has games, it's a no-op.
- * Only generates on-demand as a fallback.
- */
 export async function ensureGamesExist(minCount = 10): Promise<void> {
   const session = await ensureActiveSession()
   const supabase = getSupabaseClient()
-
-  // Quick check: does this session have any games at all?
   const { count, error } = await supabase
     .from('games')
     .select('*', { count: 'exact', head: true })
     .eq('session_id', session.id)
-
   if (error) throw error
-
-  if ((count ?? 0) > 0) return // Session has games, we're good
-
-  // No games for this session — generate them (fallback for first boot)
+  if ((count ?? 0) > 0) return
   console.warn('[ensureGamesExist] No games for active session, generating...')
   await generateAllGamesForSession(session)
 }
@@ -204,14 +238,12 @@ export function generateCustomGameBatch(params: any): GeneratedGame[] {
   return generateCustomGames(params as any)
 }
 
-/** Generate custom games and persist them to the DB; returns the inserted rows. */
 export async function generateAndStoreCustomGames(params: any): Promise<Array<Record<string, unknown>>> {
   const session = await ensureActiveSession()
   const games = generateCustomGames(params as any)
   return storeGeneratedGames(games, session.id, new Date(session.expires_at))
 }
 
-/** Get info about the current session for the /session endpoint. */
 export async function getSessionInfo(): Promise<{
   session_id: string
   starts_at: string
@@ -222,14 +254,11 @@ export async function getSessionInfo(): Promise<{
 }> {
   const session = await ensureActiveSession()
   const supabase = getSupabaseClient()
-
   const { count } = await supabase
     .from('games')
     .select('*', { count: 'exact', head: true })
     .eq('session_id', session.id)
-
   const next = await getNextSession()
-
   return {
     session_id: session.id,
     starts_at: session.starts_at,
@@ -238,4 +267,13 @@ export async function getSessionInfo(): Promise<{
     games_count: count ?? 0,
     next_session_ready: next !== null,
   }
+}
+
+/** Delete games whose expires_at has passed (legacy). */
+export async function deleteExpiredGames(): Promise<number> {
+  const supabase = getSupabaseClient()
+  const { data, error } = await supabase
+    .from('games').delete().lte('expires_at', new Date().toISOString()).select('id')
+  if (error) throw error
+  return data?.length ?? 0
 }
