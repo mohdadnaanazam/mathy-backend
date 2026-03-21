@@ -10,18 +10,10 @@ import { startGameCron } from './jobs/gameCron'
 
 const app = express()
 
-app.use(helmet())
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      const allowed = [env.frontendUrl, env.frontendUrlLocal].filter(Boolean)
-      if (!origin) return callback(null, true) // non-browser clients
-      if (allowed.includes(origin)) return callback(null, true)
-      return callback(null, false)
-    },
-    credentials: true,
-  }),
-)
+app.use(helmet({
+  crossOriginResourcePolicy: { policy: 'cross-origin' },
+}))
+app.use(cors({ origin: true, credentials: true }))
 app.use(express.json())
 
 app.get('/', (_req, res) => {
