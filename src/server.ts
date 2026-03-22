@@ -13,7 +13,23 @@ const app = express()
 app.use(helmet({
   crossOriginResourcePolicy: { policy: 'cross-origin' },
 }))
-app.use(cors({ origin: true, credentials: true }))
+const allowedOrigins = [
+  'https://www.themathy.com',
+  'https://themathy.com',
+  'https://matthy.netlify.app',
+  'http://localhost:5173',
+]
+app.use(cors({
+  origin: (origin, callback) => {
+    // allow requests with no origin (mobile apps, curl, etc.)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true)
+    } else {
+      callback(new Error(`CORS: origin ${origin} not allowed`))
+    }
+  },
+  credentials: true,
+}))
 app.use(express.json())
 
 app.get('/', (_req, res) => {
