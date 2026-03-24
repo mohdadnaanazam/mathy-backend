@@ -1,8 +1,9 @@
 import { Router } from 'express'
-import { ensureUserHandler, updateScoreHandler } from '../controllers/userController'
+import { checkUserHandler, ensureUserHandler, updateScoreHandler } from '../controllers/userController'
 
 const router = Router()
 
+router.post('/check', checkUserHandler)
 router.post('/', ensureUserHandler)
 router.patch('/:userId', updateScoreHandler)
 
