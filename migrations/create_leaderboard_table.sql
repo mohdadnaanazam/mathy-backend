@@ -30,6 +30,9 @@ CREATE POLICY "Service insert leaderboard" ON leaderboard_scores
 CREATE POLICY "Service update leaderboard" ON leaderboard_scores
   FOR UPDATE USING (true);
 
+CREATE POLICY "Service delete leaderboard" ON leaderboard_scores
+  FOR DELETE USING (true);
+
 -- ═══════════════════════════════════════════════════════════════════════
 -- MIGRATION: If upgrading from old multi-row schema, run these steps:
 -- ═══════════════════════════════════════════════════════════════════════
