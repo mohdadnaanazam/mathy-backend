@@ -13,7 +13,7 @@ export async function submitScoreHandler(req: any, res: any, next: any) {
     if (!username || typeof username !== 'string') return res.status(400).json({ error: 'username required' })
     if (typeof score !== 'number' || score < 0) return res.status(400).json({ error: 'score must be non-negative' })
 
-    const entry = await submitScore(user_id, username, avatar_color || '#f97316', score, game_type || 'mixed')
+    const entry = await submitScore(user_id, username, avatar_color || '#f97316', score, game_type || 'total')
     res.status(201).json(entry)
   } catch (err: any) {
     if (err.status === 429) return res.status(429).json({ error: err.message })
@@ -22,26 +22,23 @@ export async function submitScoreHandler(req: any, res: any, next: any) {
   }
 }
 
-export async function getGlobalHandler(req: any, res: any, next: any) {
+export async function getGlobalHandler(_req: any, res: any, next: any) {
   try {
-    const gameType = req.query.game_type as string | undefined
-    const data = await getGlobalLeaderboard(50, gameType)
+    const data = await getGlobalLeaderboard(50)
     res.json(data)
   } catch (err) { next(err) }
 }
 
-export async function getDailyHandler(req: any, res: any, next: any) {
+export async function getDailyHandler(_req: any, res: any, next: any) {
   try {
-    const gameType = req.query.game_type as string | undefined
-    const data = await getDailyLeaderboard(50, gameType)
+    const data = await getDailyLeaderboard(50)
     res.json(data)
   } catch (err) { next(err) }
 }
 
-export async function getWeeklyHandler(req: any, res: any, next: any) {
+export async function getWeeklyHandler(_req: any, res: any, next: any) {
   try {
-    const gameType = req.query.game_type as string | undefined
-    const data = await getWeeklyLeaderboard(50, gameType)
+    const data = await getWeeklyLeaderboard(50)
     res.json(data)
   } catch (err) { next(err) }
 }
