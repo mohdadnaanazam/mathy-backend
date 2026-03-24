@@ -5,7 +5,6 @@ import { env } from './config/env'
 import gameRoutes from './routes/gameRoutes'
 import userRoutes from './routes/userRoutes'
 import sscCglRoutes from './routes/sscCglRoutes'
-import leaderboardRoutes from './routes/leaderboardRoutes'
 import { errorHandler } from './utils/errorHandler'
 import { startGameCron } from './jobs/gameCron'
 
@@ -90,7 +89,6 @@ app.get('/health/db', async (_req, res) => {
 app.use('/games', gameRoutes)
 app.use('/users', userRoutes)
 app.use('/api/ssc-cgl', sscCglRoutes)
-app.use('/leaderboard', leaderboardRoutes)
 
 app.use(errorHandler)
 
