@@ -196,6 +196,21 @@ export async function getUserRank(userId: string): Promise<{
   }
 }
 
+// ─── Update Username Only ────────────────────────────────────────────
+
+export async function updateLeaderboardUsername(userId: string, newUsername: string): Promise<void> {
+  const supabase = getSupabaseClient()
+  const { error } = await (supabase as any)
+    .from('leaderboard_scores')
+    .update({ username: newUsername })
+    .eq('user_id', userId)
+  if (error) {
+    console.error('[Leaderboard] Username update failed:', error.message)
+    throw error
+  }
+  console.log(`[Leaderboard] Username updated for ${userId} → ${newUsername}`)
+}
+
 // ─── Helpers ─────────────────────────────────────────────────────────
 function deduplicateAndRank(entries: LeaderboardEntry[], limit: number): RankedEntry[] {
   const bestByUser = new Map<string, LeaderboardEntry>()
