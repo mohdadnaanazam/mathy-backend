@@ -1,29 +1,26 @@
-import type { Request, Response } from 'express'
 import { getSupabaseClient } from '../database/supabaseClient'
 
 /**
  * Save user browser push subscription for daily notifications.
  */
-export async function subscribe(req: Request, res: Response): Promise<void> {
+export async function subscribe(req: any, res: any) {
   try {
-    const body = req.body as any
-    const { user_id, subscription } = body
-    
+    const { user_id, subscription } = req.body ?? {}
+
     if (!subscription || !subscription.endpoint || !subscription.keys) {
-      res.status(400).json({ error: 'Missing mandatory subscription data.' })
-      return
+      return res.status(400).json({ error: 'Missing mandatory subscription data.' })
     }
 
     const supabase = getSupabaseClient()
-    
+
     // upsert the subscription based on unique endpoint
-    const { error } = await supabase
-      .from('push_subscriptions' as any)
+    const { error } = await (supabase as any)
+      .from('push_subscriptions')
       .upsert({
         user_id: user_id || null,
         endpoint: subscription.endpoint,
         keys: subscription.keys,
-      } as any, { onConflict: 'endpoint' })
+      }, { onConflict: 'endpoint' })
 
     if (error) throw error
 
@@ -36,19 +33,17 @@ export async function subscribe(req: Request, res: Response): Promise<void> {
 /**
  * Remove an existing subscription endpoint.
  */
-export async function unsubscribe(req: Request, res: Response): Promise<void> {
+export async function unsubscribe(req: any, res: any) {
   try {
-    const body = req.body as any
-    const { endpoint } = body
-    
+    const { endpoint } = req.body ?? {}
+
     if (!endpoint) {
-      res.status(400).json({ error: 'Missing endpoint to unsubscribe.' })
-      return
+      return res.status(400).json({ error: 'Missing endpoint to unsubscribe.' })
     }
 
     const supabase = getSupabaseClient()
-    const { error } = await supabase
-      .from('push_subscriptions' as any)
+    const { error } = await (supabase as any)
+      .from('push_subscriptions')
       .delete()
       .match({ endpoint })
 
