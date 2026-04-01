@@ -4,7 +4,7 @@ import { getSupabaseClient } from '../database/supabaseClient'
 import { env } from '../config/env'
 
 // Initialize web-push with VAPID keys from environment
-// These should be configured in backend/.env
+// These should be configured in backend/.env or Vercel environment variables
 function setupWebPush() {
   const publicVapidKey = env.vapidPublicKey || process.env.VAPID_PUBLIC_KEY
   const privateVapidKey = env.vapidPrivateKey || process.env.VAPID_PRIVATE_KEY
