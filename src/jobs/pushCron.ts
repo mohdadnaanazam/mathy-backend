@@ -36,7 +36,7 @@ export function startPushCron() {
 async function sendDailyNotifications() {
   const supabase = getSupabaseClient()
   const { data: subs, error } = await supabase
-    .from('push_subscriptions')
+    .from('push_subscriptions' as any)
     .select('id, endpoint, keys')
 
   if (error || !subs) {
@@ -44,7 +44,7 @@ async function sendDailyNotifications() {
     return
   }
 
-  console.log(`[PushCron] Sending notifications to ${subs.length} active subscriptions.`)
+  console.log(`[PushCron] Sending notifications to ${(subs as any[]).length} active subscriptions.`)
 
   const payload = JSON.stringify({
     title: 'Time to play Mathy! 🧠',
@@ -55,7 +55,7 @@ async function sendDailyNotifications() {
   })
 
   const results = await Promise.allSettled(
-    subs.map(async (sub) => {
+    (subs as any[]).map(async (sub: any) => {
       try {
         await webpush.sendNotification(
           {
@@ -68,7 +68,7 @@ async function sendDailyNotifications() {
         // If endpoint is 404 (Not Found) or 410 (Gone), delete it
         if (err.statusCode === 404 || err.statusCode === 410) {
           console.log(`[PushCron] Removing invalid subscription: ${sub.endpoint}`)
-          await supabase.from('push_subscriptions').delete().match({ id: sub.id })
+          await supabase.from('push_subscriptions' as any).delete().match({ id: sub.id })
         }
         throw err
       }
