@@ -8,6 +8,8 @@ import sscCglRoutes from './routes/sscCglRoutes'
 import leaderboardRoutes from './routes/leaderboardRoutes'
 import { errorHandler } from './utils/errorHandler'
 import { startGameCron } from './jobs/gameCron'
+import { startPushCron } from './jobs/pushCron'
+import pushRoutes from './routes/pushRoutes'
 
 const app = express()
 
@@ -91,10 +93,12 @@ app.use('/games', gameRoutes)
 app.use('/users', userRoutes)
 app.use('/api/ssc-cgl', sscCglRoutes)
 app.use('/leaderboard', leaderboardRoutes)
+app.use('/push', pushRoutes)
 
 app.use(errorHandler)
 
 startGameCron()
+startPushCron()
 
 app.listen(env.port, () => {
   // eslint-disable-next-line no-console

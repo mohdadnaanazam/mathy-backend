@@ -11,6 +11,9 @@ export const env = {
   huggingfaceModelId: process.env.HUGGINGFACE_MODEL_ID ?? 'google/flan-t5-large',
   frontendUrl: process.env.FRONTEND_URL ?? '',
   frontendUrlLocal: process.env.FRONTEND_URL_LOCAL ?? 'http://localhost:3000',
+  vapidPublicKey: process.env.VAPID_PUBLIC_KEY ?? '',
+  vapidPrivateKey: process.env.VAPID_PRIVATE_KEY ?? '',
+  vapidSubject: process.env.VAPID_SUBJECT ?? '',
 }
 
 if (!env.supabaseUrl || !env.supabaseServiceRoleKey) {
