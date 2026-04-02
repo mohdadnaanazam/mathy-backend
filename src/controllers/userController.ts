@@ -44,3 +44,32 @@ export async function updateScoreHandler(req: any, res: any, next: any) {
     next(err)
   }
 }
+
+// ── Public: total user count (cached 60s) ────────────────────────────
+
+let cachedCount: { value: number; expiresAt: number } | null = null
+const CACHE_TTL_MS = 60_000 // 1 minute
+
+export async function getUserCountHandler(_req: any, res: any, next: any) {
+  try {
+    const now = Date.now()
+    if (cachedCount && now < cachedCount.expiresAt) {
+      return res.status(200).json({ success: true, totalUsers: cachedCount.value })
+    }
+
+    const { getSupabaseClient } = await import('../database/supabaseClient')
+    const supabase = getSupabaseClient()
+    const { count, error } = await supabase
+      .from('users')
+      .select('*', { count: 'exact', head: true })
+
+    if (error) throw error
+
+    const total = count ?? 0
+    cachedCount = { value: total, expiresAt: now + CACHE_TTL_MS }
+
+    res.status(200).json({ success: true, totalUsers: total })
+  } catch (err) {
+    next(err)
+  }
+}
