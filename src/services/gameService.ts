@@ -23,7 +23,7 @@ import {
 // All game types and difficulties to pre-generate
 const BASIC_OPS: OperationMode[] = ['addition', 'subtraction', 'multiplication', 'division']
 const DIFFS: GameDifficulty[] = ['easy', 'medium', 'hard']
-const NEW_GAME_TYPES = ['square_root', 'fractions', 'percentage', 'algebra', 'speed_math', 'logic_puzzle'] as const
+const NEW_GAME_TYPES = ['square_root', 'fractions', 'percentage', 'algebra', 'speed_math', 'logic_puzzle', 'speed_sort'] as const
 const PER_COMBO_TARGET = 50
 
 // ─── Public API: Fetch Games ─────────────────────────────────────────

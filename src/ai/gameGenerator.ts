@@ -12,7 +12,7 @@ export const GeneratedGameSchema = z.object({
   game_type: z.enum([
     'addition', 'subtraction', 'multiplication', 'division', 'mixed',
     'true_false_math', 'square_root', 'fractions', 'percentage',
-    'algebra', 'speed_math', 'logic_puzzle',
+    'algebra', 'speed_math', 'logic_puzzle', 'speed_sort',
   ]),
   question: z.string(),
   correct_answer: z.union([z.string(), z.number()]),
@@ -685,9 +685,43 @@ export function generateLogicPuzzleGamesLocally(count: number, difficulty?: Game
   return results
 }
 
+function generateSingleSpeedSortQuestion(difficulty: GameDifficulty): GeneratedGame {
+  const numCount = difficulty === 'easy' ? 4 : difficulty === 'medium' ? 6 : 8
+  const range: [number, number] = difficulty === 'easy' ? [1, 50] : difficulty === 'medium' ? [1, 200] : [-100, 500]
+  const nums = new Set<number>()
+  while (nums.size < numCount) {
+    nums.add(randomInt(range[0], range[1]))
+  }
+  const arr = Array.from(nums)
+  const isAsc = Math.random() > 0.5
+  const sorted = [...arr].sort((a, b) => isAsc ? a - b : b - a)
+  // Question: shuffled numbers + direction. Answer: sorted comma-separated.
+  const shuffled = [...arr].sort(() => Math.random() - 0.5)
+  const direction = isAsc ? '↑ ascending' : '↓ descending'
+  return {
+    game_type: 'speed_sort',
+    question: `Sort ${direction}: ${shuffled.join(', ')}`,
+    correct_answer: sorted.join(', '),
+    difficulty,
+  }
+}
+
+export function generateSpeedSortGamesLocally(count: number, difficulty?: GameDifficulty): GeneratedGame[] {
+  const diff = difficulty ?? 'easy'
+  const seen = new Set<string>()
+  const results: GeneratedGame[] = []
+  let attempts = 0
+  while (results.length < count && attempts < count * 5) {
+    attempts++
+    const q = generateSingleSpeedSortQuestion(diff)
+    if (!seen.has(q.question)) { seen.add(q.question); results.push(q) }
+  }
+  return results
+}
+
 /** Unified generator: store a batch of any new game type into Supabase. */
 export async function generateAndStoreNewGameType(
-  gameType: 'square_root' | 'fractions' | 'percentage' | 'algebra' | 'speed_math' | 'logic_puzzle',
+  gameType: 'square_root' | 'fractions' | 'percentage' | 'algebra' | 'speed_math' | 'logic_puzzle' | 'speed_sort',
   batchSize = 20,
   difficulty?: GameDifficulty,
   sessionId?: string,
@@ -700,6 +734,7 @@ export async function generateAndStoreNewGameType(
     algebra: generateAlgebraGamesLocally,
     speed_math: generateSpeedMathGamesLocally,
     logic_puzzle: generateLogicPuzzleGamesLocally,
+    speed_sort: generateSpeedSortGamesLocally,
   }
   const gen = generators[gameType]
   if (!gen) throw new Error(`Unknown game type: ${gameType}`)
