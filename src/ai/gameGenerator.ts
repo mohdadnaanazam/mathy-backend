@@ -32,9 +32,14 @@ export async function generateGamesWithAI(
   operation?: OperationMode,
   difficultyHint?: GameDifficulty,
 ): Promise<GeneratedGame[]> {
+  console.log('[GameGenerator] 🎮 generateGamesWithAI called:', { count, operation, difficultyHint })
+  
   if (!env.openaiApiKey) {
+    console.log('[GameGenerator] ⚠️ No OPENAI_API_KEY, using LOCAL generation')
     return generateGamesLocally(count, operation, difficultyHint)
   }
+
+  console.log('[GameGenerator] 🤖 Using OpenAI for generation')
 
   try {
     const opPart = operation && operation !== 'mixed'
@@ -57,13 +62,20 @@ export async function generateGamesWithAI(
     ].join('\n')
 
     const raw = await generateText(prompt)
+    console.log('[GameGenerator] 📥 OpenAI raw response preview:', raw.substring(0, 150) + '...')
+    
     const parsed = extractJsonArray(raw)
     const games = GeneratedGameArraySchema.parse(parsed)
-    if (games.length === 0) return generateGamesLocally(count, operation, difficultyHint)
+    
+    if (games.length === 0) {
+      console.log('[GameGenerator] ⚠️ OpenAI returned empty, falling back to local')
+      return generateGamesLocally(count, operation, difficultyHint)
+    }
+    
+    console.log('[GameGenerator] ✅ OpenAI generated', games.length, 'games successfully')
     return games.slice(0, count)
   } catch (err) {
-    // eslint-disable-next-line no-console
-    console.warn('[generateGamesWithAI] OpenAI failed, using local fallback', err)
+    console.warn('[GameGenerator] ❌ OpenAI failed, using local fallback:', err)
     return generateGamesLocally(count, operation, difficultyHint)
   }
 }

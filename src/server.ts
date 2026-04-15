@@ -20,6 +20,7 @@ const allowedOrigins = [
   'https://www.themathy.com',
   'https://themathy.com',
   'https://matthy.netlify.app',
+  'http://localhost:3000',
   'http://localhost:5173',
 ]
 app.use(cors({
