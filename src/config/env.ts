@@ -8,6 +8,7 @@ export const env = {
   supabaseUrl: process.env.SUPABASE_URL ?? '',
   supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY ?? '',
   aiApiKey: process.env.AI_API_KEY ?? '',
+  openaiApiKey: process.env.OPENAI_API_KEY ?? '',
   huggingfaceModelId: process.env.HUGGINGFACE_MODEL_ID ?? 'google/flan-t5-large',
   frontendUrl: process.env.FRONTEND_URL ?? '',
   frontendUrlLocal: process.env.FRONTEND_URL_LOCAL ?? 'http://localhost:3000',
@@ -21,7 +22,7 @@ if (!env.supabaseUrl || !env.supabaseServiceRoleKey) {
   console.warn('[env] Missing Supabase configuration. Database calls will fail until configured.')
 }
 
-if (!env.aiApiKey) {
+if (!env.openaiApiKey) {
   // eslint-disable-next-line no-console
-  console.warn('[env] Missing AI_API_KEY. AI question generation will be disabled.')
+  console.warn('[env] Missing OPENAI_API_KEY. AI question generation will use local fallback.')
 }

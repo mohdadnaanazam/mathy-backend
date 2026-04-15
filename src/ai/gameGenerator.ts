@@ -3,7 +3,7 @@ import { env } from '../config/env'
 import { OperationMode } from './types'
 import { getSupabaseClient } from '../database/supabaseClient'
 import { randomUUID } from 'crypto'
-import { generateText } from './huggingfaceClient'
+import { generateText } from './openaiClient'
 
 // Lightweight type shared with backend; mirrors frontend OperationMode
 export type GameDifficulty = 'easy' | 'medium' | 'hard'
@@ -24,15 +24,15 @@ export type GeneratedGame = z.infer<typeof GeneratedGameSchema>
 export const GeneratedGameArraySchema = z.array(GeneratedGameSchema)
 
 /**
- * Generate math games using LangChain (prompt) + Hugging Face Inference API.
- * Falls back to local deterministic generation if no AI_API_KEY or on error.
+ * Generate math games using OpenAI GPT API.
+ * Falls back to local deterministic generation if no OPENAI_API_KEY or on error.
  */
 export async function generateGamesWithAI(
   count: number,
   operation?: OperationMode,
   difficultyHint?: GameDifficulty,
 ): Promise<GeneratedGame[]> {
-  if (!env.aiApiKey) {
+  if (!env.openaiApiKey) {
     return generateGamesLocally(count, operation, difficultyHint)
   }
 
@@ -63,7 +63,7 @@ export async function generateGamesWithAI(
     return games.slice(0, count)
   } catch (err) {
     // eslint-disable-next-line no-console
-    console.warn('[generateGamesWithAI] Hugging Face failed, using local fallback', err)
+    console.warn('[generateGamesWithAI] OpenAI failed, using local fallback', err)
     return generateGamesLocally(count, operation, difficultyHint)
   }
 }
