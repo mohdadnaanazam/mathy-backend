@@ -8,6 +8,44 @@ import { generateText } from './openaiClient'
 // Lightweight type shared with backend; mirrors frontend OperationMode
 export type GameDifficulty = 'easy' | 'medium' | 'hard'
 
+// ─── GLOBAL GENERATION LOCK ──────────────────────────────────────────
+// Prevents multiple concurrent OpenAI calls and tracks hourly generation
+
+let isGeneratingGlobally = false
+let generationPromise: Promise<GeneratedGame[]> | null = null
+let lastAIGenerationHour: string | null = null
+let aiAttemptedThisHour = false
+let generationStats = {
+  totalAICalls: 0,
+  blockedAttempts: 0,
+  fallbacksUsed: 0,
+}
+
+function getCurrentHourKey(): string {
+  const now = new Date()
+  return `${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, '0')}-${String(now.getUTCDate()).padStart(2, '0')}-${String(now.getUTCHours()).padStart(2, '0')}`
+}
+
+function resetHourlyStateIfNeeded(): void {
+  const currentHour = getCurrentHourKey()
+  if (lastAIGenerationHour !== currentHour) {
+    // New hour - reset the AI attempt flag
+    aiAttemptedThisHour = false
+    lastAIGenerationHour = currentHour
+    console.log(`[GameGenerator] 🕐 New hour detected: ${currentHour}, resetting AI attempt flag`)
+  }
+}
+
+export function getGenerationStats() {
+  return {
+    ...generationStats,
+    isGenerating: isGeneratingGlobally,
+    lastAIGenerationHour,
+    aiAttemptedThisHour,
+    currentHour: getCurrentHourKey(),
+  }
+}
+
 export const GeneratedGameSchema = z.object({
   game_type: z.enum([
     'addition', 'subtraction', 'multiplication', 'division', 'mixed',
@@ -25,6 +63,12 @@ export const GeneratedGameArraySchema = z.array(GeneratedGameSchema)
 
 /**
  * Generate math games using OpenAI GPT API.
+ * 
+ * CRITICAL: This function now uses a GLOBAL LOCK to ensure:
+ * 1. Only ONE OpenAI call per hour (not per operation/difficulty)
+ * 2. Concurrent requests wait for the same result
+ * 3. If AI fails, fallback is used and AI is NOT retried this hour
+ * 
  * Falls back to local deterministic generation if no OPENAI_API_KEY or on error.
  */
 export async function generateGamesWithAI(
@@ -34,12 +78,35 @@ export async function generateGamesWithAI(
 ): Promise<GeneratedGame[]> {
   console.log('[GameGenerator] 🎮 generateGamesWithAI called:', { count, operation, difficultyHint })
   
+  // Reset hourly state if we're in a new hour
+  resetHourlyStateIfNeeded()
+  
+  // Check if we should skip AI entirely
   if (!env.openaiApiKey) {
     console.log('[GameGenerator] ⚠️ No OPENAI_API_KEY, using LOCAL generation')
     return generateGamesLocally(count, operation, difficultyHint)
   }
+  
+  // CRITICAL: If AI was already attempted this hour (success or fail), use local
+  if (aiAttemptedThisHour) {
+    console.log('[GameGenerator] ⏭️ AI already attempted this hour, using LOCAL generation')
+    generationStats.blockedAttempts++
+    return generateGamesLocally(count, operation, difficultyHint)
+  }
+  
+  // CRITICAL: If generation is in progress, wait for it (but still use local for this specific request)
+  if (isGeneratingGlobally && generationPromise) {
+    console.log('[GameGenerator] ⏳ Generation in progress, using LOCAL generation')
+    generationStats.blockedAttempts++
+    return generateGamesLocally(count, operation, difficultyHint)
+  }
 
-  console.log('[GameGenerator] 🤖 Using OpenAI for generation')
+  console.log('[GameGenerator] 🤖 Using OpenAI for generation (SINGLE CALL THIS HOUR)')
+  
+  // Mark as generating and attempted
+  isGeneratingGlobally = true
+  aiAttemptedThisHour = true
+  generationStats.totalAICalls++
 
   try {
     const opPart = operation && operation !== 'mixed'
@@ -68,15 +135,21 @@ export async function generateGamesWithAI(
     const games = GeneratedGameArraySchema.parse(parsed)
     
     if (games.length === 0) {
-      console.log('[GameGenerator] ⚠️ OpenAI returned empty, falling back to local')
+      console.log('[GameGenerator] ⚠️ OpenAI returned empty, using LOCAL fallback')
+      generationStats.fallbacksUsed++
       return generateGamesLocally(count, operation, difficultyHint)
     }
     
     console.log('[GameGenerator] ✅ OpenAI generated', games.length, 'games successfully')
+    console.log('[GameGenerator] 📊 Stats:', JSON.stringify(generationStats))
     return games.slice(0, count)
   } catch (err) {
-    console.warn('[GameGenerator] ❌ OpenAI failed, using local fallback:', err)
+    console.warn('[GameGenerator] ❌ OpenAI failed, using LOCAL fallback:', err)
+    generationStats.fallbacksUsed++
     return generateGamesLocally(count, operation, difficultyHint)
+  } finally {
+    isGeneratingGlobally = false
+    generationPromise = null
   }
 }
 

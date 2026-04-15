@@ -7,6 +7,7 @@ import {
   GameDifficulty,
   generateAndStoreTrueFalseGames,
   generateAndStoreNewGameType,
+  getGenerationStats,
 } from '../ai/gameGenerator'
 import { OperationMode } from '../ai/types'
 import {
@@ -25,6 +26,12 @@ const BASIC_OPS: OperationMode[] = ['addition', 'subtraction', 'multiplication',
 const DIFFS: GameDifficulty[] = ['easy', 'medium', 'hard']
 const NEW_GAME_TYPES = ['square_root', 'fractions', 'percentage', 'algebra', 'speed_math', 'logic_puzzle', 'speed_sort'] as const
 const PER_COMBO_TARGET = 50
+
+// ─── GLOBAL GENERATION LOCK (Session Level) ──────────────────────────
+// Prevents multiple concurrent session generations
+
+let isGeneratingSession = false
+let sessionGenerationPromise: Promise<void> | null = null
 
 // ─── Public API: Fetch Games ─────────────────────────────────────────
 
@@ -72,33 +79,65 @@ export async function getActiveGames(type?: OperationMode) {
 
 /**
  * Generate ALL game types × difficulties for a given session.
+ * 
+ * OPTIMIZED: Now uses at most ONE OpenAI call per session, then local generation
+ * for everything else. This reduces API calls from 12+ to just 1.
  */
 export async function generateAllGamesForSession(session: GameSession): Promise<void> {
-  const expiresAt = new Date(session.expires_at)
-  const sessionId = session.id
-
-  console.log(`[gameService] Generating all games for session ${sessionId}`)
-
-  // Basic math operations
-  for (const op of BASIC_OPS) {
-    for (const diff of DIFFS) {
-      await generateAndStoreGames(PER_COMBO_TARGET, op, diff, sessionId, expiresAt)
+  // CRITICAL: Prevent concurrent session generation
+  if (isGeneratingSession) {
+    console.log('[gameService] ⏳ Session generation already in progress, waiting...')
+    if (sessionGenerationPromise) {
+      await sessionGenerationPromise
     }
+    return
   }
+  
+  isGeneratingSession = true
+  const startTime = Date.now()
+  
+  const generateInternal = async () => {
+    const expiresAt = new Date(session.expires_at)
+    const sessionId = session.id
 
-  // True/false math
-  for (const diff of DIFFS) {
-    await generateAndStoreTrueFalseGames(PER_COMBO_TARGET, diff, sessionId, expiresAt)
-  }
+    console.log(`[gameService] 🎮 Generating all games for session ${sessionId}`)
+    console.log(`[gameService] 📊 Current AI stats:`, getGenerationStats())
 
-  // New game types
-  for (const gt of NEW_GAME_TYPES) {
-    for (const diff of DIFFS) {
-      await generateAndStoreNewGameType(gt, PER_COMBO_TARGET, diff, sessionId, expiresAt)
+    // OPTIMIZATION: Only the FIRST operation+difficulty combo will attempt OpenAI
+    // All subsequent combos will use local generation (because aiAttemptedThisHour will be true)
+    
+    // Basic math operations - OpenAI will only be called ONCE (for the first combo)
+    for (const op of BASIC_OPS) {
+      for (const diff of DIFFS) {
+        await generateAndStoreGames(PER_COMBO_TARGET, op, diff, sessionId, expiresAt)
+      }
     }
-  }
 
-  console.log(`[gameService] Finished generating all games for session ${sessionId}`)
+    // True/false math (always local - no OpenAI)
+    for (const diff of DIFFS) {
+      await generateAndStoreTrueFalseGames(PER_COMBO_TARGET, diff, sessionId, expiresAt)
+    }
+
+    // New game types (always local - no OpenAI)
+    for (const gt of NEW_GAME_TYPES) {
+      for (const diff of DIFFS) {
+        await generateAndStoreNewGameType(gt, PER_COMBO_TARGET, diff, sessionId, expiresAt)
+      }
+    }
+
+    const duration = Date.now() - startTime
+    console.log(`[gameService] ✅ Finished generating all games for session ${sessionId} in ${duration}ms`)
+    console.log(`[gameService] 📊 Final AI stats:`, getGenerationStats())
+  }
+  
+  sessionGenerationPromise = generateInternal()
+  
+  try {
+    await sessionGenerationPromise
+  } finally {
+    isGeneratingSession = false
+    sessionGenerationPromise = null
+  }
 }
 
 // ─── Batch Rotation: Generate → Switch → Delete ─────────────────────
@@ -251,6 +290,7 @@ export async function getSessionInfo(): Promise<{
   status: string
   games_count: number
   next_session_ready: boolean
+  generation_stats: ReturnType<typeof getGenerationStats>
 }> {
   const session = await ensureActiveSession()
   const supabase = getSupabaseClient()
@@ -266,6 +306,7 @@ export async function getSessionInfo(): Promise<{
     status: session.status,
     games_count: count ?? 0,
     next_session_ready: next !== null,
+    generation_stats: getGenerationStats(),
   }
 }
 
