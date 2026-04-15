@@ -7,3 +7,6 @@ pnpm-debug.log*
 .env.example
 .vercel
 .env*.local
+
+# Documentation (generated/internal)
+docs/*.md
